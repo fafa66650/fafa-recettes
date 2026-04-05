@@ -1,0 +1,114 @@
+
+:root{
+  --bg:#0d1117;
+  --panel:#161b22;
+  --panel-2:#1f2630;
+  --text:#f3f6fb;
+  --muted:#aab5c4;
+  --line:#2c3440;
+  --brand:#ff7a18;
+  --brand2:#af002d;
+  --shadow:0 10px 30px rgba(0,0,0,.25);
+  --radius:18px;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  color:var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(255,122,24,.16), transparent 32%),
+    radial-gradient(circle at top right, rgba(175,0,45,.16), transparent 26%),
+    linear-gradient(180deg, #0b0f14, #121821);
+}
+button,input,select,textarea{font:inherit}
+.app-shell{max-width:1500px;margin:0 auto;padding:20px}
+.topbar{
+  display:flex;justify-content:space-between;align-items:center;gap:20px;
+  background:linear-gradient(135deg, rgba(255,122,24,.15), rgba(175,0,45,.15));
+  border:1px solid var(--line); border-radius:22px; padding:18px; box-shadow:var(--shadow);
+}
+.brand h1{margin:0;font-size:30px}
+.brand p{margin:6px 0 0;color:var(--muted)}
+.badge-top{display:inline-block;padding:8px 12px;border-radius:999px;background:#ffffff12;border:1px solid #ffffff2a;color:#fff;font-size:13px}
+.layout{display:grid;grid-template-columns:320px 1fr; gap:18px; margin-top:18px}
+.sidebar,.content,.drawer-panel,.tab-content{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.sidebar{padding:16px;position:sticky;top:16px;height:fit-content}
+.section-title{font-size:18px;margin:0 0 10px}
+.control-group{margin-bottom:14px}
+.control-group label{display:block;font-size:13px;color:var(--muted);margin-bottom:6px}
+input[type=text],input[type=number],select,textarea{
+  width:100%; padding:12px 14px; border-radius:14px; border:1px solid var(--line);
+  background:var(--panel-2); color:var(--text)
+}
+textarea{min-height:110px; resize:vertical}
+button{
+  border:none;border-radius:14px;padding:11px 14px;cursor:pointer;
+  background:linear-gradient(135deg, var(--brand), var(--brand2));color:white;font-weight:700
+}
+button.ghost{background:#ffffff10;color:white;border:1px solid #ffffff1d}
+button.danger{background:linear-gradient(135deg,#a71d31,#6b0f1a)}
+button.icon-btn{padding:8px 12px;background:#ffffff10;font-size:20px}
+button.small-btn{padding:8px 10px;font-size:13px}
+.pill,.fridge-pill{
+  display:inline-block;margin:4px;padding:8px 12px;border-radius:999px;border:1px solid var(--line);
+  background:#ffffff08;color:var(--text);font-size:13px
+}
+.pill.active,.fridge-pill.selected{background:linear-gradient(135deg, rgba(255,122,24,.25), rgba(175,0,45,.25));border-color:#ffffff30}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:12px}
+.stat-card{background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:12px}
+.stat-card .big{font-size:28px;font-weight:700}
+.content{padding:16px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.tab-btn{background:#ffffff0f;border:1px solid var(--line)}
+.tab-btn.active{background:linear-gradient(135deg, rgba(255,122,24,.25), rgba(175,0,45,.25))}
+.tab-content{display:none;padding:16px}
+.tab-content.active{display:block}
+.grid{display:grid;grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));gap:16px}
+.recipe-card{
+  background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+  border:1px solid var(--line); border-top:8px solid var(--accent,#666); border-radius:18px; padding:16px
+}
+.recipe-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.recipe-head h3{margin:8px 0 6px;font-size:22px;line-height:1.15}
+.badge{display:inline-block;background:#ffffff12;border:1px solid #ffffff18;border-radius:999px;padding:6px 10px;font-size:12px}
+.meta{color:var(--muted);font-size:14px}
+.tags{margin:10px 0 8px}
+.tag{display:inline-block;background:#00000030;border:1px solid #ffffff14;border-radius:999px;padding:5px 8px;margin:3px;font-size:12px}
+.tips-preview{color:#d7dfeb;font-size:14px;min-height:60px}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.empty{padding:18px;border:1px dashed #ffffff22;border-radius:16px;color:var(--muted)}
+.fridge-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:14px}
+.fridge-panel,.match-panel,.planner-box{background:var(--panel-2);border:1px solid var(--line);border-radius:18px;padding:14px}
+.match-card,.planner-item{background:#ffffff08;border:1px solid #ffffff14;border-radius:14px;padding:12px;margin-bottom:10px}
+.match-title{font-weight:700}
+.match-meta{font-size:13px;color:var(--muted);margin:5px 0 8px}
+.shopping-list,.detail-list{padding-left:18px}
+.shopping-actions{margin-bottom:10px}
+.drawer{
+  position:fixed;top:0;right:0;bottom:0;width:min(720px, 100%);
+  transform:translateX(105%);transition:transform .25s ease; z-index:40;
+  padding:16px;
+}
+.drawer.open{transform:translateX(0)}
+.drawer-panel{height:100%;display:flex;flex-direction:column;overflow:hidden}
+.drawer-top{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;border-bottom:1px solid var(--line)}
+.drawer-body{overflow:auto;padding:16px}
+.detail-head h2{margin:8px 0}
+.detail-title-row{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.detail-actions{display:flex;gap:8px;flex-wrap:wrap}
+.servings-box{background:#ffffff08;border:1px solid #ffffff14;border-radius:16px;padding:12px;margin:14px 0}
+.serving-controls{display:flex;gap:8px;align-items:center;max-width:220px}
+.serving-controls input{max-width:80px;text-align:center}
+.guided-controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.step-card{background:linear-gradient(180deg, rgba(255,122,24,.12), rgba(175,0,45,.08));border:1px solid #ffffff18;border-radius:18px;padding:14px}
+.step-top{display:flex;justify-content:space-between;gap:10px;color:var(--muted);font-size:13px}
+.timer-box{margin-top:12px;padding:14px;border-radius:16px;background:#00000025;border:1px solid #ffffff16;text-align:center;font-size:26px;font-weight:700}
+.footer-note{margin-top:18px;color:var(--muted);font-size:13px}
+.info-text{color:var(--muted);font-size:14px}
+@media (max-width: 980px){
+  .layout{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .fridge-grid{grid-template-columns:1fr}
+  .detail-title-row{flex-direction:column}
+}

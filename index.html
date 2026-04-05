@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>FAFATRAINING Recettes V5</title>
+  <meta name="theme-color" content="#ff7a18">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <span class="badge-top">FAFATRAINING · APP RECETTES V5</span>
+        <h1>Cookidoo perso premium</h1>
+        <p>Recherche, couleurs, mode guidé, minuteur, frigo intelligent, liste de courses automatique et recettes perso.</p>
+      </div>
+      <div class="stats">
+        <div class="stat-card"><div class="big" id="countRecipes">50+</div><div>recettes prêtes</div></div>
+        <div class="stat-card"><div class="big">100%</div><div>hors ligne après installation</div></div>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <h2 class="section-title">Trouver une recette</h2>
+
+        <div class="control-group">
+          <label>Recherche</label>
+          <input id="searchInput" type="text" placeholder="Ex. poulet, soupe, citron..." oninput="applyFilters()">
+        </div>
+
+        <div class="control-group">
+          <label>Catégorie</label>
+          <select id="categorySelect" onchange="applyFilters()"></select>
+          <div id="categoryFilters"></div>
+        </div>
+
+        <div class="control-group">
+          <label><input id="favoritesOnly" type="checkbox" onchange="applyFilters()"> Afficher seulement les favoris</label>
+        </div>
+
+        <div class="control-group">
+          <label>Portions par défaut</label>
+          <input id="servingsInput" type="number" min="1" value="4">
+        </div>
+
+        <div class="footer-note">
+          Astuce : ouvre une recette puis utilise le <strong>mode guidé</strong> étape par étape.  
+          Tu peux aussi remplir la zone <strong>frigo</strong> pour voir ce que tu peux cuisiner avec ce que tu as.
+        </div>
+      </aside>
+
+      <main class="content">
+        <div class="tabs">
+          <button class="tab-btn active" data-tab="tab-recipes" onclick="openTab('tab-recipes')">📚 Bibliothèque</button>
+          <button class="tab-btn" data-tab="tab-fridge" onclick="openTab('tab-fridge')">🧊 J’ai quoi dans mon frigo ?</button>
+          <button class="tab-btn" data-tab="tab-shopping" onclick="openTab('tab-shopping')">🛒 Liste de courses</button>
+          <button class="tab-btn" data-tab="tab-custom" onclick="openTab('tab-custom')">✍️ Mes recettes perso</button>
+        </div>
+
+        <section id="tab-recipes" class="tab-content active">
+          <div id="recipesGrid" class="grid"></div>
+        </section>
+
+        <section id="tab-fridge" class="tab-content">
+          <div class="fridge-grid">
+            <div class="fridge-panel">
+              <h3>Choisis les ingrédients que tu as</h3>
+              <p class="meta">Plus tu coches d’ingrédients, plus l’app te propose des recettes compatibles.</p>
+              <div id="fridgeList"></div>
+              <div style="margin-top:10px">
+                <button class="ghost" onclick="clearFridge()">Réinitialiser</button>
+              </div>
+            </div>
+            <div class="match-panel">
+              <h3>Recettes possibles</h3>
+              <div id="fridgeMatches"></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="tab-shopping" class="tab-content">
+          <div class="planner-box">
+            <h3>Recettes sélectionnées</h3>
+            <p class="meta">Depuis une fiche recette, clique sur <strong>Ajouter aux courses</strong>.</p>
+            <div id="plannerList"></div>
+            <div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap">
+              <button class="ghost" onclick="clearPlanner()">Vider la sélection</button>
+            </div>
+          </div>
+          <div class="planner-box" style="margin-top:14px">
+            <h3>Liste de courses automatique</h3>
+            <div id="shoppingOutput"></div>
+          </div>
+        </section>
+
+        <section id="tab-custom" class="tab-content">
+          <div class="planner-box">
+            <h3>Ajouter une recette perso</h3>
+            <form id="customForm" onsubmit="event.preventDefault();addCustomRecipe();">
+              <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr))">
+                <div class="control-group"><label>Nom</label><input id="newName" type="text" placeholder="Ex. gratin maison"></div>
+                <div class="control-group"><label>Catégorie</label><select id="newCategory"></select></div>
+                <div class="control-group"><label>Portions</label><input id="newServings" type="number" min="1" value="4"></div>
+                <div class="control-group"><label>Emoji</label><input id="newEmoji" type="text" value="🍽️"></div>
+                <div class="control-group"><label>Couleur</label><input id="newColor" type="text" value="#ff7a18"></div>
+                <div class="control-group"><label>Tags (séparés par virgules)</label><input id="newTags" type="text" placeholder="rapide, famille"></div>
+              </div>
+              <div class="control-group">
+                <label>Ingrédients — un par ligne au format : nom | quantité | unité</label>
+                <textarea id="newIngredients" placeholder="poulet | 500 | g
+riz | 250 | g
+oignon | 1 | pièce"></textarea>
+              </div>
+              <div class="control-group">
+                <label>Étapes — une par ligne au format : titre | détail | durée en secondes</label>
+                <textarea id="newSteps" placeholder="Préparation | Coupe les ingrédients et prépare le bol. | 120
+Cuisson | Lance 12 min / 100°C / vitesse 1. | 720"></textarea>
+              </div>
+              <div style="display:flex;gap:8px;flex-wrap:wrap">
+                <button type="submit">Enregistrer la recette</button>
+                <button type="button" class="ghost" onclick="exportRecipes()">Exporter mes recettes</button>
+                <label class="ghost" style="display:inline-flex;align-items:center;padding:11px 14px;border-radius:14px;cursor:pointer">
+                  Importer un JSON
+                  <input type="file" accept=".json,application/json" style="display:none" onchange="importRecipes(event)">
+                </label>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <aside class="drawer" id="drawer">
+    <div class="drawer-panel">
+      <div class="drawer-top">
+        <strong>Recette détaillée</strong>
+        <button class="ghost" onclick="closeDrawer()">Fermer ✕</button>
+      </div>
+      <div class="drawer-body" id="drawerContent"></div>
+    </div>
+  </aside>
+
+  <script src="recipes.js"></script>
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', ()=> navigator.serviceWorker.register('./service-worker.js').catch(()=>{}));
+    }
+  </script>
+</body>
+</html>

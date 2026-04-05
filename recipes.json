@@ -1,0 +1,4311 @@
+[
+  {
+    "id": "hachis-parmentier-gratine",
+    "name": "Hachis Parmentier gratiné",
+    "category": "Viande",
+    "color": "#8e2d2d",
+    "emoji": "🥩",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "gratin",
+      "familial"
+    ],
+    "ingredients": [
+      {
+        "name": "viande hachée",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "pommes de terre",
+        "qty": 900,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "lait",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "beurre",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "fromage râpé",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "sel",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
+        "name": "poivre",
+        "qty": 0.5,
+        "unit": "c. à café"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : viande hachée, pommes de terre, oignon. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute viande hachée avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Finition au four",
+        "text": "Verse la préparation dans un plat. Ajoute si besoin fromage, purée, chapelure ou pâte selon la recette. Enfourne 15 à 25 min à 180°C, jusqu’à ce que le dessus soit bien gratiné ou doré.",
+        "durationSec": 1200
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte hachis parmentier gratiné. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Retire toujours la viande du bol avant de faire la purée.",
+      "Si la purée te semble sèche, ajoute 20 à 30 ml de lait.",
+      "Le fromage râpé aide à faire gratiner le dessus."
+    ]
+  },
+  {
+    "id": "lasagnes-a-la-viande",
+    "name": "Lasagnes à la viande",
+    "category": "Viande",
+    "color": "#8e2d2d",
+    "emoji": "🥩",
+    "servings": 6,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "familial",
+      "four"
+    ],
+    "ingredients": [
+      {
+        "name": "viande hachée",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "plaques de lasagnes",
+        "qty": 12,
+        "unit": "pièces"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "ail",
+        "qty": 2,
+        "unit": "gousses"
+      },
+      {
+        "name": "coulis de tomate",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "crème fraîche",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "fromage râpé",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "huile d’olive",
+        "qty": 2,
+        "unit": "c. à soupe"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : viande hachée, plaques de lasagnes, oignon. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon, ail. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute viande hachée avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Finition au four",
+        "text": "Verse la préparation dans un plat. Ajoute si besoin fromage, purée, chapelure ou pâte selon la recette. Enfourne 15 à 25 min à 180°C, jusqu’à ce que le dessus soit bien gratiné ou doré.",
+        "durationSec": 1200
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte lasagnes à la viande. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "boulettes-sauce-tomate",
+    "name": "Boulettes sauce tomate",
+    "category": "Viande",
+    "color": "#8e2d2d",
+    "emoji": "🥩",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "tomate",
+      "familial"
+    ],
+    "ingredients": [
+      {
+        "name": "viande hachée",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "œuf",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "chapelure",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "ail",
+        "qty": 1,
+        "unit": "gousse"
+      },
+      {
+        "name": "coulis de tomate",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "persil",
+        "qty": 1,
+        "unit": "petit bouquet"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : viande hachée, œuf, chapelure. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon, ail. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute viande hachée avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Finition à la poêle",
+        "text": "Verse la préparation dans une poêle chaude si la recette demande de faire dorer, réduire ou saisir. Mélange doucement jusqu’à la texture voulue.",
+        "durationSec": 300
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte boulettes sauce tomate. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "chili-con-carne-doux",
+    "name": "Chili con carne doux",
+    "category": "Viande",
+    "color": "#8e2d2d",
+    "emoji": "🥩",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "épicé",
+      "mijoté"
+    ],
+    "ingredients": [
+      {
+        "name": "viande hachée",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "haricots rouges",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "poivron rouge",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "coulis de tomate",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "paprika",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
+        "name": "cumin",
+        "qty": 1,
+        "unit": "c. à café"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : viande hachée, haricots rouges, poivron rouge. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute viande hachée avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte chili con carne doux. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "poivrons-farcis-a-la-viande",
+    "name": "Poivrons farcis à la viande",
+    "category": "Viande",
+    "color": "#8e2d2d",
+    "emoji": "🥩",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "four",
+      "légumes"
+    ],
+    "ingredients": [
+      {
+        "name": "viande hachée",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "poivron rouge",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "poivron vert",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "riz cuit",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "coulis de tomate",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "fromage râpé",
+        "qty": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : viande hachée, poivron rouge, poivron vert. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute viande hachée avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Finition au four",
+        "text": "Verse la préparation dans un plat. Ajoute si besoin fromage, purée, chapelure ou pâte selon la recette. Enfourne 15 à 25 min à 180°C, jusqu’à ce que le dessus soit bien gratiné ou doré.",
+        "durationSec": 1200
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte poivrons farcis à la viande. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "boeuf-carottes-simplifie",
+    "name": "Bœuf carottes simplifié",
+    "category": "Viande",
+    "color": "#8e2d2d",
+    "emoji": "🥩",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "mijoté",
+      "classique"
+    ],
+    "ingredients": [
+      {
+        "name": "bœuf",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "carotte",
+        "qty": 5,
+        "unit": "pièces"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "ail",
+        "qty": 2,
+        "unit": "gousses"
+      },
+      {
+        "name": "bouillon",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "thym",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
+        "name": "huile d’olive",
+        "qty": 1,
+        "unit": "c. à soupe"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : bœuf, carotte, oignon. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon, ail. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute bœuf avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte bœuf carottes simplifié. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "parmentier-de-patate-douce",
+    "name": "Parmentier de patate douce",
+    "category": "Viande",
+    "color": "#8e2d2d",
+    "emoji": "🥩",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "douceur",
+      "four"
+    ],
+    "ingredients": [
+      {
+        "name": "viande hachée",
+        "qty": 450,
+        "unit": "g"
+      },
+      {
+        "name": "patate douce",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "lait",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "beurre",
+        "qty": 25,
+        "unit": "g"
+      },
+      {
+        "name": "fromage râpé",
+        "qty": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : viande hachée, patate douce, oignon. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute viande hachée avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Finition au four",
+        "text": "Verse la préparation dans un plat. Ajoute si besoin fromage, purée, chapelure ou pâte selon la recette. Enfourne 15 à 25 min à 180°C, jusqu’à ce que le dessus soit bien gratiné ou doré.",
+        "durationSec": 1200
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte parmentier de patate douce. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "riz-poulet-epice",
+    "name": "Riz poulet épicé",
+    "category": "Poulet",
+    "color": "#c0392b",
+    "emoji": "🍗",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "créole",
+      "riz"
+    ],
+    "ingredients": [
+      {
+        "name": "poulet",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "riz",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "poivron rouge",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "poivron vert",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "épices antillaises",
+        "qty": 2,
+        "unit": "c. à café"
+      },
+      {
+        "name": "eau",
+        "qty": 550,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : poulet, riz, oignon. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute poulet avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte riz poulet épicé. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Le riz gonfle : respecte bien la quantité d’eau.",
+      "Tu peux couper le poulet en cubes réguliers pour une cuisson uniforme."
+    ]
+  },
+  {
+    "id": "poulet-curry-coco",
+    "name": "Poulet curry coco",
+    "category": "Poulet",
+    "color": "#c0392b",
+    "emoji": "🍗",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "coco",
+      "curry"
+    ],
+    "ingredients": [
+      {
+        "name": "poulet",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "lait de coco",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "curry",
+        "qty": 2,
+        "unit": "c. à café"
+      },
+      {
+        "name": "riz",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "huile d’olive",
+        "qty": 1,
+        "unit": "c. à soupe"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : poulet, oignon, lait de coco. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute poulet avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte poulet curry coco. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "poulet-a-la-creme-et-champignons",
+    "name": "Poulet à la crème et champignons",
+    "category": "Poulet",
+    "color": "#c0392b",
+    "emoji": "🍗",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "sauce",
+      "rapide"
+    ],
+    "ingredients": [
+      {
+        "name": "poulet",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "champignons",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "crème fraîche",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "moutarde",
+        "qty": 1,
+        "unit": "c. à soupe"
+      },
+      {
+        "name": "huile d’olive",
+        "qty": 1,
+        "unit": "c. à soupe"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : poulet, champignons, oignon. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute poulet avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte poulet à la crème et champignons. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "poulet-basquaise-facile",
+    "name": "Poulet basquaise facile",
+    "category": "Poulet",
+    "color": "#c0392b",
+    "emoji": "🍗",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "poivrons",
+      "mijoté"
+    ],
+    "ingredients": [
+      {
+        "name": "poulet",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "poivron rouge",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "poivron vert",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "tomate",
+        "qty": 3,
+        "unit": "pièces"
+      },
+      {
+        "name": "ail",
+        "qty": 2,
+        "unit": "gousses"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : poulet, poivron rouge, poivron vert. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon, ail. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute poulet avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte poulet basquaise facile. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "poulet-citron-ail",
+    "name": "Poulet citron ail",
+    "category": "Poulet",
+    "color": "#c0392b",
+    "emoji": "🍗",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "léger",
+      "parfumé"
+    ],
+    "ingredients": [
+      {
+        "name": "poulet",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ail",
+        "qty": 3,
+        "unit": "gousses"
+      },
+      {
+        "name": "citron",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "huile d’olive",
+        "qty": 2,
+        "unit": "c. à soupe"
+      },
+      {
+        "name": "herbes de Provence",
+        "qty": 1,
+        "unit": "c. à café"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : poulet, ail, citron. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : ail. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute poulet avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Finition à la poêle",
+        "text": "Verse la préparation dans une poêle chaude si la recette demande de faire dorer, réduire ou saisir. Mélange doucement jusqu’à la texture voulue.",
+        "durationSec": 300
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte poulet citron ail. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "poulet-paprika-pommes-de-terre",
+    "name": "Poulet paprika pommes de terre",
+    "category": "Poulet",
+    "color": "#c0392b",
+    "emoji": "🍗",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "complet",
+      "familial"
+    ],
+    "ingredients": [
+      {
+        "name": "poulet",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "pommes de terre",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "paprika",
+        "qty": 2,
+        "unit": "c. à café"
+      },
+      {
+        "name": "bouillon",
+        "qty": 350,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : poulet, pommes de terre, oignon. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute poulet avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte poulet paprika pommes de terre. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "poulet-moutarde-miel",
+    "name": "Poulet moutarde miel",
+    "category": "Poulet",
+    "color": "#c0392b",
+    "emoji": "🍗",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "sucré-salé"
+    ],
+    "ingredients": [
+      {
+        "name": "poulet",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "moutarde",
+        "qty": 2,
+        "unit": "c. à soupe"
+      },
+      {
+        "name": "miel",
+        "qty": 1,
+        "unit": "c. à soupe"
+      },
+      {
+        "name": "crème fraîche",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : poulet, moutarde, miel. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute poulet avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte poulet moutarde miel. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "poulet-poivrons-facon-fajitas",
+    "name": "Poulet poivrons façon fajitas",
+    "category": "Poulet",
+    "color": "#c0392b",
+    "emoji": "🍗",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "poivrons",
+      "wrap"
+    ],
+    "ingredients": [
+      {
+        "name": "poulet",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "poivron rouge",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "poivron jaune",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "paprika",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
+        "name": "cumin",
+        "qty": 1,
+        "unit": "c. à café"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : poulet, poivron rouge, poivron jaune. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute poulet avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Finition à la poêle",
+        "text": "Verse la préparation dans une poêle chaude si la recette demande de faire dorer, réduire ou saisir. Mélange doucement jusqu’à la texture voulue.",
+        "durationSec": 300
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte poulet poivrons façon fajitas. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "gratin-de-poulet-et-pates",
+    "name": "Gratin de poulet et pâtes",
+    "category": "Poulet",
+    "color": "#c0392b",
+    "emoji": "🍗",
+    "servings": 5,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "gratin",
+      "four"
+    ],
+    "ingredients": [
+      {
+        "name": "poulet",
+        "qty": 450,
+        "unit": "g"
+      },
+      {
+        "name": "pâtes",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "name": "crème fraîche",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "fromage râpé",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : poulet, pâtes, crème fraîche. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute poulet avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Finition au four",
+        "text": "Verse la préparation dans un plat. Ajoute si besoin fromage, purée, chapelure ou pâte selon la recette. Enfourne 15 à 25 min à 180°C, jusqu’à ce que le dessus soit bien gratiné ou doré.",
+        "durationSec": 1200
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte gratin de poulet et pâtes. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "saumon-a-la-creme-citron",
+    "name": "Saumon à la crème citron",
+    "category": "Poisson",
+    "color": "#1f78b4",
+    "emoji": "🐟",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "léger",
+      "citron"
+    ],
+    "ingredients": [
+      {
+        "name": "saumon",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "crème fraîche",
+        "qty": 180,
+        "unit": "ml"
+      },
+      {
+        "name": "citron",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "ail",
+        "qty": 1,
+        "unit": "gousse"
+      },
+      {
+        "name": "riz",
+        "qty": 250,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : saumon, crème fraîche, citron. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : ail. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute saumon avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte saumon à la crème citron. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "poisson-blanc-sauce-tomate",
+    "name": "Poisson blanc sauce tomate",
+    "category": "Poisson",
+    "color": "#1f78b4",
+    "emoji": "🐟",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "tomate"
+    ],
+    "ingredients": [
+      {
+        "name": "poisson blanc",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "coulis de tomate",
+        "qty": 350,
+        "unit": "ml"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "ail",
+        "qty": 2,
+        "unit": "gousses"
+      },
+      {
+        "name": "herbes de Provence",
+        "qty": 1,
+        "unit": "c. à café"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : poisson blanc, coulis de tomate, oignon. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon, ail. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute poisson blanc avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte poisson blanc sauce tomate. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "brandade-de-poisson-simplifiee",
+    "name": "Brandade de poisson simplifiée",
+    "category": "Poisson",
+    "color": "#1f78b4",
+    "emoji": "🐟",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "gratin",
+      "familial"
+    ],
+    "ingredients": [
+      {
+        "name": "poisson blanc",
+        "qty": 450,
+        "unit": "g"
+      },
+      {
+        "name": "pommes de terre",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "lait",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "ail",
+        "qty": 2,
+        "unit": "gousses"
+      },
+      {
+        "name": "huile d’olive",
+        "qty": 2,
+        "unit": "c. à soupe"
+      },
+      {
+        "name": "fromage râpé",
+        "qty": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : poisson blanc, pommes de terre, lait. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : ail. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute poisson blanc avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Finition au four",
+        "text": "Verse la préparation dans un plat. Ajoute si besoin fromage, purée, chapelure ou pâte selon la recette. Enfourne 15 à 25 min à 180°C, jusqu’à ce que le dessus soit bien gratiné ou doré.",
+        "durationSec": 1200
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte brandade de poisson simplifiée. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "crevettes-ail-et-persil",
+    "name": "Crevettes ail et persil",
+    "category": "Poisson",
+    "color": "#1f78b4",
+    "emoji": "🐟",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "rapide",
+      "poele"
+    ],
+    "ingredients": [
+      {
+        "name": "crevettes",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ail",
+        "qty": 3,
+        "unit": "gousses"
+      },
+      {
+        "name": "persil",
+        "qty": 1,
+        "unit": "petit bouquet"
+      },
+      {
+        "name": "huile d’olive",
+        "qty": 2,
+        "unit": "c. à soupe"
+      },
+      {
+        "name": "citron",
+        "qty": 1,
+        "unit": "pièce"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : crevettes, ail, persil. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : ail. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute crevettes avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Finition à la poêle",
+        "text": "Verse la préparation dans une poêle chaude si la recette demande de faire dorer, réduire ou saisir. Mélange doucement jusqu’à la texture voulue.",
+        "durationSec": 300
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte crevettes ail et persil. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "poisson-coco-curry",
+    "name": "Poisson coco curry",
+    "category": "Poisson",
+    "color": "#1f78b4",
+    "emoji": "🐟",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "curry",
+      "coco"
+    ],
+    "ingredients": [
+      {
+        "name": "poisson blanc",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lait de coco",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "curry",
+        "qty": 2,
+        "unit": "c. à café"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "riz",
+        "qty": 250,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : poisson blanc, lait de coco, curry. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute poisson blanc avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte poisson coco curry. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "thon-tomate-olives",
+    "name": "Thon tomate olives",
+    "category": "Poisson",
+    "color": "#1f78b4",
+    "emoji": "🐟",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "méditerranéen"
+    ],
+    "ingredients": [
+      {
+        "name": "thon",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "name": "coulis de tomate",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "olive noire",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "ail",
+        "qty": 1,
+        "unit": "gousse"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : thon, coulis de tomate, olive noire. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon, ail. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute thon avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte thon tomate olives. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "pates-poulet-creme",
+    "name": "Pâtes poulet crème",
+    "category": "Pâtes",
+    "color": "#d4a017",
+    "emoji": "🍝",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "rapide",
+      "crémeux"
+    ],
+    "ingredients": [
+      {
+        "name": "pâtes",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "name": "poulet",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "crème fraîche",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "fromage râpé",
+        "qty": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : pâtes, poulet, crème fraîche. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute poulet avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte pâtes poulet crème. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "pates-bolognaise",
+    "name": "Pâtes bolognaise",
+    "category": "Pâtes",
+    "color": "#d4a017",
+    "emoji": "🍝",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "classique"
+    ],
+    "ingredients": [
+      {
+        "name": "pâtes",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "name": "viande hachée",
+        "qty": 450,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "ail",
+        "qty": 1,
+        "unit": "gousse"
+      },
+      {
+        "name": "coulis de tomate",
+        "qty": 400,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : pâtes, viande hachée, oignon. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon, ail. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute viande hachée avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte pâtes bolognaise. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "mac-and-cheese-maison",
+    "name": "Mac and cheese maison",
+    "category": "Pâtes",
+    "color": "#d4a017",
+    "emoji": "🍝",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "fromage",
+      "comfort"
+    ],
+    "ingredients": [
+      {
+        "name": "pâtes",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "lait",
+        "qty": 350,
+        "unit": "ml"
+      },
+      {
+        "name": "fromage râpé",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "beurre",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "farine",
+        "qty": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : pâtes, lait, fromage râpé. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte mac and cheese maison. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "pates-aux-legumes-rotis",
+    "name": "Pâtes aux légumes rôtis",
+    "category": "Pâtes",
+    "color": "#d4a017",
+    "emoji": "🍝",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "légumes",
+      "léger"
+    ],
+    "ingredients": [
+      {
+        "name": "pâtes",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "name": "courgette",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "poivron rouge",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "tomate",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "huile d’olive",
+        "qty": 2,
+        "unit": "c. à soupe"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : pâtes, courgette, poivron rouge. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Finition au four",
+        "text": "Verse la préparation dans un plat. Ajoute si besoin fromage, purée, chapelure ou pâte selon la recette. Enfourne 15 à 25 min à 180°C, jusqu’à ce que le dessus soit bien gratiné ou doré.",
+        "durationSec": 1200
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte pâtes aux légumes rôtis. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "pates-thon-tomate",
+    "name": "Pâtes thon tomate",
+    "category": "Pâtes",
+    "color": "#d4a017",
+    "emoji": "🍝",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "rapide",
+      "placard"
+    ],
+    "ingredients": [
+      {
+        "name": "pâtes",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "name": "thon",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "coulis de tomate",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "ail",
+        "qty": 1,
+        "unit": "gousse"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : pâtes, thon, coulis de tomate. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon, ail. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute thon avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte pâtes thon tomate. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "pates-sauce-poivrons",
+    "name": "Pâtes sauce poivrons",
+    "category": "Pâtes",
+    "color": "#d4a017",
+    "emoji": "🍝",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "poivrons",
+      "crémeux"
+    ],
+    "ingredients": [
+      {
+        "name": "pâtes",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "name": "poivron rouge",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "crème fraîche",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "ail",
+        "qty": 1,
+        "unit": "gousse"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : pâtes, poivron rouge, crème fraîche. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon, ail. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte pâtes sauce poivrons. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "riz-cantonais-simplifie",
+    "name": "Riz cantonais simplifié",
+    "category": "Riz",
+    "color": "#e67e22",
+    "emoji": "🍚",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "rapide",
+      "complet"
+    ],
+    "ingredients": [
+      {
+        "name": "riz",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "œuf",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "jambon",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "petits pois",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : riz, œuf, jambon. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Finition à la poêle",
+        "text": "Verse la préparation dans une poêle chaude si la recette demande de faire dorer, réduire ou saisir. Mélange doucement jusqu’à la texture voulue.",
+        "durationSec": 300
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte riz cantonais simplifié. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "riz-aux-legumes",
+    "name": "Riz aux légumes",
+    "category": "Riz",
+    "color": "#e67e22",
+    "emoji": "🍚",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "végétal",
+      "facile"
+    ],
+    "ingredients": [
+      {
+        "name": "riz",
+        "qty": 280,
+        "unit": "g"
+      },
+      {
+        "name": "carotte",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "courgette",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "poivron rouge",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : riz, carotte, courgette. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte riz aux légumes. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "riz-creole-aux-saucisses",
+    "name": "Riz créole aux saucisses",
+    "category": "Riz",
+    "color": "#e67e22",
+    "emoji": "🍚",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "créole"
+    ],
+    "ingredients": [
+      {
+        "name": "riz",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "saucisse",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "poivron vert",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "épices antillaises",
+        "qty": 2,
+        "unit": "c. à café"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : riz, saucisse, oignon. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Ajouter l’ingrédient principal",
+        "text": "Ajoute saucisse avec les épices, le sel et le poivre. Lance 5 min / 100 à 120°C / sens inverse / vitesse mijotage ou 1. Si la recette contient des morceaux, utilise le sens inverse pour éviter de trop les casser.",
+        "durationSec": 300
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte riz créole aux saucisses. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "riz-coco-legumes",
+    "name": "Riz coco légumes",
+    "category": "Riz",
+    "color": "#e67e22",
+    "emoji": "🍚",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "coco",
+      "doux"
+    ],
+    "ingredients": [
+      {
+        "name": "riz",
+        "qty": 280,
+        "unit": "g"
+      },
+      {
+        "name": "lait de coco",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "carotte",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "courgette",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : riz, lait de coco, carotte. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte riz coco légumes. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "riz-tomate-mozzarella",
+    "name": "Riz tomate mozzarella",
+    "category": "Riz",
+    "color": "#e67e22",
+    "emoji": "🍚",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "été",
+      "méditerranéen"
+    ],
+    "ingredients": [
+      {
+        "name": "riz",
+        "qty": 280,
+        "unit": "g"
+      },
+      {
+        "name": "tomate",
+        "qty": 3,
+        "unit": "pièces"
+      },
+      {
+        "name": "mozzarella",
+        "qty": 1,
+        "unit": "boule"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "basilic",
+        "qty": 1,
+        "unit": "petit bouquet"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : riz, tomate, mozzarella. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte riz tomate mozzarella. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "soupe-de-legumes-classique",
+    "name": "Soupe de légumes classique",
+    "category": "Soupe",
+    "color": "#16a085",
+    "emoji": "🥣",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "hiver",
+      "mixée"
+    ],
+    "ingredients": [
+      {
+        "name": "carotte",
+        "qty": 3,
+        "unit": "pièces"
+      },
+      {
+        "name": "poireau",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "courgette",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "pommes de terre",
+        "qty": 3,
+        "unit": "pièces"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "eau",
+        "qty": 800,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : carotte, poireau, courgette. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte soupe de légumes classique. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "veloute-carotte-coco",
+    "name": "Velouté carotte coco",
+    "category": "Soupe",
+    "color": "#16a085",
+    "emoji": "🥣",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "doux",
+      "mixé"
+    ],
+    "ingredients": [
+      {
+        "name": "carotte",
+        "qty": 6,
+        "unit": "pièces"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "lait de coco",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "eau",
+        "qty": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "curry",
+        "qty": 1,
+        "unit": "c. à café"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : carotte, oignon, lait de coco. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte velouté carotte coco. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "soupe-courgette-kiri",
+    "name": "Soupe courgette kiri",
+    "category": "Soupe",
+    "color": "#16a085",
+    "emoji": "🥣",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "crémeux"
+    ],
+    "ingredients": [
+      {
+        "name": "courgette",
+        "qty": 4,
+        "unit": "pièces"
+      },
+      {
+        "name": "pommes de terre",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "fromage frais",
+        "qty": 4,
+        "unit": "portions"
+      },
+      {
+        "name": "eau",
+        "qty": 700,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : courgette, pommes de terre, oignon. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte soupe courgette kiri. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "soupe-poireaux-pommes-de-terre",
+    "name": "Soupe poireaux pommes de terre",
+    "category": "Soupe",
+    "color": "#16a085",
+    "emoji": "🥣",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "classique"
+    ],
+    "ingredients": [
+      {
+        "name": "poireau",
+        "qty": 3,
+        "unit": "pièces"
+      },
+      {
+        "name": "pommes de terre",
+        "qty": 3,
+        "unit": "pièces"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "eau",
+        "qty": 700,
+        "unit": "ml"
+      },
+      {
+        "name": "crème fraîche",
+        "qty": 80,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : poireau, pommes de terre, oignon. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte soupe poireaux pommes de terre. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "soupe-tomate-basilic",
+    "name": "Soupe tomate basilic",
+    "category": "Soupe",
+    "color": "#16a085",
+    "emoji": "🥣",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "été",
+      "mixée"
+    ],
+    "ingredients": [
+      {
+        "name": "tomate",
+        "qty": 6,
+        "unit": "pièces"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "ail",
+        "qty": 2,
+        "unit": "gousses"
+      },
+      {
+        "name": "basilic",
+        "qty": 1,
+        "unit": "petit bouquet"
+      },
+      {
+        "name": "eau",
+        "qty": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : tomate, oignon, ail. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon, ail. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte soupe tomate basilic. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "soupe-butternut-douce",
+    "name": "Soupe butternut douce",
+    "category": "Soupe",
+    "color": "#16a085",
+    "emoji": "🥣",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "automne"
+    ],
+    "ingredients": [
+      {
+        "name": "courge butternut",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "eau",
+        "qty": 700,
+        "unit": "ml"
+      },
+      {
+        "name": "crème fraîche",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "muscade",
+        "qty": 0.5,
+        "unit": "c. à café"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : courge butternut, oignon, eau. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte soupe butternut douce. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "gratin-de-legumes",
+    "name": "Gratin de légumes",
+    "category": "Légumes",
+    "color": "#27ae60",
+    "emoji": "🥦",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "four",
+      "familial"
+    ],
+    "ingredients": [
+      {
+        "name": "courgette",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "carotte",
+        "qty": 3,
+        "unit": "pièces"
+      },
+      {
+        "name": "pommes de terre",
+        "qty": 4,
+        "unit": "pièces"
+      },
+      {
+        "name": "crème fraîche",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "fromage râpé",
+        "qty": 90,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : courgette, carotte, pommes de terre. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Finition au four",
+        "text": "Verse la préparation dans un plat. Ajoute si besoin fromage, purée, chapelure ou pâte selon la recette. Enfourne 15 à 25 min à 180°C, jusqu’à ce que le dessus soit bien gratiné ou doré.",
+        "durationSec": 1200
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte gratin de légumes. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "ratatouille-simplifiee",
+    "name": "Ratatouille simplifiée",
+    "category": "Légumes",
+    "color": "#27ae60",
+    "emoji": "🥦",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "été",
+      "mijoté"
+    ],
+    "ingredients": [
+      {
+        "name": "courgette",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "aubergine",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "poivron rouge",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "tomate",
+        "qty": 4,
+        "unit": "pièces"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : courgette, aubergine, poivron rouge. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte ratatouille simplifiée. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "poelee-de-legumes-epicee",
+    "name": "Poêlée de légumes épicée",
+    "category": "Légumes",
+    "color": "#27ae60",
+    "emoji": "🥦",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "rapide"
+    ],
+    "ingredients": [
+      {
+        "name": "courgette",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "carotte",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "poivron vert",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "épices antillaises",
+        "qty": 1,
+        "unit": "c. à café"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : courgette, carotte, poivron vert. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Finition à la poêle",
+        "text": "Verse la préparation dans une poêle chaude si la recette demande de faire dorer, réduire ou saisir. Mélange doucement jusqu’à la texture voulue.",
+        "durationSec": 300
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte poêlée de légumes épicée. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "puree-de-pommes-de-terre-maison",
+    "name": "Purée de pommes de terre maison",
+    "category": "Légumes",
+    "color": "#27ae60",
+    "emoji": "🥦",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "base",
+      "accompagnement"
+    ],
+    "ingredients": [
+      {
+        "name": "pommes de terre",
+        "qty": 900,
+        "unit": "g"
+      },
+      {
+        "name": "lait",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "beurre",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "sel",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
+        "name": "poivre",
+        "qty": 0.5,
+        "unit": "c. à café"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : pommes de terre, lait, beurre. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte purée de pommes de terre maison. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "puree-carottes-pommes-de-terre",
+    "name": "Purée carottes pommes de terre",
+    "category": "Légumes",
+    "color": "#27ae60",
+    "emoji": "🥦",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "douceur",
+      "accompagnement"
+    ],
+    "ingredients": [
+      {
+        "name": "carotte",
+        "qty": 4,
+        "unit": "pièces"
+      },
+      {
+        "name": "pommes de terre",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lait",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "beurre",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "sel",
+        "qty": 1,
+        "unit": "c. à café"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : carotte, pommes de terre, lait. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte purée carottes pommes de terre. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "galettes-de-courgette",
+    "name": "Galettes de courgette",
+    "category": "Légumes",
+    "color": "#27ae60",
+    "emoji": "🥦",
+    "servings": 4,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "poele",
+      "apéritif"
+    ],
+    "ingredients": [
+      {
+        "name": "courgette",
+        "qty": 3,
+        "unit": "pièces"
+      },
+      {
+        "name": "œuf",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "farine",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "fromage râpé",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "ail",
+        "qty": 1,
+        "unit": "gousse"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : courgette, œuf, farine. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : ail. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Finition à la poêle",
+        "text": "Verse la préparation dans une poêle chaude si la recette demande de faire dorer, réduire ou saisir. Mélange doucement jusqu’à la texture voulue.",
+        "durationSec": 300
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte galettes de courgette. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "omelette-legumes-fromage",
+    "name": "Omelette légumes fromage",
+    "category": "Légumes",
+    "color": "#27ae60",
+    "emoji": "🥦",
+    "servings": 3,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "rapide"
+    ],
+    "ingredients": [
+      {
+        "name": "œuf",
+        "qty": 6,
+        "unit": "pièces"
+      },
+      {
+        "name": "poivron rouge",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "fromage râpé",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "courgette",
+        "qty": 1,
+        "unit": "pièce"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : œuf, poivron rouge, oignon. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Hacher les aromates",
+        "text": "Mets dans le bol : oignon. Ferme le couvercle. Lance 5 sec / vitesse 5. Ouvre ensuite le couvercle et rabats avec la spatule ce qui est collé sur les parois.",
+        "durationSec": 5
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Finition à la poêle",
+        "text": "Verse la préparation dans une poêle chaude si la recette demande de faire dorer, réduire ou saisir. Mélange doucement jusqu’à la texture voulue.",
+        "durationSec": 300
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte omelette légumes fromage. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "tarte-au-citron",
+    "name": "Tarte au citron",
+    "category": "Dessert",
+    "color": "#8e44ad",
+    "emoji": "🍰",
+    "servings": 8,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "citron",
+      "four"
+    ],
+    "ingredients": [
+      {
+        "name": "pâte sablée",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "citron",
+        "qty": 3,
+        "unit": "pièces"
+      },
+      {
+        "name": "œuf",
+        "qty": 3,
+        "unit": "pièces"
+      },
+      {
+        "name": "sucre",
+        "qty": 140,
+        "unit": "g"
+      },
+      {
+        "name": "beurre",
+        "qty": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : pâte sablée, citron, œuf. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Cuisson au four",
+        "text": "Verse la pâte dans un moule beurré ou chemisé. Enfourne à 175-180°C jusqu’à cuisson complète. Vérifie avec la lame d’un couteau : elle doit ressortir propre ou légèrement humide selon le dessert.",
+        "durationSec": 2400
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte tarte au citron. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "tiramisu-au-nutella",
+    "name": "Tiramisu au Nutella",
+    "category": "Dessert",
+    "color": "#8e44ad",
+    "emoji": "🍰",
+    "servings": 6,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "froid",
+      "gourmand"
+    ],
+    "ingredients": [
+      {
+        "name": "mascarpone",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "crème liquide",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Nutella",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "biscuits cuillère",
+        "qty": 20,
+        "unit": "pièces"
+      },
+      {
+        "name": "lait",
+        "qty": 120,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : mascarpone, crème liquide, Nutella. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Repos au frais",
+        "text": "Verse dans un moule ou des verrines. Laisse refroidir puis place au réfrigérateur le temps indiqué pour que le dessert prenne bien.",
+        "durationSec": 3600
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte tiramisu au nutella. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "tiramisu-cafe",
+    "name": "Tiramisu café",
+    "category": "Dessert",
+    "color": "#8e44ad",
+    "emoji": "🍰",
+    "servings": 6,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "froid",
+      "café"
+    ],
+    "ingredients": [
+      {
+        "name": "mascarpone",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "œuf",
+        "qty": 3,
+        "unit": "pièces"
+      },
+      {
+        "name": "sucre",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "café",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "biscuits cuillère",
+        "qty": 20,
+        "unit": "pièces"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : mascarpone, œuf, sucre. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Repos au frais",
+        "text": "Verse dans un moule ou des verrines. Laisse refroidir puis place au réfrigérateur le temps indiqué pour que le dessert prenne bien.",
+        "durationSec": 3600
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte tiramisu café. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "cake-au-citron",
+    "name": "Cake au citron",
+    "category": "Dessert",
+    "color": "#8e44ad",
+    "emoji": "🍰",
+    "servings": 8,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "gâteau",
+      "citron"
+    ],
+    "ingredients": [
+      {
+        "name": "farine",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sucre",
+        "qty": 140,
+        "unit": "g"
+      },
+      {
+        "name": "œuf",
+        "qty": 3,
+        "unit": "pièces"
+      },
+      {
+        "name": "beurre",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "citron",
+        "qty": 2,
+        "unit": "pièces"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : farine, sucre, œuf. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Cuisson au four",
+        "text": "Verse la pâte dans un moule beurré ou chemisé. Enfourne à 175-180°C jusqu’à cuisson complète. Vérifie avec la lame d’un couteau : elle doit ressortir propre ou légèrement humide selon le dessert.",
+        "durationSec": 2400
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte cake au citron. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "brownie-fondant",
+    "name": "Brownie fondant",
+    "category": "Dessert",
+    "color": "#8e44ad",
+    "emoji": "🍰",
+    "servings": 8,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "chocolat"
+    ],
+    "ingredients": [
+      {
+        "name": "chocolat noir",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "beurre",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "sucre",
+        "qty": 140,
+        "unit": "g"
+      },
+      {
+        "name": "farine",
+        "qty": 90,
+        "unit": "g"
+      },
+      {
+        "name": "œuf",
+        "qty": 3,
+        "unit": "pièces"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : chocolat noir, beurre, sucre. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Cuisson au four",
+        "text": "Verse la pâte dans un moule beurré ou chemisé. Enfourne à 175-180°C jusqu’à cuisson complète. Vérifie avec la lame d’un couteau : elle doit ressortir propre ou légèrement humide selon le dessert.",
+        "durationSec": 2400
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte brownie fondant. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "crepes-faciles",
+    "name": "Crêpes faciles",
+    "category": "Petit-déjeuner",
+    "color": "#f39c12",
+    "emoji": "🥞",
+    "servings": 10,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "goûter",
+      "base"
+    ],
+    "ingredients": [
+      {
+        "name": "farine",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "lait",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "œuf",
+        "qty": 4,
+        "unit": "pièces"
+      },
+      {
+        "name": "sucre",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "beurre",
+        "qty": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : farine, lait, œuf. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Finition à la poêle",
+        "text": "Verse la préparation dans une poêle chaude si la recette demande de faire dorer, réduire ou saisir. Mélange doucement jusqu’à la texture voulue.",
+        "durationSec": 300
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte crêpes faciles. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "pancakes-moelleux",
+    "name": "Pancakes moelleux",
+    "category": "Petit-déjeuner",
+    "color": "#f39c12",
+    "emoji": "🥞",
+    "servings": 8,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "petit-déjeuner"
+    ],
+    "ingredients": [
+      {
+        "name": "farine",
+        "qty": 220,
+        "unit": "g"
+      },
+      {
+        "name": "lait",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "œuf",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "sucre",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "levure chimique",
+        "qty": 1,
+        "unit": "sachet"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : farine, lait, œuf. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Finition à la poêle",
+        "text": "Verse la préparation dans une poêle chaude si la recette demande de faire dorer, réduire ou saisir. Mélange doucement jusqu’à la texture voulue.",
+        "durationSec": 300
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte pancakes moelleux. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "muffins-chocolat",
+    "name": "Muffins chocolat",
+    "category": "Dessert",
+    "color": "#8e44ad",
+    "emoji": "🍰",
+    "servings": 8,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "gâteau",
+      "individuel"
+    ],
+    "ingredients": [
+      {
+        "name": "farine",
+        "qty": 220,
+        "unit": "g"
+      },
+      {
+        "name": "œuf",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "sucre",
+        "qty": 130,
+        "unit": "g"
+      },
+      {
+        "name": "beurre",
+        "qty": 90,
+        "unit": "g"
+      },
+      {
+        "name": "chocolat noir",
+        "qty": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : farine, œuf, sucre. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Cuisson au four",
+        "text": "Verse la pâte dans un moule beurré ou chemisé. Enfourne à 175-180°C jusqu’à cuisson complète. Vérifie avec la lame d’un couteau : elle doit ressortir propre ou légèrement humide selon le dessert.",
+        "durationSec": 2400
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte muffins chocolat. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "compote-pomme-cannelle",
+    "name": "Compote pomme cannelle",
+    "category": "Dessert",
+    "color": "#8e44ad",
+    "emoji": "🍰",
+    "servings": 6,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "fruit",
+      "léger"
+    ],
+    "ingredients": [
+      {
+        "name": "pomme",
+        "qty": 8,
+        "unit": "pièces"
+      },
+      {
+        "name": "sucre",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "cannelle",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
+        "name": "eau",
+        "qty": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : pomme, sucre, cannelle. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte compote pomme cannelle. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  },
+  {
+    "id": "flan-vanille-simple",
+    "name": "Flan vanille simple",
+    "category": "Dessert",
+    "color": "#8e44ad",
+    "emoji": "🍰",
+    "servings": 8,
+    "difficulty": "Débutant guidé",
+    "tags": [
+      "dessert",
+      "froid"
+    ],
+    "ingredients": [
+      {
+        "name": "lait",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "œuf",
+        "qty": 4,
+        "unit": "pièces"
+      },
+      {
+        "name": "sucre",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "vanille",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
+        "name": "maïzena",
+        "qty": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Préparation",
+        "text": "Prépare le plan de travail. Sors tous les ingrédients. Épluche et coupe si nécessaire : lait, œuf, sucre. Place le bol du Thermomix correctement sur sa base et vérifie que les couteaux sont bien installés.",
+        "durationSec": 120
+      },
+      {
+        "title": "Faire revenir",
+        "text": "Ajoute 1 à 2 c. à soupe d’huile d’olive. Lance 3 min / 120°C / vitesse 1. Cette étape sert à donner plus de goût. Si tu utilises un TM31, baisse simplement la température si besoin.",
+        "durationSec": 180
+      },
+      {
+        "title": "Cuisson principale",
+        "text": "Ajoute les autres ingrédients de cuisson indiqués dans la recette ainsi qu’un peu d’eau, de crème, de tomate ou de bouillon selon le plat. Lance la cuisson indiquée. Vérifie à la fin : la viande doit être cuite, les légumes tendres, et le liquide légèrement réduit.",
+        "durationSec": 900
+      },
+      {
+        "title": "Cuisson au four",
+        "text": "Verse la pâte dans un moule beurré ou chemisé. Enfourne à 175-180°C jusqu’à cuisson complète. Vérifie avec la lame d’un couteau : elle doit ressortir propre ou légèrement humide selon le dessert.",
+        "durationSec": 2400
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Goûte flan vanille simple. Ajuste le sel, le poivre, les épices ou la texture si besoin. Sers chaud sauf si c’est un dessert froid.",
+        "durationSec": 60
+      }
+    ],
+    "tips": [
+      "Lis toute la recette une fois avant de commencer.",
+      "Prépare les ingrédients à l’avance pour éviter le stress.",
+      "Nettoie le bol entre deux préparations très différentes."
+    ]
+  }
+]
