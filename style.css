@@ -1,0 +1,102 @@
+
+:root{
+  --bg:#0d1117; --panel:#141b25; --panel2:#1c2430; --line:#2b3440; --text:#eef3fb; --muted:#a8b4c4;
+  --brand:#ff7a18; --brand2:#af002d; --radius:18px; --shadow:0 12px 30px rgba(0,0,0,.28);
+}
+*{box-sizing:border-box}
+body{
+  margin:0; color:var(--text); font-family:Arial, Helvetica, sans-serif;
+  background:
+   radial-gradient(circle at top left, rgba(255,122,24,.18), transparent 26%),
+   radial-gradient(circle at top right, rgba(175,0,45,.16), transparent 24%),
+   linear-gradient(180deg,#0a0f15,#121923 42%,#0f141b);
+}
+button,input,select,textarea{font:inherit}
+.app{max-width:1560px; margin:0 auto; padding:20px}
+.hero{
+  display:grid; grid-template-columns:1.2fr .8fr; gap:16px; align-items:stretch;
+  background:linear-gradient(135deg, rgba(255,122,24,.14), rgba(175,0,45,.14));
+  border:1px solid var(--line); border-radius:26px; padding:22px; box-shadow:var(--shadow)
+}
+.hero h1{margin:8px 0 6px; font-size:34px}
+.hero p{margin:0; color:var(--muted); line-height:1.5}
+.hero-badge{display:inline-block; padding:7px 12px; border-radius:999px; background:#ffffff12; border:1px solid #ffffff22; font-size:13px}
+.hero-cards{display:grid; grid-template-columns:repeat(2,1fr); gap:12px}
+.stat{background:rgba(255,255,255,.06); border:1px solid #ffffff16; border-radius:18px; padding:14px}
+.stat .n{font-size:32px; font-weight:700}
+.layout{display:grid; grid-template-columns:330px 1fr; gap:18px; margin-top:18px}
+.sidebar,.content,.drawer-panel{background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow)}
+.sidebar{padding:16px; position:sticky; top:14px; height:fit-content}
+h2.section{margin:0 0 12px; font-size:20px}
+.group{margin-bottom:14px}
+.group label{display:block; color:var(--muted); margin-bottom:6px; font-size:13px}
+input[type=text],input[type=number],select,textarea{
+  width:100%; padding:12px 14px; border-radius:14px; border:1px solid var(--line);
+  background:var(--panel2); color:var(--text)
+}
+textarea{min-height:110px; resize:vertical}
+button{
+  border:none; border-radius:14px; padding:11px 14px; cursor:pointer; font-weight:700; color:#fff;
+  background:linear-gradient(135deg,var(--brand),var(--brand2))
+}
+button.ghost{background:#ffffff0c; border:1px solid #ffffff18}
+button.danger{background:linear-gradient(135deg,#a71d31,#6b0f1a)}
+button.icon-btn{background:#ffffff10; padding:8px 12px}
+button.small-btn{padding:8px 10px; font-size:13px}
+.pill,.fridge-pill,.recent-btn{
+  display:inline-block; margin:4px; padding:8px 12px; border-radius:999px; background:#ffffff08;
+  border:1px solid var(--line); color:var(--text)
+}
+.fridge-pill.selected{background:linear-gradient(135deg, rgba(255,122,24,.25), rgba(175,0,45,.25))}
+.small{font-size:13px}
+.panel{background:var(--panel2); border:1px solid var(--line); border-radius:18px; padding:14px}
+.content{padding:16px}
+.tabs{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px}
+.tab-btn{background:#ffffff0f; border:1px solid var(--line)}
+.tab-btn.active{background:linear-gradient(135deg, rgba(255,122,24,.25), rgba(175,0,45,.25))}
+.tab-content{display:none}
+.tab-content.active{display:block}
+.grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(310px,1fr)); gap:16px}
+.recipe-card{
+  background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+  border:1px solid var(--line); border-top:8px solid var(--accent,#666); border-radius:18px; padding:16px
+}
+.recipe-card-top{display:flex; justify-content:space-between; gap:10px; align-items:flex-start}
+.recipe-card h3{margin:8px 0 6px; line-height:1.15; font-size:23px}
+.badge{display:inline-block; padding:6px 10px; border-radius:999px; background:#ffffff10; border:1px solid #ffffff18; font-size:12px}
+.meta{color:var(--muted); font-size:14px}
+.tags{margin:10px 0}
+.tag{display:inline-block; background:#00000035; border:1px solid #ffffff14; border-radius:999px; padding:5px 8px; margin:3px; font-size:12px}
+.card-desc{color:#dde4ef; min-height:60px; font-size:14px}
+.actions{display:flex; gap:8px; flex-wrap:wrap; margin-top:12px}
+.dual{display:grid; grid-template-columns:1fr 1fr; gap:14px}
+.empty{padding:16px; border:1px dashed #ffffff22; border-radius:16px; color:var(--muted)}
+.match-card,.planner-item{background:#ffffff08; border:1px solid #ffffff16; border-radius:16px; padding:12px; margin-bottom:10px}
+.match-title{font-weight:700; margin-bottom:4px}
+.drawer{
+  position:fixed; inset:0 0 0 auto; width:min(780px,100%); transform:translateX(105%); transition:transform .24s ease; padding:16px; z-index:40
+}
+.drawer.open{transform:translateX(0)}
+.drawer-panel{height:100%; display:flex; flex-direction:column; overflow:hidden}
+.drawer-top{display:flex; justify-content:space-between; align-items:center; padding:14px 16px; border-bottom:1px solid var(--line)}
+.drawer-body{overflow:auto; padding:16px}
+.detail-header-row{display:flex; justify-content:space-between; gap:12px; align-items:flex-start}
+.detail-actions{display:flex; gap:8px; flex-wrap:wrap}
+.dual-cards{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:14px 0}
+.mini-card{background:#ffffff08; border:1px solid #ffffff16; border-radius:16px; padding:12px}
+.portion-controls{display:flex; gap:8px; align-items:center; max-width:240px}
+.portion-controls input{text-align:center}
+.detail-list{padding-left:18px}
+.guided-controls{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px}
+.step-card{background:linear-gradient(180deg, rgba(255,122,24,.12), rgba(175,0,45,.08)); border:1px solid #ffffff18; border-radius:18px; padding:14px}
+.step-header{display:flex; justify-content:space-between; color:var(--muted); font-size:13px}
+.step-card h4{margin:10px 0 6px}
+.timer-display{margin-top:12px; font-size:28px; text-align:center; padding:14px; background:#00000024; border-radius:16px; border:1px solid #ffffff14; font-weight:700}
+.shopping-actions{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:10px}
+.mode-row{display:flex; gap:10px; align-items:center; margin-top:10px}
+.mode-badge{display:inline-block; padding:7px 12px; border-radius:999px; background:#ffffff10; border:1px solid #ffffff18}
+@media (max-width: 980px){
+  .hero,.layout,.dual,.dual-cards{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .detail-header-row{flex-direction:column}
+}
