@@ -1,10 +1,10 @@
 {
-  "name": "FAFATRAINING Recettes V7",
-  "short_name": "FAFA Recettes",
+  "name": "FAFATRAINING Recettes & Nutrition V9",
+  "short_name": "FAFA Food",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#0d1117",
-  "theme_color": "#ff7a18",
+  "background_color": "#050705",
+  "theme_color": "#39ff14",
   "icons": [
     {
       "src": "icons/icon-192.png",

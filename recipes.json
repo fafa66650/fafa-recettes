@@ -128,7 +128,29 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "lasagnes-a-la-viande",
@@ -254,7 +276,31 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "gluten",
+      "lactose"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "boulettes-sauce-tomate",
@@ -374,7 +420,31 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "gluten",
+      "oeufs"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "1 œuf → 60 g de compote de pomme",
+      "1 œuf → 1 c. à soupe de graines de chia + 3 c. à soupe d’eau",
+      "viande hachée → lentilles ou pois chiches"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "chili-con-carne-doux",
@@ -484,7 +554,24 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "poivrons-farcis-a-la-viande",
@@ -605,7 +692,29 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "boeuf-carottes-simplifie",
@@ -710,7 +819,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "oeufs"
+    ],
+    "substitutions": [
+      "1 œuf → 60 g de compote de pomme",
+      "1 œuf → 1 c. à soupe de graines de chia + 3 c. à soupe d’eau",
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "parmentier-de-patate-douce",
@@ -835,7 +965,29 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "riz-poulet-epice",
@@ -951,7 +1103,24 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "poulet-curry-coco",
@@ -1056,7 +1225,29 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "poulet-a-la-creme-et-champignons",
@@ -1161,7 +1352,29 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "poulet-basquaise-facile",
@@ -1271,7 +1484,24 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "poulet-citron-ail",
@@ -1386,7 +1616,25 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "perte_de_poids",
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "poulet-paprika-pommes-de-terre",
@@ -1491,7 +1739,24 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "poulet-moutarde-miel",
@@ -1596,7 +1861,29 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "poulet-poivrons-facon-fajitas",
@@ -1716,7 +2003,24 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "gratin-de-poulet-et-pates",
@@ -1846,7 +2150,31 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "gluten",
+      "lactose"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "saumon-a-la-creme-citron",
@@ -1951,7 +2279,30 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "pescetarien"
+    ],
+    "allergens": [
+      "lactose",
+      "poisson"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "poisson → tofu fumé ou légumineuses + algues nori pour une note iodée"
+    ],
+    "macros": {
+      "kcal": 430,
+      "proteines": 34,
+      "glucides": 18,
+      "lipides": 22
+    }
   },
   {
     "id": "poisson-blanc-sauce-tomate",
@@ -2056,7 +2407,26 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "pescetarien"
+    ],
+    "allergens": [
+      "poisson"
+    ],
+    "substitutions": [
+      "poisson → tofu fumé ou légumineuses + algues nori pour une note iodée"
+    ],
+    "macros": {
+      "kcal": 430,
+      "proteines": 34,
+      "glucides": 18,
+      "lipides": 22
+    }
   },
   {
     "id": "brandade-de-poisson-simplifiee",
@@ -2181,7 +2551,30 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "pescetarien"
+    ],
+    "allergens": [
+      "lactose",
+      "poisson"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "poisson → tofu fumé ou légumineuses + algues nori pour une note iodée"
+    ],
+    "macros": {
+      "kcal": 430,
+      "proteines": 34,
+      "glucides": 18,
+      "lipides": 22
+    }
   },
   {
     "id": "crevettes-ail-et-persil",
@@ -2296,7 +2689,26 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "pescetarien"
+    ],
+    "allergens": [
+      "crustaces"
+    ],
+    "substitutions": [
+      "poisson → tofu fumé ou légumineuses + algues nori pour une note iodée"
+    ],
+    "macros": {
+      "kcal": 430,
+      "proteines": 34,
+      "glucides": 18,
+      "lipides": 22
+    }
   },
   {
     "id": "poisson-coco-curry",
@@ -2401,7 +2813,30 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "pescetarien"
+    ],
+    "allergens": [
+      "lactose",
+      "poisson"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "poisson → tofu fumé ou légumineuses + algues nori pour une note iodée"
+    ],
+    "macros": {
+      "kcal": 430,
+      "proteines": 34,
+      "glucides": 18,
+      "lipides": 22
+    }
   },
   {
     "id": "thon-tomate-olives",
@@ -2506,7 +2941,26 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "pescetarien"
+    ],
+    "allergens": [
+      "poisson"
+    ],
+    "substitutions": [
+      "poisson → tofu fumé ou légumineuses + algues nori pour une note iodée"
+    ],
+    "macros": {
+      "kcal": 430,
+      "proteines": 34,
+      "glucides": 18,
+      "lipides": 22
+    }
   },
   {
     "id": "pates-poulet-creme",
@@ -2626,7 +3080,31 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "gluten",
+      "lactose"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 560,
+      "proteines": 22,
+      "glucides": 58,
+      "lipides": 22
+    }
   },
   {
     "id": "pates-bolognaise",
@@ -2746,7 +3224,29 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 560,
+      "proteines": 22,
+      "glucides": 58,
+      "lipides": 22
+    }
   },
   {
     "id": "mac-and-cheese-maison",
@@ -2846,7 +3346,32 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "gluten",
+      "lactose"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 560,
+      "proteines": 22,
+      "glucides": 58,
+      "lipides": 22
+    }
   },
   {
     "id": "pates-aux-legumes-rotis",
@@ -2956,7 +3481,29 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten"
+    ],
+    "macros": {
+      "kcal": 560,
+      "proteines": 22,
+      "glucides": 58,
+      "lipides": 22
+    }
   },
   {
     "id": "pates-thon-tomate",
@@ -3076,7 +3623,30 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "pescetarien"
+    ],
+    "allergens": [
+      "gluten",
+      "poisson"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "poisson → tofu fumé ou légumineuses + algues nori pour une note iodée"
+    ],
+    "macros": {
+      "kcal": 560,
+      "proteines": 22,
+      "glucides": 58,
+      "lipides": 22
+    }
   },
   {
     "id": "pates-sauce-poivrons",
@@ -3186,7 +3756,32 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "gluten",
+      "lactose"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 560,
+      "proteines": 22,
+      "glucides": 58,
+      "lipides": 22
+    }
   },
   {
     "id": "riz-cantonais-simplifie",
@@ -3301,7 +3896,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "oeufs"
+    ],
+    "substitutions": [
+      "1 œuf → 60 g de compote de pomme",
+      "1 œuf → 1 c. à soupe de graines de chia + 3 c. à soupe d’eau",
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 510,
+      "proteines": 18,
+      "glucides": 60,
+      "lipides": 16
+    }
   },
   {
     "id": "riz-aux-legumes",
@@ -3396,7 +4012,23 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 510,
+      "proteines": 18,
+      "glucides": 60,
+      "lipides": 16
+    }
   },
   {
     "id": "riz-creole-aux-saucisses",
@@ -3501,7 +4133,24 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 510,
+      "proteines": 18,
+      "glucides": 60,
+      "lipides": 16
+    }
   },
   {
     "id": "riz-coco-legumes",
@@ -3596,7 +4245,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 510,
+      "proteines": 18,
+      "glucides": 60,
+      "lipides": 16
+    }
   },
   {
     "id": "riz-tomate-mozzarella",
@@ -3691,7 +4361,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 510,
+      "proteines": 18,
+      "glucides": 60,
+      "lipides": 16
+    }
   },
   {
     "id": "soupe-de-legumes-classique",
@@ -3791,7 +4482,23 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 190,
+      "proteines": 6,
+      "glucides": 24,
+      "lipides": 7
+    }
   },
   {
     "id": "veloute-carotte-coco",
@@ -3886,7 +4593,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 190,
+      "proteines": 6,
+      "glucides": 24,
+      "lipides": 7
+    }
   },
   {
     "id": "soupe-courgette-fromage-frais",
@@ -3981,7 +4709,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 190,
+      "proteines": 6,
+      "glucides": 24,
+      "lipides": 7
+    }
   },
   {
     "id": "soupe-poireaux-pommes-de-terre",
@@ -4076,7 +4825,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 190,
+      "proteines": 6,
+      "glucides": 24,
+      "lipides": 7
+    }
   },
   {
     "id": "soupe-tomate-basilic",
@@ -4171,7 +4941,23 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 190,
+      "proteines": 6,
+      "glucides": 24,
+      "lipides": 7
+    }
   },
   {
     "id": "soupe-butternut-douce",
@@ -4266,7 +5052,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 190,
+      "proteines": 6,
+      "glucides": 24,
+      "lipides": 7
+    }
   },
   {
     "id": "gratin-de-legumes",
@@ -4361,7 +5168,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 250,
+      "proteines": 8,
+      "glucides": 24,
+      "lipides": 12
+    }
   },
   {
     "id": "ratatouille-simplifiee",
@@ -4456,7 +5284,23 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 250,
+      "proteines": 8,
+      "glucides": 24,
+      "lipides": 12
+    }
   },
   {
     "id": "poelee-de-legumes-epicee",
@@ -4561,7 +5405,23 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 250,
+      "proteines": 8,
+      "glucides": 24,
+      "lipides": 12
+    }
   },
   {
     "id": "puree-de-pommes-de-terre-maison",
@@ -4646,7 +5506,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 250,
+      "proteines": 8,
+      "glucides": 24,
+      "lipides": 12
+    }
   },
   {
     "id": "puree-carottes-pommes-de-terre",
@@ -4731,7 +5612,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 250,
+      "proteines": 8,
+      "glucides": 24,
+      "lipides": 12
+    }
   },
   {
     "id": "galettes-de-courgette",
@@ -4846,7 +5748,33 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "gluten",
+      "lactose",
+      "oeufs"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 250,
+      "proteines": 8,
+      "glucides": 24,
+      "lipides": 12
+    }
   },
   {
     "id": "omelette-legumes-fromage",
@@ -4961,7 +5889,31 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose",
+      "oeufs"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "1 œuf → 60 g de compote de pomme",
+      "1 œuf → 1 c. à soupe de graines de chia + 3 c. à soupe d’eau"
+    ],
+    "macros": {
+      "kcal": 250,
+      "proteines": 8,
+      "glucides": 24,
+      "lipides": 12
+    }
   },
   {
     "id": "tarte-au-citron",
@@ -5066,7 +6018,33 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "gluten",
+      "lactose",
+      "oeufs"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 320,
+      "proteines": 5,
+      "glucides": 38,
+      "lipides": 16
+    }
   },
   {
     "id": "tiramisu-au-nutella",
@@ -5161,7 +6139,32 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "gluten",
+      "lactose"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 320,
+      "proteines": 5,
+      "glucides": 38,
+      "lipides": 16
+    }
   },
   {
     "id": "tiramisu-cafe",
@@ -5267,7 +6270,33 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "gluten",
+      "lactose",
+      "oeufs"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 320,
+      "proteines": 5,
+      "glucides": 38,
+      "lipides": 16
+    }
   },
   {
     "id": "cake-au-citron",
@@ -5372,7 +6401,33 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "gluten",
+      "lactose",
+      "oeufs"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 320,
+      "proteines": 5,
+      "glucides": 38,
+      "lipides": 16
+    }
   },
   {
     "id": "brownie-fondant",
@@ -5477,7 +6532,33 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "gluten",
+      "lactose",
+      "oeufs"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 320,
+      "proteines": 5,
+      "glucides": 38,
+      "lipides": 16
+    }
   },
   {
     "id": "compote-pomme-cannelle",
@@ -5557,7 +6638,23 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 320,
+      "proteines": 5,
+      "glucides": 38,
+      "lipides": 16
+    }
   },
   {
     "id": "flan-vanille-simple",
@@ -5662,7 +6759,31 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose",
+      "oeufs"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "1 œuf → 60 g de compote de pomme",
+      "1 œuf → 1 c. à soupe de graines de chia + 3 c. à soupe d’eau"
+    ],
+    "macros": {
+      "kcal": 320,
+      "proteines": 5,
+      "glucides": 38,
+      "lipides": 16
+    }
   },
   {
     "id": "crepes-faciles",
@@ -5767,7 +6888,33 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "gluten",
+      "lactose",
+      "oeufs"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 290,
+      "proteines": 10,
+      "glucides": 35,
+      "lipides": 12
+    }
   },
   {
     "id": "pancakes-moelleux",
@@ -5872,7 +7019,33 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "gluten",
+      "lactose",
+      "oeufs"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 290,
+      "proteines": 10,
+      "glucides": 35,
+      "lipides": 12
+    }
   },
   {
     "id": "bowl-poulet-riz-brocoli",
@@ -5978,7 +7151,25 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "performance",
+      "prise_de_masse"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 520,
+      "proteines": 38,
+      "glucides": 34,
+      "lipides": 20
+    }
   },
   {
     "id": "dinde-patate-douce-haricots-verts",
@@ -6084,7 +7275,25 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "performance",
+      "prise_de_masse"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 520,
+      "proteines": 38,
+      "glucides": 34,
+      "lipides": 20
+    }
   },
   {
     "id": "saumon-quinoa-courgette",
@@ -6179,7 +7388,27 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "performance",
+      "prise_de_masse"
+    ],
+    "dietTags": [
+      "omnivore",
+      "pescetarien"
+    ],
+    "allergens": [
+      "poisson"
+    ],
+    "substitutions": [
+      "poisson → tofu fumé ou légumineuses + algues nori pour une note iodée"
+    ],
+    "macros": {
+      "kcal": 520,
+      "proteines": 38,
+      "glucides": 34,
+      "lipides": 20
+    }
   },
   {
     "id": "omelette-proteinee-epinards",
@@ -6284,7 +7513,32 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "performance",
+      "prise_de_masse"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose",
+      "oeufs"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "1 œuf → 60 g de compote de pomme",
+      "1 œuf → 1 c. à soupe de graines de chia + 3 c. à soupe d’eau"
+    ],
+    "macros": {
+      "kcal": 520,
+      "proteines": 38,
+      "glucides": 34,
+      "lipides": 20
+    }
   },
   {
     "id": "chili-minceur-haricots-rouges",
@@ -6390,7 +7644,25 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "perte_de_poids",
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 380,
+      "proteines": 30,
+      "glucides": 28,
+      "lipides": 14
+    }
   },
   {
     "id": "soupe-legumes-verts-legere",
@@ -6475,7 +7747,24 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "perte_de_poids",
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 380,
+      "proteines": 30,
+      "glucides": 28,
+      "lipides": 14
+    }
   },
   {
     "id": "cabillaud-citron-legumes-vapeur",
@@ -6571,7 +7860,27 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "perte_de_poids",
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "pescetarien"
+    ],
+    "allergens": [
+      "poisson"
+    ],
+    "substitutions": [
+      "poisson → tofu fumé ou légumineuses + algues nori pour une note iodée"
+    ],
+    "macros": {
+      "kcal": 380,
+      "proteines": 30,
+      "glucides": 28,
+      "lipides": 14
+    }
   },
   {
     "id": "wok-crevettes-legumes-croquants",
@@ -6677,7 +7986,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "perte_de_poids",
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "pescetarien"
+    ],
+    "allergens": [
+      "soja",
+      "crustaces"
+    ],
+    "substitutions": [
+      "poisson → tofu fumé ou légumineuses + algues nori pour une note iodée"
+    ],
+    "macros": {
+      "kcal": 380,
+      "proteines": 30,
+      "glucides": 28,
+      "lipides": 14
+    }
   },
   {
     "id": "porridge-proteine-banane",
@@ -6762,7 +8092,29 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "performance",
+      "prise_de_masse"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 290,
+      "proteines": 10,
+      "glucides": 35,
+      "lipides": 12
+    }
   },
   {
     "id": "yaourt-bowl-fruits-rouges-proteine",
@@ -6848,7 +8200,30 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "performance",
+      "prise_de_masse"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose",
+      "fruits_a_coque"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 520,
+      "proteines": 38,
+      "glucides": 34,
+      "lipides": 20
+    }
   },
   {
     "id": "pancakes-proteines-banane",
@@ -6953,7 +8328,32 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "performance",
+      "prise_de_masse"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose",
+      "oeufs"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "1 œuf → 60 g de compote de pomme",
+      "1 œuf → 1 c. à soupe de graines de chia + 3 c. à soupe d’eau"
+    ],
+    "macros": {
+      "kcal": 520,
+      "proteines": 38,
+      "glucides": 34,
+      "lipides": 20
+    }
   },
   {
     "id": "cookies-avoine-beurre-de-cacahuete",
@@ -7048,7 +8448,29 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose",
+      "fruits_a_coque"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 220,
+      "proteines": 7,
+      "glucides": 20,
+      "lipides": 12
+    }
   },
   {
     "id": "energy-balls-chocolat-dattes",
@@ -7138,7 +8560,25 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [
+      "fruits_a_coque"
+    ],
+    "substitutions": [],
+    "macros": {
+      "kcal": 220,
+      "proteines": 7,
+      "glucides": 20,
+      "lipides": 12
+    }
   },
   {
     "id": "muffins-proteines-chocolat",
@@ -7243,7 +8683,34 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "performance",
+      "prise_de_masse"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "gluten",
+      "lactose",
+      "oeufs"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 520,
+      "proteines": 38,
+      "glucides": 34,
+      "lipides": 20
+    }
   },
   {
     "id": "batch-bowl-boeuf-riz-legumes",
@@ -7338,7 +8805,29 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "performance",
+      "prise_de_masse"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "oeufs"
+    ],
+    "substitutions": [
+      "1 œuf → 60 g de compote de pomme",
+      "1 œuf → 1 c. à soupe de graines de chia + 3 c. à soupe d’eau",
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 400,
+      "proteines": 18,
+      "glucides": 30,
+      "lipides": 15
+    }
   },
   {
     "id": "batch-poulet-pates-pesto-leger",
@@ -7448,7 +8937,32 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "performance",
+      "prise_de_masse"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "gluten",
+      "lactose"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 400,
+      "proteines": 18,
+      "glucides": 30,
+      "lipides": 15
+    }
   },
   {
     "id": "soupe-lentilles-corail-proteinee",
@@ -7554,7 +9068,24 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "performance",
+      "prise_de_masse"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 520,
+      "proteines": 38,
+      "glucides": 34,
+      "lipides": 20
+    }
   },
   {
     "id": "smoothie-fruits-rouges-banane",
@@ -7635,7 +9166,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 180,
+      "proteines": 4,
+      "glucides": 28,
+      "lipides": 4
+    }
   },
   {
     "id": "smoothie-mangue-coco",
@@ -7715,7 +9267,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 180,
+      "proteines": 4,
+      "glucides": 28,
+      "lipides": 4
+    }
   },
   {
     "id": "salade-de-fruits-vanillee",
@@ -7800,7 +9373,23 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 180,
+      "proteines": 4,
+      "glucides": 28,
+      "lipides": 4
+    }
   },
   {
     "id": "compote-poire-pomme",
@@ -7880,7 +9469,23 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 320,
+      "proteines": 5,
+      "glucides": 38,
+      "lipides": 16
+    }
   },
   {
     "id": "poulet-tomates-olives",
@@ -7985,7 +9590,24 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "poulet-courgette-creme",
@@ -8090,7 +9712,29 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "poulet-coco-ananas",
@@ -8195,7 +9839,29 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "poulet-brocoli-soja",
@@ -8300,7 +9966,26 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "soja"
+    ],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "poulet-tomates-poivrons",
@@ -8405,7 +10090,24 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "steak-hache-sauce-oignon",
@@ -8515,7 +10217,29 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "boeuf-paprika-riz",
@@ -8620,7 +10344,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "oeufs"
+    ],
+    "substitutions": [
+      "1 œuf → 60 g de compote de pomme",
+      "1 œuf → 1 c. à soupe de graines de chia + 3 c. à soupe d’eau",
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "viande-hachee-courgettes",
@@ -8725,7 +10470,24 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "boeuf-tomate-haricots-verts",
@@ -8830,7 +10592,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "oeufs"
+    ],
+    "substitutions": [
+      "1 œuf → 60 g de compote de pomme",
+      "1 œuf → 1 c. à soupe de graines de chia + 3 c. à soupe d’eau",
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "saumon-poireaux-creme",
@@ -8920,7 +10703,30 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "pescetarien"
+    ],
+    "allergens": [
+      "lactose",
+      "poisson"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "poisson → tofu fumé ou légumineuses + algues nori pour une note iodée"
+    ],
+    "macros": {
+      "kcal": 430,
+      "proteines": 34,
+      "glucides": 18,
+      "lipides": 22
+    }
   },
   {
     "id": "cabillaud-tomate-basilic",
@@ -9020,7 +10826,27 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "perte_de_poids",
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "pescetarien"
+    ],
+    "allergens": [
+      "poisson"
+    ],
+    "substitutions": [
+      "poisson → tofu fumé ou légumineuses + algues nori pour une note iodée"
+    ],
+    "macros": {
+      "kcal": 430,
+      "proteines": 34,
+      "glucides": 18,
+      "lipides": 22
+    }
   },
   {
     "id": "crevettes-coco-curry",
@@ -9120,7 +10946,30 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "pescetarien"
+    ],
+    "allergens": [
+      "lactose",
+      "crustaces"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "poisson → tofu fumé ou légumineuses + algues nori pour une note iodée"
+    ],
+    "macros": {
+      "kcal": 430,
+      "proteines": 34,
+      "glucides": 18,
+      "lipides": 22
+    }
   },
   {
     "id": "thon-riz-citron",
@@ -9225,7 +11074,26 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "pescetarien"
+    ],
+    "allergens": [
+      "poisson"
+    ],
+    "substitutions": [
+      "poisson → tofu fumé ou légumineuses + algues nori pour une note iodée"
+    ],
+    "macros": {
+      "kcal": 430,
+      "proteines": 34,
+      "glucides": 18,
+      "lipides": 22
+    }
   },
   {
     "id": "soupe-carotte-gingembre",
@@ -9315,7 +11183,23 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 190,
+      "proteines": 6,
+      "glucides": 24,
+      "lipides": 7
+    }
   },
   {
     "id": "soupe-potiron-douce",
@@ -9405,7 +11289,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 190,
+      "proteines": 6,
+      "glucides": 24,
+      "lipides": 7
+    }
   },
   {
     "id": "veloute-brocoli-pomme-de-terre",
@@ -9495,7 +11400,23 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 190,
+      "proteines": 6,
+      "glucides": 24,
+      "lipides": 7
+    }
   },
   {
     "id": "muffins-myrtilles",
@@ -9600,7 +11521,33 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "gluten",
+      "lactose",
+      "oeufs"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 320,
+      "proteines": 5,
+      "glucides": 38,
+      "lipides": 16
+    }
   },
   {
     "id": "cake-banane-chocolat",
@@ -9705,7 +11652,31 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "gluten",
+      "oeufs"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "1 œuf → 60 g de compote de pomme",
+      "1 œuf → 1 c. à soupe de graines de chia + 3 c. à soupe d’eau"
+    ],
+    "macros": {
+      "kcal": 320,
+      "proteines": 5,
+      "glucides": 38,
+      "lipides": 16
+    }
   },
   {
     "id": "crumble-pomme-poire",
@@ -9800,7 +11771,32 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "gluten",
+      "lactose"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 320,
+      "proteines": 5,
+      "glucides": 38,
+      "lipides": 16
+    }
   },
   {
     "id": "yaourt-glace-fruits-rouges",
@@ -9885,7 +11881,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 320,
+      "proteines": 5,
+      "glucides": 38,
+      "lipides": 16
+    }
   },
   {
     "id": "wrap-proteine-poulet-crudites",
@@ -9990,7 +12007,32 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "performance",
+      "prise_de_masse"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "gluten",
+      "lactose"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 520,
+      "proteines": 38,
+      "glucides": 34,
+      "lipides": 20
+    }
   },
   {
     "id": "bol-minceur-quinoa-legumes",
@@ -10070,7 +12112,24 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "perte_de_poids",
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 380,
+      "proteines": 30,
+      "glucides": 28,
+      "lipides": 14
+    }
   },
   {
     "id": "omelette-dinde-poivrons",
@@ -10180,7 +12239,29 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "performance",
+      "prise_de_masse"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "oeufs"
+    ],
+    "substitutions": [
+      "1 œuf → 60 g de compote de pomme",
+      "1 œuf → 1 c. à soupe de graines de chia + 3 c. à soupe d’eau",
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 520,
+      "proteines": 38,
+      "glucides": 34,
+      "lipides": 20
+    }
   },
   {
     "id": "barres-avoine-chocolat-maison",
@@ -10270,7 +12351,29 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose",
+      "fruits_a_coque"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 220,
+      "proteines": 7,
+      "glucides": 20,
+      "lipides": 12
+    }
   },
   {
     "id": "batch-dinde-riz-courgette",
@@ -10370,7 +12473,25 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "performance",
+      "prise_de_masse"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 400,
+      "proteines": 18,
+      "glucides": 30,
+      "lipides": 15
+    }
   },
   {
     "id": "smoothie-kiwi-pomme",
@@ -10450,7 +12571,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 180,
+      "proteines": 4,
+      "glucides": 28,
+      "lipides": 4
+    }
   },
   {
     "id": "smoothie-orange-mangue",
@@ -10525,7 +12667,23 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 180,
+      "proteines": 4,
+      "glucides": 28,
+      "lipides": 4
+    }
   },
   {
     "id": "compote-fruits-rouges-pomme",
@@ -10600,7 +12758,23 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 320,
+      "proteines": 5,
+      "glucides": 38,
+      "lipides": 16
+    }
   },
   {
     "id": "poelee-brocoli-au-poulet",
@@ -10710,7 +12884,24 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "poelee-courgette-au-poulet",
@@ -10820,7 +13011,24 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "poelee-carotte-au-poulet",
@@ -10930,7 +13138,24 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "poelee-poivron-rouge-au-poulet",
@@ -11040,7 +13265,24 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "poelee-haricots-verts-au-poulet",
@@ -11150,7 +13392,24 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 490,
+      "proteines": 35,
+      "glucides": 22,
+      "lipides": 24
+    }
   },
   {
     "id": "bowl-proteine-riz-poulet",
@@ -11250,7 +13509,25 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "performance",
+      "prise_de_masse"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 520,
+      "proteines": 38,
+      "glucides": 34,
+      "lipides": 20
+    }
   },
   {
     "id": "bowl-proteine-pates-poulet",
@@ -11365,7 +13642,30 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "performance",
+      "prise_de_masse"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 520,
+      "proteines": 38,
+      "glucides": 34,
+      "lipides": 20
+    }
   },
   {
     "id": "bowl-proteine-quinoa-poulet",
@@ -11465,7 +13765,25 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "performance",
+      "prise_de_masse"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [
+      "viande hachée → lentilles ou pois chiches",
+      "poulet → tofu ferme ou tempeh"
+    ],
+    "macros": {
+      "kcal": 520,
+      "proteines": 38,
+      "glucides": 34,
+      "lipides": 20
+    }
   },
   {
     "id": "smoothie-banane-maison",
@@ -11540,7 +13858,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 180,
+      "proteines": 4,
+      "glucides": 28,
+      "lipides": 4
+    }
   },
   {
     "id": "smoothie-pomme-maison",
@@ -11615,7 +13954,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 180,
+      "proteines": 4,
+      "glucides": 28,
+      "lipides": 4
+    }
   },
   {
     "id": "smoothie-poire-maison",
@@ -11690,7 +14050,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 180,
+      "proteines": 4,
+      "glucides": 28,
+      "lipides": 4
+    }
   },
   {
     "id": "smoothie-kiwi-maison",
@@ -11765,7 +14146,28 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 180,
+      "proteines": 4,
+      "glucides": 28,
+      "lipides": 4
+    }
   },
   {
     "id": "veloute-courgette-leger",
@@ -11850,7 +14252,23 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 190,
+      "proteines": 6,
+      "glucides": 24,
+      "lipides": 7
+    }
   },
   {
     "id": "veloute-carotte-leger",
@@ -11935,7 +14353,23 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 190,
+      "proteines": 6,
+      "glucides": 24,
+      "lipides": 7
+    }
   },
   {
     "id": "veloute-poireau-leger",
@@ -12020,7 +14454,23 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 190,
+      "proteines": 6,
+      "glucides": 24,
+      "lipides": 7
+    }
   },
   {
     "id": "veloute-brocoli-leger",
@@ -12105,7 +14555,23 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 190,
+      "proteines": 6,
+      "glucides": 24,
+      "lipides": 7
+    }
   },
   {
     "id": "omelette-fromage",
@@ -12195,7 +14661,31 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose",
+      "oeufs"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "1 œuf → 60 g de compote de pomme",
+      "1 œuf → 1 c. à soupe de graines de chia + 3 c. à soupe d’eau"
+    ],
+    "macros": {
+      "kcal": 250,
+      "proteines": 8,
+      "glucides": 24,
+      "lipides": 12
+    }
   },
   {
     "id": "oeufs-brouilles-cremeux",
@@ -12290,7 +14780,31 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "lactose",
+      "oeufs"
+    ],
+    "substitutions": [
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale",
+      "1 œuf → 60 g de compote de pomme",
+      "1 œuf → 1 c. à soupe de graines de chia + 3 c. à soupe d’eau"
+    ],
+    "macros": {
+      "kcal": 290,
+      "proteines": 10,
+      "glucides": 35,
+      "lipides": 12
+    }
   },
   {
     "id": "poelee-pommes-de-terre-oignons",
@@ -12385,7 +14899,23 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 250,
+      "proteines": 8,
+      "glucides": 24,
+      "lipides": 12
+    }
   },
   {
     "id": "riz-blanc-rapide",
@@ -12460,7 +14990,23 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 510,
+      "proteines": 18,
+      "glucides": 60,
+      "lipides": 16
+    }
   },
   {
     "id": "pates-beurre-fromage",
@@ -12550,7 +15096,32 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien"
+    ],
+    "allergens": [
+      "gluten",
+      "lactose"
+    ],
+    "substitutions": [
+      "farine de blé → farine de riz, maïs ou sarrasin",
+      "pâtes classiques → pâtes sans gluten",
+      "chapelure → chapelure sans gluten",
+      "lait → boisson végétale",
+      "crème → crème végétale",
+      "beurre → huile d’olive ou margarine végétale"
+    ],
+    "macros": {
+      "kcal": 560,
+      "proteines": 22,
+      "glucides": 58,
+      "lipides": 22
+    }
   },
   {
     "id": "compote-express",
@@ -12620,6 +15191,22 @@
       "Lis toute la fiche avant de commencer.",
       "Prépare les ingrédients avant de lancer la cuisson.",
       "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ]
+    ],
+    "goalTags": [
+      "plaisir"
+    ],
+    "dietTags": [
+      "omnivore",
+      "vegetarien",
+      "vegan"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {
+      "kcal": 320,
+      "proteines": 5,
+      "glucides": 38,
+      "lipides": 16
+    }
   }
 ]

@@ -1,172 +1,208 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>FAFATRAINING Recettes V7</title>
-  <meta name="theme-color" content="#ff7a18">
-  <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAFATRAINING Recettes & Nutrition</title>
+  <meta name="theme-color" content="#39ff14" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="app">
-  <header class="hero">
-    <div>
-      <span class="hero-badge">FAFATRAINING · RECETTES V7 PRO MAX</span>
-      <h1>App recettes coach + famille</h1>
-      <p>Double mode Thermomix TM6 / cuisine classique, recettes détaillées, système frigo intelligent, liste de courses, recettes perso et bibliothèque variée.</p>
-      <div class="mode-row">
-        <select id="modeSelect" onchange="setMode(this.value)">
-          <option value="tm6">Mode Thermomix TM6</option>
-          <option value="classic">Mode cuisine classique</option>
-        </select>
-        <span class="mode-badge" id="modeBadge">🤖 Mode Thermomix TM6</span>
-      </div>
-    </div>
-    <div class="hero-cards">
-      <div class="stat"><div class="n" id="recipeCount">0</div><div>recettes</div></div>
-      <div class="stat"><div class="n">2</div><div>modes de cuisson</div></div>
-      <div class="stat"><div class="n">Frigo</div><div>exact, adaptable, simple</div></div>
-      <div class="stat"><div class="n">Courses</div><div>liste automatique</div></div>
-    </div>
-  </header>
+  <div class="app-shell">
+    <header class="hero">
+      <div class="hero-left">
+        <div class="brand-line">FAFATRAINING · RECETTES & NUTRITION V9</div>
+        <h1>Bien manger, simplement. Que tu sois sportif… ou juste gourmand.</h1>
+        <p class="hero-copy">Une app pensée pour tout le monde : cuisine classique, Thermomix TM6, objectifs personnalisés, allergies, substitutions et recettes intelligentes.</p>
 
-  <div class="layout">
-    <aside class="sidebar">
-      <h2 class="section">Recherche rapide</h2>
-      <div class="group">
-        <label>Mot-clé</label>
-        <input id="searchInput" type="text" placeholder="poulet, soupe, citron, protéiné..." oninput="applyFilters()">
+        <div class="hero-pills" id="heroPills">
+          <span class="pill active">Universelle</span>
+          <span class="pill">Intelligente</span>
+          <span class="pill">Inclusive</span>
+          <span class="pill">FAFATRAINING</span>
+        </div>
       </div>
-      <div class="group">
-        <label>Catégorie</label>
-        <select id="categorySelect" onchange="applyFilters()"></select>
-        <div id="quickCats"></div>
+      <div class="hero-right">
+        <img src="logo.jpg" alt="Logo FAFATRAINING" class="hero-logo" />
       </div>
-      <div class="group">
-        <label>Objectif</label>
-        <select id="goalSelect" onchange="applyFilters()">
-          <option value="">Tous les objectifs</option>
-          <option value="Protéiné">Protéiné</option>
-          <option value="Perte de poids">Perte de poids</option>
-          <option value="Batch cooking">Batch cooking</option>
-          <option value="Snack sain">Snack sain</option>
-          <option value="meal prep">Meal prep</option>
-          <option value="musculation">Musculation</option>
-          <option value="fruit">Fruits</option>
-        </select>
-      </div>
-      <div class="group">
-        <label><input id="favoritesOnly" type="checkbox" onchange="applyFilters()"> Afficher seulement mes favoris</label>
-      </div>
-      <div class="group">
-        <label>Portions</label>
-        <input id="servingsInput" type="number" min="1" value="4">
-      </div>
-      <div class="panel">
-        <h3>Ouvert récemment</h3>
-        <div id="recentList"></div>
-      </div>
-    </aside>
+    </header>
 
-    <main class="content">
-      <div class="tabs">
-        <button class="tab-btn active" data-tab="tab-biblio" onclick="openTab('tab-biblio')">📚 Bibliothèque</button>
-        <button class="tab-btn" data-tab="tab-fridge" onclick="openTab('tab-fridge')">🧊 J’ai quoi dans mon frigo ?</button>
-        <button class="tab-btn" data-tab="tab-courses" onclick="openTab('tab-courses')">🛒 Liste de courses</button>
-        <button class="tab-btn" data-tab="tab-custom" onclick="openTab('tab-custom')">✍️ Mes recettes</button>
-      </div>
+    <section class="top-stats">
+      <div class="stat-card"><strong id="statRecipes">0</strong><span>recettes</span></div>
+      <div class="stat-card"><strong>2</strong><span>modes de cuisson</span></div>
+      <div class="stat-card"><strong>Profils</strong><span>grand public & coach</span></div>
+      <div class="stat-card"><strong>Substitutions</strong><span>allergies & régimes</span></div>
+    </section>
 
-      <section id="tab-biblio" class="tab-content active">
-        <div id="recipesGrid" class="grid"></div>
-      </section>
+    <main class="main-layout">
+      <aside class="sidebar">
+        <div class="panel">
+          <h2>Profil intelligent</h2>
 
-      <section id="tab-fridge" class="tab-content">
-        <div class="dual">
-          <div class="panel">
-            <h3>Sélectionne tes ingrédients</h3>
-            <p class="meta">L’app te montre ensuite des recettes exactes, adaptables, ou très simples si tu as peu d’ingrédients.</p>
-            <div id="fridgeList"></div>
-            <div style="margin-top:10px"><button class="ghost" onclick="clearFridge()">Réinitialiser</button></div>
-          </div>
-          <div class="panel">
-            <h3>Résultats intelligents</h3>
-            <div id="fridgeMatches"></div>
+          <label>Mon profil</label>
+          <select id="profileSelect">
+            <option value="simple">Cuisine simple / quotidien</option>
+            <option value="equilibre">Rééquilibrage alimentaire</option>
+            <option value="perte_de_poids">Perte de poids</option>
+            <option value="performance">Sport / performance</option>
+            <option value="coach">Coach — accès complet</option>
+          </select>
+
+          <label>Mode de cuisson</label>
+          <select id="modeSelect">
+            <option value="classic">Cuisine classique</option>
+            <option value="tm6">Thermomix TM6</option>
+          </select>
+
+          <label>Objectif principal</label>
+          <select id="goalSelect">
+            <option value="">Tous les objectifs</option>
+            <option value="plaisir">Plaisir / famille</option>
+            <option value="equilibre">Équilibre alimentaire</option>
+            <option value="perte_de_poids">Perte de poids</option>
+            <option value="performance">Performance / prise de masse</option>
+          </select>
+
+          <label>Recherche</label>
+          <input type="text" id="searchInput" placeholder="Poulet, soupe, sans gluten, riz…" />
+
+          <label>Catégorie</label>
+          <select id="categorySelect"></select>
+
+          <div class="chips-title">Préférences / exclusions</div>
+          <div class="chip-group" id="restrictionChips"></div>
+
+          <div class="chips-title">Objectifs visuels</div>
+          <div class="legend">
+            <span class="legend-item legend-loss">Perte de poids</span>
+            <span class="legend-item legend-balance">Équilibre</span>
+            <span class="legend-item legend-performance">Performance</span>
+            <span class="legend-item legend-pleasure">Plaisir</span>
           </div>
         </div>
-      </section>
 
-      <section id="tab-courses" class="tab-content">
-        <div class="panel">
-          <h3>Recettes sélectionnées</h3>
-          <p class="meta">Depuis une fiche recette, appuie sur “Ajouter aux courses”.</p>
-          <div id="plannerList"></div>
-        </div>
-        <div class="panel" style="margin-top:14px">
-          <h3>Liste de courses automatique</h3>
-          <div id="shoppingOutput"></div>
-        </div>
-      </section>
+        <div class="panel coach-panel" id="coachPanel">
+          <h2>Calculs nutrition</h2>
+          <p class="small-note">Basé sur l’IMC et Mifflin-St Jeor pour l’estimation calorique.</p>
 
-      <section id="tab-custom" class="tab-content">
-        <div class="panel">
-          <h3>Ajouter une recette perso</h3>
-          <form id="customForm" onsubmit="event.preventDefault();addCustomRecipe();">
-            <div class="dual">
-              <div class="group"><label>Nom</label><input id="newName" type="text"></div>
-              <div class="group"><label>Catégorie</label><select id="newCategory"></select></div>
+          <div class="form-grid">
+            <div>
+              <label>Sexe</label>
+              <select id="sexInput">
+                <option value="male">Homme</option>
+                <option value="female">Femme</option>
+              </select>
             </div>
-            <div class="dual">
-              <div class="group"><label>Portions</label><input id="newServings" type="number" min="1" value="4"></div>
-              <div class="group"><label>Emoji</label><input id="newEmoji" type="text" value="🍽️"></div>
+            <div>
+              <label>Âge</label>
+              <input type="number" id="ageInput" min="10" value="30" />
             </div>
-            <div class="dual">
-              <div class="group"><label>Couleur</label><input id="newColor" type="text" value="#ff7a18"></div>
-              <div class="group"><label>Tags (séparés par des virgules)</label><input id="newTags" type="text" placeholder="rapide, famille, sport"></div>
+            <div>
+              <label>Taille (cm)</label>
+              <input type="number" id="heightInput" min="100" value="175" />
             </div>
-            <div class="group">
-              <label>Ingrédients — un par ligne : nom | quantité | unité</label>
-              <textarea id="newIngredients" placeholder="poulet | 500 | g
-riz | 250 | g
-oignon | 1 | pièce"></textarea>
+            <div>
+              <label>Poids (kg)</label>
+              <input type="number" id="weightInput" min="30" value="75" />
             </div>
-            <div class="group">
-              <label>Étapes — une par ligne : titre | détail | durée en secondes</label>
-              <textarea id="newSteps" placeholder="Préparation | Coupe les ingrédients et prépare le bol. | 120
-Cuisson | Lance 12 min / 100°C / vitesse 1. | 720"></textarea>
+            <div>
+              <label>Activité</label>
+              <select id="activityInput">
+                <option value="1.2">Sédentaire</option>
+                <option value="1.375">Légère</option>
+                <option value="1.55" selected>Modérée</option>
+                <option value="1.725">Intense</option>
+                <option value="1.9">Très intense</option>
+              </select>
             </div>
-            <div style="display:flex;gap:8px;flex-wrap:wrap">
-              <button type="submit">Enregistrer la recette</button>
-              <button type="button" class="ghost" onclick="exportRecipes()">Exporter mes recettes</button>
-              <label class="ghost" style="display:inline-flex;align-items:center;padding:11px 14px;border-radius:14px;cursor:pointer">
-                Importer un JSON
-                <input type="file" accept=".json,application/json" style="display:none" onchange="importRecipes(event)">
-              </label>
-            </div>
-          </form>
+          </div>
+
+          <button class="action-btn" id="calcBtn">Calculer</button>
+
+          <div class="calc-grid">
+            <div class="calc-box"><span>IMC</span><strong id="imcValue">—</strong></div>
+            <div class="calc-box"><span>Métabolisme</span><strong id="bmrValue">—</strong></div>
+            <div class="calc-box"><span>Dépense / jour</span><strong id="tdeeValue">—</strong></div>
+            <div class="calc-box"><span>Objectif</span><strong id="targetValue">—</strong></div>
+          </div>
         </div>
+      </aside>
+
+      <section class="content">
+        <div class="toolbar">
+          <button class="tab-btn active" data-tab="recipesTab">Bibliothèque</button>
+          <button class="tab-btn" data-tab="fridgeTab">J’ai ce qu’il faut</button>
+          <button class="tab-btn" data-tab="shoppingTab">Liste de courses</button>
+          <button class="tab-btn" data-tab="aboutTab">Substitutions</button>
+        </div>
+
+        <section class="tab active" id="recipesTab">
+          <div class="section-head">
+            <div>
+              <h2 id="dynamicTitle">Bibliothèque complète</h2>
+              <p id="dynamicSubline">Des recettes filtrées selon ton mode de cuisson, ton profil et tes préférences.</p>
+            </div>
+            <div class="mode-badge-wrap">
+              <span class="mode-badge" id="modeBadge">Cuisine classique</span>
+            </div>
+          </div>
+          <div id="recipesGrid" class="recipes-grid"></div>
+        </section>
+
+        <section class="tab" id="fridgeTab">
+          <div class="section-head">
+            <div>
+              <h2>J’ai ce qu’il faut</h2>
+              <p>Choisis ce que tu as chez toi. L’app te propose des recettes exactes, adaptables ou très simples.</p>
+            </div>
+            <button class="ghost-btn" id="clearFridgeBtn">Réinitialiser</button>
+          </div>
+          <div id="fridgeIngredientList" class="ingredient-cloud"></div>
+          <div id="fridgeResults" class="fridge-results"></div>
+        </section>
+
+        <section class="tab" id="shoppingTab">
+          <div class="section-head">
+            <div>
+              <h2>Liste de courses</h2>
+              <p>Ajoute des recettes pour générer automatiquement tes achats.</p>
+            </div>
+            <div class="flex-row">
+              <button class="ghost-btn" id="copyShoppingBtn">Copier</button>
+              <button class="ghost-btn" id="clearShoppingBtn">Vider</button>
+            </div>
+          </div>
+          <div id="shoppingRecipes" class="shopping-recipes"></div>
+          <div id="shoppingList" class="shopping-list"></div>
+        </section>
+
+        <section class="tab" id="aboutTab">
+          <div class="section-head">
+            <div>
+              <h2>Substitutions intelligentes</h2>
+              <p>Des alternatives pratiques pour s’adapter aux allergies, régimes et préférences alimentaires.</p>
+            </div>
+          </div>
+          <div class="sub-grid" id="substitutionGrid"></div>
+        </section>
       </section>
     </main>
   </div>
-</div>
 
-<aside class="drawer" id="drawer">
-  <div class="drawer-panel">
-    <div class="drawer-top">
-      <strong>Fiche recette</strong>
-      <button class="ghost" onclick="closeDrawer()">Fermer ✕</button>
+  <div class="drawer" id="recipeDrawer">
+    <div class="drawer-inner">
+      <button class="drawer-close" id="closeDrawerBtn">✕</button>
+      <div id="drawerContent"></div>
     </div>
-    <div class="drawer-body" id="drawerContent"></div>
   </div>
-</aside>
 
-<script src="recipes.js"></script>
-<script src="app.js"></script>
-<script>
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', ()=> navigator.serviceWorker.register('./service-worker.js').catch(()=>{}));
-}
-</script>
+
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => navigator.serviceWorker.register('./service-worker.js').catch(() => {}));
+    }
+  </script>
 </body>
 </html>
