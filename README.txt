@@ -1,25 +1,21 @@
-FAFATRAINING Recettes V5 Final
+FAFATRAINING Recettes V7 PRO MAX
 
-Contenu :
-- index.html : application principale
-- recipes.json : bibliothèque de 56 recettes
-- recipes.js : données intégrées pour fonctionnement direct
-- app.js : logique de l’application
-- style.css : design
-- manifest.json + service-worker.js : installation PWA / hors ligne
-
-Fonctions :
-- bibliothèque de recettes
-- classement par catégorie / couleur
-- recherche
-- favoris
-- mode guidé étape par étape
-- minuteur automatique par étape
-- portions ajustables
-- "j’ai quoi dans mon frigo ?"
+Contenu principal :
+- 126 recettes intégrées
+- double mode : Thermomix TM6 / cuisine classique
+- recherche, catégories, objectifs, favoris
+- système frigo : recettes exactes, adaptables et simples
 - liste de courses automatique
-- ajout / suppression / export / import de recettes perso
+- recettes perso avec import / export
+- fonctionnement hors ligne via manifest + service worker
 
-Conseil :
-- pour une meilleure expérience, ouvre le dossier via un petit serveur local ou publie-le sur GitHub Pages.
-- l’app reste néanmoins utilisable en ouvrant index.html.
+Conseil mise à jour GitHub Pages :
+- remplace tous les fichiers existants par ceux de cette archive
+- attends le redéploiement automatique
+- si l’ancienne version reste affichée sur iPhone, recharge la page ou vide le cache Safari
+
+Vérifications faites :
+- JSON des recettes valide
+- identifiants uniques
+- fichiers principaux présents
+- ZIP généré
