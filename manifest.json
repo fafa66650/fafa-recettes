@@ -1,15 +1,23 @@
 {
-  "name":"FAFATRAINING Recettes",
-  "short_name":"FAFA Recettes",
-  "description":"Cuisine, recettes, menus, TM6, mon frigo et liste de courses.",
-  "start_url":"./index.html",
-  "scope":"./",
-  "display":"standalone",
-  "background_color":"#080b08",
-  "theme_color":"#10170d",
-  "lang":"fr",
-  "icons":[
-    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png"},
-    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png"}
+  "name": "FAFATRAINING Recettes",
+  "short_name": "FAFA Recettes",
+  "description": "Cuisine, recettes, menus, planning hebdomadaire, TM6, mon frigo et liste de courses.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#080b08",
+  "theme_color": "#10170d",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
   ]
 }
