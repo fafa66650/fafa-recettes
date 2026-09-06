@@ -1,0 +1,902 @@
+[
+  {
+    "id": "menu-fraicheur-verte",
+    "title": "Fraîcheur verte & saumon",
+    "subtitle": "Un menu frais, coloré et facile à sortir quand tu veux manger léger sans te compliquer.",
+    "recipes": [
+      "salade-avocat-concombre-radis-grenade",
+      "saumon-citron-aneth-au-four",
+      "fromage-blanc-de-brebis-mangue-kiwi-chia"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine légère",
+      "Cuisine maison"
+    ]
+  },
+  {
+    "id": "menu-batch-anti-charge",
+    "title": "Batch tranquille de la semaine",
+    "subtitle": "Un trio pratique pour préparer à l’avance et garder un vrai repas complet.",
+    "recipes": [
+      "houmous-maison-crudites",
+      "batch-poulet-pates-pesto-leger",
+      "compote-pomme-poire-vanille"
+    ],
+    "tags": [
+      "Menu complet",
+      "Batch cooking",
+      "Cuisine du quotidien"
+    ]
+  },
+  {
+    "id": "menu-soir-petit-budget",
+    "title": "Petit budget du soir",
+    "subtitle": "Des recettes simples et économiques pour cuisiner sans prise de tête.",
+    "recipes": [
+      "salade-chou-rouge-pomme-noix",
+      "chili-sin-carne",
+      "riz-au-lait-vanille"
+    ],
+    "tags": [
+      "Menu complet",
+      "Petit budget",
+      "Cuisine économique"
+    ]
+  },
+  {
+    "id": "menu-famille-qui-fait-plaisir",
+    "title": "Plaisir familial",
+    "subtitle": "Un repas qui parle à tout le monde à la maison, sans être compliqué à faire.",
+    "recipes": [
+      "taboule-de-boulgour-maison",
+      "poulet-provencal-au-four",
+      "gateau-moelleux-pomme-cannelle"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine familiale",
+      "Cuisine plaisir"
+    ]
+  },
+  {
+    "id": "menu-tm6-tout-simple",
+    "title": "TM6 sans prise de tête",
+    "subtitle": "Parfait pour cuisiner facilement avec le Thermomix du début à la fin.",
+    "recipes": [
+      "veloute-courgette-basilic",
+      "risotto-courgette-citron",
+      "flan-coco-vanille"
+    ],
+    "tags": [
+      "Menu complet",
+      "TM6",
+      "Cuisine facile"
+    ]
+  },
+  {
+    "id": "menu-proteine-midi",
+    "title": "Assiette protéinée du midi",
+    "subtitle": "Un repas complet pour manger rassasiant et équilibré.",
+    "recipes": [
+      "salade-poulet-avocat-quinoa",
+      "bowl-poulet-riz-brocoli",
+      "mousse-chocolat-legere"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine protéinée",
+      "Repas complet"
+    ]
+  },
+  {
+    "id": "menu-retour-de-sport",
+    "title": "Retour de séance",
+    "subtitle": "Des recettes adaptées à un repas post-effort, simples et efficaces.",
+    "recipes": [
+      "verrine-yaourt-grec-concombre-tomate",
+      "saumon-quinoa-courgette",
+      "yaourt-bowl-fruits-rouges-proteine"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine protéinée",
+      "Après sport"
+    ]
+  },
+  {
+    "id": "menu-vegetal-coco",
+    "title": "Végétal & coco",
+    "subtitle": "Un menu végétal plein de goût avec une touche douce et exotique.",
+    "recipes": [
+      "salade-de-pois-chiches-a-la-menthe",
+      "tofu-curry-coco",
+      "pudding-de-chia-au-lait-damande-fruits-rouges"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine végétale",
+      "Cuisine maison"
+    ]
+  },
+  {
+    "id": "menu-soleil-mediteranee",
+    "title": "Soleil méditerranéen",
+    "subtitle": "Des saveurs du sud, simples et très agréables au quotidien.",
+    "recipes": [
+      "carpaccio-de-betterave-orange",
+      "poulet-aubergine-facon-mediterraneenne",
+      "clafoutis-fruits-rouges"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine maison",
+      "Cuisine du quotidien"
+    ]
+  },
+  {
+    "id": "menu-rapide-bureau",
+    "title": "Rapide entre deux journées",
+    "subtitle": "Quand tu veux un repas complet et rapide à préparer.",
+    "recipes": [
+      "salade-grecque-complete",
+      "pates-ricotta-epinards",
+      "compote-express"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine express",
+      "Cuisine du quotidien"
+    ]
+  },
+  {
+    "id": "menu-poisson-douceur",
+    "title": "Poisson en douceur",
+    "subtitle": "Un repas léger et facile avec du poisson et des textures douces.",
+    "recipes": [
+      "salade-saumon-pomme-de-terre",
+      "cabillaud-citron-legumes-vapeur",
+      "yaourt-glace-fruits-rouges"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine légère",
+      "Poisson"
+    ]
+  },
+  {
+    "id": "menu-maison-classique",
+    "title": "Maison classique",
+    "subtitle": "Des recettes rassurantes et efficaces, à faire en cuisine classique.",
+    "recipes": [
+      "salade-ufs-pommes-de-terre",
+      "buf-mijote-carotte-pomme-de-terre",
+      "crumble-pomme-avoine"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine maison",
+      "Cuisine classique"
+    ]
+  },
+  {
+    "id": "menu-vegetarien-complet",
+    "title": "Végétarien complet",
+    "subtitle": "Un menu végétarien généreux qui reste simple à cuisiner.",
+    "recipes": [
+      "salade-lentilles-feta-betterave",
+      "curry-de-pois-chiches-epinards",
+      "cheesecake-leger-fruits-rouges"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine végétarienne",
+      "Repas complet"
+    ]
+  },
+  {
+    "id": "menu-dinde-quotidien",
+    "title": "Dinde du quotidien",
+    "subtitle": "Des recettes faciles pour varier au quotidien sans se lasser.",
+    "recipes": [
+      "salade-de-lentilles-vertes-concombre-poivron",
+      "dinde-citron-courgette",
+      "muffins-pomme-avoine"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine du quotidien",
+      "Cuisine facile"
+    ]
+  },
+  {
+    "id": "menu-express-fraicheur",
+    "title": "Fraîcheur express",
+    "subtitle": "Parfait l’été ou quand tu veux quelque chose de simple et rapide.",
+    "recipes": [
+      "salade-riz-crevettes-mangue",
+      "wok-crevettes-legumes-croquants",
+      "fromage-blanc-fruits-frais-graines"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine express",
+      "Cuisine légère"
+    ]
+  },
+  {
+    "id": "menu-brunch-sale-sucre",
+    "title": "Brunch salé sucré",
+    "subtitle": "Un format brunch complet, simple à refaire à la maison.",
+    "recipes": [
+      "salade-pois-chiches-avocat",
+      "omelette-feta-tomates-cerises",
+      "smoothie-bowl-fruits-rouges-banane-granola"
+    ],
+    "tags": [
+      "Menu complet",
+      "Brunch",
+      "Cuisine maison"
+    ]
+  },
+  {
+    "id": "menu-four-tranquille",
+    "title": "Tout au four",
+    "subtitle": "Un menu pratique avec beaucoup de cuisson au four et peu de surveillance.",
+    "recipes": [
+      "salade-thon-haricots-blancs",
+      "gratin-cabillaud-legumes",
+      "cake-au-citron"
+    ],
+    "tags": [
+      "Menu complet",
+      "Four",
+      "Cuisine facile"
+    ]
+  },
+  {
+    "id": "menu-cocooning-soupe",
+    "title": "Soirée cocooning",
+    "subtitle": "Un menu réconfortant avec soupe, plat simple et dessert maison.",
+    "recipes": [
+      "veloute-brocoli-pomme-de-terre",
+      "gratin-pommes-de-terre-poireaux",
+      "compote-pomme-cannelle"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cocooning",
+      "Cuisine maison"
+    ]
+  },
+  {
+    "id": "menu-proteine-poulet",
+    "title": "Poulet protéiné",
+    "subtitle": "Une base efficace pour ceux qui veulent un repas rassasiant et équilibré.",
+    "recipes": [
+      "salade-pates-poulet-pesto",
+      "bowl-proteine-quinoa-poulet",
+      "fromage-blanc-banane-fruits-rouges-miel"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine protéinée",
+      "Poulet"
+    ]
+  },
+  {
+    "id": "menu-festif-maison",
+    "title": "Festif à la maison",
+    "subtitle": "Quand tu veux cuisiner quelque chose d’un peu plus gourmand sans faire trop compliqué.",
+    "recipes": [
+      "tartine-ricotta-figues-miel-noix",
+      "filet-mignon-aux-champignons",
+      "brownie-fondant"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine plaisir",
+      "Cuisine maison"
+    ]
+  },
+  {
+    "id": "menu-leger-poisson",
+    "title": "Léger mais gourmand",
+    "subtitle": "Un équilibre sympa entre fraîcheur, satiété et gourmandise.",
+    "recipes": [
+      "salade-quinoa-pois-chiches",
+      "poisson-blanc-en-papillote",
+      "clafoutis-poire-amande"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine légère",
+      "Poisson"
+    ]
+  },
+  {
+    "id": "menu-cuisine-verte",
+    "title": "Cuisine verte facile",
+    "subtitle": "Des saveurs végétales accessibles, même sans être expert en cuisine.",
+    "recipes": [
+      "salade-croquante-aux-noix",
+      "quinoa-legumes-rotis-feta",
+      "crumble-poire-chocolat"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine végétale",
+      "Cuisine facile"
+    ]
+  },
+  {
+    "id": "menu-volaille-fournee",
+    "title": "Volaille au four",
+    "subtitle": "Une idée simple de repas complet avec volaille et dessert maison.",
+    "recipes": [
+      "verrine-yaourt-grec-concombre-tomate",
+      "gratin-patate-douce-poulet",
+      "riz-au-lait-vanille"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine familiale",
+      "Poulet & volaille"
+    ]
+  },
+  {
+    "id": "menu-saveurs-orient",
+    "title": "Saveurs orientales",
+    "subtitle": "Des goûts chauds et parfumés, faciles à remettre dans la semaine.",
+    "recipes": [
+      "houmous-maison-crudites",
+      "semoule-poulet-legumes",
+      "semoule-au-lait-cannelle"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine du monde",
+      "Cuisine maison"
+    ]
+  },
+  {
+    "id": "menu-omega-quinoa",
+    "title": "Saumon & quinoa",
+    "subtitle": "Une base saine et simple pour un repas complet.",
+    "recipes": [
+      "salade-avocat-concombre-radis-grenade",
+      "quinoa-saumon-avocat",
+      "compote-fruits-rouges-pomme"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine légère",
+      "Cuisine protéinée"
+    ]
+  },
+  {
+    "id": "menu-midi-boulgour",
+    "title": "Midi pratique au boulgour",
+    "subtitle": "Idéal pour préparer un repas complet sans trop de temps en cuisine.",
+    "recipes": [
+      "taboule-de-boulgour-maison",
+      "boulgour-dinde-tomate",
+      "flan-vanille-simple"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine du quotidien",
+      "Cuisine facile"
+    ]
+  },
+  {
+    "id": "menu-cabillaud-coco",
+    "title": "Cabillaud coco",
+    "subtitle": "Un menu parfumé avec une vraie sensation de repas complet.",
+    "recipes": [
+      "salade-de-pois-chiches-a-la-menthe",
+      "cabillaud-curry-coco",
+      "muffins-myrtilles-yaourt"
+    ],
+    "tags": [
+      "Menu complet",
+      "Poisson",
+      "Cuisine maison"
+    ]
+  },
+  {
+    "id": "menu-salade-plat-dessert-express",
+    "title": "Salade, plat, dessert express",
+    "subtitle": "Quand tu veux quelque chose de varié et rapide à organiser.",
+    "recipes": [
+      "salade-grecque-complete",
+      "pates-thon-capres-citron",
+      "fromage-blanc-fruits-frais-graines"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine express",
+      "Cuisine du quotidien"
+    ]
+  },
+  {
+    "id": "menu-soupe-proteinee",
+    "title": "Soupe & protéines",
+    "subtitle": "Une version plus légère mais rassasiante pour le soir.",
+    "recipes": [
+      "soupe-lentilles-corail-proteinee",
+      "omelette-dinde-poivrons",
+      "compotee-pomme-cannelle-yaourt-de-brebis"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine protéinée",
+      "Soir"
+    ]
+  },
+  {
+    "id": "menu-vege-confort",
+    "title": "Végé réconfort",
+    "subtitle": "De la cuisine simple, chaude et agréable à refaire souvent.",
+    "recipes": [
+      "salade-lentilles-feta-betterave",
+      "parmentier-de-lentilles",
+      "mousse-chocolat-legere"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine végétale",
+      "Cocooning"
+    ]
+  },
+  {
+    "id": "menu-crevettes-gingembre",
+    "title": "Crevettes & fraîcheur",
+    "subtitle": "Un menu léger et parfumé, facile à préparer.",
+    "recipes": [
+      "salade-riz-crevettes-mangue",
+      "crevettes-courgette-gingembre",
+      "yaourt-grec-fruits-rouges-amandes-coco"
+    ],
+    "tags": [
+      "Menu complet",
+      "Poisson",
+      "Cuisine légère"
+    ]
+  },
+  {
+    "id": "menu-poulet-soleil",
+    "title": "Poulet soleil",
+    "subtitle": "Des saveurs chaleureuses et familières pour un repas complet.",
+    "recipes": [
+      "salade-pois-chiches-avocat",
+      "poulet-coco-ananas",
+      "cake-banane-chocolat"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine plaisir",
+      "Poulet & volaille"
+    ]
+  },
+  {
+    "id": "menu-legumes-rotis",
+    "title": "Légumes rôtis du jour",
+    "subtitle": "Simple, coloré et facile à adapter selon ce qu’il reste à la maison.",
+    "recipes": [
+      "carpaccio-de-betterave-orange",
+      "millet-legumes-rotis",
+      "clafoutis-fruits-rouges"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine végétale",
+      "Cuisine maison"
+    ]
+  },
+  {
+    "id": "menu-wok-rapide",
+    "title": "Wok rapide",
+    "subtitle": "Pour ceux qui veulent cuisiner vite sans tomber dans du fade.",
+    "recipes": [
+      "salade-thon-haricots-blancs",
+      "buf-courgette-facon-wok",
+      "fromage-blanc-banane-fruits-rouges-miel"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine express",
+      "Viandes"
+    ]
+  },
+  {
+    "id": "menu-douceur-matin",
+    "title": "Réveil douceur",
+    "subtitle": "Une idée de menu très simple autour du petit-déjeuner et du léger.",
+    "recipes": [
+      "bowl-yaourt-kiwi-granola",
+      "omelette-proteinee-epinards",
+      "smoothie-mangue-coco"
+    ],
+    "tags": [
+      "Menu complet",
+      "Petit-déjeuner",
+      "Cuisine facile"
+    ]
+  },
+  {
+    "id": "menu-classique-equilibre",
+    "title": "Classique équilibré",
+    "subtitle": "Un menu très facile à comprendre et à refaire pour presque tout le monde.",
+    "recipes": [
+      "salade-de-lentilles-vertes-concombre-poivron",
+      "poulet-citron-ail",
+      "compote-poire-pomme"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine classique",
+      "Cuisine facile"
+    ]
+  },
+  {
+    "id": "menu-gourmand-leger",
+    "title": "Gourmand sans lourdeur",
+    "subtitle": "Le bon compromis quand tu veux te faire plaisir sans exagérer.",
+    "recipes": [
+      "salade-chou-rouge-pomme-noix",
+      "cabillaud-tomate-basilic",
+      "cheesecake-leger-fruits-rouges"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine plaisir",
+      "Cuisine légère"
+    ]
+  },
+  {
+    "id": "menu-weekend-maison",
+    "title": "Week-end maison",
+    "subtitle": "Pour prendre un peu plus le temps de cuisiner, sans faire compliqué.",
+    "recipes": [
+      "tartine-ricotta-figues-miel-noix",
+      "lasagnes-poulet-courgette",
+      "tiramisu-cafe"
+    ],
+    "tags": [
+      "Menu complet",
+      "Week-end",
+      "Cuisine maison"
+    ]
+  },
+  {
+    "id": "menu-air-fryer-friendly",
+    "title": "Air fryer & compagnie",
+    "subtitle": "Des recettes faciles à adapter avec d’autres appareils à la maison.",
+    "recipes": [
+      "salade-pois-chiches-avocat",
+      "poisson-blanc-moutarde",
+      "muffins-myrtilles"
+    ],
+    "tags": [
+      "Menu complet",
+      "Autre appareil",
+      "Cuisine facile"
+    ]
+  },
+  {
+    "id": "menu-minceur-simple",
+    "title": "Simple & léger",
+    "subtitle": "Une formule claire pour celles et ceux qui veulent aller à l’essentiel.",
+    "recipes": [
+      "salade-quinoa-pois-chiches",
+      "bol-minceur-quinoa-legumes",
+      "compote-pomme-poire-vanille"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine légère",
+      "Repas simple"
+    ]
+  },
+  {
+    "id": "menu-douceur-enfant-famille",
+    "title": "Famille douceur",
+    "subtitle": "Des goûts doux, simples et accessibles.",
+    "recipes": [
+      "salade-ufs-pommes-de-terre",
+      "riz-poulet-petits-pois",
+      "flan-vanille-simple"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine familiale",
+      "Cuisine facile"
+    ]
+  },
+  {
+    "id": "menu-coco-exotique",
+    "title": "Évasion coco",
+    "subtitle": "Des saveurs coco et citron vert du début à la fin.",
+    "recipes": [
+      "smoothie-ananas-coco-citron-vert",
+      "poulet-coco-citron-vert",
+      "panna-cotta-coco-fruits-rouges"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine du monde",
+      "Cuisine plaisir"
+    ]
+  },
+  {
+    "id": "menu-poisson-four-facile",
+    "title": "Poisson au four facile",
+    "subtitle": "Un menu simple avec peu de surveillance.",
+    "recipes": [
+      "salade-croquante-aux-noix",
+      "dorade-au-four-citron-tomates",
+      "pommes-au-four-cannelle"
+    ],
+    "tags": [
+      "Menu complet",
+      "Four",
+      "Cuisine facile"
+    ]
+  },
+  {
+    "id": "menu-vege-quotidien",
+    "title": "Végé du quotidien",
+    "subtitle": "Un menu végétal rassasiant et accessible.",
+    "recipes": [
+      "houmous-maison-crudites",
+      "pois-chiches-tomate-epinards",
+      "mousse-yaourt-citron"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine végétale",
+      "Cuisine du quotidien"
+    ]
+  },
+  {
+    "id": "menu-poulet-famille-four",
+    "title": "Poulet familial au four",
+    "subtitle": "Un repas simple à partager à plusieurs.",
+    "recipes": [
+      "salade-grecque-complete",
+      "poulet-citron-olives-pommes-de-terre",
+      "gateau-au-yaourt-citron"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine familiale",
+      "Four"
+    ]
+  },
+  {
+    "id": "menu-soir-soupe-douceur",
+    "title": "Soupe & douceur du soir",
+    "subtitle": "Un repas chaud et léger pour le soir.",
+    "recipes": [
+      "veloute-courgette-chevre",
+      "tartines-fromage-frais-saumon",
+      "poires-chocolat-amandes"
+    ],
+    "tags": [
+      "Menu complet",
+      "Soir",
+      "Cuisine facile"
+    ]
+  },
+  {
+    "id": "menu-proteine-express",
+    "title": "Protéiné express",
+    "subtitle": "Des recettes rapides avec un bon apport en protéines.",
+    "recipes": [
+      "bowl-skyr-banane-cacao",
+      "crevettes-paprika-ail",
+      "mousse-yaourt-citron"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine protéinée",
+      "Cuisine express"
+    ]
+  },
+  {
+    "id": "menu-petit-budget-vege",
+    "title": "Végé petit budget",
+    "subtitle": "Des produits simples, peu coûteux et faciles à cuisiner.",
+    "recipes": [
+      "salade-de-pois-chiches-a-la-menthe",
+      "haricots-blancs-tomate-sauge",
+      "compote-pomme-cannelle"
+    ],
+    "tags": [
+      "Menu complet",
+      "Petit budget",
+      "Cuisine végétale"
+    ]
+  },
+  {
+    "id": "menu-saveurs-asie",
+    "title": "Saveurs d’Asie faciles",
+    "subtitle": "Un menu parfumé avec des cuissons rapides.",
+    "recipes": [
+      "salade-riz-crevettes-mangue",
+      "tofu-cacahuete-brocoli",
+      "sorbet-mangue-express"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine du monde",
+      "Cuisine facile"
+    ]
+  },
+  {
+    "id": "menu-poisson-coco",
+    "title": "Poisson coco & citron vert",
+    "subtitle": "Un repas doux et parfumé.",
+    "recipes": [
+      "salade-avocat-concombre-radis-grenade",
+      "colin-coco-citron-vert",
+      "chia-pudding-mangue-coco"
+    ],
+    "tags": [
+      "Menu complet",
+      "Poisson",
+      "Cuisine du monde"
+    ]
+  },
+  {
+    "id": "menu-cocooning-automne",
+    "title": "Cocooning d’automne",
+    "subtitle": "Des recettes chaudes et réconfortantes.",
+    "recipes": [
+      "veloute-potimarron-chataigne",
+      "gratin-quinoa-brocoli",
+      "crumble-pomme-avoine"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cocooning",
+      "Cuisine maison"
+    ]
+  },
+  {
+    "id": "menu-pique-nique",
+    "title": "Pique-nique facile",
+    "subtitle": "Des recettes pratiques à transporter ou à manger froides.",
+    "recipes": [
+      "taboule-de-boulgour-maison",
+      "boulettes-de-dinde-menthe-citron",
+      "tarte-fine-aux-pommes"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine facile",
+      "À emporter"
+    ]
+  },
+  {
+    "id": "menu-tm6-chaud",
+    "title": "TM6 chaud & maison",
+    "subtitle": "Un menu où le TM6 aide vraiment sur les préparations.",
+    "recipes": [
+      "veloute-tomate-poivron",
+      "curry-lentilles-patate-douce",
+      "creme-vanille-maizena"
+    ],
+    "tags": [
+      "Menu complet",
+      "TM6",
+      "Cuisine maison"
+    ]
+  },
+  {
+    "id": "menu-fraicheur-boissons",
+    "title": "Fraîcheur & hydratation",
+    "subtitle": "Un menu léger avec une boisson fraîche en complément.",
+    "recipes": [
+      "eau-fraise-basilic",
+      "salade-quinoa-pois-chiches",
+      "saumon-epinards-creme-legere"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine légère",
+      "Hydratation"
+    ]
+  },
+  {
+    "id": "menu-repas-minute",
+    "title": "Repas presque minute",
+    "subtitle": "Quand tu as peu de temps mais que tu veux quand même cuisiner.",
+    "recipes": [
+      "smoothie-pomme-kiwi-citron",
+      "thon-frais-au-sesame",
+      "mousse-yaourt-citron"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine express",
+      "Cuisine facile"
+    ]
+  },
+  {
+    "id": "menu-gratin-maison",
+    "title": "Gratin maison",
+    "subtitle": "Un vrai repas familial et généreux.",
+    "recipes": [
+      "salade-chou-rouge-pomme-noix",
+      "gratin-quinoa-brocoli",
+      "gateau-carotte-noix"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine familiale",
+      "Cuisine maison"
+    ]
+  },
+  {
+    "id": "menu-poulet-cremeux",
+    "title": "Poulet crémeux & légumes",
+    "subtitle": "Un menu simple et gourmand autour du poulet.",
+    "recipes": [
+      "salade-de-lentilles-vertes-concombre-poivron",
+      "poulet-estragon-creme-legere",
+      "poires-chocolat-amandes"
+    ],
+    "tags": [
+      "Menu complet",
+      "Poulet & volaille",
+      "Cuisine maison"
+    ]
+  },
+  {
+    "id": "menu-brunch-doux",
+    "title": "Brunch douceur",
+    "subtitle": "Petit-déjeuner tardif, simple et varié.",
+    "recipes": [
+      "cafe-frappe-banane-cacao",
+      "pancakes-pomme-cannelle",
+      "bowl-skyr-banane-cacao"
+    ],
+    "tags": [
+      "Menu complet",
+      "Brunch",
+      "Cuisine plaisir"
+    ]
+  },
+  {
+    "id": "menu-vegetal-four",
+    "title": "Végétal au four",
+    "subtitle": "Des préparations faciles à cuire au four.",
+    "recipes": [
+      "salade-croquante-aux-noix",
+      "falafels-au-four",
+      "pommes-au-four-cannelle"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine végétale",
+      "Four"
+    ]
+  },
+  {
+    "id": "menu-smoothie-brunch",
+    "title": "Brunch smoothie & salé",
+    "subtitle": "Un brunch simple avec boisson fraîche, salé et douceur.",
+    "recipes": [
+      "smoothie-peche-framboise-yaourt",
+      "ufs-cocotte-epinards",
+      "banana-bread-aux-noix"
+    ],
+    "tags": [
+      "Menu complet",
+      "Brunch",
+      "Cuisine facile"
+    ]
+  }
+]
