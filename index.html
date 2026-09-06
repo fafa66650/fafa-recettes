@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#10170d">
-  <meta name="description" content="FAFATRAINING Recettes — cuisine simple, menus, TM6, cuisine classique, mon frigo et liste de courses.">
+  <meta name="description" content="FAFATRAINING Recettes — cuisine simple, menus, TM6, ustensiles du quotidien, mon frigo et liste de courses.">
   <title>FAFATRAINING Recettes</title>
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="style.css">
@@ -21,6 +21,7 @@
       </button>
     </div>
     <div class="top-actions">
+      <button id="surpriseTopBtn" class="icon-btn" aria-label="Je ne sais pas quoi manger" title="Surprends-moi">🎲</button>
       <button id="favoriteTopBtn" class="icon-btn" aria-label="Voir mes favoris" title="Favoris">♡</button>
       <button id="settingsBtn" class="icon-btn" aria-label="Préférences" title="Préférences">⚙</button>
     </div>
@@ -28,71 +29,73 @@
 
   <main class="app-main">
     <section id="page-home" class="page active" data-page="home">
-      <section class="home-hero">
+      <section class="home-hero home-hero-v13">
         <div class="hero-copy">
           <div class="eyebrow">FAFATRAINING · CUISINE & NUTRITION</div>
           <h1>Qu’est-ce qu’on cuisine aujourd’hui&nbsp;?</h1>
-          <p>Des recettes simples, gourmandes ou plus travaillées, pensées pour le <strong>TM6</strong>, la cuisine à la casserole / poêle / four, ou d’autres appareils du quotidien.</p>
+          <p>Choisis une envie, ton matériel ou ce qu’il reste dans ton frigo. L’application te guide ensuite sans te noyer sous les options.</p>
           <div class="hero-search-wrap">
             <span class="search-icon">⌕</span>
             <input id="homeSearch" type="search" placeholder="Poulet, riz, soupe, smoothie, chocolat…" autocomplete="off">
             <button id="homeSearchBtn" class="search-go">Chercher</button>
           </div>
-          <div class="section-mini-title">Comment tu cuisines&nbsp;?</div>
-          <div class="hero-mode-cards" id="heroModeButtons" aria-label="Mode de préparation"></div>
-          <p class="hero-help">TM6 = pas à pas Thermomix · Cuisine classique = casserole, poêle, four · Autre appareil = blender, air fryer, multicuiseur, robot perso…</p>
+
+          <div class="main-choice-grid" aria-label="Choix principal">
+            <button class="main-choice main-choice-recipes" data-nav="recipes"><span>🍽️</span><strong>Trouver une recette</strong><small>Recherche, catégories et idées rapides</small></button>
+            <button class="main-choice main-choice-fridge" data-nav="fridge"><span>🧺</span><strong>Cuisiner avec ce que j’ai</strong><small>Pars de ton frigo et de tes placards</small></button>
+            <button class="main-choice main-choice-menu" data-nav="menus"><span>📋</span><strong>Choisir un menu</strong><small>Entrée, plat et dessert déjà organisés</small></button>
+          </div>
+
+          <div class="preferred-mode-line">
+            <span>Mon mode préféré</span>
+            <div class="hero-mode-cards compact-modes" id="heroModeButtons" aria-label="Mode de préparation"></div>
+          </div>
         </div>
 
-        <div class="hero-side">
-          <div class="hero-visual">
-            <img src="assets/recipes/smoothie-recup.jpg" alt="Univers cuisine FAFATRAINING">
-            <div class="hero-visual-badge">Ton univers cuisine FAFATRAINING</div>
-          </div>
-          <div class="hero-stats">
-            <article class="stat-card">
-              <strong id="homeRecipeCount">0</strong>
-              <span>recettes</span>
-            </article>
-            <article class="stat-card">
-              <strong id="homeMenuCount">0</strong>
-              <span>menus</span>
-            </article>
-            <article class="stat-card">
-              <strong id="homeCategoryCount">0</strong>
-              <span>familles</span>
-            </article>
+        <div class="hero-side hero-side-character">
+          <div class="hero-character-panel">
+            <img src="assets/characters/hero-character.jpg" alt="Personnage FAFATRAINING">
+            <div class="character-caption"><strong>FAFATRAINING</strong><span>Ta cuisine, à ton rythme.</span></div>
           </div>
         </div>
       </section>
 
+      <section class="section-block" id="forYouSection">
+        <div class="section-title-row"><div><span class="kicker">POUR TOI</span><h2>Des idées qui te ressemblent</h2><p class="section-subtitle">Le choix s’adapte progressivement à tes favoris, ton matériel et ce que tu consultes.</p></div></div>
+        <div class="featured-grid" id="forYouGrid"></div>
+      </section>
+
+      <section class="section-block surprise-section">
+        <div class="surprise-card">
+          <div><span class="kicker">PAS D’IDÉE ?</span><h2>Je ne sais pas quoi manger</h2><p>Un clic et je te propose 3 idées compatibles avec tes préférences.</p></div>
+          <button id="surpriseBtn" class="primary-btn">Me proposer 3 idées</button>
+        </div>
+        <div id="surpriseGrid" class="featured-grid hidden"></div>
+      </section>
+
       <section class="section-block">
-        <div class="section-title-row"><div><span class="kicker">ACCÈS RAPIDE</span><h2>Commence simplement</h2></div></div>
-        <div class="quick-action-grid">
-          <button class="quick-card" data-nav="recipes"><strong>Toutes les recettes</strong><small>Parcourir tout le catalogue</small></button>
-          <button class="quick-card" data-nav="menus"><strong>Idées de menus</strong><small>Des repas complets déjà prêts</small></button>
-          <button class="quick-card" data-nav="fridge"><strong>Avec ce que j’ai</strong><small>Trouve quoi cuisiner avec ton frigo</small></button>
-          <button class="quick-card" data-quick-category="Boissons & smoothies"><strong>Boissons & smoothies</strong><small>Hydratation, petit-déj, récup</small></button>
+        <div class="section-title-row"><div><span class="kicker">ACCÈS RAPIDES</span><h2>Quand tu veux aller droit au but</h2></div></div>
+        <div class="quick-action-grid compact-quick">
+          <button class="quick-card" data-quick-time="20"><strong>⏱ Moins de 20 min</strong><small>Quand tu veux cuisiner vite</small></button>
+          <button class="quick-card" data-home-style="Cuisine facile"><strong>👌 Cuisine facile</strong><small>Peu d’étapes, gestes simples</small></button>
+          <button class="quick-card" data-quick-category="Boissons & smoothies"><strong>🥤 Boissons & smoothies</strong><small>Hydratation, petit-déj, récupération</small></button>
+          <button class="quick-card" data-quick-protein="1"><strong>💪 Repas protéinés</strong><small>Des recettes plus riches en protéines</small></button>
         </div>
       </section>
 
       <section class="section-block">
-        <div class="section-title-row"><div><span class="kicker">CHOISIS TON STYLE</span><h2>Tu veux cuisiner comment&nbsp;?</h2></div></div>
-        <div class="style-grid" id="homeStyleChips"></div>
-      </section>
-
-      <section class="section-block">
-        <div class="section-title-row"><div><span class="kicker">À LA UNE</span><h2>Recettes FAFATRAINING</h2></div><button class="text-btn" data-nav="recipes">Tout voir</button></div>
+        <div class="section-title-row"><div><span class="kicker">INSPIRATION</span><h2>À découvrir maintenant</h2></div><button class="text-btn" data-nav="recipes">Tout voir</button></div>
         <div class="style-grid compact" id="homeFeaturedFilters"></div>
         <div class="featured-grid" id="featuredGrid"></div>
       </section>
 
       <section class="section-block">
-        <div class="section-title-row"><div><span class="kicker">BIEN ORGANISÉ</span><h2>Par catégorie</h2></div><button class="text-btn" data-nav="recipes">Voir toutes les catégories</button></div>
+        <div class="section-title-row"><div><span class="kicker">PARCOURIR</span><h2>Les grandes familles</h2><p class="section-subtitle">Pour chercher sans faire défiler une longue liste de filtres.</p></div><button class="text-btn" data-nav="recipes">Toutes les catégories</button></div>
         <div class="category-grid" id="homeCategories"></div>
       </section>
 
       <section class="section-block">
-        <div class="section-title-row"><div><span class="kicker">REPAS PRÊTS</span><h2>Menus inspirés de ton univers</h2></div><button class="text-btn" data-nav="menus">Voir tous les menus</button></div>
+        <div class="section-title-row"><div><span class="kicker">REPAS PRÊTS</span><h2>Menus FAFATRAINING</h2></div><button class="text-btn" data-nav="menus">Voir tous les menus</button></div>
         <div class="menu-strip" id="homeMenus"></div>
       </section>
 
@@ -104,28 +107,34 @@
 
     <section id="page-recipes" class="page" data-page="recipes">
       <div class="page-heading">
-        <div><button class="page-back" data-nav="home">← Retour accueil</button><span class="kicker">BIBLIOTHÈQUE</span><h1>Recettes</h1><p id="recipesCountLabel">Toutes les recettes</p></div>
-        <button id="resetFiltersBtn" class="outline-btn">Réinitialiser</button>
+        <div><button class="page-back" data-nav="home">← Retour accueil</button><span class="kicker">RECETTES</span><h1>Que veux-tu cuisiner&nbsp;?</h1><p id="recipesCountLabel">Toutes les recettes</p></div>
+        <button id="openAdvancedFiltersBtn" class="outline-btn">Tous les filtres</button>
       </div>
-      <div class="filter-panel">
+
+      <div class="recipe-search-zone">
         <div class="filter-search"><span>⌕</span><input id="recipeSearch" type="search" placeholder="Rechercher une recette ou un ingrédient"></div>
-        <select id="categoryFilter" aria-label="Catégorie"><option value="">Toutes les catégories</option></select>
-        <select id="timeFilter" aria-label="Temps"><option value="">Tous les temps</option><option value="15">≤ 15 min</option><option value="30">≤ 30 min</option><option value="45">≤ 45 min</option><option value="60">≤ 60 min</option></select>
-        <select id="equipmentFilter" aria-label="Matériel"><option value="">Tout le matériel</option><option value="TM6">TM6</option><option value="Cuisine classique">Cuisine classique</option><option value="Four">Four</option><option value="Poêle">Poêle</option><option value="Blender / mixeur">Blender / mixeur</option></select>
-        <label class="toggle-line"><input id="favoritesOnly" type="checkbox"><span>Favoris uniquement</span></label>
+        <div class="quick-filter-row" id="quickFilterRow">
+          <button class="quick-filter" data-qfilter="time20">≤ 20 min</button>
+          <button class="quick-filter" data-qfilter="mode">Mon matériel</button>
+          <button class="quick-filter" data-qfilter="easy">Cuisine facile</button>
+          <button class="quick-filter" data-qfilter="fridge">Avec mon frigo</button>
+        </div>
       </div>
-      <div class="style-grid compact" id="recipeStyleChips"></div>
+
+      <div id="activeFilterSummary" class="active-filter-summary hidden"></div>
+      <div id="subCategoryPanel" class="subfilter-panel hidden"><span class="kicker">AFFINER LA CATÉGORIE</span><div class="style-grid compact" id="subCategoryChips"></div></div>
       <div class="recipe-grid" id="recipesGrid"></div>
       <div class="loadmore-wrap"><button id="loadMoreBtn" class="primary-btn">Afficher plus</button></div>
     </section>
 
     <section id="page-menus" class="page" data-page="menus">
-      <div class="page-heading"><div><button class="page-back" data-nav="home">← Retour accueil</button><span class="kicker">ORGANISATION</span><h1>Menus</h1><p>Des idées de repas complètes, variées et faciles à utiliser. Ajoute le menu entier aux courses en un geste.</p></div></div>
+      <div class="page-heading"><div><button class="page-back" data-nav="home">← Retour accueil</button><span class="kicker">MENUS</span><h1>Des repas déjà pensés</h1><p>Ouvre un menu pour voir les trois recettes, remplacer ce qui ne te plaît pas et tout ajouter aux courses.</p></div></div>
+      <div class="style-grid compact" id="menuFilterChips"></div>
       <div class="menu-grid" id="menusGrid"></div>
     </section>
 
     <section id="page-fridge" class="page" data-page="fridge">
-      <div class="page-heading"><div><button class="page-back" data-nav="home">← Retour accueil</button><span class="kicker">MON FRIGO</span><h1>Avec ce que j’ai</h1><p>Sélectionne les ingrédients disponibles. Les recettes les plus proches remontent en premier.</p></div><button id="clearFridgeBtn" class="outline-btn">Vider</button></div>
+      <div class="page-heading"><div><button class="page-back" data-nav="home">← Retour accueil</button><span class="kicker">MON FRIGO</span><h1>Avec ce que j’ai</h1><p>Sélectionne tes ingrédients. Les recettes les plus proches remontent en premier.</p></div><button id="clearFridgeBtn" class="outline-btn">Vider</button></div>
       <div class="fridge-tools">
         <div class="filter-search"><span>⌕</span><input id="fridgeSearch" type="search" placeholder="Chercher un ingrédient"></div>
         <div id="selectedPantry" class="selected-pantry"></div>
@@ -158,6 +167,28 @@
     </article>
   </div>
 
+  <div id="menuDrawer" class="drawer" aria-hidden="true">
+    <div class="drawer-backdrop" data-close-menu></div>
+    <article class="drawer-panel menu-detail-panel" role="dialog" aria-modal="true" aria-labelledby="menuDrawerTitle">
+      <button class="drawer-close" data-close-menu aria-label="Fermer">×</button>
+      <div id="menuDrawerContent"></div>
+    </article>
+  </div>
+
+  <div id="filterDrawer" class="drawer" aria-hidden="true">
+    <div class="drawer-backdrop" data-close-filter></div>
+    <article class="settings-panel" role="dialog" aria-modal="true" aria-labelledby="filterDrawerTitle">
+      <button class="drawer-close" data-close-filter aria-label="Fermer">×</button>
+      <span class="kicker">AFFINER</span><h2 id="filterDrawerTitle">Tous les filtres</h2>
+      <div class="settings-section"><h3>Catégorie</h3><select id="categoryFilter" class="drawer-select"><option value="">Toutes les catégories</option></select></div>
+      <div class="settings-section"><h3>Temps</h3><select id="timeFilter" class="drawer-select"><option value="">Tous les temps</option><option value="15">≤ 15 min</option><option value="20">≤ 20 min</option><option value="30">≤ 30 min</option><option value="45">≤ 45 min</option><option value="60">≤ 60 min</option></select></div>
+      <div class="settings-section"><h3>Matériel</h3><select id="equipmentFilter" class="drawer-select"><option value="">Tout le matériel</option><option value="TM6">TM6</option><option value="Cuisine classique">Ustensiles & four</option><option value="Four">Four</option><option value="Poêle">Poêle</option><option value="Blender / mixeur">Blender / mixeur</option><option value="Air fryer">Air fryer</option></select></div>
+      <div class="settings-section"><h3>Style</h3><div class="style-grid compact" id="recipeStyleChips"></div></div>
+      <div class="settings-section"><label class="toggle-line"><input id="favoritesOnly" type="checkbox"><span>Favoris uniquement</span></label></div>
+      <div class="filter-actions"><button id="resetFiltersBtn" class="outline-btn">Réinitialiser</button><button id="applyFiltersBtn" class="primary-btn">Voir les recettes</button></div>
+    </article>
+  </div>
+
   <div id="settingsDrawer" class="drawer" aria-hidden="true">
     <div class="drawer-backdrop" data-close-settings></div>
     <article class="settings-panel" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
@@ -170,9 +201,25 @@
     </article>
   </div>
 
+  <div id="exportDrawer" class="drawer" aria-hidden="true">
+    <div class="drawer-backdrop" data-close-export></div>
+    <article class="export-panel" role="dialog" aria-modal="true" aria-labelledby="exportTitle">
+      <button class="drawer-close" data-close-export aria-label="Fermer">×</button>
+      <span class="kicker">RÉSEAUX SOCIAUX</span><h2 id="exportTitle">Créer le visuel</h2>
+      <p class="export-intro">Prévisualise puis génère une image prête pour Instagram, Story ou TikTok.</p>
+      <div class="export-options">
+        <div><h3>Format</h3><div class="segmented" id="exportFormat"><button data-export-format="portrait" class="active">Instagram 4:5</button><button data-export-format="story">Story / TikTok</button><button data-export-format="square">Carré</button></div></div>
+        <div><h3>Style</h3><div class="segmented" id="exportStyle"><button data-export-style="social" class="active">FAFATRAINING réseaux</button><button data-export-style="clean">Sobre</button></div></div>
+        <label class="toggle-line export-toggle"><input id="exportCharacter" type="checkbox" checked><span>Afficher le personnage FAFATRAINING</span></label>
+      </div>
+      <div class="export-preview-wrap"><canvas id="exportCanvas" width="1080" height="1350"></canvas></div>
+      <div class="export-actions"><button id="downloadExportBtn" class="primary-btn">Télécharger le PNG</button><button id="shareExportBtn" class="outline-btn">Partager</button></div>
+    </article>
+  </div>
+
   <div id="cookMode" class="cook-mode" aria-hidden="true">
     <div class="cook-topbar"><button id="closeCookBtn" class="icon-btn">×</button><div><small id="cookProgress">Étape 1/1</small><strong id="cookRecipeName">Recette</strong></div><button id="cookTimerBtn" class="timer-btn">Minuteur</button></div>
-    <div class="cook-body"><div class="cook-step-number" id="cookStepNumber">1</div><h2 id="cookStepTitle">Préparation</h2><p id="cookStepText"></p><div id="cookTimer" class="cook-timer hidden"><strong id="timerDisplay">00:00</strong><div><button id="timerToggleBtn">Démarrer</button><button id="timerResetBtn">Réinitialiser</button></div></div></div>
+    <div class="cook-body"><div class="cook-step-number" id="cookStepNumber">1</div><h2 id="cookStepTitle">Préparation</h2><p id="cookStepText"></p><div id="cookBeginnerTip" class="cook-helper hidden"></div><div id="cookTimer" class="cook-timer hidden"><strong id="timerDisplay">00:00</strong><div><button id="timerToggleBtn">Démarrer</button><button id="timerResetBtn">Réinitialiser</button></div></div></div>
     <div class="cook-footer"><button id="cookPrevBtn" class="outline-btn">Précédent</button><button id="cookNextBtn" class="primary-btn">Suivant</button></div>
   </div>
 

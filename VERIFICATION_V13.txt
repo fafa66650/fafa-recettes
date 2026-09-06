@@ -1,0 +1,40 @@
+FAFATRAINING RECETTES — DOUBLE VÉRIFICATION V13
+
+VÉRIFICATION 1 — TECHNIQUE / FONCTIONNELLE
+- Chargement des 420 recettes : OK
+- Chargement des 60 menus : OK
+- 0 référence de recette manquante dans les menus : OK
+- Identifiants recettes uniques : OK
+- Identifiants menus uniques : OK
+- Syntaxe JavaScript (node --check) : OK
+- Accueil : 3 choix principaux + mode mémorisé : OK
+- Section Pour toi : OK
+- Fonction « Je ne sais pas quoi manger » (3 propositions) : OK
+- Recherche / filtres rapides / filtres avancés : OK
+- Ouverture d'une recette + checklist ingrédients : OK
+- Menus : ouverture d'une fiche complète : OK
+- Remplacement d'une entrée / d'un plat / d'un dessert : OK
+- Liste de courses : conservée : OK
+- Mon frigo : conservé : OK
+- Export image : recette / menu, 3 formats, 2 styles : OK
+- Navigation retour / drawers : OK
+- Test DOM automatisé Chromium : 0 erreur JavaScript détectée sur le scénario principal.
+
+VÉRIFICATION 2 — UX / COHÉRENCE
+- Accueil allégé : priorité à Trouver une recette / Avec ce que j'ai / Choisir un menu.
+- Personnage FAFATRAINING conservé comme signature de l'accueil.
+- Le mode préféré est mémorisé et ne demande pas un nouveau choix à chaque fiche.
+- Page Recettes simplifiée : recherche + 4 filtres rapides ; filtres complets dans un panneau séparé.
+- Cartes recettes allégées : photo, titre, temps, mode de préparation, protéines si disponibles.
+- Fiche recette recentrée sur la cuisine : gros bouton « Commencer à cuisiner », ingrédients cochables, portions, matériel.
+- Mode cuisson : ajout de repères simples pour certains termes de cuisine (faire revenir, saisir/dorer, mijoter, frémir, préchauffer, égoutter).
+- Menus : fiche complète + possibilité de remplacer une recette avant ajout aux courses.
+- Personnalisation « Pour toi » basée localement sur favoris, catégories consultées et matériel préféré.
+- Export réseaux : aperçu avant génération + style FAFATRAINING réseaux ou sobre.
+
+REMARQUE
+Les données nutritionnelles restent indicatives. Une partie des recettes historiques provient des versions précédentes ; pour une diffusion commerciale, une validation culinaire recette par recette reste recommandée.
+
+SECOND PASS AUTOMATISÉ
+- Test mobile 390 × 844 : accueil, recettes, filtres rapides, filtres avancés, fiche recette, menu, remplacement, surprise, export : 0 erreur JavaScript.
+- Test desktop 1440 × 1000 : mode cuisson, Mon frigo, liste de courses, filtres menus : 0 erreur JavaScript.

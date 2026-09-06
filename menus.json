@@ -613,5 +613,290 @@
       "Cuisine familiale",
       "Cuisine facile"
     ]
+  },
+  {
+    "id": "menu-coco-exotique",
+    "title": "Évasion coco",
+    "subtitle": "Des saveurs coco et citron vert du début à la fin.",
+    "recipes": [
+      "smoothie-ananas-coco-citron-vert",
+      "poulet-coco-citron-vert",
+      "panna-cotta-coco-fruits-rouges"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine du monde",
+      "Cuisine plaisir"
+    ]
+  },
+  {
+    "id": "menu-poisson-four-facile",
+    "title": "Poisson au four facile",
+    "subtitle": "Un menu simple avec peu de surveillance.",
+    "recipes": [
+      "salade-croquante-aux-noix",
+      "dorade-au-four-citron-tomates",
+      "pommes-au-four-cannelle"
+    ],
+    "tags": [
+      "Menu complet",
+      "Four",
+      "Cuisine facile"
+    ]
+  },
+  {
+    "id": "menu-vege-quotidien",
+    "title": "Végé du quotidien",
+    "subtitle": "Un menu végétal rassasiant et accessible.",
+    "recipes": [
+      "houmous-maison-crudites",
+      "pois-chiches-tomate-epinards",
+      "mousse-yaourt-citron"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine végétale",
+      "Cuisine du quotidien"
+    ]
+  },
+  {
+    "id": "menu-poulet-famille-four",
+    "title": "Poulet familial au four",
+    "subtitle": "Un repas simple à partager à plusieurs.",
+    "recipes": [
+      "salade-grecque-complete",
+      "poulet-citron-olives-pommes-de-terre",
+      "gateau-au-yaourt-citron"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine familiale",
+      "Four"
+    ]
+  },
+  {
+    "id": "menu-soir-soupe-douceur",
+    "title": "Soupe & douceur du soir",
+    "subtitle": "Un repas chaud et léger pour le soir.",
+    "recipes": [
+      "veloute-courgette-chevre",
+      "tartines-fromage-frais-saumon",
+      "poires-chocolat-amandes"
+    ],
+    "tags": [
+      "Menu complet",
+      "Soir",
+      "Cuisine facile"
+    ]
+  },
+  {
+    "id": "menu-proteine-express",
+    "title": "Protéiné express",
+    "subtitle": "Des recettes rapides avec un bon apport en protéines.",
+    "recipes": [
+      "bowl-skyr-banane-cacao",
+      "crevettes-paprika-ail",
+      "mousse-yaourt-citron"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine protéinée",
+      "Cuisine express"
+    ]
+  },
+  {
+    "id": "menu-petit-budget-vege",
+    "title": "Végé petit budget",
+    "subtitle": "Des produits simples, peu coûteux et faciles à cuisiner.",
+    "recipes": [
+      "salade-de-pois-chiches-a-la-menthe",
+      "haricots-blancs-tomate-sauge",
+      "compote-pomme-cannelle"
+    ],
+    "tags": [
+      "Menu complet",
+      "Petit budget",
+      "Cuisine végétale"
+    ]
+  },
+  {
+    "id": "menu-saveurs-asie",
+    "title": "Saveurs d’Asie faciles",
+    "subtitle": "Un menu parfumé avec des cuissons rapides.",
+    "recipes": [
+      "salade-riz-crevettes-mangue",
+      "tofu-cacahuete-brocoli",
+      "sorbet-mangue-express"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine du monde",
+      "Cuisine facile"
+    ]
+  },
+  {
+    "id": "menu-poisson-coco",
+    "title": "Poisson coco & citron vert",
+    "subtitle": "Un repas doux et parfumé.",
+    "recipes": [
+      "salade-avocat-concombre-radis-grenade",
+      "colin-coco-citron-vert",
+      "chia-pudding-mangue-coco"
+    ],
+    "tags": [
+      "Menu complet",
+      "Poisson",
+      "Cuisine du monde"
+    ]
+  },
+  {
+    "id": "menu-cocooning-automne",
+    "title": "Cocooning d’automne",
+    "subtitle": "Des recettes chaudes et réconfortantes.",
+    "recipes": [
+      "veloute-potimarron-chataigne",
+      "gratin-quinoa-brocoli",
+      "crumble-pomme-avoine"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cocooning",
+      "Cuisine maison"
+    ]
+  },
+  {
+    "id": "menu-pique-nique",
+    "title": "Pique-nique facile",
+    "subtitle": "Des recettes pratiques à transporter ou à manger froides.",
+    "recipes": [
+      "taboule-de-boulgour-maison",
+      "boulettes-de-dinde-menthe-citron",
+      "tarte-fine-aux-pommes"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine facile",
+      "À emporter"
+    ]
+  },
+  {
+    "id": "menu-tm6-chaud",
+    "title": "TM6 chaud & maison",
+    "subtitle": "Un menu où le TM6 aide vraiment sur les préparations.",
+    "recipes": [
+      "veloute-tomate-poivron",
+      "curry-lentilles-patate-douce",
+      "creme-vanille-maizena"
+    ],
+    "tags": [
+      "Menu complet",
+      "TM6",
+      "Cuisine maison"
+    ]
+  },
+  {
+    "id": "menu-fraicheur-boissons",
+    "title": "Fraîcheur & hydratation",
+    "subtitle": "Un menu léger avec une boisson fraîche en complément.",
+    "recipes": [
+      "eau-fraise-basilic",
+      "salade-quinoa-pois-chiches",
+      "saumon-epinards-creme-legere"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine légère",
+      "Hydratation"
+    ]
+  },
+  {
+    "id": "menu-repas-minute",
+    "title": "Repas presque minute",
+    "subtitle": "Quand tu as peu de temps mais que tu veux quand même cuisiner.",
+    "recipes": [
+      "smoothie-pomme-kiwi-citron",
+      "thon-frais-au-sesame",
+      "mousse-yaourt-citron"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine express",
+      "Cuisine facile"
+    ]
+  },
+  {
+    "id": "menu-gratin-maison",
+    "title": "Gratin maison",
+    "subtitle": "Un vrai repas familial et généreux.",
+    "recipes": [
+      "salade-chou-rouge-pomme-noix",
+      "gratin-quinoa-brocoli",
+      "gateau-carotte-noix"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine familiale",
+      "Cuisine maison"
+    ]
+  },
+  {
+    "id": "menu-poulet-cremeux",
+    "title": "Poulet crémeux & légumes",
+    "subtitle": "Un menu simple et gourmand autour du poulet.",
+    "recipes": [
+      "salade-de-lentilles-vertes-concombre-poivron",
+      "poulet-estragon-creme-legere",
+      "poires-chocolat-amandes"
+    ],
+    "tags": [
+      "Menu complet",
+      "Poulet & volaille",
+      "Cuisine maison"
+    ]
+  },
+  {
+    "id": "menu-brunch-doux",
+    "title": "Brunch douceur",
+    "subtitle": "Petit-déjeuner tardif, simple et varié.",
+    "recipes": [
+      "cafe-frappe-banane-cacao",
+      "pancakes-pomme-cannelle",
+      "bowl-skyr-banane-cacao"
+    ],
+    "tags": [
+      "Menu complet",
+      "Brunch",
+      "Cuisine plaisir"
+    ]
+  },
+  {
+    "id": "menu-vegetal-four",
+    "title": "Végétal au four",
+    "subtitle": "Des préparations faciles à cuire au four.",
+    "recipes": [
+      "salade-croquante-aux-noix",
+      "falafels-au-four",
+      "pommes-au-four-cannelle"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine végétale",
+      "Four"
+    ]
+  },
+  {
+    "id": "menu-smoothie-brunch",
+    "title": "Brunch smoothie & salé",
+    "subtitle": "Un brunch simple avec boisson fraîche, salé et douceur.",
+    "recipes": [
+      "smoothie-peche-framboise-yaourt",
+      "ufs-cocotte-epinards",
+      "banana-bread-aux-noix"
+    ],
+    "tags": [
+      "Menu complet",
+      "Brunch",
+      "Cuisine facile"
+    ]
   }
 ]

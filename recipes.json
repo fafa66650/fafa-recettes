@@ -43449,5 +43449,6834 @@
     "sourceType": "catalogue-etendu",
     "nutritionBasis": "Estimation par portion",
     "image": null
+  },
+  {
+    "id": "smoothie-ananas-coco-citron-vert",
+    "name": "Smoothie ananas coco citron vert",
+    "category": "Boissons & smoothies",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "smoothie",
+      "frais"
+    ],
+    "ingredients": [
+      {
+        "name": "ananas",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "lait de coco",
+        "qty": 180,
+        "unit": "ml"
+      },
+      {
+        "name": "citron vert",
+        "qty": 0.5,
+        "unit": "pièce"
+      },
+      {
+        "name": "glaçons",
+        "qty": 4,
+        "unit": "pièces"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Mettre dans le bol",
+          "text": "Place tous les ingrédients préparés dans le bol du TM6.",
+          "durationSec": 60
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe 45 secondes, vitesse 8 à 10 selon la texture. Racle les parois si nécessaire.",
+          "durationSec": 45
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu de liquide ou des glaçons si besoin puis mixe encore 10 secondes, vitesse 8.",
+          "durationSec": 10
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Lave, épluche et coupe les fruits ou légumes si nécessaire. Mesure tous les ingrédients avant de mixer.",
+          "durationSec": 120
+        },
+        {
+          "title": "Mixer",
+          "text": "Place tous les ingrédients dans un blender ou un mixeur puissant. Mixe 30 à 60 secondes jusqu’à obtenir une texture homogène.",
+          "durationSec": 60
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu d’eau, de lait ou quelques glaçons selon la texture souhaitée, puis mixe quelques secondes de plus.",
+          "durationSec": 30
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 5,
+    "cookMin": 0,
+    "styles": [
+      "Cuisine express",
+      "Cuisine facile"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique",
+      "Blender / mixeur"
+    ],
+    "featured": false,
+    "description": "Un smoothie frais et exotique, prêt en quelques minutes."
+  },
+  {
+    "id": "smoothie-poire-cannelle-avoine",
+    "name": "Smoothie poire cannelle avoine",
+    "category": "Boissons & smoothies",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "smoothie"
+    ],
+    "ingredients": [
+      {
+        "name": "poire",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "flocons d’avoine",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "lait",
+        "qty": 220,
+        "unit": "ml"
+      },
+      {
+        "name": "cannelle",
+        "qty": 0.5,
+        "unit": "c. à café"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Mettre dans le bol",
+          "text": "Place tous les ingrédients préparés dans le bol du TM6.",
+          "durationSec": 60
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe 45 secondes, vitesse 8 à 10 selon la texture. Racle les parois si nécessaire.",
+          "durationSec": 45
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu de liquide ou des glaçons si besoin puis mixe encore 10 secondes, vitesse 8.",
+          "durationSec": 10
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Lave, épluche et coupe les fruits ou légumes si nécessaire. Mesure tous les ingrédients avant de mixer.",
+          "durationSec": 120
+        },
+        {
+          "title": "Mixer",
+          "text": "Place tous les ingrédients dans un blender ou un mixeur puissant. Mixe 30 à 60 secondes jusqu’à obtenir une texture homogène.",
+          "durationSec": 60
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu d’eau, de lait ou quelques glaçons selon la texture souhaitée, puis mixe quelques secondes de plus.",
+          "durationSec": 30
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose",
+      "gluten"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 5,
+    "cookMin": 0,
+    "styles": [
+      "Cuisine express",
+      "Petit-déjeuner"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique",
+      "Blender / mixeur"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "smoothie-framboise-cacao",
+    "name": "Smoothie framboise cacao",
+    "category": "Boissons & smoothies",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "smoothie"
+    ],
+    "ingredients": [
+      {
+        "name": "framboises",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "banane",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "cacao non sucré",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
+        "name": "lait",
+        "qty": 200,
+        "unit": "ml"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Mettre dans le bol",
+          "text": "Place tous les ingrédients préparés dans le bol du TM6.",
+          "durationSec": 60
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe 45 secondes, vitesse 8 à 10 selon la texture. Racle les parois si nécessaire.",
+          "durationSec": 45
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu de liquide ou des glaçons si besoin puis mixe encore 10 secondes, vitesse 8.",
+          "durationSec": 10
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Lave, épluche et coupe les fruits ou légumes si nécessaire. Mesure tous les ingrédients avant de mixer.",
+          "durationSec": 120
+        },
+        {
+          "title": "Mixer",
+          "text": "Place tous les ingrédients dans un blender ou un mixeur puissant. Mixe 30 à 60 secondes jusqu’à obtenir une texture homogène.",
+          "durationSec": 60
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu d’eau, de lait ou quelques glaçons selon la texture souhaitée, puis mixe quelques secondes de plus.",
+          "durationSec": 30
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 5,
+    "cookMin": 0,
+    "styles": [
+      "Cuisine express",
+      "Cuisine plaisir"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique",
+      "Blender / mixeur"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "smoothie-carotte-orange-gingembre",
+    "name": "Smoothie carotte orange gingembre",
+    "category": "Boissons & smoothies",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "smoothie",
+      "vitaminé"
+    ],
+    "ingredients": [
+      {
+        "name": "carotte",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "orange",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "gingembre frais",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "eau",
+        "qty": 100,
+        "unit": "ml"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Mettre dans le bol",
+          "text": "Place tous les ingrédients préparés dans le bol du TM6.",
+          "durationSec": 60
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe 45 secondes, vitesse 8 à 10 selon la texture. Racle les parois si nécessaire.",
+          "durationSec": 45
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu de liquide ou des glaçons si besoin puis mixe encore 10 secondes, vitesse 8.",
+          "durationSec": 10
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Lave, épluche et coupe les fruits ou légumes si nécessaire. Mesure tous les ingrédients avant de mixer.",
+          "durationSec": 120
+        },
+        {
+          "title": "Mixer",
+          "text": "Place tous les ingrédients dans un blender ou un mixeur puissant. Mixe 30 à 60 secondes jusqu’à obtenir une texture homogène.",
+          "durationSec": 60
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu d’eau, de lait ou quelques glaçons selon la texture souhaitée, puis mixe quelques secondes de plus.",
+          "durationSec": 30
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 7,
+    "cookMin": 0,
+    "styles": [
+      "Cuisine express",
+      "Cuisine légère"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique",
+      "Blender / mixeur"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "smoothie-concombre-pomme-menthe",
+    "name": "Smoothie concombre pomme menthe",
+    "category": "Boissons & smoothies",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "smoothie",
+      "hydratation"
+    ],
+    "ingredients": [
+      {
+        "name": "concombre",
+        "qty": 0.5,
+        "unit": "pièce"
+      },
+      {
+        "name": "pomme",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "menthe fraîche",
+        "qty": 8,
+        "unit": "feuilles"
+      },
+      {
+        "name": "citron",
+        "qty": 0.5,
+        "unit": "pièce"
+      },
+      {
+        "name": "eau",
+        "qty": 150,
+        "unit": "ml"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Mettre dans le bol",
+          "text": "Place tous les ingrédients préparés dans le bol du TM6.",
+          "durationSec": 60
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe 45 secondes, vitesse 8 à 10 selon la texture. Racle les parois si nécessaire.",
+          "durationSec": 45
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu de liquide ou des glaçons si besoin puis mixe encore 10 secondes, vitesse 8.",
+          "durationSec": 10
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Lave, épluche et coupe les fruits ou légumes si nécessaire. Mesure tous les ingrédients avant de mixer.",
+          "durationSec": 120
+        },
+        {
+          "title": "Mixer",
+          "text": "Place tous les ingrédients dans un blender ou un mixeur puissant. Mixe 30 à 60 secondes jusqu’à obtenir une texture homogène.",
+          "durationSec": 60
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu d’eau, de lait ou quelques glaçons selon la texture souhaitée, puis mixe quelques secondes de plus.",
+          "durationSec": 30
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 5,
+    "cookMin": 0,
+    "styles": [
+      "Cuisine express",
+      "Cuisine légère"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique",
+      "Blender / mixeur"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "cafe-frappe-banane-cacao",
+    "name": "Café frappé banane cacao",
+    "category": "Boissons & smoothies",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "café",
+      "smoothie"
+    ],
+    "ingredients": [
+      {
+        "name": "banane",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "café froid",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "lait",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "cacao non sucré",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
+        "name": "glaçons",
+        "qty": 4,
+        "unit": "pièces"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Mettre dans le bol",
+          "text": "Place tous les ingrédients préparés dans le bol du TM6.",
+          "durationSec": 60
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe 45 secondes, vitesse 8 à 10 selon la texture. Racle les parois si nécessaire.",
+          "durationSec": 45
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu de liquide ou des glaçons si besoin puis mixe encore 10 secondes, vitesse 8.",
+          "durationSec": 10
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Lave, épluche et coupe les fruits ou légumes si nécessaire. Mesure tous les ingrédients avant de mixer.",
+          "durationSec": 120
+        },
+        {
+          "title": "Mixer",
+          "text": "Place tous les ingrédients dans un blender ou un mixeur puissant. Mixe 30 à 60 secondes jusqu’à obtenir une texture homogène.",
+          "durationSec": 60
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu d’eau, de lait ou quelques glaçons selon la texture souhaitée, puis mixe quelques secondes de plus.",
+          "durationSec": 30
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 5,
+    "cookMin": 0,
+    "styles": [
+      "Cuisine express",
+      "Cuisine plaisir"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique",
+      "Blender / mixeur"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "chocolat-chaud-avoine-cannelle",
+    "name": "Chocolat chaud avoine cannelle",
+    "category": "Boissons & smoothies",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "boisson chaude"
+    ],
+    "ingredients": [
+      {
+        "name": "lait d’avoine",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "cacao non sucré",
+        "qty": 2,
+        "unit": "c. à café"
+      },
+      {
+        "name": "cannelle",
+        "qty": 0.5,
+        "unit": "c. à café"
+      },
+      {
+        "name": "miel",
+        "qty": 1,
+        "unit": "c. à café"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Mettre dans le bol",
+          "text": "Verse le liquide et les ingrédients principaux dans le bol.",
+          "durationSec": 60
+        },
+        {
+          "title": "Chauffer",
+          "text": "Chauffe 5 à 8 minutes à 80°C, vitesse 2, sans gobelet si une légère évaporation est souhaitée.",
+          "durationSec": 420
+        },
+        {
+          "title": "Mélanger",
+          "text": "Mixe 15 secondes, vitesse 4 à 6 puis sers chaud.",
+          "durationSec": 15
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Mesure tous les ingrédients. Garde une petite casserole et un fouet à portée de main.",
+          "durationSec": 90
+        },
+        {
+          "title": "Chauffer",
+          "text": "Verse les ingrédients liquides dans une casserole et chauffe à feu doux sans faire bouillir.",
+          "durationSec": 420
+        },
+        {
+          "title": "Mélanger",
+          "text": "Ajoute les épices ou ingrédients restants, fouette jusqu’à obtenir une boisson homogène puis sers chaud.",
+          "durationSec": 60
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose",
+      "gluten"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 5,
+    "cookMin": 7,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine plaisir"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "chai-latte-maison",
+    "name": "Chai latte maison",
+    "category": "Boissons & smoothies",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "boisson chaude"
+    ],
+    "ingredients": [
+      {
+        "name": "lait",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "thé noir",
+        "qty": 1,
+        "unit": "sachet"
+      },
+      {
+        "name": "cannelle",
+        "qty": 0.5,
+        "unit": "c. à café"
+      },
+      {
+        "name": "gingembre",
+        "qty": 0.25,
+        "unit": "c. à café"
+      },
+      {
+        "name": "cardamome",
+        "qty": 2,
+        "unit": "gousses"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Mettre dans le bol",
+          "text": "Verse le liquide et les ingrédients principaux dans le bol.",
+          "durationSec": 60
+        },
+        {
+          "title": "Chauffer",
+          "text": "Chauffe 5 à 8 minutes à 80°C, vitesse 2, sans gobelet si une légère évaporation est souhaitée.",
+          "durationSec": 420
+        },
+        {
+          "title": "Mélanger",
+          "text": "Mixe 15 secondes, vitesse 4 à 6 puis sers chaud.",
+          "durationSec": 15
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Mesure tous les ingrédients. Garde une petite casserole et un fouet à portée de main.",
+          "durationSec": 90
+        },
+        {
+          "title": "Chauffer",
+          "text": "Verse les ingrédients liquides dans une casserole et chauffe à feu doux sans faire bouillir.",
+          "durationSec": 480
+        },
+        {
+          "title": "Mélanger",
+          "text": "Ajoute les épices ou ingrédients restants, fouette jusqu’à obtenir une boisson homogène puis sers chaud.",
+          "durationSec": 60
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 5,
+    "cookMin": 8,
+    "styles": [
+      "Cuisine maison",
+      "Cuisine plaisir"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "infusion-citron-gingembre-miel",
+    "name": "Infusion citron gingembre miel",
+    "category": "Boissons & smoothies",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "infusion"
+    ],
+    "ingredients": [
+      {
+        "name": "eau",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "citron",
+        "qty": 0.5,
+        "unit": "pièce"
+      },
+      {
+        "name": "gingembre frais",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "miel",
+        "qty": 1,
+        "unit": "c. à café"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Mettre dans le bol",
+          "text": "Verse le liquide et les ingrédients principaux dans le bol.",
+          "durationSec": 60
+        },
+        {
+          "title": "Chauffer",
+          "text": "Chauffe 5 à 8 minutes à 80°C, vitesse 2, sans gobelet si une légère évaporation est souhaitée.",
+          "durationSec": 420
+        },
+        {
+          "title": "Mélanger",
+          "text": "Mixe 15 secondes, vitesse 4 à 6 puis sers chaud.",
+          "durationSec": 15
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Mesure tous les ingrédients. Garde une petite casserole et un fouet à portée de main.",
+          "durationSec": 90
+        },
+        {
+          "title": "Chauffer",
+          "text": "Verse les ingrédients liquides dans une casserole et chauffe à feu doux sans faire bouillir.",
+          "durationSec": 420
+        },
+        {
+          "title": "Mélanger",
+          "text": "Ajoute les épices ou ingrédients restants, fouette jusqu’à obtenir une boisson homogène puis sers chaud.",
+          "durationSec": 60
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 3,
+    "cookMin": 7,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine légère"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "eau-fraise-basilic",
+    "name": "Eau fraise basilic",
+    "category": "Boissons & smoothies",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "eau aromatisée"
+    ],
+    "ingredients": [
+      {
+        "name": "eau",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "fraises",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "basilic",
+        "qty": 10,
+        "unit": "feuilles"
+      },
+      {
+        "name": "citron",
+        "qty": 0.5,
+        "unit": "pièce"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer les aromates",
+          "text": "Place les ingrédients à hacher dans le bol et donne 1 à 2 impulsions Turbo très courtes si nécessaire.",
+          "durationSec": 10
+        },
+        {
+          "title": "Assembler",
+          "text": "Transvase dans une carafe, ajoute l’eau fraîche et laisse infuser au réfrigérateur.",
+          "durationSec": 1800
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Lave soigneusement les ingrédients puis coupe les fruits, agrumes ou aromates.",
+          "durationSec": 180
+        },
+        {
+          "title": "Assembler",
+          "text": "Place le tout dans une grande carafe, ajoute l’eau fraîche et mélange.",
+          "durationSec": 60
+        },
+        {
+          "title": "Infuser",
+          "text": "Laisse reposer au frais au moins 30 minutes avant de servir.",
+          "durationSec": 1800
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 5,
+    "cookMin": 0,
+    "styles": [
+      "Cuisine express",
+      "Cuisine légère"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique",
+      "Blender / mixeur"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "eau-pasteque-menthe",
+    "name": "Eau pastèque menthe",
+    "category": "Boissons & smoothies",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "eau aromatisée"
+    ],
+    "ingredients": [
+      {
+        "name": "eau",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "pastèque",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "menthe fraîche",
+        "qty": 12,
+        "unit": "feuilles"
+      },
+      {
+        "name": "citron vert",
+        "qty": 0.5,
+        "unit": "pièce"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer les aromates",
+          "text": "Place les ingrédients à hacher dans le bol et donne 1 à 2 impulsions Turbo très courtes si nécessaire.",
+          "durationSec": 10
+        },
+        {
+          "title": "Assembler",
+          "text": "Transvase dans une carafe, ajoute l’eau fraîche et laisse infuser au réfrigérateur.",
+          "durationSec": 1800
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Lave soigneusement les ingrédients puis coupe les fruits, agrumes ou aromates.",
+          "durationSec": 180
+        },
+        {
+          "title": "Assembler",
+          "text": "Place le tout dans une grande carafe, ajoute l’eau fraîche et mélange.",
+          "durationSec": 60
+        },
+        {
+          "title": "Infuser",
+          "text": "Laisse reposer au frais au moins 30 minutes avant de servir.",
+          "durationSec": 1800
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 5,
+    "cookMin": 0,
+    "styles": [
+      "Cuisine express",
+      "Cuisine légère"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique",
+      "Blender / mixeur"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "lait-de-noisette-maison",
+    "name": "Lait de noisette maison",
+    "category": "Boissons & smoothies",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "lait végétal"
+    ],
+    "ingredients": [
+      {
+        "name": "noisettes",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "eau",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "vanille",
+        "qty": 0.5,
+        "unit": "c. à café"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Mettre dans le bol",
+          "text": "Place tous les ingrédients préparés dans le bol du TM6.",
+          "durationSec": 60
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe 45 secondes, vitesse 8 à 10 selon la texture. Racle les parois si nécessaire.",
+          "durationSec": 45
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu de liquide ou des glaçons si besoin puis mixe encore 10 secondes, vitesse 8.",
+          "durationSec": 10
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Lave, épluche et coupe les fruits ou légumes si nécessaire. Mesure tous les ingrédients avant de mixer.",
+          "durationSec": 120
+        },
+        {
+          "title": "Mixer",
+          "text": "Place tous les ingrédients dans un blender ou un mixeur puissant. Mixe 30 à 60 secondes jusqu’à obtenir une texture homogène.",
+          "durationSec": 60
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu d’eau, de lait ou quelques glaçons selon la texture souhaitée, puis mixe quelques secondes de plus.",
+          "durationSec": 30
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "fruits_a_coque"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 10,
+    "cookMin": 0,
+    "styles": [
+      "Cuisine maison",
+      "Cuisine végétale"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique",
+      "Blender / mixeur"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "lait-de-cajou-vanille",
+    "name": "Lait de cajou vanille",
+    "category": "Boissons & smoothies",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "lait végétal"
+    ],
+    "ingredients": [
+      {
+        "name": "noix de cajou",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "eau",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "vanille",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
+        "name": "datte",
+        "qty": 1,
+        "unit": "pièce"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Mettre dans le bol",
+          "text": "Place tous les ingrédients préparés dans le bol du TM6.",
+          "durationSec": 60
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe 45 secondes, vitesse 8 à 10 selon la texture. Racle les parois si nécessaire.",
+          "durationSec": 45
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu de liquide ou des glaçons si besoin puis mixe encore 10 secondes, vitesse 8.",
+          "durationSec": 10
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Lave, épluche et coupe les fruits ou légumes si nécessaire. Mesure tous les ingrédients avant de mixer.",
+          "durationSec": 120
+        },
+        {
+          "title": "Mixer",
+          "text": "Place tous les ingrédients dans un blender ou un mixeur puissant. Mixe 30 à 60 secondes jusqu’à obtenir une texture homogène.",
+          "durationSec": 60
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu d’eau, de lait ou quelques glaçons selon la texture souhaitée, puis mixe quelques secondes de plus.",
+          "durationSec": 30
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "fruits_a_coque"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 10,
+    "cookMin": 0,
+    "styles": [
+      "Cuisine maison",
+      "Cuisine végétale"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique",
+      "Blender / mixeur"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "smoothie-peche-framboise-yaourt",
+    "name": "Smoothie pêche framboise yaourt",
+    "category": "Boissons & smoothies",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "smoothie"
+    ],
+    "ingredients": [
+      {
+        "name": "pêche",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "framboises",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "yaourt nature",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "eau",
+        "qty": 100,
+        "unit": "ml"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Mettre dans le bol",
+          "text": "Place tous les ingrédients préparés dans le bol du TM6.",
+          "durationSec": 60
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe 45 secondes, vitesse 8 à 10 selon la texture. Racle les parois si nécessaire.",
+          "durationSec": 45
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu de liquide ou des glaçons si besoin puis mixe encore 10 secondes, vitesse 8.",
+          "durationSec": 10
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Lave, épluche et coupe les fruits ou légumes si nécessaire. Mesure tous les ingrédients avant de mixer.",
+          "durationSec": 120
+        },
+        {
+          "title": "Mixer",
+          "text": "Place tous les ingrédients dans un blender ou un mixeur puissant. Mixe 30 à 60 secondes jusqu’à obtenir une texture homogène.",
+          "durationSec": 60
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu d’eau, de lait ou quelques glaçons selon la texture souhaitée, puis mixe quelques secondes de plus.",
+          "durationSec": 30
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 5,
+    "cookMin": 0,
+    "styles": [
+      "Cuisine express",
+      "Cuisine facile"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique",
+      "Blender / mixeur"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "smoothie-pomme-kiwi-citron",
+    "name": "Smoothie pomme kiwi citron",
+    "category": "Boissons & smoothies",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "smoothie"
+    ],
+    "ingredients": [
+      {
+        "name": "pomme",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "kiwi",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "citron",
+        "qty": 0.5,
+        "unit": "pièce"
+      },
+      {
+        "name": "eau",
+        "qty": 150,
+        "unit": "ml"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Mettre dans le bol",
+          "text": "Place tous les ingrédients préparés dans le bol du TM6.",
+          "durationSec": 60
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe 45 secondes, vitesse 8 à 10 selon la texture. Racle les parois si nécessaire.",
+          "durationSec": 45
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu de liquide ou des glaçons si besoin puis mixe encore 10 secondes, vitesse 8.",
+          "durationSec": 10
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Lave, épluche et coupe les fruits ou légumes si nécessaire. Mesure tous les ingrédients avant de mixer.",
+          "durationSec": 120
+        },
+        {
+          "title": "Mixer",
+          "text": "Place tous les ingrédients dans un blender ou un mixeur puissant. Mixe 30 à 60 secondes jusqu’à obtenir une texture homogène.",
+          "durationSec": 60
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu d’eau, de lait ou quelques glaçons selon la texture souhaitée, puis mixe quelques secondes de plus.",
+          "durationSec": 30
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 5,
+    "cookMin": 0,
+    "styles": [
+      "Cuisine express",
+      "Cuisine légère"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique",
+      "Blender / mixeur"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "tartines-fromage-frais-saumon",
+    "name": "Tartines fromage frais saumon",
+    "category": "Petit-déjeuner",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "salé"
+    ],
+    "ingredients": [
+      {
+        "name": "pain complet",
+        "qty": 2,
+        "unit": "tranches"
+      },
+      {
+        "name": "fromage frais",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "saumon fumé",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "citron",
+        "qty": 0.25,
+        "unit": "pièce"
+      },
+      {
+        "name": "aneth",
+        "qty": 1,
+        "unit": "c. à soupe"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le TM6 pour peser, hacher, mélanger ou chauffer selon les besoins de la recette.",
+          "durationSec": 180
+        },
+        {
+          "title": "Cuisson",
+          "text": "Poursuis la cuisson environ 0 minutes en utilisant la fonction adaptée ou un ustensile complémentaire.",
+          "durationSec": 0
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Pèse, lave et coupe les ingrédients avant de commencer.",
+          "durationSec": 300
+        },
+        {
+          "title": "Cuire",
+          "text": "Fais cuire les ingrédients selon la recette pendant environ 0 minutes en surveillant la texture et la cuisson.",
+          "durationSec": 0
+        },
+        {
+          "title": "Finaliser",
+          "text": "Mélange, ajuste l’assaisonnement et sers dès que la texture te convient.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose",
+      "gluten",
+      "poisson"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 8,
+    "cookMin": 0,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine protéinée"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "granola-maison-aux-noix",
+    "name": "Granola maison aux noix",
+    "category": "Petit-déjeuner",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 8,
+    "difficulty": "",
+    "tags": [
+      "granola"
+    ],
+    "ingredients": [
+      {
+        "name": "flocons d’avoine",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "amandes",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "noix",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "miel",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "huile de coco",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "cannelle",
+        "qty": 1,
+        "unit": "c. à café"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer la pâte",
+          "text": "Mets les ingrédients de la préparation dans le bol et mélange 20 à 40 secondes, vitesse 4 à 5 selon la recette.",
+          "durationSec": 30
+        },
+        {
+          "title": "Transvaser",
+          "text": "Verse dans le moule ou le plat préparé. Le TM6 prépare la base, la cuisson finale se fait au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuire au four",
+          "text": "Enfourne à 180°C environ 25 minutes et vérifie la cuisson avant de sortir du four.",
+          "durationSec": 1500
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Préchauffe le four à 180°C. Pèse et prépare tous les ingrédients.",
+          "durationSec": 180
+        },
+        {
+          "title": "Assembler",
+          "text": "Mélange les ingrédients dans l’ordre indiqué, sans trop travailler la préparation.",
+          "durationSec": 300
+        },
+        {
+          "title": "Cuire",
+          "text": "Verse dans le moule ou le plat prévu et enfourne environ 25 minutes. Vérifie la cuisson avant de sortir du four.",
+          "durationSec": 1500
+        },
+        {
+          "title": "Laisser reposer",
+          "text": "Laisse tiédir quelques minutes avant de servir ou de démouler.",
+          "durationSec": 300
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "gluten",
+      "fruits_a_coque"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 10,
+    "cookMin": 25,
+    "styles": [
+      "Cuisine maison",
+      "Batch cooking"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "bowl-skyr-banane-cacao",
+    "name": "Bowl skyr banane cacao",
+    "category": "Petit-déjeuner",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "bowl"
+    ],
+    "ingredients": [
+      {
+        "name": "skyr",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "banane",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "cacao non sucré",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
+        "name": "amandes",
+        "qty": 15,
+        "unit": "g"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 0 minutes.",
+          "durationSec": 0
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Lave et prépare les légumes, fruits ou herbes. Coupe-les de façon régulière.",
+          "durationSec": 300
+        },
+        {
+          "title": "Assembler",
+          "text": "Réunis les ingrédients dans un saladier et mélange délicatement.",
+          "durationSec": 120
+        },
+        {
+          "title": "Assaisonner",
+          "text": "Ajoute l’assaisonnement au dernier moment, mélange puis sers.",
+          "durationSec": 60
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose",
+      "fruits_a_coque"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 5,
+    "cookMin": 0,
+    "styles": [
+      "Cuisine express",
+      "Cuisine protéinée"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "ufs-cocotte-epinards",
+    "name": "Œufs cocotte épinards",
+    "category": "Petit-déjeuner",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "salé"
+    ],
+    "ingredients": [
+      {
+        "name": "œufs",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "épinards frais",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "crème fraîche",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "fromage râpé",
+        "qty": 20,
+        "unit": "g"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer la pâte",
+          "text": "Mets les ingrédients de la préparation dans le bol et mélange 20 à 40 secondes, vitesse 4 à 5 selon la recette.",
+          "durationSec": 30
+        },
+        {
+          "title": "Transvaser",
+          "text": "Verse dans le moule ou le plat préparé. Le TM6 prépare la base, la cuisson finale se fait au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuire au four",
+          "text": "Enfourne à 180°C environ 12 minutes et vérifie la cuisson avant de sortir du four.",
+          "durationSec": 720
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Préchauffe le four à 180°C. Pèse et prépare tous les ingrédients.",
+          "durationSec": 180
+        },
+        {
+          "title": "Assembler",
+          "text": "Mélange les ingrédients dans l’ordre indiqué, sans trop travailler la préparation.",
+          "durationSec": 300
+        },
+        {
+          "title": "Cuire",
+          "text": "Verse dans le moule ou le plat prévu et enfourne environ 12 minutes. Vérifie la cuisson avant de sortir du four.",
+          "durationSec": 720
+        },
+        {
+          "title": "Laisser reposer",
+          "text": "Laisse tiédir quelques minutes avant de servir ou de démouler.",
+          "durationSec": 300
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose",
+      "oeufs"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 8,
+    "cookMin": 12,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine protéinée"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "croque-petit-dejeuner-dinde-fromage",
+    "name": "Croque petit-déjeuner dinde fromage",
+    "category": "Petit-déjeuner",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "salé"
+    ],
+    "ingredients": [
+      {
+        "name": "pain complet",
+        "qty": 2,
+        "unit": "tranches"
+      },
+      {
+        "name": "blanc de dinde",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "fromage",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "tomate",
+        "qty": 0.5,
+        "unit": "pièce"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 6 minutes.",
+          "durationSec": 360
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 6 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 360
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose",
+      "gluten"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 6,
+    "cookMin": 6,
+    "styles": [
+      "Cuisine express",
+      "Cuisine facile"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "semoule-petit-dejeuner-aux-fruits",
+    "name": "Semoule petit-déjeuner aux fruits",
+    "category": "Petit-déjeuner",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "chaud"
+    ],
+    "ingredients": [
+      {
+        "name": "semoule fine",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "lait",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "pomme",
+        "qty": 0.5,
+        "unit": "pièce"
+      },
+      {
+        "name": "raisins secs",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "name": "cannelle",
+        "qty": 0.5,
+        "unit": "c. à café"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Mettre dans le bol",
+          "text": "Verse le liquide et les ingrédients principaux dans le bol.",
+          "durationSec": 60
+        },
+        {
+          "title": "Chauffer",
+          "text": "Chauffe 5 à 8 minutes à 80°C, vitesse 2, sans gobelet si une légère évaporation est souhaitée.",
+          "durationSec": 420
+        },
+        {
+          "title": "Mélanger",
+          "text": "Mixe 15 secondes, vitesse 4 à 6 puis sers chaud.",
+          "durationSec": 15
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Mesure tous les ingrédients. Garde une petite casserole et un fouet à portée de main.",
+          "durationSec": 90
+        },
+        {
+          "title": "Chauffer",
+          "text": "Verse les ingrédients liquides dans une casserole et chauffe à feu doux sans faire bouillir.",
+          "durationSec": 480
+        },
+        {
+          "title": "Mélanger",
+          "text": "Ajoute les épices ou ingrédients restants, fouette jusqu’à obtenir une boisson homogène puis sers chaud.",
+          "durationSec": 60
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose",
+      "gluten"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 5,
+    "cookMin": 8,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine du quotidien"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "chia-pudding-mangue-coco",
+    "name": "Chia pudding mangue coco",
+    "category": "Petit-déjeuner",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "overnight"
+    ],
+    "ingredients": [
+      {
+        "name": "graines de chia",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "lait de coco",
+        "qty": 180,
+        "unit": "ml"
+      },
+      {
+        "name": "mangue",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "vanille",
+        "qty": 0.5,
+        "unit": "c. à café"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 0 minutes.",
+          "durationSec": 0
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Lave et prépare les légumes, fruits ou herbes. Coupe-les de façon régulière.",
+          "durationSec": 300
+        },
+        {
+          "title": "Assembler",
+          "text": "Réunis les ingrédients dans un saladier et mélange délicatement.",
+          "durationSec": 120
+        },
+        {
+          "title": "Assaisonner",
+          "text": "Ajoute l’assaisonnement au dernier moment, mélange puis sers.",
+          "durationSec": 60
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 5,
+    "cookMin": 0,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine végétale"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "pancakes-pomme-cannelle",
+    "name": "Pancakes pomme cannelle",
+    "category": "Petit-déjeuner",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "pancakes"
+    ],
+    "ingredients": [
+      {
+        "name": "farine",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "œuf",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "lait",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "pomme",
+        "qty": 0.5,
+        "unit": "pièce"
+      },
+      {
+        "name": "cannelle",
+        "qty": 0.5,
+        "unit": "c. à café"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 10 minutes.",
+          "durationSec": 600
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 10 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 600
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose",
+      "oeufs",
+      "gluten"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 8,
+    "cookMin": 10,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine plaisir"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "overnight-oats-cafe-cacao",
+    "name": "Overnight oats café cacao",
+    "category": "Petit-déjeuner",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "overnight"
+    ],
+    "ingredients": [
+      {
+        "name": "flocons d’avoine",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "lait",
+        "qty": 160,
+        "unit": "ml"
+      },
+      {
+        "name": "café froid",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "cacao non sucré",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
+        "name": "graines de chia",
+        "qty": 10,
+        "unit": "g"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 0 minutes.",
+          "durationSec": 0
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Lave et prépare les légumes, fruits ou herbes. Coupe-les de façon régulière.",
+          "durationSec": 300
+        },
+        {
+          "title": "Assembler",
+          "text": "Réunis les ingrédients dans un saladier et mélange délicatement.",
+          "durationSec": 120
+        },
+        {
+          "title": "Assaisonner",
+          "text": "Ajoute l’assaisonnement au dernier moment, mélange puis sers.",
+          "durationSec": 60
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose",
+      "gluten"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 5,
+    "cookMin": 0,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine express"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "porridge-poire-noisette",
+    "name": "Porridge poire noisette",
+    "category": "Petit-déjeuner",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 1,
+    "difficulty": "",
+    "tags": [
+      "porridge"
+    ],
+    "ingredients": [
+      {
+        "name": "flocons d’avoine",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "lait",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "poire",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "noisettes",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "name": "cannelle",
+        "qty": 0.5,
+        "unit": "c. à café"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Mettre dans le bol",
+          "text": "Verse le liquide et les ingrédients principaux dans le bol.",
+          "durationSec": 60
+        },
+        {
+          "title": "Chauffer",
+          "text": "Chauffe 5 à 8 minutes à 80°C, vitesse 2, sans gobelet si une légère évaporation est souhaitée.",
+          "durationSec": 420
+        },
+        {
+          "title": "Mélanger",
+          "text": "Mixe 15 secondes, vitesse 4 à 6 puis sers chaud.",
+          "durationSec": 15
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Mesure tous les ingrédients. Garde une petite casserole et un fouet à portée de main.",
+          "durationSec": 90
+        },
+        {
+          "title": "Chauffer",
+          "text": "Verse les ingrédients liquides dans une casserole et chauffe à feu doux sans faire bouillir.",
+          "durationSec": 480
+        },
+        {
+          "title": "Mélanger",
+          "text": "Ajoute les épices ou ingrédients restants, fouette jusqu’à obtenir une boisson homogène puis sers chaud.",
+          "durationSec": 60
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose",
+      "gluten",
+      "fruits_a_coque"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 5,
+    "cookMin": 8,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine du quotidien"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "poulet-estragon-creme-legere",
+    "name": "Poulet estragon crème légère",
+    "category": "Poulet & volaille",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "poêle"
+    ],
+    "ingredients": [
+      {
+        "name": "blanc de poulet",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "champignons",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "crème légère",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "estragon",
+        "qty": 1,
+        "unit": "c. à soupe"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 18 minutes.",
+          "durationSec": 1080
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 18 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 1080
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 10,
+    "cookMin": 18,
+    "styles": [
+      "Cuisine maison",
+      "Cuisine du quotidien"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "poulet-citron-olives-pommes-de-terre",
+    "name": "Poulet citron olives pommes de terre",
+    "category": "Poulet & volaille",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "four"
+    ],
+    "ingredients": [
+      {
+        "name": "cuisses de poulet",
+        "qty": 4,
+        "unit": "pièces"
+      },
+      {
+        "name": "pommes de terre",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "olives vertes",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "citron",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer la pâte",
+          "text": "Mets les ingrédients de la préparation dans le bol et mélange 20 à 40 secondes, vitesse 4 à 5 selon la recette.",
+          "durationSec": 30
+        },
+        {
+          "title": "Transvaser",
+          "text": "Verse dans le moule ou le plat préparé. Le TM6 prépare la base, la cuisson finale se fait au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuire au four",
+          "text": "Enfourne à 180°C environ 45 minutes et vérifie la cuisson avant de sortir du four.",
+          "durationSec": 2700
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Préchauffe le four à 180°C. Pèse et prépare tous les ingrédients.",
+          "durationSec": 180
+        },
+        {
+          "title": "Assembler",
+          "text": "Mélange les ingrédients dans l’ordre indiqué, sans trop travailler la préparation.",
+          "durationSec": 300
+        },
+        {
+          "title": "Cuire",
+          "text": "Verse dans le moule ou le plat prévu et enfourne environ 45 minutes. Vérifie la cuisson avant de sortir du four.",
+          "durationSec": 2700
+        },
+        {
+          "title": "Laisser reposer",
+          "text": "Laisse tiédir quelques minutes avant de servir ou de démouler.",
+          "durationSec": 300
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 15,
+    "cookMin": 45,
+    "styles": [
+      "Cuisine familiale",
+      "Cuisine maison"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "poulet-tikka-au-yaourt",
+    "name": "Poulet tikka au yaourt",
+    "category": "Poulet & volaille",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "épices"
+    ],
+    "ingredients": [
+      {
+        "name": "blanc de poulet",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "yaourt nature",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "tomates concassées",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "curry doux",
+        "qty": 1,
+        "unit": "c. à soupe"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 20 minutes.",
+          "durationSec": 1200
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 20 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 1200
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 15,
+    "cookMin": 20,
+    "styles": [
+      "Cuisine du monde",
+      "Cuisine maison"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "poulet-aubergine-mozzarella",
+    "name": "Poulet aubergine mozzarella",
+    "category": "Poulet & volaille",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "four"
+    ],
+    "ingredients": [
+      {
+        "name": "blanc de poulet",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "aubergine",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "tomates concassées",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "mozzarella",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "basilic",
+        "qty": 10,
+        "unit": "feuilles"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer la pâte",
+          "text": "Mets les ingrédients de la préparation dans le bol et mélange 20 à 40 secondes, vitesse 4 à 5 selon la recette.",
+          "durationSec": 30
+        },
+        {
+          "title": "Transvaser",
+          "text": "Verse dans le moule ou le plat préparé. Le TM6 prépare la base, la cuisson finale se fait au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuire au four",
+          "text": "Enfourne à 180°C environ 30 minutes et vérifie la cuisson avant de sortir du four.",
+          "durationSec": 1800
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Préchauffe le four à 180°C. Pèse et prépare tous les ingrédients.",
+          "durationSec": 180
+        },
+        {
+          "title": "Assembler",
+          "text": "Mélange les ingrédients dans l’ordre indiqué, sans trop travailler la préparation.",
+          "durationSec": 300
+        },
+        {
+          "title": "Cuire",
+          "text": "Verse dans le moule ou le plat prévu et enfourne environ 30 minutes. Vérifie la cuisson avant de sortir du four.",
+          "durationSec": 1800
+        },
+        {
+          "title": "Laisser reposer",
+          "text": "Laisse tiédir quelques minutes avant de servir ou de démouler.",
+          "durationSec": 300
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 15,
+    "cookMin": 30,
+    "styles": [
+      "Cuisine maison",
+      "Cuisine familiale"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "dinde-curry-courgettes",
+    "name": "Dinde curry courgettes",
+    "category": "Poulet & volaille",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "poêle"
+    ],
+    "ingredients": [
+      {
+        "name": "escalopes de dinde",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "courgettes",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "lait de coco",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "curry",
+        "qty": 1,
+        "unit": "c. à soupe"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 18 minutes.",
+          "durationSec": 1080
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 18 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 1080
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 10,
+    "cookMin": 18,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine du quotidien"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "boulettes-de-dinde-menthe-citron",
+    "name": "Boulettes de dinde menthe citron",
+    "category": "Poulet & volaille",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "boulettes"
+    ],
+    "ingredients": [
+      {
+        "name": "dinde hachée",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "œuf",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "chapelure",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "menthe fraîche",
+        "qty": 10,
+        "unit": "feuilles"
+      },
+      {
+        "name": "citron",
+        "qty": 1,
+        "unit": "pièce"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 15 minutes.",
+          "durationSec": 900
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 15 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 900
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "oeufs"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 15,
+    "cookMin": 15,
+    "styles": [
+      "Cuisine maison",
+      "Cuisine protéinée"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "poulet-ail-parmesan-au-four",
+    "name": "Poulet ail parmesan au four",
+    "category": "Poulet & volaille",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "four"
+    ],
+    "ingredients": [
+      {
+        "name": "blanc de poulet",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "parmesan",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "ail",
+        "qty": 2,
+        "unit": "gousses"
+      },
+      {
+        "name": "chapelure",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "huile d’olive",
+        "qty": 1,
+        "unit": "c. à soupe"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer la pâte",
+          "text": "Mets les ingrédients de la préparation dans le bol et mélange 20 à 40 secondes, vitesse 4 à 5 selon la recette.",
+          "durationSec": 30
+        },
+        {
+          "title": "Transvaser",
+          "text": "Verse dans le moule ou le plat préparé. Le TM6 prépare la base, la cuisson finale se fait au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuire au four",
+          "text": "Enfourne à 180°C environ 25 minutes et vérifie la cuisson avant de sortir du four.",
+          "durationSec": 1500
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Préchauffe le four à 180°C. Pèse et prépare tous les ingrédients.",
+          "durationSec": 180
+        },
+        {
+          "title": "Assembler",
+          "text": "Mélange les ingrédients dans l’ordre indiqué, sans trop travailler la préparation.",
+          "durationSec": 300
+        },
+        {
+          "title": "Cuire",
+          "text": "Verse dans le moule ou le plat prévu et enfourne environ 25 minutes. Vérifie la cuisson avant de sortir du four.",
+          "durationSec": 1500
+        },
+        {
+          "title": "Laisser reposer",
+          "text": "Laisse tiédir quelques minutes avant de servir ou de démouler.",
+          "durationSec": 300
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 10,
+    "cookMin": 25,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine familiale"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "poulet-coco-citron-vert",
+    "name": "Poulet coco citron vert",
+    "category": "Poulet & volaille",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "poêle"
+    ],
+    "ingredients": [
+      {
+        "name": "blanc de poulet",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lait de coco",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "citron vert",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "poivron rouge",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "gingembre frais",
+        "qty": 8,
+        "unit": "g"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 20 minutes.",
+          "durationSec": 1200
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 20 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 1200
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 10,
+    "cookMin": 20,
+    "styles": [
+      "Cuisine du monde",
+      "Cuisine maison"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "dorade-au-four-citron-tomates",
+    "name": "Dorade au four citron tomates",
+    "category": "Poissons & fruits de mer",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "four"
+    ],
+    "ingredients": [
+      {
+        "name": "filets de dorade",
+        "qty": 4,
+        "unit": "pièces"
+      },
+      {
+        "name": "tomates cerises",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "citron",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "ail",
+        "qty": 2,
+        "unit": "gousses"
+      },
+      {
+        "name": "huile d’olive",
+        "qty": 1,
+        "unit": "c. à soupe"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer la pâte",
+          "text": "Mets les ingrédients de la préparation dans le bol et mélange 20 à 40 secondes, vitesse 4 à 5 selon la recette.",
+          "durationSec": 30
+        },
+        {
+          "title": "Transvaser",
+          "text": "Verse dans le moule ou le plat préparé. Le TM6 prépare la base, la cuisson finale se fait au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuire au four",
+          "text": "Enfourne à 180°C environ 20 minutes et vérifie la cuisson avant de sortir du four.",
+          "durationSec": 1200
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Préchauffe le four à 180°C. Pèse et prépare tous les ingrédients.",
+          "durationSec": 180
+        },
+        {
+          "title": "Assembler",
+          "text": "Mélange les ingrédients dans l’ordre indiqué, sans trop travailler la préparation.",
+          "durationSec": 300
+        },
+        {
+          "title": "Cuire",
+          "text": "Verse dans le moule ou le plat prévu et enfourne environ 20 minutes. Vérifie la cuisson avant de sortir du four.",
+          "durationSec": 1200
+        },
+        {
+          "title": "Laisser reposer",
+          "text": "Laisse tiédir quelques minutes avant de servir ou de démouler.",
+          "durationSec": 300
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "poisson"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 10,
+    "cookMin": 20,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine légère"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "lieu-noir-moutarde-poireaux",
+    "name": "Lieu noir moutarde poireaux",
+    "category": "Poissons & fruits de mer",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "poêle"
+    ],
+    "ingredients": [
+      {
+        "name": "filets de lieu noir",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "poireaux",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "moutarde",
+        "qty": 1,
+        "unit": "c. à soupe"
+      },
+      {
+        "name": "crème légère",
+        "qty": 120,
+        "unit": "ml"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 18 minutes.",
+          "durationSec": 1080
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 18 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 1080
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose",
+      "poisson"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 10,
+    "cookMin": 18,
+    "styles": [
+      "Cuisine du quotidien",
+      "Cuisine légère"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "saumon-epinards-creme-legere",
+    "name": "Saumon épinards crème légère",
+    "category": "Poissons & fruits de mer",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "poêle"
+    ],
+    "ingredients": [
+      {
+        "name": "saumon",
+        "qty": 4,
+        "unit": "pavés"
+      },
+      {
+        "name": "épinards frais",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "crème légère",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "citron",
+        "qty": 0.5,
+        "unit": "pièce"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 15 minutes.",
+          "durationSec": 900
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 15 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 900
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose",
+      "poisson"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 10,
+    "cookMin": 15,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine protéinée"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "crevettes-paprika-ail",
+    "name": "Crevettes paprika ail",
+    "category": "Poissons & fruits de mer",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "poêle"
+    ],
+    "ingredients": [
+      {
+        "name": "crevettes décortiquées",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ail",
+        "qty": 2,
+        "unit": "gousses"
+      },
+      {
+        "name": "paprika fumé",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
+        "name": "citron",
+        "qty": 0.5,
+        "unit": "pièce"
+      },
+      {
+        "name": "persil",
+        "qty": 1,
+        "unit": "c. à soupe"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 8 minutes.",
+          "durationSec": 480
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 8 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 480
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "crustaces"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 8,
+    "cookMin": 8,
+    "styles": [
+      "Cuisine express",
+      "Cuisine légère"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "thon-frais-au-sesame",
+    "name": "Thon frais au sésame",
+    "category": "Poissons & fruits de mer",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "poêle"
+    ],
+    "ingredients": [
+      {
+        "name": "steaks de thon",
+        "qty": 4,
+        "unit": "pièces"
+      },
+      {
+        "name": "graines de sésame",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "sauce soja",
+        "qty": 2,
+        "unit": "c. à soupe"
+      },
+      {
+        "name": "citron vert",
+        "qty": 0.5,
+        "unit": "pièce"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 6 minutes.",
+          "durationSec": 360
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 6 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 360
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "soja",
+      "poisson"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 8,
+    "cookMin": 6,
+    "styles": [
+      "Cuisine express",
+      "Cuisine protéinée"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "colin-coco-citron-vert",
+    "name": "Colin coco citron vert",
+    "category": "Poissons & fruits de mer",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "poêle"
+    ],
+    "ingredients": [
+      {
+        "name": "filets de colin",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lait de coco",
+        "qty": 220,
+        "unit": "ml"
+      },
+      {
+        "name": "citron vert",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "courgette",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "curry doux",
+        "qty": 1,
+        "unit": "c. à café"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 18 minutes.",
+          "durationSec": 1080
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 18 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 1080
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose",
+      "poisson"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 10,
+    "cookMin": 18,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine du monde"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "poisson-provencal-courgettes",
+    "name": "Poisson provençal courgettes",
+    "category": "Poissons & fruits de mer",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "poêle"
+    ],
+    "ingredients": [
+      {
+        "name": "poisson blanc",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "courgettes",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "tomates concassées",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "olives noires",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "herbes de Provence",
+        "qty": 1,
+        "unit": "c. à café"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 20 minutes.",
+          "durationSec": 1200
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 20 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 1200
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "poisson"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 12,
+    "cookMin": 20,
+    "styles": [
+      "Cuisine maison",
+      "Cuisine légère"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "moules-tomate-ail-persil",
+    "name": "Moules tomate ail persil",
+    "category": "Poissons & fruits de mer",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "fruits de mer"
+    ],
+    "ingredients": [
+      {
+        "name": "moules",
+        "qty": 1200,
+        "unit": "g"
+      },
+      {
+        "name": "tomates concassées",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "ail",
+        "qty": 2,
+        "unit": "gousses"
+      },
+      {
+        "name": "persil",
+        "qty": 2,
+        "unit": "c. à soupe"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 12 minutes.",
+          "durationSec": 720
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 12 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 720
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "crustaces"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 15,
+    "cookMin": 12,
+    "styles": [
+      "Cuisine maison",
+      "Cuisine plaisir"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "curry-lentilles-patate-douce",
+    "name": "Curry lentilles patate douce",
+    "category": "Végétarien",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "curry"
+    ],
+    "ingredients": [
+      {
+        "name": "lentilles corail",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "patate douce",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lait de coco",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "curry",
+        "qty": 1,
+        "unit": "c. à soupe"
+      },
+      {
+        "name": "épinards frais",
+        "qty": 150,
+        "unit": "g"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 25 minutes.",
+          "durationSec": 1500
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 25 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 1500
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 12,
+    "cookMin": 25,
+    "styles": [
+      "Cuisine végétale",
+      "Cuisine maison"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "haricots-blancs-tomate-sauge",
+    "name": "Haricots blancs tomate sauge",
+    "category": "Végétarien",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "mijoté"
+    ],
+    "ingredients": [
+      {
+        "name": "haricots blancs cuits",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tomates concassées",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "sauge",
+        "qty": 6,
+        "unit": "feuilles"
+      },
+      {
+        "name": "ail",
+        "qty": 1,
+        "unit": "gousse"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 18 minutes.",
+          "durationSec": 1080
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 18 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 1080
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 10,
+    "cookMin": 18,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine économique"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "tofu-cacahuete-brocoli",
+    "name": "Tofu cacahuète brocoli",
+    "category": "Végétarien",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "wok"
+    ],
+    "ingredients": [
+      {
+        "name": "tofu ferme",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "brocoli",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "purée de cacahuète",
+        "qty": 2,
+        "unit": "c. à soupe"
+      },
+      {
+        "name": "sauce soja",
+        "qty": 2,
+        "unit": "c. à soupe"
+      },
+      {
+        "name": "gingembre frais",
+        "qty": 8,
+        "unit": "g"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 15 minutes.",
+          "durationSec": 900
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 15 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 900
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "fruits_a_coque",
+      "arachides",
+      "soja"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 12,
+    "cookMin": 15,
+    "styles": [
+      "Cuisine végétale",
+      "Cuisine protéinée"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "aubergine-parmigiana-legere",
+    "name": "Aubergine parmigiana légère",
+    "category": "Végétarien",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "four"
+    ],
+    "ingredients": [
+      {
+        "name": "aubergines",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "coulis de tomate",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "mozzarella",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "parmesan",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "basilic",
+        "qty": 10,
+        "unit": "feuilles"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer la pâte",
+          "text": "Mets les ingrédients de la préparation dans le bol et mélange 20 à 40 secondes, vitesse 4 à 5 selon la recette.",
+          "durationSec": 30
+        },
+        {
+          "title": "Transvaser",
+          "text": "Verse dans le moule ou le plat préparé. Le TM6 prépare la base, la cuisson finale se fait au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuire au four",
+          "text": "Enfourne à 180°C environ 35 minutes et vérifie la cuisson avant de sortir du four.",
+          "durationSec": 2100
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Préchauffe le four à 180°C. Pèse et prépare tous les ingrédients.",
+          "durationSec": 180
+        },
+        {
+          "title": "Assembler",
+          "text": "Mélange les ingrédients dans l’ordre indiqué, sans trop travailler la préparation.",
+          "durationSec": 300
+        },
+        {
+          "title": "Cuire",
+          "text": "Verse dans le moule ou le plat prévu et enfourne environ 35 minutes. Vérifie la cuisson avant de sortir du four.",
+          "durationSec": 2100
+        },
+        {
+          "title": "Laisser reposer",
+          "text": "Laisse tiédir quelques minutes avant de servir ou de démouler.",
+          "durationSec": 300
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 20,
+    "cookMin": 35,
+    "styles": [
+      "Cuisine maison",
+      "Cuisine plaisir"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "courgettes-feta-menthe",
+    "name": "Courgettes feta menthe",
+    "category": "Végétarien",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "poêle"
+    ],
+    "ingredients": [
+      {
+        "name": "courgettes",
+        "qty": 3,
+        "unit": "pièces"
+      },
+      {
+        "name": "feta",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "menthe fraîche",
+        "qty": 12,
+        "unit": "feuilles"
+      },
+      {
+        "name": "citron",
+        "qty": 0.5,
+        "unit": "pièce"
+      },
+      {
+        "name": "huile d’olive",
+        "qty": 1,
+        "unit": "c. à soupe"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 12 minutes.",
+          "durationSec": 720
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 12 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 720
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 10,
+    "cookMin": 12,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine légère"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "poelee-gnocchi-legumes",
+    "name": "Poêlée gnocchi légumes",
+    "category": "Végétarien",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "poêle"
+    ],
+    "ingredients": [
+      {
+        "name": "gnocchi",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "courgette",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "poivron",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "tomates cerises",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "parmesan",
+        "qty": 40,
+        "unit": "g"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 15 minutes.",
+          "durationSec": 900
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 15 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 900
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 10,
+    "cookMin": 15,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine du quotidien"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "falafels-au-four",
+    "name": "Falafels au four",
+    "category": "Végétarien",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "four"
+    ],
+    "ingredients": [
+      {
+        "name": "pois chiches cuits",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "oignon rouge",
+        "qty": 0.5,
+        "unit": "pièce"
+      },
+      {
+        "name": "persil",
+        "qty": 1,
+        "unit": "bouquet"
+      },
+      {
+        "name": "cumin",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
+        "name": "farine",
+        "qty": 30,
+        "unit": "g"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer la pâte",
+          "text": "Mets les ingrédients de la préparation dans le bol et mélange 20 à 40 secondes, vitesse 4 à 5 selon la recette.",
+          "durationSec": 30
+        },
+        {
+          "title": "Transvaser",
+          "text": "Verse dans le moule ou le plat préparé. Le TM6 prépare la base, la cuisson finale se fait au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuire au four",
+          "text": "Enfourne à 180°C environ 25 minutes et vérifie la cuisson avant de sortir du four.",
+          "durationSec": 1500
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Préchauffe le four à 180°C. Pèse et prépare tous les ingrédients.",
+          "durationSec": 180
+        },
+        {
+          "title": "Assembler",
+          "text": "Mélange les ingrédients dans l’ordre indiqué, sans trop travailler la préparation.",
+          "durationSec": 300
+        },
+        {
+          "title": "Cuire",
+          "text": "Verse dans le moule ou le plat prévu et enfourne environ 25 minutes. Vérifie la cuisson avant de sortir du four.",
+          "durationSec": 1500
+        },
+        {
+          "title": "Laisser reposer",
+          "text": "Laisse tiédir quelques minutes avant de servir ou de démouler.",
+          "durationSec": 300
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 15,
+    "cookMin": 25,
+    "styles": [
+      "Cuisine végétale",
+      "Cuisine maison"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "pois-chiches-tomate-epinards",
+    "name": "Pois chiches tomate épinards",
+    "category": "Végétarien",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "poêle"
+    ],
+    "ingredients": [
+      {
+        "name": "pois chiches cuits",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tomates concassées",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "épinards frais",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "paprika",
+        "qty": 1,
+        "unit": "c. à café"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 15 minutes.",
+          "durationSec": 900
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 15 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 900
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 10,
+    "cookMin": 15,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine économique"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "omelette-patate-douce-feta",
+    "name": "Omelette patate douce feta",
+    "category": "Végétarien",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "poêle"
+    ],
+    "ingredients": [
+      {
+        "name": "œufs",
+        "qty": 6,
+        "unit": "pièces"
+      },
+      {
+        "name": "patate douce",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "feta",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "oignon rouge",
+        "qty": 0.5,
+        "unit": "pièce"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 18 minutes.",
+          "durationSec": 1080
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Coupe les ingrédients et prépare les assaisonnements avant de démarrer la cuisson.",
+          "durationSec": 300
+        },
+        {
+          "title": "Saisir",
+          "text": "Fais chauffer une poêle ou sauteuse avec un filet d’huile puis saisis la protéine ou la base de la recette.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter le reste",
+          "text": "Ajoute les légumes, la sauce ou les aromates puis poursuis la cuisson environ 18 minutes à feu moyen en remuant régulièrement.",
+          "durationSec": 1080
+        },
+        {
+          "title": "Finaliser",
+          "text": "Goûte, ajuste l’assaisonnement et laisse reposer 1 à 2 minutes avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose",
+      "oeufs"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 12,
+    "cookMin": 18,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine protéinée"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "gratin-quinoa-brocoli",
+    "name": "Gratin quinoa brocoli",
+    "category": "Végétarien",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "four"
+    ],
+    "ingredients": [
+      {
+        "name": "quinoa cuit",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "brocoli",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "crème légère",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "fromage râpé",
+        "qty": 100,
+        "unit": "g"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer la pâte",
+          "text": "Mets les ingrédients de la préparation dans le bol et mélange 20 à 40 secondes, vitesse 4 à 5 selon la recette.",
+          "durationSec": 30
+        },
+        {
+          "title": "Transvaser",
+          "text": "Verse dans le moule ou le plat préparé. Le TM6 prépare la base, la cuisson finale se fait au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuire au four",
+          "text": "Enfourne à 180°C environ 25 minutes et vérifie la cuisson avant de sortir du four.",
+          "durationSec": 1500
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Préchauffe le four à 180°C. Pèse et prépare tous les ingrédients.",
+          "durationSec": 180
+        },
+        {
+          "title": "Assembler",
+          "text": "Mélange les ingrédients dans l’ordre indiqué, sans trop travailler la préparation.",
+          "durationSec": 300
+        },
+        {
+          "title": "Cuire",
+          "text": "Verse dans le moule ou le plat prévu et enfourne environ 25 minutes. Vérifie la cuisson avant de sortir du four.",
+          "durationSec": 1500
+        },
+        {
+          "title": "Laisser reposer",
+          "text": "Laisse tiédir quelques minutes avant de servir ou de démouler.",
+          "durationSec": 300
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 15,
+    "cookMin": 25,
+    "styles": [
+      "Cuisine familiale",
+      "Cuisine maison"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "pommes-au-four-cannelle",
+    "name": "Pommes au four cannelle",
+    "category": "Desserts",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "fruit"
+    ],
+    "ingredients": [
+      {
+        "name": "pommes",
+        "qty": 4,
+        "unit": "pièces"
+      },
+      {
+        "name": "cannelle",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
+        "name": "miel",
+        "qty": 2,
+        "unit": "c. à café"
+      },
+      {
+        "name": "amandes",
+        "qty": 20,
+        "unit": "g"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer la pâte",
+          "text": "Mets les ingrédients de la préparation dans le bol et mélange 20 à 40 secondes, vitesse 4 à 5 selon la recette.",
+          "durationSec": 30
+        },
+        {
+          "title": "Transvaser",
+          "text": "Verse dans le moule ou le plat préparé. Le TM6 prépare la base, la cuisson finale se fait au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuire au four",
+          "text": "Enfourne à 180°C environ 25 minutes et vérifie la cuisson avant de sortir du four.",
+          "durationSec": 1500
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Préchauffe le four à 180°C. Pèse et prépare tous les ingrédients.",
+          "durationSec": 180
+        },
+        {
+          "title": "Assembler",
+          "text": "Mélange les ingrédients dans l’ordre indiqué, sans trop travailler la préparation.",
+          "durationSec": 300
+        },
+        {
+          "title": "Cuire",
+          "text": "Verse dans le moule ou le plat prévu et enfourne environ 25 minutes. Vérifie la cuisson avant de sortir du four.",
+          "durationSec": 1500
+        },
+        {
+          "title": "Laisser reposer",
+          "text": "Laisse tiédir quelques minutes avant de servir ou de démouler.",
+          "durationSec": 300
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "fruits_a_coque"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 8,
+    "cookMin": 25,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine légère"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "poires-chocolat-amandes",
+    "name": "Poires chocolat amandes",
+    "category": "Desserts",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "fruit"
+    ],
+    "ingredients": [
+      {
+        "name": "poires",
+        "qty": 4,
+        "unit": "pièces"
+      },
+      {
+        "name": "chocolat noir",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "amandes effilées",
+        "qty": 30,
+        "unit": "g"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer la pâte",
+          "text": "Mets les ingrédients de la préparation dans le bol et mélange 20 à 40 secondes, vitesse 4 à 5 selon la recette.",
+          "durationSec": 30
+        },
+        {
+          "title": "Transvaser",
+          "text": "Verse dans le moule ou le plat préparé. Le TM6 prépare la base, la cuisson finale se fait au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuire au four",
+          "text": "Enfourne à 180°C environ 20 minutes et vérifie la cuisson avant de sortir du four.",
+          "durationSec": 1200
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Préchauffe le four à 180°C. Pèse et prépare tous les ingrédients.",
+          "durationSec": 180
+        },
+        {
+          "title": "Assembler",
+          "text": "Mélange les ingrédients dans l’ordre indiqué, sans trop travailler la préparation.",
+          "durationSec": 300
+        },
+        {
+          "title": "Cuire",
+          "text": "Verse dans le moule ou le plat prévu et enfourne environ 20 minutes. Vérifie la cuisson avant de sortir du four.",
+          "durationSec": 1200
+        },
+        {
+          "title": "Laisser reposer",
+          "text": "Laisse tiédir quelques minutes avant de servir ou de démouler.",
+          "durationSec": 300
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "fruits_a_coque"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 10,
+    "cookMin": 20,
+    "styles": [
+      "Cuisine plaisir",
+      "Cuisine facile"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "gateau-au-yaourt-citron",
+    "name": "Gâteau au yaourt citron",
+    "category": "Desserts",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 8,
+    "difficulty": "",
+    "tags": [
+      "gâteau"
+    ],
+    "ingredients": [
+      {
+        "name": "yaourt nature",
+        "qty": 125,
+        "unit": "g"
+      },
+      {
+        "name": "farine",
+        "qty": 220,
+        "unit": "g"
+      },
+      {
+        "name": "œufs",
+        "qty": 3,
+        "unit": "pièces"
+      },
+      {
+        "name": "sucre",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "citron",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "huile",
+        "qty": 70,
+        "unit": "ml"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer la pâte",
+          "text": "Mets les ingrédients de la préparation dans le bol et mélange 20 à 40 secondes, vitesse 4 à 5 selon la recette.",
+          "durationSec": 30
+        },
+        {
+          "title": "Transvaser",
+          "text": "Verse dans le moule ou le plat préparé. Le TM6 prépare la base, la cuisson finale se fait au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuire au four",
+          "text": "Enfourne à 180°C environ 35 minutes et vérifie la cuisson avant de sortir du four.",
+          "durationSec": 2100
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Préchauffe le four à 180°C. Pèse et prépare tous les ingrédients.",
+          "durationSec": 180
+        },
+        {
+          "title": "Assembler",
+          "text": "Mélange les ingrédients dans l’ordre indiqué, sans trop travailler la préparation.",
+          "durationSec": 300
+        },
+        {
+          "title": "Cuire",
+          "text": "Verse dans le moule ou le plat prévu et enfourne environ 35 minutes. Vérifie la cuisson avant de sortir du four.",
+          "durationSec": 2100
+        },
+        {
+          "title": "Laisser reposer",
+          "text": "Laisse tiédir quelques minutes avant de servir ou de démouler.",
+          "durationSec": 300
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose",
+      "oeufs",
+      "gluten"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 12,
+    "cookMin": 35,
+    "styles": [
+      "Cuisine familiale",
+      "Cuisine maison"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "gateau-carotte-noix",
+    "name": "Gâteau carotte noix",
+    "category": "Desserts",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 8,
+    "difficulty": "",
+    "tags": [
+      "gâteau"
+    ],
+    "ingredients": [
+      {
+        "name": "carottes",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "farine",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "œufs",
+        "qty": 3,
+        "unit": "pièces"
+      },
+      {
+        "name": "noix",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "sucre",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "cannelle",
+        "qty": 1,
+        "unit": "c. à café"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer la pâte",
+          "text": "Mets les ingrédients de la préparation dans le bol et mélange 20 à 40 secondes, vitesse 4 à 5 selon la recette.",
+          "durationSec": 30
+        },
+        {
+          "title": "Transvaser",
+          "text": "Verse dans le moule ou le plat préparé. Le TM6 prépare la base, la cuisson finale se fait au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuire au four",
+          "text": "Enfourne à 180°C environ 40 minutes et vérifie la cuisson avant de sortir du four.",
+          "durationSec": 2400
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Préchauffe le four à 180°C. Pèse et prépare tous les ingrédients.",
+          "durationSec": 180
+        },
+        {
+          "title": "Assembler",
+          "text": "Mélange les ingrédients dans l’ordre indiqué, sans trop travailler la préparation.",
+          "durationSec": 300
+        },
+        {
+          "title": "Cuire",
+          "text": "Verse dans le moule ou le plat prévu et enfourne environ 40 minutes. Vérifie la cuisson avant de sortir du four.",
+          "durationSec": 2400
+        },
+        {
+          "title": "Laisser reposer",
+          "text": "Laisse tiédir quelques minutes avant de servir ou de démouler.",
+          "durationSec": 300
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "oeufs",
+      "gluten",
+      "fruits_a_coque"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 15,
+    "cookMin": 40,
+    "styles": [
+      "Cuisine maison",
+      "Cuisine plaisir"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "creme-vanille-maizena",
+    "name": "Crème vanille maïzena",
+    "category": "Desserts",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "crème"
+    ],
+    "ingredients": [
+      {
+        "name": "lait",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "maïzena",
+        "qty": 35,
+        "unit": "g"
+      },
+      {
+        "name": "sucre",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "vanille",
+        "qty": 1,
+        "unit": "c. à café"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Mettre dans le bol",
+          "text": "Verse le liquide et les ingrédients principaux dans le bol.",
+          "durationSec": 60
+        },
+        {
+          "title": "Chauffer",
+          "text": "Chauffe 5 à 8 minutes à 80°C, vitesse 2, sans gobelet si une légère évaporation est souhaitée.",
+          "durationSec": 420
+        },
+        {
+          "title": "Mélanger",
+          "text": "Mixe 15 secondes, vitesse 4 à 6 puis sers chaud.",
+          "durationSec": 15
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Mesure tous les ingrédients. Garde une petite casserole et un fouet à portée de main.",
+          "durationSec": 90
+        },
+        {
+          "title": "Chauffer",
+          "text": "Verse les ingrédients liquides dans une casserole et chauffe à feu doux sans faire bouillir.",
+          "durationSec": 480
+        },
+        {
+          "title": "Mélanger",
+          "text": "Ajoute les épices ou ingrédients restants, fouette jusqu’à obtenir une boisson homogène puis sers chaud.",
+          "durationSec": 60
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 5,
+    "cookMin": 8,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine maison"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "panna-cotta-coco-fruits-rouges",
+    "name": "Panna cotta coco fruits rouges",
+    "category": "Desserts",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "crème"
+    ],
+    "ingredients": [
+      {
+        "name": "lait de coco",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "gélatine",
+        "qty": 3,
+        "unit": "feuilles"
+      },
+      {
+        "name": "sucre",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "fruits rouges",
+        "qty": 150,
+        "unit": "g"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Mettre dans le bol",
+          "text": "Verse le liquide et les ingrédients principaux dans le bol.",
+          "durationSec": 60
+        },
+        {
+          "title": "Chauffer",
+          "text": "Chauffe 5 à 8 minutes à 80°C, vitesse 2, sans gobelet si une légère évaporation est souhaitée.",
+          "durationSec": 420
+        },
+        {
+          "title": "Mélanger",
+          "text": "Mixe 15 secondes, vitesse 4 à 6 puis sers chaud.",
+          "durationSec": 15
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Mesure tous les ingrédients. Garde une petite casserole et un fouet à portée de main.",
+          "durationSec": 90
+        },
+        {
+          "title": "Chauffer",
+          "text": "Verse les ingrédients liquides dans une casserole et chauffe à feu doux sans faire bouillir.",
+          "durationSec": 360
+        },
+        {
+          "title": "Mélanger",
+          "text": "Ajoute les épices ou ingrédients restants, fouette jusqu’à obtenir une boisson homogène puis sers chaud.",
+          "durationSec": 60
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 10,
+    "cookMin": 6,
+    "styles": [
+      "Cuisine maison",
+      "Cuisine plaisir"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "sorbet-mangue-express",
+    "name": "Sorbet mangue express",
+    "category": "Desserts",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "glacé"
+    ],
+    "ingredients": [
+      {
+        "name": "mangue surgelée",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "citron vert",
+        "qty": 0.5,
+        "unit": "pièce"
+      },
+      {
+        "name": "miel",
+        "qty": 1,
+        "unit": "c. à soupe"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Mettre dans le bol",
+          "text": "Place tous les ingrédients préparés dans le bol du TM6.",
+          "durationSec": 60
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe 45 secondes, vitesse 8 à 10 selon la texture. Racle les parois si nécessaire.",
+          "durationSec": 45
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu de liquide ou des glaçons si besoin puis mixe encore 10 secondes, vitesse 8.",
+          "durationSec": 10
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Lave, épluche et coupe les fruits ou légumes si nécessaire. Mesure tous les ingrédients avant de mixer.",
+          "durationSec": 120
+        },
+        {
+          "title": "Mixer",
+          "text": "Place tous les ingrédients dans un blender ou un mixeur puissant. Mixe 30 à 60 secondes jusqu’à obtenir une texture homogène.",
+          "durationSec": 60
+        },
+        {
+          "title": "Ajuster",
+          "text": "Ajoute un peu d’eau, de lait ou quelques glaçons selon la texture souhaitée, puis mixe quelques secondes de plus.",
+          "durationSec": 30
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 5,
+    "cookMin": 0,
+    "styles": [
+      "Cuisine express",
+      "Cuisine légère"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique",
+      "Blender / mixeur"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "banana-bread-aux-noix",
+    "name": "Banana bread aux noix",
+    "category": "Desserts",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 8,
+    "difficulty": "",
+    "tags": [
+      "cake"
+    ],
+    "ingredients": [
+      {
+        "name": "bananes mûres",
+        "qty": 3,
+        "unit": "pièces"
+      },
+      {
+        "name": "farine",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "œufs",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "noix",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "levure",
+        "qty": 1,
+        "unit": "sachet"
+      },
+      {
+        "name": "cannelle",
+        "qty": 0.5,
+        "unit": "c. à café"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer la pâte",
+          "text": "Mets les ingrédients de la préparation dans le bol et mélange 20 à 40 secondes, vitesse 4 à 5 selon la recette.",
+          "durationSec": 30
+        },
+        {
+          "title": "Transvaser",
+          "text": "Verse dans le moule ou le plat préparé. Le TM6 prépare la base, la cuisson finale se fait au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuire au four",
+          "text": "Enfourne à 180°C environ 40 minutes et vérifie la cuisson avant de sortir du four.",
+          "durationSec": 2400
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Préchauffe le four à 180°C. Pèse et prépare tous les ingrédients.",
+          "durationSec": 180
+        },
+        {
+          "title": "Assembler",
+          "text": "Mélange les ingrédients dans l’ordre indiqué, sans trop travailler la préparation.",
+          "durationSec": 300
+        },
+        {
+          "title": "Cuire",
+          "text": "Verse dans le moule ou le plat prévu et enfourne environ 40 minutes. Vérifie la cuisson avant de sortir du four.",
+          "durationSec": 2400
+        },
+        {
+          "title": "Laisser reposer",
+          "text": "Laisse tiédir quelques minutes avant de servir ou de démouler.",
+          "durationSec": 300
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "oeufs",
+      "gluten",
+      "fruits_a_coque"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 12,
+    "cookMin": 40,
+    "styles": [
+      "Cuisine maison",
+      "Cuisine familiale"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "tarte-fine-aux-pommes",
+    "name": "Tarte fine aux pommes",
+    "category": "Desserts",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 8,
+    "difficulty": "",
+    "tags": [
+      "tarte"
+    ],
+    "ingredients": [
+      {
+        "name": "pâte feuilletée",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "pommes",
+        "qty": 4,
+        "unit": "pièces"
+      },
+      {
+        "name": "compote de pomme",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "cannelle",
+        "qty": 0.5,
+        "unit": "c. à café"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer la pâte",
+          "text": "Mets les ingrédients de la préparation dans le bol et mélange 20 à 40 secondes, vitesse 4 à 5 selon la recette.",
+          "durationSec": 30
+        },
+        {
+          "title": "Transvaser",
+          "text": "Verse dans le moule ou le plat préparé. Le TM6 prépare la base, la cuisson finale se fait au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuire au four",
+          "text": "Enfourne à 180°C environ 30 minutes et vérifie la cuisson avant de sortir du four.",
+          "durationSec": 1800
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Préchauffe le four à 180°C. Pèse et prépare tous les ingrédients.",
+          "durationSec": 180
+        },
+        {
+          "title": "Assembler",
+          "text": "Mélange les ingrédients dans l’ordre indiqué, sans trop travailler la préparation.",
+          "durationSec": 300
+        },
+        {
+          "title": "Cuire",
+          "text": "Verse dans le moule ou le plat prévu et enfourne environ 30 minutes. Vérifie la cuisson avant de sortir du four.",
+          "durationSec": 1800
+        },
+        {
+          "title": "Laisser reposer",
+          "text": "Laisse tiédir quelques minutes avant de servir ou de démouler.",
+          "durationSec": 300
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 15,
+    "cookMin": 30,
+    "styles": [
+      "Cuisine plaisir",
+      "Cuisine facile"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "mousse-yaourt-citron",
+    "name": "Mousse yaourt citron",
+    "category": "Desserts",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "frais"
+    ],
+    "ingredients": [
+      {
+        "name": "yaourt grec",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "citron",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "miel",
+        "qty": 2,
+        "unit": "c. à soupe"
+      },
+      {
+        "name": "vanille",
+        "qty": 0.5,
+        "unit": "c. à café"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Préparer au TM6",
+          "text": "Utilise le bol pour hacher les aromates ou préparer la sauce si cela t’aide. Les éléments à saisir ou griller restent plus adaptés à la poêle ou au four.",
+          "durationSec": 120
+        },
+        {
+          "title": "Cuisson principale",
+          "text": "Poursuis la recette avec l’ustensile adapté pendant environ 0 minutes.",
+          "durationSec": 0
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Lave et prépare les légumes, fruits ou herbes. Coupe-les de façon régulière.",
+          "durationSec": 300
+        },
+        {
+          "title": "Assembler",
+          "text": "Réunis les ingrédients dans un saladier et mélange délicatement.",
+          "durationSec": 120
+        },
+        {
+          "title": "Assaisonner",
+          "text": "Ajoute l’assaisonnement au dernier moment, mélange puis sers.",
+          "durationSec": 60
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 8,
+    "cookMin": 0,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine légère"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "veloute-potimarron-chataigne",
+    "name": "Velouté potimarron châtaigne",
+    "category": "Soupes & veloutés",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "velouté"
+    ],
+    "ingredients": [
+      {
+        "name": "potimarron",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "châtaignes cuites",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "bouillon de légumes",
+        "qty": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "crème légère",
+        "qty": 80,
+        "unit": "ml"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Hacher",
+          "text": "Mets l’oignon ou les aromates dans le bol et hache 5 secondes, vitesse 5. Racle les parois.",
+          "durationSec": 5
+        },
+        {
+          "title": "Faire revenir",
+          "text": "Ajoute un filet d’huile et fais revenir 3 minutes à 120°C, vitesse 1.",
+          "durationSec": 180
+        },
+        {
+          "title": "Cuire",
+          "text": "Ajoute les légumes et le liquide. Fais cuire environ 25 minutes à 100°C, vitesse 1.",
+          "durationSec": 1500
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe progressivement 45 secondes de vitesse 5 à 9, en tenant le gobelet. Ajuste la texture.",
+          "durationSec": 45
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Épluche et coupe les légumes en morceaux réguliers.",
+          "durationSec": 300
+        },
+        {
+          "title": "Faire revenir",
+          "text": "Dans une casserole, fais revenir l’oignon ou les aromates avec un filet d’huile 2 à 3 minutes.",
+          "durationSec": 180
+        },
+        {
+          "title": "Cuire",
+          "text": "Ajoute les légumes et le liquide prévu. Couvre et laisse cuire environ 25 minutes à feu moyen.",
+          "durationSec": 1500
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe jusqu’à obtenir la texture souhaitée. Ajuste l’assaisonnement et la consistance avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 12,
+    "cookMin": 25,
+    "styles": [
+      "Cuisine maison",
+      "Cuisine plaisir"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "soupe-a-l-oignon-legere",
+    "name": "Soupe à l’oignon légère",
+    "category": "Soupes & veloutés",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "soupe"
+    ],
+    "ingredients": [
+      {
+        "name": "oignons",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "bouillon de légumes",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "thym",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
+        "name": "pain complet",
+        "qty": 4,
+        "unit": "tranches"
+      },
+      {
+        "name": "fromage râpé",
+        "qty": 60,
+        "unit": "g"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Hacher",
+          "text": "Mets l’oignon ou les aromates dans le bol et hache 5 secondes, vitesse 5. Racle les parois.",
+          "durationSec": 5
+        },
+        {
+          "title": "Faire revenir",
+          "text": "Ajoute un filet d’huile et fais revenir 3 minutes à 120°C, vitesse 1.",
+          "durationSec": 180
+        },
+        {
+          "title": "Cuire",
+          "text": "Ajoute les légumes et le liquide. Fais cuire environ 30 minutes à 100°C, vitesse 1.",
+          "durationSec": 1800
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe progressivement 45 secondes de vitesse 5 à 9, en tenant le gobelet. Ajuste la texture.",
+          "durationSec": 45
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Épluche et coupe les légumes en morceaux réguliers.",
+          "durationSec": 300
+        },
+        {
+          "title": "Faire revenir",
+          "text": "Dans une casserole, fais revenir l’oignon ou les aromates avec un filet d’huile 2 à 3 minutes.",
+          "durationSec": 180
+        },
+        {
+          "title": "Cuire",
+          "text": "Ajoute les légumes et le liquide prévu. Couvre et laisse cuire environ 30 minutes à feu moyen.",
+          "durationSec": 1800
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe jusqu’à obtenir la texture souhaitée. Ajuste l’assaisonnement et la consistance avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose",
+      "gluten"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 15,
+    "cookMin": 30,
+    "styles": [
+      "Cuisine maison",
+      "Cuisine économique"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "veloute-courgette-chevre",
+    "name": "Velouté courgette chèvre",
+    "category": "Soupes & veloutés",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "velouté"
+    ],
+    "ingredients": [
+      {
+        "name": "courgettes",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "bouillon de légumes",
+        "qty": 700,
+        "unit": "ml"
+      },
+      {
+        "name": "fromage de chèvre",
+        "qty": 100,
+        "unit": "g"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Hacher",
+          "text": "Mets l’oignon ou les aromates dans le bol et hache 5 secondes, vitesse 5. Racle les parois.",
+          "durationSec": 5
+        },
+        {
+          "title": "Faire revenir",
+          "text": "Ajoute un filet d’huile et fais revenir 3 minutes à 120°C, vitesse 1.",
+          "durationSec": 180
+        },
+        {
+          "title": "Cuire",
+          "text": "Ajoute les légumes et le liquide. Fais cuire environ 20 minutes à 100°C, vitesse 1.",
+          "durationSec": 1200
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe progressivement 45 secondes de vitesse 5 à 9, en tenant le gobelet. Ajuste la texture.",
+          "durationSec": 45
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Épluche et coupe les légumes en morceaux réguliers.",
+          "durationSec": 300
+        },
+        {
+          "title": "Faire revenir",
+          "text": "Dans une casserole, fais revenir l’oignon ou les aromates avec un filet d’huile 2 à 3 minutes.",
+          "durationSec": 180
+        },
+        {
+          "title": "Cuire",
+          "text": "Ajoute les légumes et le liquide prévu. Couvre et laisse cuire environ 20 minutes à feu moyen.",
+          "durationSec": 1200
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe jusqu’à obtenir la texture souhaitée. Ajuste l’assaisonnement et la consistance avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 10,
+    "cookMin": 20,
+    "styles": [
+      "Cuisine facile",
+      "Cuisine maison"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "soupe-pois-casses-carotte",
+    "name": "Soupe pois cassés carotte",
+    "category": "Soupes & veloutés",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "soupe"
+    ],
+    "ingredients": [
+      {
+        "name": "pois cassés",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "carottes",
+        "qty": 3,
+        "unit": "pièces"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "bouillon de légumes",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "laurier",
+        "qty": 1,
+        "unit": "feuille"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Hacher",
+          "text": "Mets l’oignon ou les aromates dans le bol et hache 5 secondes, vitesse 5. Racle les parois.",
+          "durationSec": 5
+        },
+        {
+          "title": "Faire revenir",
+          "text": "Ajoute un filet d’huile et fais revenir 3 minutes à 120°C, vitesse 1.",
+          "durationSec": 180
+        },
+        {
+          "title": "Cuire",
+          "text": "Ajoute les légumes et le liquide. Fais cuire environ 35 minutes à 100°C, vitesse 1.",
+          "durationSec": 2100
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe progressivement 45 secondes de vitesse 5 à 9, en tenant le gobelet. Ajuste la texture.",
+          "durationSec": 45
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Épluche et coupe les légumes en morceaux réguliers.",
+          "durationSec": 300
+        },
+        {
+          "title": "Faire revenir",
+          "text": "Dans une casserole, fais revenir l’oignon ou les aromates avec un filet d’huile 2 à 3 minutes.",
+          "durationSec": 180
+        },
+        {
+          "title": "Cuire",
+          "text": "Ajoute les légumes et le liquide prévu. Couvre et laisse cuire environ 35 minutes à feu moyen.",
+          "durationSec": 2100
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe jusqu’à obtenir la texture souhaitée. Ajuste l’assaisonnement et la consistance avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 12,
+    "cookMin": 35,
+    "styles": [
+      "Cuisine économique",
+      "Cuisine maison"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
+  },
+  {
+    "id": "veloute-tomate-poivron",
+    "name": "Velouté tomate poivron",
+    "category": "Soupes & veloutés",
+    "color": "#75d429",
+    "emoji": "🍽️",
+    "servings": 4,
+    "difficulty": "",
+    "tags": [
+      "velouté"
+    ],
+    "ingredients": [
+      {
+        "name": "tomates",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "poivrons rouges",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "oignon",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "bouillon de légumes",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "basilic",
+        "qty": 10,
+        "unit": "feuilles"
+      }
+    ],
+    "modes": {
+      "tm6": [
+        {
+          "title": "Hacher",
+          "text": "Mets l’oignon ou les aromates dans le bol et hache 5 secondes, vitesse 5. Racle les parois.",
+          "durationSec": 5
+        },
+        {
+          "title": "Faire revenir",
+          "text": "Ajoute un filet d’huile et fais revenir 3 minutes à 120°C, vitesse 1.",
+          "durationSec": 180
+        },
+        {
+          "title": "Cuire",
+          "text": "Ajoute les légumes et le liquide. Fais cuire environ 25 minutes à 100°C, vitesse 1.",
+          "durationSec": 1500
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe progressivement 45 secondes de vitesse 5 à 9, en tenant le gobelet. Ajuste la texture.",
+          "durationSec": 45
+        }
+      ],
+      "classic": [
+        {
+          "title": "Préparer",
+          "text": "Épluche et coupe les légumes en morceaux réguliers.",
+          "durationSec": 300
+        },
+        {
+          "title": "Faire revenir",
+          "text": "Dans une casserole, fais revenir l’oignon ou les aromates avec un filet d’huile 2 à 3 minutes.",
+          "durationSec": 180
+        },
+        {
+          "title": "Cuire",
+          "text": "Ajoute les légumes et le liquide prévu. Couvre et laisse cuire environ 25 minutes à feu moyen.",
+          "durationSec": 1500
+        },
+        {
+          "title": "Mixer",
+          "text": "Mixe jusqu’à obtenir la texture souhaitée. Ajuste l’assaisonnement et la consistance avant de servir.",
+          "durationSec": 90
+        }
+      ]
+    },
+    "tips": [
+      "Lis la recette entière avant de commencer.",
+      "Prépare tous les ingrédients avant la cuisson.",
+      "Ajuste le sel, le poivre et les épices selon ton goût."
+    ],
+    "goalTags": [
+      "equilibre"
+    ],
+    "dietTags": [
+      "omnivore"
+    ],
+    "allergens": [],
+    "substitutions": [],
+    "macros": {},
+    "nutritionBasis": "Valeurs nutritionnelles à recalculer selon les marques, quantités exactes et portions.",
+    "prepMin": 12,
+    "cookMin": 25,
+    "styles": [
+      "Cuisine légère",
+      "Cuisine facile"
+    ],
+    "equipment": [
+      "TM6",
+      "Cuisine classique"
+    ],
+    "featured": false,
+    "description": "Une recette FAFATRAINING simple à intégrer dans les repas du quotidien."
   }
 ]
