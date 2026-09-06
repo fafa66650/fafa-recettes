@@ -1,0 +1,218 @@
+[
+  {
+    "id": "menu-21",
+    "title": "Menu FAFATRAINING · Jour 21",
+    "subtitle": "Entrée + plat + dessert, sans la partie sportive du visuel original.",
+    "recipes": [
+      "verrine-yaourt-grec-concombre-tomate",
+      "sarrasin-aux-legumes-grilles-sesame",
+      "smoothie-bowl-fruits-rouges-banane-granola"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine du quotidien"
+    ]
+  },
+  {
+    "id": "menu-22",
+    "title": "Menu FAFATRAINING · Jour 22",
+    "subtitle": "Entrée + plat + dessert, sans la partie sportive du visuel original.",
+    "recipes": [
+      "houmous-maison-crudites",
+      "saumon-grille-lentilles-asperges",
+      "pudding-de-chia-au-lait-damande-fruits-rouges"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine du quotidien"
+    ]
+  },
+  {
+    "id": "menu-23",
+    "title": "Menu FAFATRAINING · Jour 23",
+    "subtitle": "Entrée + plat + dessert, sans la partie sportive du visuel original.",
+    "recipes": [
+      "tartine-ricotta-figues-miel-noix",
+      "boulettes-de-dinde-polenta-ratatouille",
+      "yaourt-grec-fruits-rouges-amandes-coco"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine du quotidien"
+    ]
+  },
+  {
+    "id": "menu-24",
+    "title": "Menu FAFATRAINING · Jour 24",
+    "subtitle": "Entrée + plat + dessert, sans la partie sportive du visuel original.",
+    "recipes": [
+      "carpaccio-de-betterave-orange",
+      "buf-maigre-patate-douce-haricots-verts",
+      "compotee-pomme-cannelle-yaourt-de-brebis"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine du quotidien"
+    ]
+  },
+  {
+    "id": "menu-25",
+    "title": "Menu FAFATRAINING · Jour 25",
+    "subtitle": "Entrée + plat + dessert, sans la partie sportive du visuel original.",
+    "recipes": [
+      "salade-de-lentilles-vertes-concombre-poivron",
+      "tofu-tamari-riz-complet-legumes-sautes",
+      "fromage-blanc-fruits-frais-graines"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine du quotidien"
+    ]
+  },
+  {
+    "id": "menu-26",
+    "title": "Menu FAFATRAINING · Jour 26",
+    "subtitle": "Entrée + plat + dessert, sans la partie sportive du visuel original.",
+    "recipes": [
+      "salade-de-pois-chiches-a-la-menthe",
+      "dinde-grillee-millet-legumes-rotis",
+      "fromage-blanc-banane-fruits-rouges-miel"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine du quotidien"
+    ]
+  },
+  {
+    "id": "menu-27",
+    "title": "Menu FAFATRAINING · Jour 27",
+    "subtitle": "Entrée + plat + dessert, sans la partie sportive du visuel original.",
+    "recipes": [
+      "salade-avocat-concombre-radis-grenade",
+      "cabillaud-au-four-legumes-rotis-couscous-complet",
+      "porridge-banane-myrtilles-amandes"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine du quotidien"
+    ]
+  },
+  {
+    "id": "menu-28",
+    "title": "Menu FAFATRAINING · Jour 28",
+    "subtitle": "Entrée + plat + dessert, sans la partie sportive du visuel original.",
+    "recipes": [
+      "salade-croquante-aux-noix",
+      "tempeh-grille-riz-complet-legumes-sautes",
+      "fromage-blanc-de-brebis-mangue-kiwi-chia"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisine du quotidien"
+    ]
+  },
+  {
+    "id": "menu-express-du-soir",
+    "title": "Menu express du soir",
+    "subtitle": "Trois recettes pensées pour composer un repas complet et simple à organiser.",
+    "recipes": [
+      "pates-ricotta-epinards",
+      "salade-grecque-complete",
+      "compote-pomme-poire-vanille"
+    ],
+    "tags": [
+      "Menu complet"
+    ]
+  },
+  {
+    "id": "menu-familial-facile",
+    "title": "Menu familial facile",
+    "subtitle": "Trois recettes pensées pour composer un repas complet et simple à organiser.",
+    "recipes": [
+      "poulet-provencal-au-four",
+      "salade-pois-chiches-avocat",
+      "gateau-moelleux-pomme-cannelle"
+    ],
+    "tags": [
+      "Menu complet"
+    ]
+  },
+  {
+    "id": "menu-poisson-legumes",
+    "title": "Menu poisson & légumes",
+    "subtitle": "Trois recettes pensées pour composer un repas complet et simple à organiser.",
+    "recipes": [
+      "saumon-citron-aneth-au-four",
+      "salade-grecque-complete",
+      "clafoutis-fruits-rouges"
+    ],
+    "tags": [
+      "Menu complet"
+    ]
+  },
+  {
+    "id": "menu-vegetarien-complet",
+    "title": "Menu végétarien complet",
+    "subtitle": "Trois recettes pensées pour composer un repas complet et simple à organiser.",
+    "recipes": [
+      "curry-de-pois-chiches-epinards",
+      "taboule-de-boulgour-maison",
+      "pudding-de-chia-au-lait-damande-fruits-rouges"
+    ],
+    "tags": [
+      "Menu complet"
+    ]
+  },
+  {
+    "id": "menu-petit-budget",
+    "title": "Menu petit budget",
+    "subtitle": "Trois recettes pensées pour composer un repas complet et simple à organiser.",
+    "recipes": [
+      "chili-sin-carne",
+      "salade-chou-rouge-pomme-noix",
+      "compote-pomme-poire-vanille"
+    ],
+    "tags": [
+      "Menu complet"
+    ]
+  },
+  {
+    "id": "menu-tm6-facile",
+    "title": "Menu TM6 facile",
+    "subtitle": "Trois recettes pensées pour composer un repas complet et simple à organiser.",
+    "recipes": [
+      "veloute-courgette-basilic",
+      "risotto-courgette-citron",
+      "riz-au-lait-vanille"
+    ],
+    "tags": [
+      "Menu complet"
+    ]
+  },
+  {
+    "id": "menu-cuisine-maison",
+    "title": "Menu cuisine maison",
+    "subtitle": "Trois recettes pensées pour composer un repas complet et simple à organiser.",
+    "recipes": [
+      "buf-mijote-carotte-pomme-de-terre",
+      "salade-lentilles-feta-betterave",
+      "crumble-pomme-avoine"
+    ],
+    "tags": [
+      "Menu complet"
+    ]
+  },
+  {
+    "id": "menu-leger-colore",
+    "title": "Menu léger & coloré",
+    "subtitle": "Trois recettes pensées pour composer un repas complet et simple à organiser.",
+    "recipes": [
+      "cabillaud-tomate-olives",
+      "salade-quinoa-pois-chiches",
+      "fromage-blanc-de-brebis-mangue-kiwi-chia"
+    ],
+    "tags": [
+      "Menu complet"
+    ]
+  }
+]
