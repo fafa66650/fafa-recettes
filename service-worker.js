@@ -1,4 +1,4 @@
-const CACHE='fafatraining-recettes-v15-final-2';
+const CACHE='fafatraining-recettes-v17-final-2';
 const CORE=[
   './','./index.html','./style.css','./app.js','./recipes.json','./menus.json','./manifest.json',
   './logo.jpg','./icons/icon-192.png','./icons/icon-512.png',

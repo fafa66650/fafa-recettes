@@ -1,0 +1,166 @@
+FAFATRAINING RECETTES — V17 FINAL
+RAPPORT DE VÉRIFICATION COMPLET
+Date : 07/09/2026
+
+1. CONTENU DU CATALOGUE
+- 840 recettes.
+- 100 menus complets.
+- 13 grandes familles culinaires.
+- 36 cuisines / inspirations culinaires renseignées.
+- 337+ ingrédients distincts dans le catalogue.
+- 100 recettes dans la famille « Légumes & accompagnements ».
+- Diversification renforcée avec notamment : navet, manioc, banane plantain, petits pois, fèves, topinambour, endive, radis, rutabaga, potiron, fenouil, artichaut, asperges, gombo, blettes, etc.
+
+2. INTÉGRITÉ DES DONNÉES
+Contrôles effectués :
+- 0 identifiant de recette dupliqué.
+- 0 nom de recette dupliqué.
+- 0 composition exacte de recette dupliquée.
+- 0 référence de recette cassée dans les menus.
+- 0 menu avec un nombre d'intitulés différent du nombre de recettes.
+- 0 recette sans méthode cuisine classique.
+- Toutes les méthodes classiques comportent au moins 3 étapes ; moyenne : environ 4,5 étapes.
+- 0 recette sans calories, protéines, glucides ou lipides renseignés.
+- 0 recette sans cuisine / inspiration renseignée.
+- 0 recette sans sous-catégorie renseignée.
+- 0 recette sans conseil de conservation.
+- 0 recette sans technique culinaire renseignée.
+- 0 quantité négative ou non numérique détectée.
+- 0 image référencée manquante parmi les images réellement attachées au catalogue.
+
+3. ROBOTS ET MATÉRIEL
+Principe vérifié : la bibliothèque reste utilisable sans robot.
+- Toutes les recettes ont « Cuisine classique / Ustensiles & four ».
+- TM6 complet : 260 recettes.
+- TM6 en aide : 155 recettes.
+- TM6 non pertinent / non proposé : 425 recettes.
+- 0 recette classée « TM6 non pertinent » affichant encore artificiellement le matériel TM6.
+- 0 recette TM6 complet / en aide sans étapes TM6.
+- Adaptations spécifiques disponibles lorsque pertinentes :
+  * Multicuiseur / Cookeo : 175 recettes environ.
+  * Blender / mixeur : 128 recettes environ.
+  * Air fryer : 78 recettes environ.
+
+4. CORRECTIONS CULINAIRES SUPPLÉMENTAIRES
+- Reprise complète des familles boissons pour empêcher les procédures absurdes de type blender sur les infusions ou eaux aromatisées.
+- Eaux aromatisées : préparation en carafe et infusion à froid, sans robot forcé.
+- Infusions : chauffage, infusion et filtration ; variante TM6 réellement adaptée.
+- Boissons chaudes / latte / matcha : chauffage doux et émulsion, avec variante TM6 adaptée.
+- Laits végétaux : trempage si nécessaire, mixage, filtration et conservation ; variantes TM6 / blender.
+- Smoothies et boissons protéinées : vrai parcours blender / TM6.
+- Petit-déjeuner : TM6 corrigé selon le type de recette.
+  * Porridges / semoules : TM6 complet.
+  * Pancakes / crêpes : TM6 en aide pour la pâte, cuisson à la poêle.
+  * Overnight oats, bowls frais, tartines, mueslis et préparations où le TM6 n'apporte rien : TM6 supprimé.
+- Nettoyage des incohérences « TM6 affiché mais aucune méthode TM6 ».
+- Nettoyage de matériels non pertinents sur certaines anciennes recettes.
+
+5. NUTRITION ET PORTIONS
+- Affichage principal explicitement intitulé « Par portion / 1 personne ».
+- Le changement du nombre de personnes adapte les ingrédients.
+- Le bouton « Voir le total » calcule calories / protéines / glucides / lipides pour le nombre de personnes choisi.
+- Vérification fonctionnelle effectuée avec 5 personnes : total = valeur par portion × 5.
+- Les données nutritionnelles restent des estimations indicatives issues de valeurs moyennes d'ingrédients génériques ; elles ne constituent pas un étiquetage réglementaire.
+
+6. MENUS
+- 100 menus.
+- 0 composition exacte de menu dupliquée.
+- Les menus utilisent des intitulés adaptés : Entrée / Plat / Dessert, Boisson / Salé / Sucré, Soupe / Accompagnement / Dessert, etc.
+- Les menus peuvent être enregistrés en favoris.
+- Une recette de menu peut être remplacée et le remplacement est mémorisé.
+- Un menu entier peut être ajouté aux courses ou au planning.
+
+7. PLANNING ET COURSES
+- Planning : 7 jours × Midi / Soir = 14 emplacements.
+- Les portions du foyer sont prises en compte.
+- Test critique effectué : même recette planifiée deux fois pour 4 personnes = 8 portions calculées dans les courses.
+- Les ingrédients sont regroupés par nom + unité.
+- Ajout des ingrédients manquants depuis « Mon frigo ».
+- Copie, partage et impression de la liste de courses.
+
+8. MON FRIGO
+- Sélection des ingrédients disponible.
+- Classement des recettes : 100 % prêt / manque 1 / manque 2 / autres idées proches.
+- Test effectué avec tous les ingrédients d'une recette : 0 ingrédient manquant détecté.
+
+9. MODE ACCOMPAGNÉ
+- Guide cuisine accessible depuis l'en-tête.
+- Repères intégrés pendant la cuisson : faire revenir, saisir, mijoter, frémir, déglacer, préchauffer, égoutter, nacrer, gratiner, réduire, laisser reposer, etc.
+- Minuteur étape par étape.
+- Maintien de l'écran allumé via Wake Lock lorsque le navigateur le permet ; échec silencieux / fallback lorsque non disponible.
+
+10. EXPORT RÉSEAUX SOCIAUX
+Tests effectués sur les 3 formats :
+- Instagram portrait : 1080 × 1350.
+- Story / TikTok : 1080 × 1920.
+- Carré : 1080 × 1080.
+- Style FAFATRAINING réseaux / style sobre.
+- Personnage activable / désactivable.
+- Téléchargement PNG et partage lorsque l'appareil le permet.
+
+11. RECETTES PERSONNELLES ET DONNÉES UTILISATEUR
+- Favoris recettes.
+- Favoris menus.
+- Notes personnelles.
+- Portions restantes.
+- Recettes personnelles.
+- Sauvegarde / import des données locales.
+- Préférences de matériel et restrictions.
+
+12. RESPONSIVE ET MULTIPLATEFORME
+Vérification automatisée de l'interface sur les tailles suivantes :
+- Ordinateur : 1440 × 1000.
+- Tablette / iPad : 1024 × 1366.
+- iPhone : 390 × 844.
+- Android courant : 412 × 915.
+- Petit smartphone : 360 × 800.
+- Très petit écran : 320 × 700.
+Résultat : aucun débordement horizontal global détecté sur les pages Accueil, Recettes, Menus, Planning, Mon frigo et Courses.
+
+Compatibilité de conception :
+- PWA standard HTML / CSS / JavaScript sans framework lourd.
+- Manifest PWA valide avec icônes 192 et 512 px.
+- Service worker avec cache hors connexion du cœur de l'application.
+- Meta iOS pour ajout à l'écran d'accueil.
+- Boutons et zones tactiles adaptés aux smartphones.
+- APIs optionnelles (Share, Wake Lock) protégées par détection de disponibilité et fallback.
+
+13. TESTS FONCTIONNELS AUTOMATISÉS
+Parcours contrôlés :
+- Chargement du catalogue.
+- Navigation Accueil / Recettes / Menus / Planning / Mon frigo / Courses.
+- Recherche et filtres.
+- Filtre « Légumes & accompagnements » : 100 recettes.
+- Filtre cuisines : plus de 25 choix disponibles.
+- Sous-catégories.
+- Ouverture d'une recette.
+- Changement de portions.
+- Nutrition par portion et total.
+- Lancement du mode cuisson.
+- Ouverture / modification d'un menu.
+- Planning 7 jours.
+- Frigo.
+- Liste de courses.
+- Guide cuisine.
+- Préférences et nombre de personnes du foyer.
+- Recette personnelle.
+- Surprise-moi.
+- Export image.
+- Fermeture correcte des tiroirs / fenêtres latérales.
+
+14. SYNTAXE ET FICHIERS
+- JavaScript : validation syntaxique Node réussie.
+- recipes.json : JSON valide.
+- menus.json : JSON valide.
+- manifest.json : JSON valide.
+- Fichiers PWA essentiels présents.
+- Références d'images existantes vérifiées.
+
+15. AVERTISSEMENTS UTILES
+- Les valeurs nutritionnelles sont des estimations, pas des analyses de laboratoire.
+- Les allergènes sont déduits des ingrédients déclarés. En cas d'allergie, vérifier les emballages, traces et contaminations croisées.
+- Les temps de cuisson peuvent varier selon la taille des morceaux, l'appareil et le four ; les recettes donnent des repères visuels / de texture pour compenser.
+- Les fonctions natives de partage, Wake Lock ou impression dépendent des autorisations et capacités du navigateur utilisé.
+
+CONCLUSION
+La V17 FINAL a passé les contrôles de structure, données, navigation, responsive, portions, nutrition, menus, planning, frigo, courses, mode cuisson, guides, matériel et export. Elle est conçue comme une bibliothèque de cuisine indépendante du robot, accessible à quelqu'un qui apprend à cuisiner, tout en proposant TM6 et autres appareils lorsqu'ils apportent un avantage réel.

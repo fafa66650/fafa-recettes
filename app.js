@@ -1,14 +1,15 @@
-const STORAGE_KEY='fafatraining-recettes-v15';
-const LEGACY_STORAGE_KEY='fafatraining-recettes-v14';
-const DEFAULT_PREFS={mode:'tm6',household:4,restrictions:[],equipment:['TM6','Cuisine classique'],favorites:[],favoriteMenus:[],menuOverrides:{},pantry:[],shopping:[],manualShopping:[],shoppingDone:[],planning:{},recipeNotes:{},leftovers:{},customRecipes:[],lastPage:'home',recentCategories:[],recentRecipes:[]};
+const STORAGE_KEY='fafatraining-recettes-v17';
+const LEGACY_STORAGE_KEYS=['fafatraining-recettes-v16','fafatraining-recettes-v15','fafatraining-recettes-v14'];
+const DEFAULT_PREFS={mode:'tm6',guided:true,household:4,restrictions:[],equipment:['TM6','Cuisine classique'],favorites:[],favoriteMenus:[],menuOverrides:{},pantry:[],shopping:[],manualShopping:[],shoppingDone:[],planning:{},recipeNotes:{},leftovers:{},customRecipes:[],lastPage:'home',recentCategories:[],recentRecipes:[]};
 const state={
   recipes:[],menus:[],
   prefs:{...DEFAULT_PREFS},
-  filters:{query:'',category:'',subtype:'',time:'',equipment:'',style:'',favoritesOnly:false,fridgeOnly:false,mealOnly:false},
+  filters:{query:'',category:'',subtype:'',cuisine:'',time:'',equipment:'',style:'',favoritesOnly:false,fridgeOnly:false,mealOnly:false},
   visible:48,
   currentRecipe:null,
   currentServings:4,
   currentDrawerMode:'tm6',
+  currentDeviceMode:'',
   homeFeaturedKey:'all',
   menuFilter:'',
   surpriseTime:'20',
@@ -35,10 +36,11 @@ const HOME_FEATURED_FILTERS=[
 const QUICK_CATEGORIES=['Boissons & smoothies','Petit-déjeuner','Entrées & salades','Poulet & volaille','Poissons & fruits de mer','Végétarien','Pâtes, riz & céréales','Soupes & veloutés','Desserts','Collations'];
 const allergenLabels={gluten:'gluten',lactose:'lait / produits laitiers',oeufs:'œufs',fruits_a_coque:'fruits à coque',soja:'soja',poisson:'poisson',crustaces:'crustacés',arachides:'arachides',sesame:'sésame',moutarde:'moutarde',celeri:'céleri',mollusques:'mollusques',lupin:'lupin',sulfites:'sulfites'};
 const restrictionOptions=[['gluten','Sans gluten'],['lactose','Sans lait / produits laitiers'],['oeufs','Sans œufs'],['fruits_a_coque','Sans fruits à coque'],['soja','Sans soja'],['poisson','Sans poisson'],['crustaces','Sans crustacés'],['arachides','Sans arachides'],['sesame','Sans sésame'],['moutarde','Sans moutarde'],['celeri','Sans céleri'],['mollusques','Sans mollusques'],['lupin','Sans lupin'],['sulfites','Sans sulfites']];
-const equipmentOptions=['TM6','Cuisine classique','Four','Poêle','Blender / mixeur','Air fryer'];
-const equipmentDisplay={'Cuisine classique':'Ustensiles & four'};
+const equipmentOptions=['TM6','Cuisine classique','Four','Poêle','Blender / mixeur','Air fryer','Multicuiseur / Cookeo','Robot pâtissier'];
+const equipmentDisplay={'Cuisine classique':'Ustensiles & four','Multicuiseur / Cookeo':'Multicuiseur / Cookeo'};
+const deviceLabels={airfryer:'Air fryer',multicuiseur:'Multicuiseur / Cookeo',blender:'Blender / mixeur',robot_patissier:'Robot pâtissier'};
 const categoryIcon={
-  'Boissons & smoothies':'🥤','Petit-déjeuner':'🥣','Entrées & salades':'🥗','Poulet & volaille':'🍗','Viandes':'🥩','Poissons & fruits de mer':'🐟','Végétarien':'🌿','Pâtes, riz & céréales':'🍝','Soupes & veloutés':'🍲','Four & gratins':'🔥','Desserts':'🍰','Collations':'🍎','Sauces & bases':'🥣','Repas protéinés':'💪','Recettes légères':'🥗','Batch cooking':'📦'
+  'Boissons & smoothies':'🥤','Légumes & accompagnements':'🥦','Petit-déjeuner':'🥣','Entrées & salades':'🥗','Poulet & volaille':'🍗','Viandes':'🥩','Poissons & fruits de mer':'🐟','Végétarien':'🌿','Pâtes, riz & céréales':'🍝','Soupes & veloutés':'🍲','Four & gratins':'🔥','Desserts':'🍰','Collations':'🍎','Sauces & bases':'🥣','Repas protéinés':'💪','Recettes légères':'🥗','Batch cooking':'📦'
 };
 const PLAN_DAYS=[['mon','Lundi'],['tue','Mardi'],['wed','Mercredi'],['thu','Jeudi'],['fri','Vendredi'],['sat','Samedi'],['sun','Dimanche']];
 const PLAN_SLOTS=[['lunch','Midi'],['dinner','Soir']];
@@ -56,7 +58,7 @@ const modeLabel=m=>MODE_META[m]?.title||'Autre appareil';
 const isMainCourseCategory=cat=>['Poulet & volaille','Viandes','Poissons & fruits de mer','Végétarien','Pâtes, riz & céréales'].includes(cat);
 
 function loadPrefs(){
-  try{const raw=localStorage.getItem(STORAGE_KEY)||localStorage.getItem(LEGACY_STORAGE_KEY)||'{}';const x=JSON.parse(raw);state.prefs={...DEFAULT_PREFS,...x};}
+  try{let raw=localStorage.getItem(STORAGE_KEY);if(!raw){for(const k of LEGACY_STORAGE_KEYS){raw=localStorage.getItem(k);if(raw)break;}}const x=JSON.parse(raw||'{}');state.prefs={...DEFAULT_PREFS,...x};}
   catch{state.prefs={...DEFAULT_PREFS};}
   state.prefs.shopping=(state.prefs.shopping||[]).map(x=>typeof x==='string'?{id:x,servings:null}:x).filter(Boolean);
   state.prefs.manualShopping=(state.prefs.manualShopping||[]).filter(x=>x&&x.name);
@@ -94,6 +96,8 @@ function buildStaticUI(){
   $('#recipeStyleChips').innerHTML=['Toutes',...availableStyles].map((st,i)=>`<button class="style-chip ${i===0?'active':''}" data-recipe-style="${i===0?'':escapeHtml(st)}">${escapeHtml(st)}</button>`).join('');
   const allCats=uniq(state.recipes.map(r=>r.category)).sort((a,b)=>a.localeCompare(b,'fr'));
   $('#categoryFilter').innerHTML='<option value="">Toutes les catégories</option>'+allCats.map(c=>`<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('');
+  if($('#cuisineFilter')){const cuisines=uniq(state.recipes.map(r=>r.cuisine).filter(Boolean)).sort((a,b)=>a.localeCompare(b,'fr'));$('#cuisineFilter').innerHTML='<option value="">Toutes les cuisines</option>'+cuisines.map(c=>`<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('');}
+  if($('#guidedModeToggle'))$('#guidedModeToggle').checked=state.prefs.guided!==false;
   if($('#customCategory'))$('#customCategory').innerHTML=allCats.map(c=>`<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('');
   $('#restrictionChips').innerHTML=restrictionOptions.map(([k,l])=>`<button class="restriction-chip ${state.prefs.restrictions.includes(k)?'active':''}" data-restriction="${k}">${l}</button>`).join('');
   $('#equipmentChips').innerHTML=equipmentOptions.map(e=>`<button class="restriction-chip ${state.prefs.equipment.includes(e)?'active':''}" data-pref-equipment="${escapeHtml(e)}">${escapeHtml(equipmentDisplay[e]||e)}</button>`).join('');
@@ -114,6 +118,7 @@ function bindEvents(){
   $('#applyFiltersBtn').onclick=()=>{openFilterDrawer(false);renderRecipes(true);};
   $$('[data-close-filter]').forEach(x=>x.onclick=()=>openFilterDrawer(false));
   $('#categoryFilter').onchange=e=>{state.filters.category=e.target.value;state.filters.subtype='';renderSubCategoryChips();renderRecipes(true);};
+  if($('#cuisineFilter'))$('#cuisineFilter').onchange=e=>{state.filters.cuisine=e.target.value;renderRecipes(true);};
   $('#timeFilter').onchange=e=>{state.filters.time=e.target.value;renderRecipes(true);};
   $('#equipmentFilter').onchange=e=>{state.filters.equipment=e.target.value;renderRecipes(true);};
   $('#favoritesOnly').onchange=e=>{state.filters.favoritesOnly=e.target.checked;renderRecipes(true);};
@@ -126,18 +131,24 @@ function bindEvents(){
   $('#homeSurpriseBtn').onclick=()=>openSurprise(true);
 
   $('#settingsBtn').onclick=()=>openSettings(true);
+  if($('#guideTopBtn'))$('#guideTopBtn').onclick=()=>openKitchenGuide(true);
+  if($('#openKitchenGuideBtn'))$('#openKitchenGuideBtn').onclick=()=>openKitchenGuide(true);
+  $$('[data-close-guide]').forEach(x=>x.onclick=()=>openKitchenGuide(false));
   $$('[data-close-settings]').forEach(x=>x.onclick=()=>openSettings(false));
   $$('[data-close-drawer]').forEach(x=>x.onclick=closeRecipe);
   $$('[data-close-menu]').forEach(x=>x.onclick=closeMenuDrawer);
   $$('[data-close-surprise]').forEach(x=>x.onclick=()=>openSurprise(false));
   $$('[data-close-plan]').forEach(x=>x.onclick=()=>openPlanAssign(false));
-  document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeRecipe();closeMenuDrawer();openFilterDrawer(false);openSettings(false);openSurprise(false);openPlanAssign(false);openCustomRecipe(false);closeExport();closeCook();}});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeRecipe();closeMenuDrawer();openFilterDrawer(false);openSettings(false);openSurprise(false);openPlanAssign(false);openCustomRecipe(false);openKitchenGuide(false);closeExport();closeCook();}});
 
   $('#clearFridgeBtn').onclick=()=>{state.prefs.pantry=[];savePrefs();renderPantry();renderFridgeResults();toast('Mon frigo est vide');};
   $('#fridgeSearch').addEventListener('input',renderPantry);
   $('#copyShoppingBtn').onclick=copyShopping;
+  if($('#shareShoppingBtn'))$('#shareShoppingBtn').onclick=shareShopping;
+  if($('#printShoppingBtn'))$('#printShoppingBtn').onclick=printShopping;
   $('#clearShoppingBtn').onclick=()=>{if(!state.prefs.shopping.length&&!state.prefs.manualShopping.length)return;state.prefs.shopping=[];state.prefs.manualShopping=[];state.prefs.shoppingDone=[];savePrefs();renderShopping();toast('Liste vidée');};
   $('#resetPrefsBtn').onclick=()=>{state.prefs={...DEFAULT_PREFS,household:state.prefs.household,favorites:state.prefs.favorites,favoriteMenus:state.prefs.favoriteMenus,menuOverrides:state.prefs.menuOverrides,shopping:state.prefs.shopping,manualShopping:state.prefs.manualShopping,shoppingDone:state.prefs.shoppingDone,pantry:state.prefs.pantry,planning:state.prefs.planning,recipeNotes:state.prefs.recipeNotes,leftovers:state.prefs.leftovers,customRecipes:state.prefs.customRecipes};savePrefs();buildStaticUI();bindDynamicUI();applyModeButtons();renderAll();toast('Préférences réinitialisées');};
+  if($('#guidedModeToggle'))$('#guidedModeToggle').onchange=e=>{state.prefs.guided=e.target.checked;savePrefs();toast(state.prefs.guided?'Mode accompagné activé':'Mode accompagné désactivé');};
 
   $('#clearPlanningBtn').onclick=()=>{state.prefs.planning={};savePrefs();renderPlanning();toast('Planning vidé');};
   $('#planningToShoppingBtn').onclick=planningToShopping;
@@ -170,6 +181,8 @@ function bindEvents(){
   bindDynamicUI();
 }
 
+function openKitchenGuide(open){const d=$('#kitchenGuideDrawer');if(!d)return;d.classList.toggle('open',open);d.setAttribute('aria-hidden',String(!open));if(open)document.body.style.overflow='hidden';else if(!$('#recipeDrawer').classList.contains('open')&&!$('#menuDrawer').classList.contains('open'))document.body.style.overflow='';}
+
 function bindDynamicUI(){
   $$('[data-mode]').forEach(b=>b.onclick=()=>setPreferredMode(b.dataset.mode));
   $$('[data-household]').forEach(b=>b.onclick=()=>{state.prefs.household=Number(b.dataset.household);savePrefs();$$('[data-household]').forEach(x=>x.classList.toggle('active',x===b));toast(`${state.prefs.household} personne${state.prefs.household>1?'s':''} par défaut`);});
@@ -194,11 +207,11 @@ function saveCustomRecipe(){
   const ingredients=$('#customIngredients').value.split('\n').map(parseCustomIngredient).filter(Boolean);
   const stepLines=$('#customSteps').value.split('\n').map(x=>x.trim()).filter(Boolean);
   if(!name||!ingredients.length||!stepLines.length)return toast('Ajoute un nom, des ingrédients et des étapes');
-  const id='perso-'+slug(name)+'-'+Date.now();const rec={id,name,category:cat,subtype:'Mes recettes',color:'#75d429',emoji:'🍽️',servings:serv,difficulty:'',tags:['Recette personnelle'],ingredients,modes:{classic:stepLines.map((text,i)=>({title:`Étape ${i+1}`,text,durationSec:0}))},tips:[],goalTags:[],dietTags:[],allergens:[],substitutions:[],macros:{},styles:['Cuisine maison'],equipment:['Cuisine classique'],prepMin:10,cookMin:0,description:'Recette personnelle enregistrée sur cet appareil.',featured:false,sourceType:'personnelle',nutritionBasis:'Valeurs nutritionnelles non calculées pour cette recette.',nutritionStatus:'missing',tm6Status:'none',image:''};
+  const id='perso-'+slug(name)+'-'+Date.now();const rec={id,name,category:cat,subtype:'Mes recettes',color:'#75d429',emoji:'🍽️',servings:serv,difficulty:'',tags:['Recette personnelle'],ingredients,modes:{classic:stepLines.map((text,i)=>({title:`Étape ${i+1}`,text,durationSec:0}))},tips:[],goalTags:[],dietTags:[],allergens:[],substitutions:[],macros:{},styles:['Cuisine maison'],equipment:['Cuisine classique'],prepMin:10,cookMin:0,description:'Recette personnelle enregistrée sur cet appareil.',featured:false,sourceType:'personnelle',nutritionBasis:'Valeurs nutritionnelles non calculées pour cette recette.',nutritionStatus:'missing',tm6Status:'none',image:'',cuisine:'Maison',techniques:['mise en place'],storage:'Conserve les restes rapidement au réfrigérateur dans une boîte fermée.',safetyTip:'',deviceModes:{},learningMode:true};
   state.prefs.customRecipes.push(rec);state.recipes.push(rec);savePrefs();buildStaticUI();bindDynamicUI();renderRecipes(true);openCustomRecipe(false);$('#customName').value='';$('#customIngredients').value='';$('#customSteps').value='';toast('Recette personnelle enregistrée');
 }
 function exportUserData(){
-  const payload={app:'FAFATRAINING Recettes',version:'15',date:new Date().toISOString(),prefs:state.prefs};const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='fafatraining-recettes-sauvegarde.json';a.click();URL.revokeObjectURL(a.href);toast('Sauvegarde créée');
+  const payload={app:'FAFATRAINING Recettes',version:'17',date:new Date().toISOString(),prefs:state.prefs};const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='fafatraining-recettes-sauvegarde.json';a.click();URL.revokeObjectURL(a.href);toast('Sauvegarde créée');
 }
 function importUserData(e){
   const f=e.target.files?.[0];if(!f)return;const rd=new FileReader();rd.onload=()=>{try{const d=JSON.parse(rd.result);const prefs=d.prefs||d;if(!prefs||typeof prefs!=='object')throw new Error();state.prefs={...DEFAULT_PREFS,...prefs};savePrefs();location.reload();}catch{toast('Fichier de sauvegarde invalide');}};rd.readAsText(f);e.target.value='';
@@ -239,7 +252,7 @@ function openFilterDrawer(open){
 }
 function applyQuickFilter(type,btn){
   if(type==='time20'){state.filters.time=state.filters.time==='20'?'':'20';$('#timeFilter').value=state.filters.time;}
-  if(type==='mode'){const eq=state.prefs.mode==='tm6'?'TM6':state.prefs.mode==='classic'?'Cuisine classique':'';state.filters.equipment=state.filters.equipment===eq?'':eq;$('#equipmentFilter').value=state.filters.equipment;}
+  if(type==='mode'){let eq='';if(state.prefs.mode==='tm6')eq='TM6';else if(state.prefs.mode==='classic')eq='Cuisine classique';else{const devices=['Air fryer','Multicuiseur / Cookeo','Blender / mixeur','Robot pâtissier'];eq=devices.find(d=>(state.prefs.equipment||[]).includes(d))||'';}state.filters.equipment=state.filters.equipment===eq?'':eq;$('#equipmentFilter').value=state.filters.equipment;}
   if(type==='easy')state.filters.style=state.filters.style==='Cuisine facile'?'':'Cuisine facile';
   if(type==='meal'){state.filters.mealOnly=!state.filters.mealOnly;$('#mealOnly').checked=state.filters.mealOnly;}
   if(type==='fridge'){
@@ -252,6 +265,7 @@ function activeFilterLabels(){
   const a=[];
   if(state.filters.category)a.push(state.filters.category);
   if(state.filters.subtype)a.push(state.filters.subtype);
+  if(state.filters.cuisine)a.push(state.filters.cuisine);
   if(state.filters.time)a.push(`≤ ${state.filters.time} min`);
   if(state.filters.equipment)a.push(equipmentDisplay[state.filters.equipment]||state.filters.equipment);
   if(state.filters.style)a.push(state.filters.style);
@@ -278,7 +292,7 @@ function renderActiveFilterSummary(){
 }
 
 function passesRestrictions(r){return !state.prefs.restrictions.some(a=>(r.allergens||[]).includes(a));}
-function recipeHay(r){return norm([r.name,r.category,r.description,(r.tags||[]).join(' '),(r.styles||[]).join(' '),(r.equipment||[]).join(' '),r.ingredients.map(i=>i.name).join(' ')].join(' '));}
+function recipeHay(r){return norm([r.name,r.category,r.subtype,r.cuisine,r.description,(r.tags||[]).join(' '),(r.styles||[]).join(' '),(r.techniques||[]).join(' '),(r.equipment||[]).join(' '),r.ingredients.map(i=>i.name).join(' ')].join(' '));}
 function recipeSubtype(r){
   if(r.subtype)return r.subtype;
   const h=recipeHay(r);
@@ -290,6 +304,14 @@ function recipeSubtype(r){
     if(/cafe|energie/.test(h))return'Café & énergie';
     return'Smoothies & fruits';
   }
+
+  if(r.category==='Légumes & accompagnements'){
+    const st=r.subtype||'';if(st)return st;
+    if(/brocoli|chou-fleur|chou|kale|blette/.test(h))return'Verts & choux';
+    if(/carotte|panais|betterave|celeri|patate douce/.test(h))return'Racines & tubercules';
+    if(/aubergine|courgette|poivron|gombo/.test(h))return'Légumes du soleil';
+    return'Accompagnements variés';
+  }
   if(r.category==='Petit-déjeuner'){
     if(/pancake|crepe/.test(h))return'Pancakes & crêpes';
     if(/porridge|overnight|avoine|semoule/.test(h))return'Porridges & oats';
@@ -297,10 +319,16 @@ function recipeSubtype(r){
     return'Bowls & frais';
   }
   if(r.category==='Desserts'){
-    if(/compote/.test(h))return'Compotes & fruits';
+    if(/compote|pomme au four|poire|salade de fruits/.test(h))return'Fruits & compotes';
     if(/muffin|cake|gateau|banana bread|brownie|tarte|crumble|clafoutis/.test(h))return'Gâteaux & four';
     if(/flan|creme|mousse|panna|riz au lait|semoule au lait/.test(h))return'Crèmes & desserts doux';
     return'Frais & glacé';
+  }
+  if(r.category==='Entrées & salades'){
+    if(/houmous|tartinade|guacamole/.test(h))return'Tartinades & apéro';
+    if(/tartine|verrine|carpaccio/.test(h))return'Petites entrées';
+    if(/lentille|pois chiche|quinoa|riz|pate|pomme de terre|poulet|thon|saumon|crevette/.test(h))return'Salades complètes';
+    return'Salades fraîches';
   }
   if(r.category==='Poissons & fruits de mer'){
     if(/crevette|moule/.test(h))return'Fruits de mer';
@@ -310,8 +338,48 @@ function recipeSubtype(r){
   }
   if(r.category==='Poulet & volaille'){
     if(/dinde/.test(h))return'Dinde';
-    if(/four|gratin/.test(h))return'Au four';
-    return'Poulet à la poêle / mijoté';
+    if(/boulette/.test(h))return'Boulettes & haché';
+    if(/four|gratin|roti/.test(h))return'Au four';
+    return'Poulet poêlé & mijoté';
+  }
+  if(r.category==='Viandes'){
+    if(/porc|filet mignon/.test(h))return'Porc';
+    if(/veau/.test(h))return'Veau';
+    if(/agneau/.test(h))return'Agneau';
+    if(/boulette|hachis|steak|farc/.test(h))return'Bœuf haché & farcis';
+    return'Bœuf & mijotés';
+  }
+  if(r.category==='Végétarien'){
+    if(/tofu|tempeh/.test(h))return'Tofu & tempeh';
+    if(/lentille|pois chiche|haricot|pois casse/.test(h))return'Légumineuses';
+    if(/oeuf|ufs |omelette|shakshuka/.test(h))return'Œufs';
+    if(/quinoa|riz|boulgour|semoule|polenta|couscous/.test(h))return'Céréales & bowls';
+    return'Légumes & gratins';
+  }
+  if(r.category==='Pâtes, riz & céréales'){
+    if(/pate|lasagne|gnocchi/.test(h))return'Pâtes & gnocchi';
+    if(/riz/.test(h))return'Riz';
+    if(/quinoa/.test(h))return'Quinoa';
+    if(/semoule|boulgour|couscous/.test(h))return'Semoule & boulgour';
+    return'Autres céréales';
+  }
+  if(r.category==='Soupes & veloutés'){
+    if(/lentille|pois chiche|pois casse|haricot/.test(h))return'Légumineuses';
+    if(/poulet|vermicelle|minestrone/.test(h))return'Soupes repas';
+    if(/veloute|creme/.test(h))return'Veloutés';
+    return'Soupes de légumes';
+  }
+  if(r.category==='Collations'){
+    if(/energy ball|barre/.test(h))return'Barres & energy balls';
+    if(/cookie|muffin/.test(h))return'Cookies & muffins';
+    if(/tartinade|pois chiche|sale/.test(h))return'Salé & tartinades';
+    return'Collations maison';
+  }
+  if(r.category==='Sauces & bases'){
+    if(/vinaigrette|sauce/.test(h))return'Sauces & vinaigrettes';
+    if(/houmous|guacamole|tartinade|creme de pois chiche/.test(h))return'Tartinades';
+    if(/puree/.test(h))return'Purées & accompagnements';
+    return'Bases maison';
   }
   return'';
 }
@@ -332,6 +400,7 @@ function filteredRecipes(){
   if(f.query){const q=norm(f.query);arr=arr.filter(r=>recipeHay(r).includes(q));}
   if(f.category)arr=arr.filter(r=>r.category===f.category);
   if(f.subtype)arr=arr.filter(r=>recipeSubtype(r)===f.subtype);
+  if(f.cuisine)arr=arr.filter(r=>r.cuisine===f.cuisine);
   if(f.time)arr=arr.filter(r=>totalTime(r)<=Number(f.time));
   if(f.equipment)arr=arr.filter(r=>(r.equipment||[]).includes(f.equipment));
   if(f.style)arr=arr.filter(r=>(r.styles||[]).includes(f.style));
@@ -341,8 +410,8 @@ function filteredRecipes(){
   return arr.sort((a,b)=>(Number(b.featured)-Number(a.featured))||a.name.localeCompare(b.name,'fr'));
 }
 function resetFilters(render=true){
-  state.filters={query:'',category:'',subtype:'',time:'',equipment:'',style:'',favoritesOnly:false,fridgeOnly:false,mealOnly:false};
-  if($('#recipeSearch'))$('#recipeSearch').value='';if($('#homeSearch'))$('#homeSearch').value='';if($('#categoryFilter'))$('#categoryFilter').value='';if($('#timeFilter'))$('#timeFilter').value='';if($('#equipmentFilter'))$('#equipmentFilter').value='';if($('#favoritesOnly'))$('#favoritesOnly').checked=false;if($('#mealOnly'))$('#mealOnly').checked=false;
+  state.filters={query:'',category:'',subtype:'',cuisine:'',time:'',equipment:'',style:'',favoritesOnly:false,fridgeOnly:false,mealOnly:false};
+  if($('#recipeSearch'))$('#recipeSearch').value='';if($('#homeSearch'))$('#homeSearch').value='';if($('#categoryFilter'))$('#categoryFilter').value='';if($('#cuisineFilter'))$('#cuisineFilter').value='';if($('#timeFilter'))$('#timeFilter').value='';if($('#equipmentFilter'))$('#equipmentFilter').value='';if($('#favoritesOnly'))$('#favoritesOnly').checked=false;if($('#mealOnly'))$('#mealOnly').checked=false;
   renderSubCategoryChips();$$('[data-recipe-style]').forEach(b=>b.classList.toggle('active',b.dataset.recipeStyle===''));if(render)renderRecipes(true);
 }
 
@@ -523,21 +592,51 @@ function planningToShopping(){
   savePrefs();renderShopping();toast('Courses de la semaine ajoutées');navigate('shopping');
 }
 
+function availableDevices(r){return Object.keys(r.deviceModes||{}).filter(k=>(r.deviceModes[k]||[]).length);}
 function getSteps(r,mode){
   if(mode==='tm6'&&r.tm6Status==='none')return r.modes?.classic||[];
-  if(mode==='tm6') return r.modes?.tm6||r.modes?.classic||[];
-  if(mode==='classic') return r.modes?.classic||r.modes?.tm6||[];
-  const base=r.modes?.classic||r.modes?.tm6||[];
-  return [{title:'Adapter à ton appareil',text:'Utilise les fonctions équivalentes de ton robot ou multicuiseur pour hacher, mélanger ou chauffer. Pour saisir, griller ou dorer, une poêle ou un four peut rester nécessaire selon la recette.',durationSec:60},...base];
+  if(mode==='tm6')return r.modes?.tm6||r.modes?.classic||[];
+  if(mode==='classic')return r.modes?.classic||r.modes?.tm6||[];
+  if(mode==='robot'){
+    const dev=state.currentDeviceMode||availableDevices(r)[0];
+    if(dev&&r.deviceModes?.[dev])return r.deviceModes[dev];
+    return r.modes?.classic||r.modes?.tm6||[];
+  }
+  return r.modes?.classic||r.modes?.tm6||[];
 }
 function openRecipe(id,open=true){
   const r=state.recipes.find(x=>x.id===id);if(!r)return;state.currentRecipe=r;
-  if(open){state.currentServings=state.prefs.household||r.servings||4;state.currentDrawerMode=(state.prefs.mode==='tm6'&&r.tm6Status==='none')?'classic':state.prefs.mode;state.prefs.recentCategories=[r.category,...(state.prefs.recentCategories||[]).filter(x=>x!==r.category)].slice(0,5);state.prefs.recentRecipes=[r.id,...(state.prefs.recentRecipes||[]).filter(x=>x!==r.id)].slice(0,12);savePrefs();}
-  const factor=state.currentServings/(r.servings||1);const steps=getSteps(r,state.currentDrawerMode);const image=imgSrc(r);const fav=state.prefs.favorites.includes(r.id);const allergens=(r.allergens||[]).map(a=>allergenLabels[a]||a.replaceAll('_',' '));const modeText=state.currentDrawerMode==='tm6'?'Thermomix TM6':state.currentDrawerMode==='classic'?'casserole, poêle, four et ustensiles':'robot ou appareil équivalent';
-  $('#drawerContent').innerHTML=`<div class="drawer-hero cooking-first-hero"><div class="drawer-cover">${image?`<img src="${escapeHtml(image)}" alt="${escapeHtml(r.name)}">`:`<span>${r.emoji||'🍽️'}</span>`}</div><div class="drawer-head"><span class="kicker">${escapeHtml(r.category)}</span><h2 id="drawerTitle">${escapeHtml(r.name)}</h2><div class="drawer-meta primary-meta"><span>⏱ ${totalTime(r)||'—'} min</span><span>👥 ${state.currentServings} pers.</span><span>${escapeHtml(supportBadge(r))}</span></div><p>${escapeHtml(r.description||'')}</p><div class="drawer-actions main-cook-actions"><button class="primary big-cook-btn" id="startCookBtn">▶ Commencer à cuisiner</button><button id="drawerShopBtn">+ Courses</button><button id="drawerPlanBtn">▤ Planifier</button><button id="drawerFavBtn">${fav?'♥ Favori':'♡ Favori'}</button><button id="drawerExportBtn">Créer le visuel</button></div></div></div><div class="mode-row mode-choice-box"><span class="kicker">JE CUISINE AVEC</span><div class="segmented" id="drawerModes">${r.tm6Status!=='none'?`<button data-drawer-mode="tm6" class="${state.currentDrawerMode==='tm6'?'active':''}">${r.tm6Status==='full'?'TM6 complet':'TM6 en aide'}</button>`:''}<button data-drawer-mode="classic" class="${state.currentDrawerMode==='classic'?'active':''}">Ustensiles & four</button><button data-drawer-mode="robot" class="${state.currentDrawerMode==='robot'?'active':''}">Robots & appareils</button></div><p class="small-note">Les étapes sont adaptées pour ${escapeHtml(modeText)}.</p></div><div class="serving-preset-box"><span class="kicker">POUR COMBIEN ?</span><div class="segmented serving-presets">${[1,2,3,4,6].map(n=>`<button data-serving-preset="${n}" class="${state.currentServings===n?'active':''}">${n}</button>`).join('')}<button data-serving-preset="plus" class="${![1,2,3,4,6].includes(state.currentServings)?'active':''}">${state.currentServings>6?state.currentServings:'+'}</button></div></div><div class="drawer-grid"><section class="drawer-section ingredients-main"><div class="section-title-row"><div><span class="kicker">AVANT DE COMMENCER</span><h3>Ingrédients</h3></div></div><div class="ingredient-list checklist">${r.ingredients.map(i=>`<label class="ingredient-check"><input type="checkbox"><span>${escapeHtml(i.name)}</span><strong>${formatQty(Number(i.qty||0)*factor)} ${escapeHtml(i.unit||'')}</strong></label>`).join('')}</div></section><section class="drawer-section"><span class="kicker">REPÈRES</span><h3>Nutrition</h3><div class="ingredient-list">${r.nutritionStatus==='missing'?'<div class="nutrition-missing">Valeurs non calculées pour cette recette.</div>':`<div class="ingredient-row"><span>Calories</span><span>≈ ${r.macros.kcal} kcal</span></div><div class="ingredient-row"><span>Protéines</span><span>≈ ${r.macros.proteines} g</span></div><div class="ingredient-row"><span>Glucides</span><span>≈ ${r.macros.glucides} g</span></div><div class="ingredient-row"><span>Lipides</span><span>≈ ${r.macros.lipides} g</span></div>`}</div><p class="small-note">${escapeHtml(r.nutritionBasis||'Valeurs indicatives')}</p>${allergens.length?`<div class="allergen-box"><strong>Contient / peut contenir :</strong> ${escapeHtml(allergens.join(', '))}</div>`:''}</section><section class="drawer-section full-width-section"><span class="kicker">APERÇU</span><h3>Les étapes</h3><div class="steps-list compact-steps">${steps.map((st,i)=>`<div class="step-box"><strong>${i+1}. ${escapeHtml(st.title||'Étape')}</strong><p>${escapeHtml(st.text||'')}</p>${st.durationSec?`<small>⏱ ${Math.max(1,Math.round(st.durationSec/60))} min</small>`:''}</div>`).join('')}</div></section><section class="drawer-section full-width-section"><span class="kicker">ASTUCES</span><h3>Conseils & adaptations</h3><div class="steps-list">${(r.tips||[]).map(t=>`<div class="step-box"><p>${escapeHtml(t)}</p></div>`).join('')}${(r.substitutions||[]).slice(0,6).map(t=>`<div class="step-box"><p>↔ ${escapeHtml(t)}</p></div>`).join('')}</div></section><section class="drawer-section full-width-section personal-recipe-section"><span class="kicker">MES REPÈRES</span><h3>Notes & restes</h3><label class="form-label">Ma note<textarea id="recipeNoteField" class="drawer-textarea" placeholder="Ex. 5 min de plus, moins de sel la prochaine fois…">${escapeHtml(state.prefs.recipeNotes[r.id]||'')}</textarea></label><div class="leftover-row"><span>Portions restantes</span><div class="segmented">${[0,1,2,3,4,5,6].map(n=>`<button data-leftover="${n}" class="${Number(state.prefs.leftovers[r.id]||0)===n?'active':''}">${n}</button>`).join('')}</div></div><p class="small-note">Ces informations restent enregistrées sur ton appareil et peuvent être incluses dans ta sauvegarde.</p></section></div>`;
-  $('#drawerModes').querySelectorAll('[data-drawer-mode]').forEach(b=>b.onclick=()=>{state.currentDrawerMode=b.dataset.drawerMode;openRecipe(r.id,false);});
+  const devices=availableDevices(r);
+  if(open){
+    state.currentServings=state.prefs.household||r.servings||4;
+    state.currentDrawerMode=(state.prefs.mode==='tm6'&&r.tm6Status==='none')?'classic':state.prefs.mode;
+    if(state.currentDrawerMode==='robot'&&!devices.length)state.currentDrawerMode='classic';
+    state.currentDeviceMode=devices[0]||'';
+    state.prefs.recentCategories=[r.category,...(state.prefs.recentCategories||[]).filter(x=>x!==r.category)].slice(0,5);
+    state.prefs.recentRecipes=[r.id,...(state.prefs.recentRecipes||[]).filter(x=>x!==r.id)].slice(0,12);savePrefs();
+  }
+  if(state.currentDrawerMode==='robot'&&!state.currentDeviceMode)state.currentDeviceMode=devices[0]||'';
+  const factor=state.currentServings/(r.servings||1),steps=getSteps(r,state.currentDrawerMode),image=imgSrc(r),fav=state.prefs.favorites.includes(r.id);
+  const allergens=(r.allergens||[]).map(a=>allergenLabels[a]||a.replaceAll('_',' '));
+  const modeText=state.currentDrawerMode==='tm6'?'Thermomix TM6':state.currentDrawerMode==='classic'?'casserole, poêle, four et ustensiles':(deviceLabels[state.currentDeviceMode]||'appareil sélectionné');
+  const per=r.macros||{};const total={kcal:Math.round((Number(per.kcal)||0)*state.currentServings),proteines:Math.round((Number(per.proteines)||0)*state.currentServings*10)/10,glucides:Math.round((Number(per.glucides)||0)*state.currentServings*10)/10,lipides:Math.round((Number(per.lipides)||0)*state.currentServings*10)/10};
+  const techniques=(r.techniques||[]).map(t=>`<span class="style-tag">${escapeHtml(t)}</span>`).join('');
+  const deviceButtons=devices.map(d=>`<button data-device-mode="${d}" class="${state.currentDeviceMode===d?'active':''}">${escapeHtml(deviceLabels[d]||d)}</button>`).join('');
+  $('#drawerContent').innerHTML=`<div class="drawer-hero cooking-first-hero"><div class="drawer-cover">${image?`<img src="${escapeHtml(image)}" alt="${escapeHtml(r.name)}">`:`<span>${r.emoji||'🍽️'}</span>`}</div><div class="drawer-head"><span class="kicker">${escapeHtml(r.category)}</span><h2 id="drawerTitle">${escapeHtml(r.name)}</h2><div class="drawer-meta primary-meta"><span>⏱ ${totalTime(r)||'—'} min</span><span>👥 ${state.currentServings} pers.</span><span>${escapeHtml(supportBadge(r))}</span>${r.cuisine?`<span>🌍 ${escapeHtml(r.cuisine)}</span>`:''}</div><p>${escapeHtml(r.description||'')}</p><div class="drawer-actions main-cook-actions"><button class="primary big-cook-btn" id="startCookBtn">▶ Commencer à cuisiner</button><button id="drawerShopBtn">+ Courses</button><button id="drawerPlanBtn">▤ Planifier</button><button id="drawerFavBtn">${fav?'♥ Favori':'♡ Favori'}</button><button id="drawerExportBtn">Créer le visuel</button></div></div></div>
+  <div class="mode-row mode-choice-box"><span class="kicker">JE CUISINE AVEC</span><div class="segmented" id="drawerModes">${r.tm6Status!=='none'?`<button data-drawer-mode="tm6" class="${state.currentDrawerMode==='tm6'?'active':''}">${r.tm6Status==='full'?'TM6 complet':'TM6 en aide'}</button>`:''}<button data-drawer-mode="classic" class="${state.currentDrawerMode==='classic'?'active':''}">Ustensiles & four</button>${devices.length?`<button data-drawer-mode="robot" class="${state.currentDrawerMode==='robot'?'active':''}">Robots & appareils</button>`:''}</div><p class="small-note">Les étapes affichées correspondent à ${escapeHtml(modeText)}. La recette reste toujours réalisable sans robot grâce au mode Ustensiles & four.</p>${state.currentDrawerMode==='robot'&&devices.length?`<div class="device-selector"><span>Choisis ton appareil</span><div class="segmented" id="deviceModes">${deviceButtons}</div></div>`:''}</div>
+  <div class="serving-preset-box"><span class="kicker">POUR COMBIEN ?</span><div class="segmented serving-presets">${[1,2,3,4,6].map(n=>`<button data-serving-preset="${n}" class="${state.currentServings===n?'active':''}">${n}</button>`).join('')}<button data-serving-preset="plus" class="${![1,2,3,4,6].includes(state.currentServings)?'active':''}">${state.currentServings>6?state.currentServings:'+'}</button></div><p class="small-note">Les ingrédients s’adaptent au nombre de personnes. Pour le sel et les épices, augmente progressivement et goûte.</p></div>
+  <div class="drawer-grid"><section class="drawer-section ingredients-main"><div class="section-title-row"><div><span class="kicker">AVANT DE COMMENCER</span><h3>Ingrédients</h3></div></div><div class="ingredient-list checklist">${r.ingredients.map(i=>`<label class="ingredient-check"><input type="checkbox"><span>${escapeHtml(i.name)}</span><strong>${formatQty(Number(i.qty||0)*factor)} ${escapeHtml(i.unit||'')}</strong></label>`).join('')}</div></section>
+  <section class="drawer-section nutrition-section"><span class="kicker">REPÈRES NUTRITIONNELS</span><h3>Par portion / 1 personne</h3><div class="ingredient-list"><div class="ingredient-row"><span>Calories</span><span>≈ ${per.kcal??'—'} kcal</span></div><div class="ingredient-row"><span>Protéines</span><span>≈ ${per.proteines??'—'} g</span></div><div class="ingredient-row"><span>Glucides</span><span>≈ ${per.glucides??'—'} g</span></div><div class="ingredient-row"><span>Lipides</span><span>≈ ${per.lipides??'—'} g</span></div></div><button id="nutritionTotalBtn" class="nutrition-total-btn">Voir le total pour ${state.currentServings} personne${state.currentServings>1?'s':''}</button><div id="nutritionTotalBox" class="nutrition-total-box hidden"><strong>Total de la recette · ${state.currentServings} personne${state.currentServings>1?'s':''}</strong><div class="ingredient-list"><div class="ingredient-row"><span>Calories</span><span>≈ ${total.kcal} kcal</span></div><div class="ingredient-row"><span>Protéines</span><span>≈ ${total.proteines} g</span></div><div class="ingredient-row"><span>Glucides</span><span>≈ ${total.glucides} g</span></div><div class="ingredient-row"><span>Lipides</span><span>≈ ${total.lipides} g</span></div></div></div><p class="small-note">${escapeHtml(r.nutritionBasis||'Valeurs indicatives par portion.')}</p>${allergens.length?`<div class="allergen-box"><strong>Contient / peut contenir :</strong> ${escapeHtml(allergens.join(', '))}</div>`:''}</section>
+  <section class="drawer-section full-width-section learning-section"><span class="kicker">APPRENDRE EN CUISINANT</span><h3>Ce que tu vas pratiquer</h3><div class="style-tags">${techniques||'<span class="style-tag">mise en place</span>'}</div>${r.safetyTip?`<div class="safety-box"><strong>Repère sécurité</strong><p>${escapeHtml(r.safetyTip)}</p></div>`:''}<p class="small-note">${escapeHtml(r.storage||'Conserve les restes rapidement au réfrigérateur dans une boîte fermée.')}</p></section>
+  <section class="drawer-section full-width-section"><span class="kicker">APERÇU</span><h3>Les étapes</h3><div class="steps-list compact-steps">${steps.map((st,i)=>`<div class="step-box"><strong>${i+1}. ${escapeHtml(st.title||'Étape')}</strong><p>${escapeHtml(st.text||'')}</p>${st.durationSec?`<small>⏱ ${Math.max(1,Math.round(st.durationSec/60))} min</small>`:''}</div>`).join('')}</div></section>
+  <section class="drawer-section full-width-section"><span class="kicker">ASTUCES</span><h3>Conseils & adaptations</h3><div class="steps-list">${(r.tips||[]).map(t=>`<div class="step-box"><p>${escapeHtml(t)}</p></div>`).join('')}${(r.substitutions||[]).slice(0,6).map(t=>`<div class="step-box"><p>↔ ${escapeHtml(t)}</p></div>`).join('')}</div></section>
+  <section class="drawer-section full-width-section personal-recipe-section"><span class="kicker">MES REPÈRES</span><h3>Notes & restes</h3><label class="form-label">Ma note<textarea id="recipeNoteField" class="drawer-textarea" placeholder="Ex. 5 min de plus, moins de sel la prochaine fois…">${escapeHtml(state.prefs.recipeNotes[r.id]||'')}</textarea></label><div class="leftover-row"><span>Portions restantes</span><div class="segmented">${[0,1,2,3,4,5,6].map(n=>`<button data-leftover="${n}" class="${Number(state.prefs.leftovers[r.id]||0)===n?'active':''}">${n}</button>`).join('')}</div></div><p class="small-note">Ces informations restent enregistrées sur ton appareil et peuvent être incluses dans ta sauvegarde.</p></section></div>`;
+  $('#drawerModes').querySelectorAll('[data-drawer-mode]').forEach(b=>b.onclick=()=>{state.currentDrawerMode=b.dataset.drawerMode;if(state.currentDrawerMode==='robot'&&!state.currentDeviceMode)state.currentDeviceMode=devices[0]||'';openRecipe(r.id,false);});
+  if($('#deviceModes'))$('#deviceModes').querySelectorAll('[data-device-mode]').forEach(b=>b.onclick=()=>{state.currentDeviceMode=b.dataset.deviceMode;openRecipe(r.id,false);});
   $$('[data-serving-preset]').forEach(b=>b.onclick=()=>{const v=b.dataset.servingPreset;if(v==='plus')state.currentServings=Math.min(12,state.currentServings+1);else state.currentServings=Number(v);openRecipe(r.id,false);});
-  $('#drawerShopBtn').onclick=()=>addToShopping(r.id,state.currentServings);$('#drawerPlanBtn').onclick=()=>openPlanAssign(true,'recipe',r.id);$('#drawerExportBtn').onclick=()=>openExport('recipe',r.id);$('#drawerFavBtn').onclick=()=>toggleFavorite(r.id);$('#startCookBtn').onclick=()=>startCook(r,state.currentDrawerMode);if($('#recipeNoteField'))$('#recipeNoteField').oninput=e=>{state.prefs.recipeNotes[r.id]=e.target.value;savePrefs();};$$('[data-leftover]').forEach(b=>b.onclick=()=>{const n=Number(b.dataset.leftover);if(n)state.prefs.leftovers[r.id]=n;else delete state.prefs.leftovers[r.id];savePrefs();$$('[data-leftover]').forEach(x=>x.classList.toggle('active',x===b));toast(n?`${n} portion${n>1?'s':''} restante${n>1?'s':''}`:'Aucun reste enregistré');});
+  if($('#nutritionTotalBtn'))$('#nutritionTotalBtn').onclick=()=>{const box=$('#nutritionTotalBox');box.classList.toggle('hidden');$('#nutritionTotalBtn').textContent=box.classList.contains('hidden')?`Voir le total pour ${state.currentServings} personne${state.currentServings>1?'s':''}`:'Masquer le total';};
+  $('#drawerShopBtn').onclick=()=>addToShopping(r.id,state.currentServings);$('#drawerPlanBtn').onclick=()=>openPlanAssign(true,'recipe',r.id);$('#drawerExportBtn').onclick=()=>openExport('recipe',r.id);$('#drawerFavBtn').onclick=()=>toggleFavorite(r.id);$('#startCookBtn').onclick=()=>startCook(r,state.currentDrawerMode);
+  if($('#recipeNoteField'))$('#recipeNoteField').oninput=e=>{state.prefs.recipeNotes[r.id]=e.target.value;savePrefs();};$$('[data-leftover]').forEach(b=>b.onclick=()=>{const n=Number(b.dataset.leftover);if(n)state.prefs.leftovers[r.id]=n;else delete state.prefs.leftovers[r.id];savePrefs();$$('[data-leftover]').forEach(x=>x.classList.toggle('active',x===b));toast(n?`${n} portion${n>1?'s':''} restante${n>1?'s':''}`:'Aucun reste enregistré');});
   if(open){$('#recipeDrawer').classList.add('open');$('#recipeDrawer').setAttribute('aria-hidden','false');document.body.style.overflow='hidden';}
 }
 
@@ -585,21 +684,30 @@ function renderShopping(){
   const groups={};items.forEach(i=>(groups[groceryGroup(i.name)]??=[]).push(i));$('#shoppingList').innerHTML=Object.entries(groups).map(([g,it])=>`<section class="shopping-group"><h3>${escapeHtml(g)}</h3>${it.map(x=>{const key=slug(x.name+'-'+x.unit);const done=state.prefs.shoppingDone.includes(key);return`<label class="shopping-item ${done?'done':''}"><input type="checkbox" data-shop-done="${key}" ${done?'checked':''}><span><strong>${formatQty(x.qty)} ${escapeHtml(x.unit||'')}</strong> ${escapeHtml(x.name)}</span></label>`;}).join('')}</section>`).join('');$$('[data-shop-done]').forEach(c=>c.onchange=()=>{const k=c.dataset.shopDone;const a=state.prefs.shoppingDone;state.prefs.shoppingDone=c.checked?[...new Set([...a,k])]:a.filter(x=>x!==k);savePrefs();renderShopping();});
 }
 async function copyShopping(){const items=shoppingItems();if(!items.length)return toast('La liste est vide');const txt=['FAFATRAINING · LISTE DE COURSES','',...items.map(i=>`☐ ${formatQty(i.qty)} ${i.unit||''} ${i.name}`)].join('\n');try{await navigator.clipboard.writeText(txt);toast('Liste copiée');}catch{toast('Copie impossible sur cet appareil');}}
+async function shareShopping(){const items=shoppingItems();if(!items.length)return toast('La liste est vide');const text=['FAFATRAINING · LISTE DE COURSES','',...items.map(i=>`☐ ${formatQty(i.qty)} ${i.unit||''} ${i.name}`)].join('\n');if(navigator.share){try{await navigator.share({title:'Liste de courses FAFATRAINING',text});return}catch(e){if(e?.name==='AbortError')return;}}try{await navigator.clipboard.writeText(text);toast('Partage direct indisponible : liste copiée');}catch{toast('Partage indisponible sur cet appareil');}}
+function printShopping(){const items=shoppingItems();if(!items.length)return toast('La liste est vide');const w=window.open('','_blank','width=720,height=900');if(!w)return toast('Autorise les fenêtres pop-up pour imprimer');const rows=items.map(i=>`<li>☐ <strong>${formatQty(i.qty)} ${escapeHtml(i.unit||'')}</strong> ${escapeHtml(i.name)}</li>`).join('');w.document.write(`<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Liste de courses FAFATRAINING</title><style>body{font-family:system-ui,sans-serif;padding:32px;max-width:760px;margin:auto;color:#111}h1{margin-bottom:8px}p{color:#555}li{padding:8px 0;border-bottom:1px solid #ddd;list-style:none}</style></head><body><h1>FAFATRAINING · Liste de courses</h1><p>${new Date().toLocaleDateString('fr-FR')}</p><ul>${rows}</ul><script>window.onload=()=>window.print()<\/script></body></html>`);w.document.close();}
 
 function renderAll(){renderHome();renderRecipes();renderMenus();renderPantry();renderFridgeResults();renderPlanning();renderShopping();}
 
 async function startCook(r,mode){state.cook.recipe=r;state.cook.steps=getSteps(r,mode);state.cook.index=0;closeRecipe();$('#cookMode').classList.add('open');$('#cookMode').setAttribute('aria-hidden','false');document.body.style.overflow='hidden';renderCookStep();try{if('wakeLock' in navigator)state._wakeLock=await navigator.wakeLock.request('screen');}catch{}}
 function kitchenTipForStep(text){
   const h=norm(text);
-  if(/faire revenir|revenir les/.test(h))return'Repère cuisine : feu moyen, remue régulièrement. Les aliments doivent devenir tendres ou légèrement colorés sans brûler.';
-  if(/dorer|saisir/.test(h))return'Repère cuisine : la poêle doit être chaude. Laisse colorer quelques instants avant de retourner pour obtenir une belle surface dorée.';
-  if(/mijoter/.test(h))return'Repère cuisine : cuisson douce, petits frémissements seulement. Couvre partiellement si la sauce réduit trop vite.';
-  if(/fremir|fremissement/.test(h))return'Repère cuisine : le liquide fait de petites bulles, mais ne bout pas fortement.';
-  if(/prechauff/.test(h))return'Repère cuisine : laisse le four atteindre la température indiquée avant d’enfourner pour une cuisson régulière.';
-  if(/egoutter/.test(h))return'Repère cuisine : laisse l’eau s’écouler quelques secondes pour éviter de détremper la préparation.';
+  if(/mise en place|tout preparer|preparer les ingredients/.test(h))return'Repère cuisine : prends 5 minutes pour tout sortir, peser et couper avant d’allumer le feu. Tu éviteras les oublis et les cuissons trop longues.';
+  if(/emin(c|ç)er|emince/.test(h))return'Repère cuisine : émincer = couper en fines lamelles. Cherche surtout des morceaux de taille régulière.';
+  if(/faire revenir|revenir les/.test(h))return'Repère cuisine : feu moyen, un peu de matière grasse et des mouvements réguliers. L’aliment doit s’attendrir ou légèrement colorer sans brûler.';
+  if(/dorer|saisir/.test(h))return'Repère cuisine : la poêle doit être bien chaude. Dépose l’aliment, ne le bouge pas tout de suite, puis retourne quand une croûte dorée s’est formée.';
+  if(/mijoter/.test(h))return'Repère cuisine : cuisson douce, avec seulement de petites bulles. Couvre partiellement si la sauce réduit trop vite.';
+  if(/fremir|fremissement/.test(h))return'Repère cuisine : frémir = petites bulles régulières. Si ça bout fortement, baisse le feu.';
+  if(/deglac/.test(h))return'Repère cuisine : déglacer = verser un peu de liquide dans la poêle chaude puis gratter les sucs collés au fond pour enrichir la sauce.';
+  if(/prechauff/.test(h))return'Repère cuisine : laisse le four atteindre la température demandée avant d’enfourner, sinon le temps de cuisson devient moins fiable.';
+  if(/egoutter/.test(h))return'Repère cuisine : laisse l’eau s’écouler quelques secondes, voire une minute pour les légumes ou pommes de terre, afin d’éviter une préparation détrempée.';
+  if(/nacrer/.test(h))return'Repère cuisine : nacrer le riz = le mélanger 1 à 2 minutes dans la matière grasse jusqu’à ce que les bords deviennent légèrement translucides.';
+  if(/gratiner/.test(h))return'Repère cuisine : gratiner = colorer le dessus. Surveille les dernières minutes car la coloration peut accélérer très vite.';
+  if(/reduire|reduction/.test(h))return'Repère cuisine : réduire = laisser évaporer une partie du liquide, généralement sans couvercle, jusqu’à obtenir une sauce plus concentrée.';
+  if(/reposer/.test(h))return'Repère cuisine : le repos permet aux jus, à la chaleur et à la texture de se stabiliser. Ne saute pas cette étape quand elle est indiquée.';
   return'';
 }
-function renderCookStep(){const c=state.cook,s=c.steps[c.index]||{title:'Terminé',text:'La recette est prête.',durationSec:0};$('#cookProgress').textContent=`Étape ${c.index+1}/${c.steps.length}`;$('#cookRecipeName').textContent=c.recipe?.name||'Recette';$('#cookStepNumber').textContent=c.index+1;$('#cookStepTitle').textContent=s.title||'Étape';$('#cookStepText').textContent=s.text||'';const tip=kitchenTipForStep(s.text||'');$('#cookBeginnerTip').textContent=tip;$('#cookBeginnerTip').classList.toggle('hidden',!tip);$('#cookPrevBtn').disabled=c.index===0;$('#cookNextBtn').textContent=c.index===c.steps.length-1?'Terminer':'Suivant';state.cook.timerInitial=Number(s.durationSec||0);state.cook.timerLeft=state.cook.timerInitial;stopTimer();updateTimerDisplay();$('#cookTimer').classList.add('hidden');}
+function renderCookStep(){const c=state.cook,s=c.steps[c.index]||{title:'Terminé',text:'La recette est prête.',durationSec:0};$('#cookProgress').textContent=`Étape ${c.index+1}/${c.steps.length}`;$('#cookRecipeName').textContent=c.recipe?.name||'Recette';$('#cookStepNumber').textContent=c.index+1;$('#cookStepTitle').textContent=s.title||'Étape';$('#cookStepText').textContent=s.text||'';const tip=state.prefs.guided===false?'':kitchenTipForStep(s.text||'');$('#cookBeginnerTip').textContent=tip;$('#cookBeginnerTip').classList.toggle('hidden',!tip);$('#cookPrevBtn').disabled=c.index===0;$('#cookNextBtn').textContent=c.index===c.steps.length-1?'Terminer':'Suivant';state.cook.timerInitial=Number(s.durationSec||0);state.cook.timerLeft=state.cook.timerInitial;stopTimer();updateTimerDisplay();$('#cookTimer').classList.add('hidden');}
 function moveCook(dir){const c=state.cook;if(dir>0&&c.index===c.steps.length-1){closeCook();toast('Recette terminée !');return;}c.index=Math.max(0,Math.min(c.steps.length-1,c.index+dir));renderCookStep();}
 function closeCook(){stopTimer();try{state._wakeLock?.release();}catch{}state._wakeLock=null;$('#cookMode').classList.remove('open');$('#cookMode').setAttribute('aria-hidden','true');document.body.style.overflow='';}
 function toggleTimerPanel(){if(!state.cook.timerInitial)return toast('Pas de durée précise pour cette étape');$('#cookTimer').classList.toggle('hidden');}
