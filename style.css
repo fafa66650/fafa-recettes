@@ -116,3 +116,67 @@ button,input,select{font:inherit}button{cursor:pointer}img{display:block;max-wid
 @media(max-width:1100px){.home-hero-v14{grid-template-columns:1fr}.v14-character-panel{min-height:330px;max-height:420px}.planning-grid{grid-template-columns:repeat(7,minmax(170px,1fr))}}
 @media(max-width:760px){.home-hero-v14{min-height:auto}.v14-character-panel{min-height:300px}.v14-for-you .section-title-row{align-items:flex-start}.home-inline-actions{justify-content:flex-start}.planning-toolbar{align-items:flex-start;flex-direction:column}.planning-grid{grid-template-columns:1fr;overflow:visible}.plan-day{min-width:0}.plan-day{display:grid;grid-template-columns:100px 1fr 1fr;gap:8px;align-items:stretch}.plan-day h3{display:flex;align-items:center;margin:0}.plan-slot{margin-top:0;min-height:112px}.surprise-drawer-grid{grid-template-columns:1fr 1fr}.v14-nav{height:64px}}
 @media(max-width:520px){.plan-day{grid-template-columns:1fr}.plan-day h3{margin-bottom:2px}.surprise-drawer-grid{grid-template-columns:1fr}.home-inline-actions{width:100%}.home-inline-actions .outline-btn,.home-inline-actions .text-btn{flex:1}.v14-choice-grid .main-choice{min-height:88px}.preferred-mode-line .mode-card small{display:none}.preferred-mode-line .mode-card{min-height:48px}.v14-character-panel{min-height:260px}.v14-for-you .featured-grid{grid-template-columns:1fr 1fr}}
+.form-label{display:grid;gap:7px;color:#dbe6d8;font-weight:800;margin:12px 0}.drawer-input,.drawer-textarea{width:100%;border:1px solid var(--line);background:#0d130c;color:var(--text);border-radius:14px;padding:12px;outline:none}.drawer-textarea{min-height:110px;resize:vertical}.drawer-input:focus,.drawer-textarea:focus{border-color:var(--green)}.file-label{display:inline-flex;align-items:center;justify-content:center}.nutrition-missing{border:1px dashed #516048;border-radius:14px;padding:14px;color:var(--muted);line-height:1.45}.personal-recipe-section{display:grid;gap:12px}.leftover-row{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}.leftover-row>span{font-weight:900;color:#dbe6d8}
+
+/* ===== V15 FINAL : correctifs responsive multi-plateforme ===== */
+.home-hero,.home-hero>*{min-width:0}
+.hero-copy,.hero-side,.preferred-mode-line,.main-choice-grid,.hero-mode-cards{min-width:0;max-width:100%}
+.hero-search-wrap{width:100%;max-width:100%}
+.drawer-panel,.settings-panel,.export-panel,.menu-detail-panel{max-width:100vw}
+.drawer-panel *,.settings-panel *,.export-panel *,.menu-detail-panel *{min-width:0}
+
+@media(max-width:700px){
+  .home-hero-v14{padding:18px;gap:14px}
+  .hero-copy{width:100%}
+  .hero-search-wrap{width:100%;max-width:none}
+  .main-choice-grid,.preferred-mode-line,.hero-mode-cards{width:100%}
+}
+
+@media(max-width:380px){
+  .app-main{padding-left:8px;padding-right:8px}
+  .home-hero-v14{padding:14px;border-radius:20px}
+  .hero-copy h1{font-size:33px;line-height:1.02}
+  .hero-copy>p{font-size:14px}
+  .hero-search-wrap{padding-left:10px;gap:5px}
+  .hero-search-wrap input{font-size:14px}
+  .main-choice{padding:12px;column-gap:8px}
+  .main-choice strong{font-size:14px}
+  .main-choice small{font-size:11px}
+  .v14-for-you .featured-grid,.featured-grid,.recipe-grid{grid-template-columns:1fr}
+  .topbar{padding-left:8px;padding-right:8px}
+  .topbar-left{gap:6px;min-width:0}
+  .brand{min-width:0;gap:7px}
+  .brand-logo{width:38px;height:38px}
+  .brand strong{font-size:12px}
+  .brand small{font-size:8px;letter-spacing:.1em}
+  .top-actions{gap:5px}
+  .top-actions .icon-btn{width:36px;height:36px;font-size:18px;border-radius:11px}
+  .bottom-nav{width:calc(100% - 8px);padding:5px;height:62px}
+  .nav-item span{font-size:17px}.nav-item small{font-size:8px}
+  .page-heading h1{font-size:36px}
+  .page-heading{gap:12px}
+  .menu-card,.menu-card-full{padding:14px}
+  .drawer-panel,.settings-panel,.export-panel{padding:10px 10px 34px}
+  .drawer-head h2{font-size:27px}
+  .menu-detail-head h2{font-size:29px}
+  .menu-detail-footer button{min-width:0;width:100%}
+  .serving-presets{display:grid;grid-template-columns:repeat(3,1fr)}
+  .drawer-actions{display:grid;grid-template-columns:1fr 1fr}
+  .drawer-actions .big-cook-btn{grid-column:1/-1}
+  .filter-search input{font-size:14px}
+}
+
+@media(max-width:330px){
+  .brand span{display:none}
+  .hero-copy h1{font-size:30px}
+  .home-hero-v14{padding:12px}
+  .main-choice{grid-template-columns:34px 1fr}
+  .main-choice span{font-size:25px}
+  .top-actions .icon-btn{width:34px;height:34px}
+  .quick-filter-row{gap:6px}
+  .quick-filter{font-size:11px;padding:8px 9px}
+  .style-chip{font-size:11px;padding:8px 9px}
+}
+
+/* évite les débordements de textes longs sur toutes les cartes */
+.recipe-title,.menu-card h3,.menu-card-full h3,.menu-recipe-info strong,.plan-slot strong,.shopping-item span,.selected-pill,.pantry-btn{overflow-wrap:anywhere;word-break:normal}

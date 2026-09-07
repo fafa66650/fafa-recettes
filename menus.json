@@ -12,6 +12,15 @@
       "Menu complet",
       "Cuisine légère",
       "Cuisine maison"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Léger",
+      "Quotidien"
     ]
   },
   {
@@ -27,6 +36,15 @@
       "Menu complet",
       "Batch cooking",
       "Cuisine du quotidien"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Batch cooking",
+      "Quotidien"
     ]
   },
   {
@@ -42,6 +60,15 @@
       "Menu complet",
       "Petit budget",
       "Cuisine économique"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Petit budget",
+      "Quotidien"
     ]
   },
   {
@@ -57,6 +84,17 @@
       "Menu complet",
       "Cuisine familiale",
       "Cuisine plaisir"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Familial",
+      "Cuisine du monde",
+      "Plaisir / week-end",
+      "Quotidien"
     ]
   },
   {
@@ -72,6 +110,15 @@
       "Menu complet",
       "TM6",
       "Cuisine facile"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "TM6",
+      "Quotidien"
     ]
   },
   {
@@ -87,6 +134,14 @@
       "Menu complet",
       "Cuisine protéinée",
       "Repas complet"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Protéiné"
     ]
   },
   {
@@ -102,6 +157,15 @@
       "Menu complet",
       "Cuisine protéinée",
       "Après sport"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Protéiné",
+      "Quotidien"
     ]
   },
   {
@@ -117,6 +181,16 @@
       "Menu complet",
       "Cuisine végétale",
       "Cuisine maison"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétal",
+      "Cuisine du monde",
+      "Quotidien"
     ]
   },
   {
@@ -132,6 +206,15 @@
       "Menu complet",
       "Cuisine maison",
       "Cuisine du quotidien"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Cuisine du monde",
+      "Quotidien"
     ]
   },
   {
@@ -147,6 +230,15 @@
       "Menu complet",
       "Cuisine express",
       "Cuisine du quotidien"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Express",
+      "Quotidien"
     ]
   },
   {
@@ -162,6 +254,15 @@
       "Menu complet",
       "Cuisine légère",
       "Poisson"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Léger",
+      "Quotidien"
     ]
   },
   {
@@ -177,6 +278,14 @@
       "Menu complet",
       "Cuisine maison",
       "Cuisine classique"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Quotidien"
     ]
   },
   {
@@ -192,6 +301,15 @@
       "Menu complet",
       "Cuisine végétarienne",
       "Repas complet"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétal",
+      "Quotidien"
     ]
   },
   {
@@ -207,6 +325,14 @@
       "Menu complet",
       "Cuisine du quotidien",
       "Cuisine facile"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Quotidien"
     ]
   },
   {
@@ -222,6 +348,16 @@
       "Menu complet",
       "Cuisine express",
       "Cuisine légère"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Express",
+      "Léger",
+      "Quotidien"
     ]
   },
   {
@@ -237,6 +373,15 @@
       "Menu complet",
       "Brunch",
       "Cuisine maison"
+    ],
+    "slotLabels": [
+      "Salé",
+      "Accompagnement",
+      "Sucré"
+    ],
+    "filterTags": [
+      "Brunch",
+      "Quotidien"
     ]
   },
   {
@@ -252,6 +397,14 @@
       "Menu complet",
       "Four",
       "Cuisine facile"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Quotidien"
     ]
   },
   {
@@ -267,6 +420,15 @@
       "Menu complet",
       "Cocooning",
       "Cuisine maison"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Cuisine du monde",
+      "Quotidien"
     ]
   },
   {
@@ -282,6 +444,14 @@
       "Menu complet",
       "Cuisine protéinée",
       "Poulet"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Protéiné"
     ]
   },
   {
@@ -297,6 +467,15 @@
       "Menu complet",
       "Cuisine plaisir",
       "Cuisine maison"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Plaisir / week-end",
+      "Quotidien"
     ]
   },
   {
@@ -312,6 +491,15 @@
       "Menu complet",
       "Cuisine légère",
       "Poisson"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Léger",
+      "Plaisir / week-end"
     ]
   },
   {
@@ -327,6 +515,15 @@
       "Menu complet",
       "Cuisine végétale",
       "Cuisine facile"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétal",
+      "Quotidien"
     ]
   },
   {
@@ -342,6 +539,15 @@
       "Menu complet",
       "Cuisine familiale",
       "Poulet & volaille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Familial",
+      "Quotidien"
     ]
   },
   {
@@ -357,6 +563,15 @@
       "Menu complet",
       "Cuisine du monde",
       "Cuisine maison"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Cuisine du monde",
+      "Quotidien"
     ]
   },
   {
@@ -372,6 +587,16 @@
       "Menu complet",
       "Cuisine légère",
       "Cuisine protéinée"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Léger",
+      "Protéiné",
+      "Quotidien"
     ]
   },
   {
@@ -387,6 +612,14 @@
       "Menu complet",
       "Cuisine du quotidien",
       "Cuisine facile"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Quotidien"
     ]
   },
   {
@@ -402,6 +635,15 @@
       "Menu complet",
       "Poisson",
       "Cuisine maison"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Cuisine du monde",
+      "Quotidien"
     ]
   },
   {
@@ -417,6 +659,15 @@
       "Menu complet",
       "Cuisine express",
       "Cuisine du quotidien"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Express",
+      "Quotidien"
     ]
   },
   {
@@ -432,6 +683,15 @@
       "Menu complet",
       "Cuisine protéinée",
       "Soir"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Léger",
+      "Protéiné"
     ]
   },
   {
@@ -447,6 +707,16 @@
       "Menu complet",
       "Cuisine végétale",
       "Cocooning"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétal",
+      "Cuisine du monde",
+      "Quotidien"
     ]
   },
   {
@@ -462,6 +732,15 @@
       "Menu complet",
       "Poisson",
       "Cuisine légère"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Léger",
+      "Quotidien"
     ]
   },
   {
@@ -477,6 +756,15 @@
       "Menu complet",
       "Cuisine plaisir",
       "Poulet & volaille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Familial",
+      "Plaisir / week-end"
     ]
   },
   {
@@ -492,6 +780,15 @@
       "Menu complet",
       "Cuisine végétale",
       "Cuisine maison"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétal",
+      "Quotidien"
     ]
   },
   {
@@ -507,6 +804,14 @@
       "Menu complet",
       "Cuisine express",
       "Viandes"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Express"
     ]
   },
   {
@@ -522,6 +827,16 @@
       "Menu complet",
       "Petit-déjeuner",
       "Cuisine facile"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Boisson"
+    ],
+    "filterTags": [
+      "Léger",
+      "Brunch",
+      "Quotidien"
     ]
   },
   {
@@ -537,6 +852,15 @@
       "Menu complet",
       "Cuisine classique",
       "Cuisine facile"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Cuisine du monde",
+      "Quotidien"
     ]
   },
   {
@@ -552,6 +876,15 @@
       "Menu complet",
       "Cuisine plaisir",
       "Cuisine légère"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Léger",
+      "Plaisir / week-end"
     ]
   },
   {
@@ -567,6 +900,15 @@
       "Menu complet",
       "Week-end",
       "Cuisine maison"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Plaisir / week-end",
+      "Quotidien"
     ]
   },
   {
@@ -582,6 +924,14 @@
       "Menu complet",
       "Autre appareil",
       "Cuisine facile"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Quotidien"
     ]
   },
   {
@@ -597,6 +947,15 @@
       "Menu complet",
       "Cuisine légère",
       "Repas simple"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Léger",
+      "Quotidien"
     ]
   },
   {
@@ -612,6 +971,15 @@
       "Menu complet",
       "Cuisine familiale",
       "Cuisine facile"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Familial",
+      "Quotidien"
     ]
   },
   {
@@ -627,6 +995,15 @@
       "Menu complet",
       "Cuisine du monde",
       "Cuisine plaisir"
+    ],
+    "slotLabels": [
+      "Boisson",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Cuisine du monde",
+      "Plaisir / week-end"
     ]
   },
   {
@@ -642,6 +1019,14 @@
       "Menu complet",
       "Four",
       "Cuisine facile"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Quotidien"
     ]
   },
   {
@@ -657,6 +1042,15 @@
       "Menu complet",
       "Cuisine végétale",
       "Cuisine du quotidien"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétal",
+      "Quotidien"
     ]
   },
   {
@@ -672,6 +1066,15 @@
       "Menu complet",
       "Cuisine familiale",
       "Four"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Familial",
+      "Quotidien"
     ]
   },
   {
@@ -687,6 +1090,15 @@
       "Menu complet",
       "Soir",
       "Cuisine facile"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Léger",
+      "Quotidien"
     ]
   },
   {
@@ -702,6 +1114,15 @@
       "Menu complet",
       "Cuisine protéinée",
       "Cuisine express"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Express",
+      "Protéiné"
     ]
   },
   {
@@ -717,6 +1138,16 @@
       "Menu complet",
       "Petit budget",
       "Cuisine végétale"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Petit budget",
+      "Végétal",
+      "Quotidien"
     ]
   },
   {
@@ -732,6 +1163,16 @@
       "Menu complet",
       "Cuisine du monde",
       "Cuisine facile"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Express",
+      "Cuisine du monde",
+      "Quotidien"
     ]
   },
   {
@@ -746,6 +1187,14 @@
     "tags": [
       "Menu complet",
       "Poisson",
+      "Cuisine du monde"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
       "Cuisine du monde"
     ]
   },
@@ -762,6 +1211,15 @@
       "Menu complet",
       "Cocooning",
       "Cuisine maison"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Cuisine du monde",
+      "Quotidien"
     ]
   },
   {
@@ -777,6 +1235,14 @@
       "Menu complet",
       "Cuisine facile",
       "À emporter"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Quotidien"
     ]
   },
   {
@@ -792,6 +1258,15 @@
       "Menu complet",
       "TM6",
       "Cuisine maison"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "TM6",
+      "Quotidien"
     ]
   },
   {
@@ -807,6 +1282,14 @@
       "Menu complet",
       "Cuisine légère",
       "Hydratation"
+    ],
+    "slotLabels": [
+      "Boisson",
+      "Entrée",
+      "Plat"
+    ],
+    "filterTags": [
+      "Léger"
     ]
   },
   {
@@ -822,6 +1305,15 @@
       "Menu complet",
       "Cuisine express",
       "Cuisine facile"
+    ],
+    "slotLabels": [
+      "Boisson",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Express",
+      "Quotidien"
     ]
   },
   {
@@ -837,6 +1329,15 @@
       "Menu complet",
       "Cuisine familiale",
       "Cuisine maison"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Familial",
+      "Quotidien"
     ]
   },
   {
@@ -852,6 +1353,15 @@
       "Menu complet",
       "Poulet & volaille",
       "Cuisine maison"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Plaisir / week-end",
+      "Quotidien"
     ]
   },
   {
@@ -867,6 +1377,16 @@
       "Menu complet",
       "Brunch",
       "Cuisine plaisir"
+    ],
+    "slotLabels": [
+      "Boisson",
+      "Salé",
+      "Sucré"
+    ],
+    "filterTags": [
+      "Brunch",
+      "Plaisir / week-end",
+      "Quotidien"
     ]
   },
   {
@@ -882,6 +1402,15 @@
       "Menu complet",
       "Cuisine végétale",
       "Four"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétal",
+      "Quotidien"
     ]
   },
   {
@@ -897,6 +1426,15 @@
       "Menu complet",
       "Brunch",
       "Cuisine facile"
+    ],
+    "slotLabels": [
+      "Boisson",
+      "Salé",
+      "Sucré"
+    ],
+    "filterTags": [
+      "Brunch",
+      "Quotidien"
     ]
   }
 ]
