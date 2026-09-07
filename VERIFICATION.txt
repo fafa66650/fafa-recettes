@@ -1,0 +1,60 @@
+FAFATRAINING RECETTES — CONTRÔLES DE LIVRAISON
+===============================================
+
+Nettoyage
+- Aucun identifiant, cache, commentaire ou fichier ne contient de référence aux anciennes versions numérotées.
+- Clé locale unique : fafatraining-recettes.
+- Cache PWA unique : fafatraining-recettes-cache.
+- Structure GitHub Pages à plat : index.html est directement à la racine.
+
+Bibliothèque
+- 840 recettes.
+- 840 identifiants uniques.
+- 840 noms uniques.
+- 100 menus avec identifiants et titres uniques.
+- Aucune référence cassée entre les menus et les recettes.
+- Aucun doublon exact de composition ingrédients/quantités.
+- 13 grandes familles culinaires.
+- 67 sous-catégories.
+- 36 cuisines / inspirations identifiées.
+- 100 recettes dans Légumes & accompagnements, en plus des légumes présents dans les autres familles.
+
+Complétude des fiches
+- Chaque recette possède : catégorie, sous-catégorie, cuisine/inspiration, ingrédients, description, temps, portions, matériel, méthode sans robot, nutrition, conservation et styles.
+- Les 840 recettes disposent d’une préparation avec ustensiles du quotidien.
+- Nutrition renseignée par portion ; le total est recalculable selon le nombre de personnes.
+- Allergènes structurés ; contrôle supplémentaire effectué sur les familles majeures. Les lasagnes signalent notamment gluten + lait/produits laitiers.
+
+Matériel
+- Cuisine sans robot : 840 recettes.
+- TM6 : 260 recettes en mode complet + 155 en aide ; absent quand il n’apporte rien.
+- Multicuiseur / Cookeo : 175 recettes.
+- Blender / mixeur : 128 recettes.
+- Poêle : 140 recettes.
+- Four : 136 recettes.
+- Air fryer : 78 recettes.
+
+Fonctions présentes
+- Accueil simplifié avec 3 actions principales.
+- Bibliothèque rangée par grandes familles, sous-catégories et cuisine/inspiration.
+- Recherche et filtres avancés.
+- Mon frigo / placards par familles, ingrédients récents, favoris et ajout libre d’un ingrédient.
+- Menus, favoris de menus et remplacement d’éléments.
+- Planning hebdomadaire midi/soir.
+- Liste de courses automatique et ajout des ingrédients manquants.
+- Portions réglables.
+- Guide cuisine et mode accompagné pas à pas.
+- Favoris, notes, restes et recettes personnelles.
+- Sauvegarde / import des données utilisateur.
+- Export d’images Instagram 4:5, Story/TikTok et carré.
+- PWA installable et cache hors connexion après premier chargement.
+
+Compatibilité / affichage
+La structure responsive a été contrôlée sur les formats de référence : ordinateur, tablette/iPad, iPhone, Android, 360 px et 320 px. Les dernières modifications de livraison concernent uniquement le nettoyage, la configuration GitHub Pages, le cache et des données ; elles ne modifient pas la mise en page CSS validée.
+
+Contrôles techniques finaux
+- app.js : syntaxe JavaScript valide.
+- service-worker.js : syntaxe JavaScript valide.
+- recipes.json, menus.json et manifest.json : JSON valides.
+- Toutes les ressources déclarées dans le cache PWA existent.
+- Aucun fichier d’ancienne version n’est inclus dans l’archive.
