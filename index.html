@@ -15,7 +15,7 @@
   <link rel="manifest" href="manifest.json">
   <link rel="apple-touch-icon" href="icons/icon-192.png">
   <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?refresh=final">
 </head>
 <body>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
@@ -93,7 +93,7 @@
         <div id="pantryRecentBlock" class="pantry-special-block hidden"><div class="section-title-row"><div><span class="kicker">RÉCENTS</span><h3>Utilisés récemment</h3></div></div><div id="pantryRecent" class="pantry-chip-grid"></div></div>
         <div id="pantryFavoritesBlock" class="pantry-special-block hidden"><div class="section-title-row"><div><span class="kicker">FAVORIS</span><h3>Mes ingrédients favoris</h3></div></div><div id="pantryFavorites" class="pantry-chip-grid"></div></div>
       </div>
-      <section class="ingredient-library"><div class="section-title-row"><div><span class="kicker">RANGÉ PAR FAMILLE</span><h2>Choisis une famille d’ingrédients</h2></div></div><div id="pantryGroupGrid" class="pantry-group-grid"></div><div id="pantryGroupPanel" class="pantry-group-panel hidden"><div class="browse-toolbar"><button id="closePantryGroupBtn" class="outline-btn">← Familles</button><div id="pantryGroupTitle" class="breadcrumb"></div></div><div id="pantryGroupItems" class="pantry-chip-grid"></div></div></section>
+      <section class="ingredient-library"><div class="section-title-row"><div><span class="kicker">RANGÉ PAR FAMILLE</span><h2>Choisis une famille d’ingrédients</h2><p id="pantryLibraryCount" class="section-subtitle">Chargement des ingrédients…</p></div><button id="showAllPantryBtn" class="outline-btn">Afficher tous les ingrédients</button></div><div id="pantryGroupGrid" class="pantry-group-grid"></div><div id="pantryGroupPanel" class="pantry-group-panel hidden"><div class="browse-toolbar"><button id="closePantryGroupBtn" class="outline-btn">← Familles</button><div id="pantryGroupTitle" class="breadcrumb"></div></div><div id="pantryGroupItems" class="pantry-chip-grid"></div></div></section>
       <div id="fridgeResults" class="fridge-tier-wrap"></div>
     </section>
 
@@ -123,7 +123,7 @@
 
   <div id="cookMode" class="cook-mode" aria-hidden="true"><div class="cook-topbar"><button id="closeCookBtn" class="icon-btn">×</button><div><small id="cookProgress">Étape 1/1</small><strong id="cookRecipeName">Recette</strong></div><button id="cookTimerBtn" class="timer-btn">Minuteur</button></div><div class="cook-body"><div class="cook-step-number" id="cookStepNumber">1</div><h2 id="cookStepTitle">Préparation</h2><p id="cookStepText"></p><div id="cookBeginnerTip" class="cook-helper hidden"></div><div id="cookTimer" class="cook-timer hidden"><strong id="timerDisplay">00:00</strong><div><button id="timerToggleBtn">Démarrer</button><button id="timerResetBtn">Réinitialiser</button></div></div></div><div class="cook-footer"><button id="cookPrevBtn" class="outline-btn">Précédent</button><button id="cookNextBtn" class="primary-btn">Suivant</button></div></div>
 
-  <script src="app.js"></script>
-  <script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./service-worker.js').catch(()=>{}));}</script>
+  <script src="app.js?refresh=final"></script>
+  <script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./service-worker.js',{updateViaCache:'none'}).then(reg=>reg.update()).catch(()=>{}));}</script>
 </body>
 </html>

@@ -1,11 +1,26 @@
 FAFATRAINING RECETTES — CONTRÔLES DE LIVRAISON
 ===============================================
 
+Correctif Mon frigo / placards
+- Bibliothèque d’ingrédients reconstruite à chaque ouverture de « Mon frigo ».
+- 325 ingrédients normalisés détectés à partir des 840 recettes.
+- 12 familles visibles : Légumes & aromates, Fruits, Viandes & volaille, Poissons & fruits de mer, Œufs/laitages & alternatives, Pâtes/riz/céréales, Légumineuses, Fruits à coque & graines, Boissons/café/infusions, Épicerie/sauces/condiments, Herbes & épices, Autres & placard.
+- Bouton « Afficher tous les ingrédients » ajouté.
+- Recherche d’un ingrédient conservée.
+- Ajout libre d’un ingrédient absent de la bibliothèque conservé.
+- Ingrédients favoris et récents conservés.
+- Classements corrigés : pomme de terre n’est plus un fruit, semoule n’est plus assimilée à moule, amandes/noix ont leur famille, asperges/blettes/champignons/tomates cerises sont rangés avec les légumes, etc.
+
+Actualisation GitHub Pages / PWA
+- Les ressources critiques utilisent une URL de rafraîchissement afin qu’un ancien service worker ne puisse pas renvoyer un ancien app.js ou d’anciens JSON après une mise à jour GitHub Pages.
+- Le nouveau service worker utilise une stratégie réseau d’abord, avec cache uniquement comme secours hors ligne.
+- Enregistrement du service worker avec updateViaCache:'none' et demande de mise à jour au chargement.
+- index.html reste directement à la racine du ZIP pour GitHub Pages.
+
 Nettoyage
-- Aucun identifiant, cache, commentaire ou fichier ne contient de référence aux anciennes versions numérotées.
+- Aucun fichier d’ancienne version numérotée n’est inclus dans l’archive.
 - Clé locale unique : fafatraining-recettes.
-- Cache PWA unique : fafatraining-recettes-cache.
-- Structure GitHub Pages à plat : index.html est directement à la racine.
+- Structure GitHub Pages à plat.
 
 Bibliothèque
 - 840 recettes.
@@ -23,7 +38,6 @@ Complétude des fiches
 - Chaque recette possède : catégorie, sous-catégorie, cuisine/inspiration, ingrédients, description, temps, portions, matériel, méthode sans robot, nutrition, conservation et styles.
 - Les 840 recettes disposent d’une préparation avec ustensiles du quotidien.
 - Nutrition renseignée par portion ; le total est recalculable selon le nombre de personnes.
-- Allergènes structurés ; contrôle supplémentaire effectué sur les familles majeures. Les lasagnes signalent notamment gluten + lait/produits laitiers.
 
 Matériel
 - Cuisine sans robot : 840 recettes.
@@ -34,27 +48,9 @@ Matériel
 - Four : 136 recettes.
 - Air fryer : 78 recettes.
 
-Fonctions présentes
-- Accueil simplifié avec 3 actions principales.
-- Bibliothèque rangée par grandes familles, sous-catégories et cuisine/inspiration.
-- Recherche et filtres avancés.
-- Mon frigo / placards par familles, ingrédients récents, favoris et ajout libre d’un ingrédient.
-- Menus, favoris de menus et remplacement d’éléments.
-- Planning hebdomadaire midi/soir.
-- Liste de courses automatique et ajout des ingrédients manquants.
-- Portions réglables.
-- Guide cuisine et mode accompagné pas à pas.
-- Favoris, notes, restes et recettes personnelles.
-- Sauvegarde / import des données utilisateur.
-- Export d’images Instagram 4:5, Story/TikTok et carré.
-- PWA installable et cache hors connexion après premier chargement.
-
-Compatibilité / affichage
-La structure responsive a été contrôlée sur les formats de référence : ordinateur, tablette/iPad, iPhone, Android, 360 px et 320 px. Les dernières modifications de livraison concernent uniquement le nettoyage, la configuration GitHub Pages, le cache et des données ; elles ne modifient pas la mise en page CSS validée.
-
 Contrôles techniques finaux
 - app.js : syntaxe JavaScript valide.
-- service-worker.js : syntaxe JavaScript valide.
 - recipes.json, menus.json et manifest.json : JSON valides.
-- Toutes les ressources déclarées dans le cache PWA existent.
-- Aucun fichier d’ancienne version n’est inclus dans l’archive.
+- Test programmatique de la bibliothèque « Mon frigo » : 325 ingrédients répartis dans 12 familles.
+- Toutes les ressources principales sont présentes dans l’archive.
+- Aucun dossier parent supplémentaire dans le ZIP : index.html est à la racine.
