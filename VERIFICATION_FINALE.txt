@@ -1,0 +1,103 @@
+FAFATRAINING RECETTES — VÉRIFICATION FINALE
+Date de contrôle : 07/09/2026
+
+1. NETTOYAGE DE L’APPLICATION
+- Aucun fichier, commentaire, identifiant, clé de stockage ou marqueur interne faisant référence aux anciennes versions n’est présent dans l’archive finale.
+- Suppression des anciens fichiers de vérification et des anciennes références de migration.
+- Les identifiants de menus ont été normalisés sans préfixe d’ancienne version.
+- La clé locale et le cache PWA utilisent désormais des noms neutres et définitifs.
+
+2. BIBLIOTHÈQUE
+- 840 recettes.
+- 840 identifiants uniques.
+- 840 noms de recettes uniques.
+- 840 descriptions distinctes.
+- 0 doublon exact de composition ingrédients + quantités + unités.
+- 13 grandes familles culinaires.
+- Toutes les recettes ont une sous-catégorie et une cuisine/inspiration renseignées.
+- Toutes les recettes possèdent au minimum 3 étapes en cuisine sans robot.
+- Toutes les quantités d’ingrédients sont numériques et strictement positives.
+- Toutes les recettes possèdent calories, protéines, glucides et lipides par portion.
+
+3. MENUS
+- 100 menus.
+- 100 identifiants uniques.
+- 3 éléments par menu.
+- Aucun lien cassé vers une recette.
+- Tous les menus sont accessibles via au moins un univers de rangement.
+- Bouton « Tous les menus » vérifié : affiche bien les 100 menus.
+
+4. MON FRIGO
+- Ingrédients rangés par familles.
+- Recherche d’ingrédient.
+- Ajout d’un ingrédient personnel absent de la bibliothèque.
+- Ingrédients récents et favoris.
+- Normalisation des variantes évidentes : singulier/pluriel et variantes d’écriture courantes (ex. aubergine/aubergines, céleri-rave/céleri rave, œuf/œufs).
+- Résultats classés : prêt maintenant / manque 1 / manque 2 / idées proches.
+- Ajout des ingrédients manquants à la liste de courses.
+
+5. RECETTES / CUISSON
+- Navigation : grande famille > sous-catégorie > recettes.
+- Recherche par plat, ingrédient ou cuisine.
+- Mode Ustensiles & four disponible pour les 840 recettes.
+- TM6 proposé uniquement selon le statut de la recette : complet, en aide, ou absent.
+- Autres appareils proposés seulement lorsqu’une adaptation est renseignée.
+- Mode accompagné et Guide cuisine disponibles.
+- Minuteur de cuisson vérifié au niveau du code et de l’interface.
+- Maintien de l’écran éveillé demandé quand le navigateur le permet.
+
+6. NUTRITION / PORTIONS
+- Affichage principal clairement libellé : « Par portion / 1 personne ».
+- Changement du nombre de personnes : ingrédients recalculés.
+- Total nutritionnel séparé et recalculé selon le nombre de personnes.
+- Test explicite avec 5 personnes : affichage et ouverture du total validés.
+
+7. PLANNING / COURSES
+- Planning : 7 jours x Midi/Soir = 14 emplacements.
+- Quantités additionnées lorsque la même recette apparaît plusieurs fois.
+- Liste de courses regroupée.
+- Ajout manuel d’ingrédients.
+- Copier / Partager / Imprimer présents.
+
+8. EXPORT RÉSEAUX SOCIAUX
+- Export recette et menu.
+- Formats prévus : 1080 x 1350, 1080 x 1920 et 1080 x 1080.
+- Test du format Instagram portrait : canvas 1080 x 1350 validé.
+
+9. PWA / MULTIPLATEFORME
+- Manifest valide.
+- Icônes 192 et 512 présentes.
+- Service worker valide.
+- Tous les fichiers principaux, personnages et visuels FAFATRAINING sont inclus dans le cache hors ligne initial.
+- Conception adaptée aux navigateurs récents sur iOS/iPadOS, Android, Windows et macOS.
+
+10. TESTS D’INTERFACE CHROMIUM
+Contrôle rendu et interactions avec le contenu exact de l’application aux tailles suivantes :
+- 1440 x 1000 : ordinateur.
+- 1024 x 1366 : tablette/iPad.
+- 390 x 844 : iPhone.
+- 412 x 915 : Android.
+- 360 x 800 : petit Android.
+- 320 x 700 : très petit écran.
+
+Scénarios validés sur les 6 tailles :
+- Accueil et 6 suggestions diversifiées.
+- Bibliothèque et 13 grandes familles.
+- Sous-catégories légumes.
+- Recherche de recette.
+- Ouverture d’une fiche.
+- Nutrition et total pour 5 personnes.
+- Menus par univers.
+- Affichage des 100 menus.
+- Mon frigo par familles.
+- Ajout d’un ingrédient personnel.
+- Planning 14 emplacements.
+- Liste de courses.
+- Export image.
+- « Je ne sais pas quoi cuisiner ».
+- Guide cuisine.
+- Aucun débordement horizontal global détecté.
+- Aucune exception JavaScript détectée dans ces scénarios.
+
+IMPORTANT
+Les valeurs nutritionnelles sont des estimations indicatives basées sur des valeurs moyennes d’aliments. Les allergènes sont des repères issus des ingrédients déclarés. En cas d’allergie, vérifier systématiquement les emballages, les traces et les contaminations croisées.
