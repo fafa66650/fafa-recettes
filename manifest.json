@@ -1,7 +1,7 @@
 {
   "name": "FAFATRAINING Recettes",
   "short_name": "FAFA Recettes",
-  "description": "Bibliothèque de cuisine, recettes pas à pas, menus, planning, TM6 ou cuisine sans robot, mon frigo et liste de courses.",
+  "description": "FAFATRAINING Recettes — 840 recettes détaillées, 112 menus, cuisine sans robot ou avec TM6, planning, frigo, courses et mode cuisine guidée.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -32,5 +32,40 @@
   "categories": [
     "food",
     "lifestyle"
+  ],
+  "shortcuts": [
+    {
+      "name": "Recettes",
+      "short_name": "Recettes",
+      "url": "./?page=recipes",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Mon frigo",
+      "short_name": "Frigo",
+      "url": "./?page=fridge",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Ma semaine",
+      "short_name": "Semaine",
+      "url": "./?page=planning",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
   ]
 }

@@ -2316,5 +2316,305 @@
     "filterTags": [
       "Quotidien"
     ]
+  },
+  {
+    "id": "pack-anti-gaspi-01",
+    "title": "Pack anti-gaspi · 1",
+    "subtitle": "Trois repas différents qui réutilisent intelligemment curry, tomates concassées et yaourt pour simplifier les courses et limiter les restes.",
+    "recipes": [
+      "agneau-curry-tomate",
+      "cabillaud-curry-tomate",
+      "poulet-tikka-tomate"
+    ],
+    "tags": [
+      "Pack anti-gaspi",
+      "3 repas",
+      "Organisation"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Organisation",
+      "Quotidien"
+    ]
+  },
+  {
+    "id": "pack-anti-gaspi-02",
+    "title": "Pack anti-gaspi · 2",
+    "subtitle": "Trois repas différents qui réutilisent intelligemment courgette, cumin et persil pour simplifier les courses et limiter les restes.",
+    "recipes": [
+      "agneau-facon-kefta-courgettes",
+      "falafels-au-four",
+      "galettes-pois-chiches-courgette"
+    ],
+    "tags": [
+      "Pack anti-gaspi",
+      "3 repas",
+      "Organisation"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Organisation",
+      "Quotidien"
+    ]
+  },
+  {
+    "id": "pack-anti-gaspi-03",
+    "title": "Pack anti-gaspi · 3",
+    "subtitle": "Trois repas différents qui réutilisent intelligemment carotte, cumin et tomates concassées pour simplifier les courses et limiter les restes.",
+    "recipes": [
+      "agneau-tajine-abricots-carottes",
+      "haricots-blancs-tomate-cumin-legumes",
+      "haricots-rouges-tomate-cumin-legumes"
+    ],
+    "tags": [
+      "Pack anti-gaspi",
+      "3 repas",
+      "Organisation"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Organisation",
+      "Quotidien"
+    ]
+  },
+  {
+    "id": "pack-anti-gaspi-04",
+    "title": "Pack anti-gaspi · 4",
+    "subtitle": "Trois repas différents qui réutilisent intelligemment aubergine, origan et tomates concassées pour simplifier les courses et limiter les restes.",
+    "recipes": [
+      "agneau-tomate-aubergine",
+      "dinde-tomate-aubergine",
+      "tempeh-tomate-aubergine"
+    ],
+    "tags": [
+      "Pack anti-gaspi",
+      "3 repas",
+      "Organisation"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Organisation",
+      "Quotidien"
+    ]
+  },
+  {
+    "id": "pack-anti-gaspi-05",
+    "title": "Pack anti-gaspi · 5",
+    "subtitle": "Trois repas différents qui réutilisent intelligemment agneau, cumin et pois chiches pour simplifier les courses et limiter les restes.",
+    "recipes": [
+      "agneau-tomate-pois-chiches",
+      "agneau-epices-douces-pois-chiches",
+      "boulgour-aubergine-pois-chiches"
+    ],
+    "tags": [
+      "Pack anti-gaspi",
+      "3 repas",
+      "Organisation"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Organisation",
+      "Quotidien"
+    ]
+  },
+  {
+    "id": "pack-anti-gaspi-06",
+    "title": "Pack anti-gaspi · 6",
+    "subtitle": "Trois repas différents qui réutilisent intelligemment carotte, courgette et pois chiches pour simplifier les courses et limiter les restes.",
+    "recipes": [
+      "agneau-epices-douces-semoule",
+      "couscous-vegetarien-express",
+      "semoule-poulet-legumes"
+    ],
+    "tags": [
+      "Pack anti-gaspi",
+      "3 repas",
+      "Organisation"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Organisation",
+      "Quotidien"
+    ]
+  },
+  {
+    "id": "pack-anti-gaspi-07",
+    "title": "Pack anti-gaspi · 7",
+    "subtitle": "Trois repas différents qui réutilisent intelligemment basilic, courgette et mozzarella pour simplifier les courses et limiter les restes.",
+    "recipes": [
+      "aubergine-parmigiana-legere",
+      "escalopes-de-dinde-tomate-basilic",
+      "poulet-tomate-mozzarella"
+    ],
+    "tags": [
+      "Pack anti-gaspi",
+      "3 repas",
+      "Organisation"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Organisation",
+      "Quotidien"
+    ]
+  },
+  {
+    "id": "pack-anti-gaspi-08",
+    "title": "Pack anti-gaspi · 8",
+    "subtitle": "Trois repas différents qui réutilisent intelligemment aubergine, courgette et feta pour simplifier les courses et limiter les restes.",
+    "recipes": [
+      "aubergines-farcies-au-quinoa",
+      "quinoa-mediterraneen-feta-legumes",
+      "boulettes-de-dinde-polenta-ratatouille"
+    ],
+    "tags": [
+      "Pack anti-gaspi",
+      "3 repas",
+      "Organisation"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Organisation",
+      "Quotidien"
+    ]
+  },
+  {
+    "id": "pack-anti-gaspi-09",
+    "title": "Pack anti-gaspi · 9",
+    "subtitle": "Trois repas différents qui réutilisent intelligemment boulgour, citron et persil pour simplifier les courses et limiter les restes.",
+    "recipes": [
+      "bar-citron-herbes",
+      "haricots-blancs-citron-herbes-boulgour",
+      "haricots-rouges-citron-herbes-boulgour"
+    ],
+    "tags": [
+      "Pack anti-gaspi",
+      "3 repas",
+      "Organisation"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Organisation",
+      "Quotidien"
+    ]
+  },
+  {
+    "id": "pack-anti-gaspi-10",
+    "title": "Pack anti-gaspi · 10",
+    "subtitle": "Trois repas différents qui réutilisent intelligemment brocoli, carotte et poivron rouge pour simplifier les courses et limiter les restes.",
+    "recipes": [
+      "batch-bowl-buf-riz-legumes",
+      "riz-aux-legumes",
+      "wok-crevettes-legumes-croquants"
+    ],
+    "tags": [
+      "Pack anti-gaspi",
+      "3 repas",
+      "Organisation"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Organisation",
+      "Quotidien"
+    ]
+  },
+  {
+    "id": "pack-anti-gaspi-11",
+    "title": "Pack anti-gaspi · 11",
+    "subtitle": "Trois repas différents qui réutilisent intelligemment courgette, dinde et riz pour simplifier les courses et limiter les restes.",
+    "recipes": [
+      "batch-dinde-riz-courgette",
+      "boulgour-dinde-tomate",
+      "riz-aux-legumes"
+    ],
+    "tags": [
+      "Pack anti-gaspi",
+      "3 repas",
+      "Organisation"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Organisation",
+      "Quotidien"
+    ]
+  },
+  {
+    "id": "pack-anti-gaspi-12",
+    "title": "Pack anti-gaspi · 12",
+    "subtitle": "Trois repas différents qui réutilisent intelligemment courgette, pâtes et pesto pour simplifier les courses et limiter les restes.",
+    "recipes": [
+      "batch-poulet-pates-pesto-leger",
+      "pates-pesto-poulet-tomates-cerises",
+      "pates-courgette-pesto-amandes"
+    ],
+    "tags": [
+      "Pack anti-gaspi",
+      "3 repas",
+      "Organisation"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Organisation",
+      "Quotidien"
+    ]
   }
 ]

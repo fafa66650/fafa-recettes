@@ -3,8 +3,8 @@ FAFATRAINING RECETTES — CONTRÔLES DE LIVRAISON
 
 Correctif Mon frigo / placards
 - Bibliothèque d’ingrédients reconstruite à chaque ouverture de « Mon frigo ».
-- 325 ingrédients normalisés détectés à partir des 840 recettes.
-- 12 familles visibles : Légumes & aromates, Fruits, Viandes & volaille, Poissons & fruits de mer, Œufs/laitages & alternatives, Pâtes/riz/céréales, Légumineuses, Fruits à coque & graines, Boissons/café/infusions, Épicerie/sauces/condiments, Herbes & épices, Autres & placard.
+- bibliothèque d’ingrédients reconstruite et normalisée à partir des 840 recettes à partir des 840 recettes.
+- 13 familles visibles : Légumes & aromates, Fruits, Viandes & volaille, Poissons & fruits de mer, Œufs/laitages & alternatives, Protéines végétales, Pâtes/riz/céréales, Légumineuses, Fruits à coque & graines, Boissons/café/infusions, Épicerie/sauces/condiments, Herbes & épices, Autres & placard.
 - Bouton « Afficher tous les ingrédients » ajouté.
 - Recherche d’un ingrédient conservée.
 - Ajout libre d’un ingrédient absent de la bibliothèque conservé.
@@ -26,7 +26,7 @@ Bibliothèque
 - 840 recettes.
 - 840 identifiants uniques.
 - 840 noms uniques.
-- 100 menus avec identifiants et titres uniques.
+- 112 menus avec identifiants et titres uniques.
 - Aucune référence cassée entre les menus et les recettes.
 - Aucun doublon exact de composition ingrédients/quantités.
 - 13 grandes familles culinaires.
@@ -41,16 +41,25 @@ Complétude des fiches
 
 Matériel
 - Cuisine sans robot : 840 recettes.
-- TM6 : 260 recettes en mode complet + 155 en aide ; absent quand il n’apporte rien.
-- Multicuiseur / Cookeo : 175 recettes.
-- Blender / mixeur : 128 recettes.
-- Poêle : 140 recettes.
-- Four : 136 recettes.
-- Air fryer : 78 recettes.
+- TM6 : 182 recettes en mode complet + 232 en aide ; absent sur 426 recettes quand il n’apporte rien.
+- Multicuiseur / Cookeo : 166 recettes.
+- Blender / mixeur : 45 recettes.
+- Poêle : 283 recettes.
+- Four : 177 recettes.
+- Air fryer : 254 recettes.
 
 Contrôles techniques finaux
 - app.js : syntaxe JavaScript valide.
 - recipes.json, menus.json et manifest.json : JSON valides.
-- Test programmatique de la bibliothèque « Mon frigo » : 325 ingrédients répartis dans 12 familles.
+- Test programmatique de la bibliothèque « Mon frigo » : classement prévu dans 13 familles, avec recherche, favoris, récents et ajout libre.
 - Toutes les ressources principales sont présentes dans l’archive.
 - Aucun dossier parent supplémentaire dans le ZIP : index.html est à la racine.
+
+
+Consolidation finale supplémentaire
+- 112 menus au total, dont 12 packs anti-gaspi.
+- Doublons d’ingrédients résiduels corrigés.
+- Méthodes de cuisson renforcées par type de recette (desserts, petits-déjeuners, céréales, légumes, viandes, poissons, entrées et collations).
+- Corrections ciblées sur les fiches précédemment identifiées comme ambiguës ou incorrectes.
+- Allergènes dérivés et contrôlés à partir des ingrédients normalisés pour les familles principales.
+- Les fichiers de test/audit ne sont pas inclus dans le package de déploiement.

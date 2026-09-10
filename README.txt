@@ -5,7 +5,7 @@ Application de cuisine et nutrition FAFATRAINING.
 
 Contenu principal :
 - bibliothèque de 840 recettes ;
-- 100 menus ;
+- 112 menus, dont 12 packs anti-gaspi ;
 - recherche par plat, ingrédient ou cuisine ;
 - grandes familles et sous-catégories ;
 - cuisine sans robot disponible pour toutes les recettes ;
@@ -16,7 +16,9 @@ Contenu principal :
 - mode cuisine pas à pas et guide des gestes ;
 - Mon frigo / placards, ingrédients favoris et ingrédients personnalisés ;
 - menus, planning hebdomadaire et liste de courses ;
-- favoris, notes, restes et recettes personnelles ;
+- favoris, collections personnelles, notes, restes et recettes personnelles ;
+- import de recette par texte et ajout manuel ;
+- lecture vocale des étapes du mode cuisine ;
 - export de visuels pour Instagram / TikTok ;
 - installation PWA et fonctionnement hors connexion après le premier chargement.
 

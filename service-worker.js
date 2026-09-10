@@ -1,6 +1,6 @@
-const CACHE='fafatraining-recettes-cache';
+const CACHE='fafatraining-recettes-current';
 const CORE=[
-  './','./index.html','./style.css?refresh=final','./app.js?refresh=final','./recipes.json?refresh=final','./menus.json?refresh=final','./manifest.json',
+  './','./index.html','./style.css?build=final','./app.js?build=final','./recipes.json?build=final','./menus.json?build=final','./manifest.json',
   './logo.jpg','./icons/icon-192.png','./icons/icon-512.png',
   './assets/characters/hero-character.jpg','./assets/characters/character-arms.jpg','./assets/characters/character-welcome.jpg',
   './assets/recipes/eau-coco-citron.jpg','./assets/recipes/lait-amande.jpg','./assets/recipes/matcha-latte.jpg',
@@ -16,8 +16,7 @@ self.addEventListener('activate',event=>{
 self.addEventListener('fetch',event=>{
   if(event.request.method!=='GET')return;
   const req=event.request;
-  // En ligne : toujours chercher le fichier actuel. Hors ligne : utiliser la dernière copie locale.
-  event.respondWith(fetch(req).then(resp=>{
+  event.respondWith(fetch(req,{cache:'no-store'}).then(resp=>{
     if(resp&&resp.ok){const copy=resp.clone();caches.open(CACHE).then(c=>c.put(req,copy)).catch(()=>{});}
     return resp;
   }).catch(async()=>{
