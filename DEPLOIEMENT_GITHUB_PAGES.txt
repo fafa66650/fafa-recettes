@@ -1,0 +1,45 @@
+DÉPLOIEMENT GITHUB PAGES
+========================
+
+Dépôt utilisé : fafa66650/fa-recettes
+Adresse attendue de l’application :
+https://fafa66650.github.io/fa-recettes/
+
+IMPORTANT
+---------
+GitHub Pages doit trouver index.html directement à la racine du dépôt publié.
+
+À la racine du dépôt, tu dois voir directement :
+  .nojekyll
+  index.html
+  404.html
+  app.js
+  style.css
+  recipes.json
+  menus.json
+  manifest.json
+  service-worker.js
+  logo.jpg
+  icons/
+  assets/
+
+Il ne faut PAS avoir :
+fa-recettes / FAFATRAINING_RECETTES / index.html
+
+Réglage GitHub Pages
+--------------------
+1. Ouvre le dépôt fafa66650/fa-recettes.
+2. Settings > Pages.
+3. Source : Deploy from a branch.
+4. Branch : main.
+5. Folder : /(root).
+6. Enregistre et attends que le déploiement soit terminé.
+7. Ouvre : https://fafa66650.github.io/fa-recettes/
+
+Important : https://fafa66650.github.io/ tout seul peut afficher une 404 si aucun site n’est publié à la racine du compte. Pour ce dépôt, utilise bien /fa-recettes/ à la fin.
+
+Si une ancienne interface reste en cache
+-----------------------------------------
+- recharge la page en forçant l’actualisation ;
+- ferme puis rouvre la PWA sur téléphone ;
+- si nécessaire, supprime l’ancienne installation de l’écran d’accueil puis réinstalle l’application depuis l’adresse ci-dessus.
