@@ -36,20 +36,20 @@
         <div class="hero-copy">
           <div class="eyebrow">FAFATRAINING · CUISINE & NUTRITION</div>
           <h1>Qu’est-ce qu’on cuisine aujourd’hui&nbsp;?</h1>
-          <p>Choisis ce que tu veux faire. L’application te guide ensuite, avec ou sans robot, sans t’envoyer un mur d’informations.</p>
-          <div class="hero-search-wrap"><span class="search-icon">⌕</span><input id="homeSearch" type="search" placeholder="Un plat, un ingrédient, une envie…" autocomplete="off"><button id="homeSearchBtn" class="search-go">Chercher</button></div>
+          <p>Recherche une recette, utilise ce que tu as ou organise simplement tes repas.</p>
+          <div class="hero-search-wrap"><span class="search-icon">⌕</span><input id="homeSearch" type="search" placeholder="Plat, ingrédient, envie…" autocomplete="off"><button id="homeSearchBtn" class="search-go">Chercher</button></div>
           <div class="main-choice-grid" aria-label="Choix principal">
-            <button class="main-choice main-choice-recipes" data-nav="recipes"><span>🍽️</span><strong>Trouver une recette</strong><small>Par famille, type de plat, cuisine ou recherche</small></button>
-            <button class="main-choice main-choice-fridge" data-nav="fridge"><span>🧺</span><strong>Cuisiner avec ce que j’ai</strong><small>Choisis les aliments de ton frigo et de tes placards</small></button>
-            <button class="main-choice main-choice-menu" data-nav="organize"><span>🗓️</span><strong>Organiser mes repas</strong><small>Menus et planning de la semaine au même endroit</small></button>
+            <button class="main-choice main-choice-recipes" data-nav="recipes"><span>🍽️</span><strong>Trouver une recette</strong><small>Par plat, ingrédient ou cuisine</small></button>
+            <button class="main-choice main-choice-fridge" data-nav="fridge"><span>🧺</span><strong>Cuisiner avec ce que j’ai</strong><small>Frigo et placards</small></button>
+            <button class="main-choice main-choice-menu" data-nav="organize"><span>🗓️</span><strong>Organiser mes repas</strong><small>Menus et planning</small></button>
           </div>
-          <div class="preferred-mode-line"><span>Mon mode préféré</span><div class="hero-mode-cards compact-modes" id="heroModeButtons" aria-label="Mode de préparation"></div></div>
+          <div class="preferred-mode-line"><span>Mode préféré</span><div class="hero-mode-cards compact-modes" id="heroModeButtons" aria-label="Mode de préparation"></div></div>
           <div class="hero-brand-stamp"><img src="assets/characters/hero-character.jpg" alt=""><span><strong>FAFATRAINING</strong><small>Ta cuisine, à ton rythme.</small></span></div>
         </div>
       </section>
       <section id="homeNextMeal" class="home-next-meal hidden" aria-live="polite"></section>
       <section class="section-block" id="forYouSection">
-        <div class="section-title-row"><div><span class="kicker">3 IDÉES POUR AUJOURD’HUI</span><h2>Trois pistes, pas un mur de recettes</h2><p class="section-subtitle">Des propositions volontairement différentes pour choisir vite, puis accéder à toute la bibliothèque si tu veux explorer davantage.</p></div><div class="home-inline-actions"><button id="homeSurpriseBtn" class="outline-btn">Je ne sais pas quoi cuisiner</button><button class="text-btn" data-nav="recipes">Ouvrir la bibliothèque</button></div></div>
+        <div class="section-title-row home-ideas-heading"><div><span class="kicker">3 IDÉES POUR AUJOURD’HUI</span><h2>Besoin d’une idée&nbsp;?</h2><p class="section-subtitle">Trois recettes différentes pour décider vite.</p></div><div class="home-inline-actions"><button id="homeSurpriseBtn" class="outline-btn">Surprends-moi</button><button class="text-btn" data-nav="recipes">Toutes les recettes</button></div></div>
         <div class="featured-grid home-three" id="forYouGrid"></div>
       </section>
     </section>
@@ -58,7 +58,7 @@
       <div class="page-heading"><div><span class="kicker">BIBLIOTHÈQUE</span><h1>Recettes</h1><p id="recipesCountLabel">Choisis d’abord une grande famille ou utilise la recherche.</p></div><div class="heading-actions"><button id="openAdvancedFiltersBtn" class="outline-btn">Filtres</button></div></div>
       <div class="recipe-search-zone"><div class="filter-search"><span>⌕</span><input id="recipeSearch" type="search" placeholder="Rechercher un plat, un ingrédient ou une cuisine"></div><div class="recipe-utility-links"><button id="openKitchenGuideBtn" class="text-btn">Guide cuisine</button><button id="addCustomRecipeBtn" class="text-btn">+ Ma recette</button></div></div>
       <section id="recipeLibraryHome" class="library-home">
-        <div class="library-intro"><div><span class="kicker">GRANDES FAMILLES</span><h2>Qu’est-ce que tu veux cuisiner&nbsp;?</h2><p>Entre dans une famille, puis affine avec des sous-catégories. Tu peux aussi afficher tout le catalogue si tu préfères.</p></div><button id="showAllRecipesBtn" class="outline-btn">Voir les 840 recettes</button></div>
+        <div class="library-intro"><div><span class="kicker">GRANDES FAMILLES</span><h2>Qu’est-ce que tu veux cuisiner&nbsp;?</h2><p>Entre dans une famille, puis affine avec des sous-catégories. Tu peux aussi afficher tout le catalogue si tu préfères.</p></div><button id="showAllRecipesBtn" class="outline-btn">Voir les 832 recettes</button></div>
         <div id="recipeCategoryGrid" class="library-category-grid"></div>
         <div class="library-secondary"><span class="kicker">CUISINES & INSPIRATIONS</span><div id="recipeCuisineHighlights" class="compact-pill-row"></div></div>
       </section>

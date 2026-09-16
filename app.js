@@ -1,4 +1,5 @@
 const STORAGE_KEY='fafatraining-recettes';
+const RECIPE_ID_ALIASES={"omelette-epinards-champignons":"omelette-champignons-epinards","flan-vanille-coco":"flan-coco-vanille","crevettes-coco-curry":"crevettes-curry-coco","smoothie-banane-cafe-cacao":"smoothie-cafe-banane-cacao","semoule-poulet-legumes-epices-douces":"semoule-poulet-legumes","pates-aubergine-tomate":"pates-aubergine-tomate-basilic","veloute-celeri-pomme":"veloute-celeri-rave-pomme","boulgour-dinde-tomate-menthe":"boulgour-dinde-tomate"};
 const DEFAULT_PREFS={mode:'tm6',guided:true,household:4,restrictions:[],equipment:['TM6','Cuisine classique'],favorites:[],favoriteMenus:[],menuOverrides:{},pantry:[],pantryFavorites:[],pantryRecent:[],shopping:[],manualShopping:[],shoppingDone:[],planning:{},recipeNotes:{},leftovers:{},customRecipes:[],lastPage:'home',recentCategories:[],recentRecipes:[]};
 const state={
   recipes:[],menus:[],
@@ -64,7 +65,18 @@ function loadPrefs(){
   state.prefs.favoriteMenus=state.prefs.favoriteMenus||[];
   state.prefs.menuOverrides=state.prefs.menuOverrides||{};
   state.prefs.planning=state.prefs.planning||{};state.prefs.household=Math.max(1,Math.min(12,Number(state.prefs.household)||4));state.prefs.recipeNotes=state.prefs.recipeNotes||{};state.prefs.leftovers=state.prefs.leftovers||{};state.prefs.customRecipes=state.prefs.customRecipes||[];
+  migrateRecipeAliases();
 }
+function canonicalRecipeId(id){return RECIPE_ID_ALIASES[id]||id;}
+function migrateRecipeAliases(){
+  const mapId=id=>canonicalRecipeId(id);
+  state.prefs.favorites=uniq((state.prefs.favorites||[]).map(mapId));
+  state.prefs.recentRecipes=uniq((state.prefs.recentRecipes||[]).map(mapId));
+  state.prefs.shopping=(state.prefs.shopping||[]).map(x=>({...x,id:mapId(x.id)}));
+  Object.values(state.prefs.planning||{}).forEach(x=>{if(x?.type==='recipe'&&x.id)x.id=mapId(x.id);});
+  for(const key of Object.keys(RECIPE_ID_ALIASES)){const target=RECIPE_ID_ALIASES[key];if(state.prefs.recipeNotes?.[key]&&!state.prefs.recipeNotes[target])state.prefs.recipeNotes[target]=state.prefs.recipeNotes[key];delete state.prefs.recipeNotes?.[key];if(state.prefs.leftovers?.[key]&&!state.prefs.leftovers[target])state.prefs.leftovers[target]=state.prefs.leftovers[key];delete state.prefs.leftovers?.[key];}
+}
+
 function savePrefs(){try{localStorage.setItem(STORAGE_KEY,JSON.stringify(state.prefs));}catch{}}
 function toast(msg){const el=$('#toast');el.textContent=msg;el.classList.add('show');clearTimeout(toast._t);toast._t=setTimeout(()=>el.classList.remove('show'),1800);}
 

@@ -11858,165 +11858,6 @@
     "visualLabel": "Poissons blancs & autres · Méditerranéenne"
   },
   {
-    "id": "crevettes-coco-curry",
-    "name": "Crevettes coco curry",
-    "category": "Poissons & fruits de mer",
-    "color": "#1f78b4",
-    "emoji": "🐟",
-    "servings": 4,
-    "difficulty": "",
-    "tags": [
-      "rapide"
-    ],
-    "ingredients": [
-      {
-        "name": "crevettes",
-        "qty": 450,
-        "unit": "g"
-      },
-      {
-        "name": "lait de coco",
-        "qty": 200,
-        "unit": "ml"
-      },
-      {
-        "name": "curry",
-        "qty": 1,
-        "unit": "c. à café"
-      },
-      {
-        "name": "oignon",
-        "qty": 1,
-        "unit": "pièce"
-      }
-    ],
-    "modes": {
-      "tm6": [
-        {
-          "title": "Préparer les aromates",
-          "text": "Mets les aromates dans le bol. Hache 5 sec / vitesse 5 puis racle les parois.",
-          "durationSec": 5
-        },
-        {
-          "title": "Faire revenir",
-          "text": "Ajoute un peu de matière grasse et fais revenir 3 min / 120 °C / vitesse 1.",
-          "durationSec": 180
-        },
-        {
-          "title": "Préparer la sauce ou l’accompagnement",
-          "text": "Ajoute les ingrédients de sauce ou d’accompagnement prévus et cuis au TM6 à température modérée jusqu’à la texture recherchée.",
-          "durationSec": 750
-        },
-        {
-          "title": "Cuire l’élément principal à part",
-          "text": "Pendant ce temps, cuis la viande, le poisson ou l’élément à saisir au four, à la poêle ou avec l’appareil approprié. Réunis les éléments juste avant de servir.",
-          "durationSec": 750
-        }
-      ],
-      "classic": [
-        {
-          "title": "Préparer",
-          "text": "Coupe crevettes en morceaux réguliers et prépare les aromates ainsi que lait de coco.",
-          "durationSec": 360
-        },
-        {
-          "title": "Faire colorer",
-          "text": "Chauffe une cocotte ou sauteuse à feu moyen-vif. Fais colorer la protéine en plusieurs fois si nécessaire, puis réserve-la.",
-          "durationSec": 360
-        },
-        {
-          "title": "Construire la sauce",
-          "text": "Baisse à feu moyen, fais revenir les aromates et les épices, puis ajoute les légumes, tomates, lait de coco ou autre liquide prévus.",
-          "durationSec": 300
-        },
-        {
-          "title": "Mijoter",
-          "text": "Remets la protéine, porte à petit frémissement puis cuis à feu doux jusqu’à cuisson complète et sauce légèrement liée.",
-          "durationSec": 1500
-        },
-        {
-          "title": "Rectifier",
-          "text": "Goûte la sauce, ajuste l’assaisonnement et la texture, puis sers avec l’accompagnement prévu.",
-          "durationSec": 120
-        }
-      ]
-    },
-    "tips": [
-      "Lis toute la fiche avant de commencer.",
-      "Prépare les ingrédients avant de lancer la cuisson.",
-      "Si la texture finale ne te plaît pas, ajuste avec un peu d’eau, de crème ou un peu plus de cuisson."
-    ],
-    "goalTags": [
-      "equilibre"
-    ],
-    "dietTags": [
-      "omnivore",
-      "pescetarien"
-    ],
-    "allergens": [
-      "crustaces"
-    ],
-    "substitutions": [],
-    "macros": {
-      "kcal": 430,
-      "proteines": 34,
-      "glucides": 18,
-      "lipides": 22
-    },
-    "styles": [
-      "Cuisine express",
-      "Cuisine du quotidien"
-    ],
-    "equipment": [
-      "TM6",
-      "Cuisine classique",
-      "Multicuiseur / Cookeo"
-    ],
-    "prepMin": 12,
-    "cookMin": 25,
-    "description": "Crevettes coco curry met en valeur crevettes et lait de coco. Classée dans « Fruits de mer & mollusques », cette recette indienne / asiatique est expliquée pas à pas pour être réalisable avec des ustensiles du quotidien, avec le TM6 en aide si tu le souhaites, avec des repères simples pour réussir la cuisson et la texture.",
-    "featured": false,
-    "sourceType": "catalogue",
-    "nutritionBasis": "Estimation indicative par portion. Les valeurs peuvent varier selon les marques et quantités réellement utilisées.",
-    "image": null,
-    "subtype": "Fruits de mer & mollusques",
-    "nutritionStatus": "estimated",
-    "tm6Status": "aid",
-    "nutritionSource": "Estimation indicative de la fiche recette; valeurs à considérer comme repères, non comme étiquetage nutritionnel.",
-    "cuisine": "Indienne / asiatique",
-    "techniques": [
-      "mijoter"
-    ],
-    "storage": "Conserve les restes rapidement au réfrigérateur dans une boîte fermée et réchauffe-les correctement avant consommation.",
-    "safetyTip": "Repère sécurité : le poisson cuit devient opaque et se détache facilement ; avec un thermomètre, 63 °C à cœur est un repère usuel.",
-    "deviceModes": {
-      "multicuiseur": [
-        {
-          "title": "Mode dorer",
-          "text": "Fais revenir les aromates 4 à 5 minutes en mode dorer.",
-          "durationSec": 300
-        },
-        {
-          "title": "Ajouter",
-          "text": "Ajoute les autres ingrédients et le liquide, puis mélange en décollant le fond.",
-          "durationSec": 120
-        },
-        {
-          "title": "Sous pression",
-          "text": "Lance une cuisson sous pression adaptée. Commence avec un temps inférieur à la cuisson classique, puis vérifie.",
-          "durationSec": 720
-        },
-        {
-          "title": "Finir",
-          "text": "Utilise le mode dorer quelques minutes si la sauce doit réduire.",
-          "durationSec": 240
-        }
-      ]
-    },
-    "learningMode": true,
-    "visualLabel": "Fruits de mer & mollusques · Indienne / asiatique"
-  },
-  {
     "id": "thon-riz-citron",
     "name": "Thon riz citron",
     "category": "Poissons & fruits de mer",
@@ -18905,130 +18746,6 @@
     },
     "learningMode": true,
     "visualLabel": "Laits végétaux · Contemporaine / maison"
-  },
-  {
-    "id": "smoothie-banane-cafe-cacao",
-    "name": "Smoothie banane, café & cacao",
-    "category": "Boissons & smoothies",
-    "color": "#24451c",
-    "emoji": "🥤",
-    "servings": 1,
-    "difficulty": "",
-    "tags": [],
-    "ingredients": [
-      {
-        "name": "banane",
-        "qty": 1,
-        "unit": "pièce"
-      },
-      {
-        "name": "lait",
-        "qty": 180,
-        "unit": "ml"
-      },
-      {
-        "name": "café froid",
-        "qty": 60,
-        "unit": "ml"
-      },
-      {
-        "name": "cacao non sucré",
-        "qty": 5,
-        "unit": "g"
-      }
-    ],
-    "modes": {
-      "classic": [
-        {
-          "title": "Préparer",
-          "text": "Pèse et prépare banane, lait, café froid et cacao non sucré. Coupe les fruits ou légumes en morceaux qui passent facilement dans ton blender.",
-          "durationSec": 150
-        },
-        {
-          "title": "Mixer",
-          "text": "Verse d’abord le liquide, puis les ingrédients tendres et enfin les éléments plus épais ou glacés. Mixe 30 à 60 secondes.",
-          "durationSec": 60
-        },
-        {
-          "title": "Ajuster la texture",
-          "text": "Si le mélange est trop épais, ajoute un petit peu de liquide. S’il est trop fluide, ajoute un peu de fruit, de yaourt ou de glace selon la recette.",
-          "durationSec": 60
-        },
-        {
-          "title": "Servir",
-          "text": "Verse immédiatement dans un verre. Pour une boisson contenant des produits frais, garde-la au froid si tu ne la consommes pas tout de suite.",
-          "durationSec": 60
-        }
-      ],
-      "tm6": [
-        {
-          "title": "Ajouter",
-          "text": "Mets banane, lait et café froid et le liquide prévu dans le bol sans dépasser la capacité maximale.",
-          "durationSec": 60
-        },
-        {
-          "title": "Mixer",
-          "text": "Mixe 40 sec / vitesse 8. Racle si nécessaire puis mixe encore 10 à 20 sec pour une texture plus fine.",
-          "durationSec": 60
-        },
-        {
-          "title": "Ajuster",
-          "text": "Ajoute un peu de liquide si nécessaire et mélange 10 sec / vitesse 4.",
-          "durationSec": 10
-        }
-      ]
-    },
-    "tips": [
-      "Lis la recette en entier avant de commencer.",
-      "Prépare et pèse les ingrédients avant la cuisson.",
-      "Goûte et ajuste l’assaisonnement avant de servir."
-    ],
-    "goalTags": [
-      "equilibre"
-    ],
-    "dietTags": [
-      "omnivore"
-    ],
-    "allergens": [
-      "lactose"
-    ],
-    "substitutions": [
-      "Laitage → alternative végétale non sucrée de texture équivalente"
-    ],
-    "macros": {
-      "kcal": 230,
-      "proteines": 8,
-      "glucides": 38,
-      "lipides": 5
-    },
-    "styles": [
-      "Cuisine express",
-      "Petit-déjeuner"
-    ],
-    "equipment": [
-      "TM6",
-      "Cuisine classique"
-    ],
-    "prepMin": 5,
-    "cookMin": 0,
-    "description": "Smoothie banane, café & cacao met en valeur banane, lait et café froid. Classée dans « Café & énergie », cette recette contemporaine / maison est expliquée pas à pas pour être réalisable avec des ustensiles du quotidien ou entièrement au TM6, avec des repères simples pour réussir la cuisson et la texture.",
-    "featured": false,
-    "sourceType": "inspiration",
-    "nutritionBasis": "Estimation indicative par portion. Les valeurs peuvent varier selon les marques et quantités réellement utilisées.",
-    "image": null,
-    "subtype": "Café & énergie",
-    "nutritionStatus": "estimated",
-    "tm6Status": "full",
-    "nutritionSource": "Estimation indicative de la fiche recette; valeurs à considérer comme repères, non comme étiquetage nutritionnel.",
-    "cuisine": "Contemporaine / maison",
-    "techniques": [
-      "mixer"
-    ],
-    "storage": "Conserve les restes rapidement au réfrigérateur dans une boîte fermée et réchauffe-les correctement avant consommation.",
-    "safetyTip": "",
-    "deviceModes": {},
-    "learningMode": true,
-    "visualLabel": "Café & énergie · Contemporaine / maison"
   },
   {
     "id": "verrine-yaourt-grec-concombre-tomate",
@@ -28426,16 +28143,21 @@
       },
       {
         "name": "lait de coco",
-        "qty": 100,
-        "unit": "g"
+        "qty": 200,
+        "unit": "ml"
       },
       {
         "name": "curry",
-        "qty": 8,
-        "unit": "g"
+        "qty": 2,
+        "unit": "c. à café"
       },
       {
         "name": "poivron",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "oignon",
         "qty": 1,
         "unit": "pièce"
       },
@@ -28449,50 +28171,28 @@
       "classic": [
         {
           "title": "Préparer",
-          "text": "Coupe crevettes en morceaux réguliers et prépare les aromates ainsi que lait de coco, poivron et riz.",
-          "durationSec": 360
-        },
-        {
-          "title": "Faire colorer",
-          "text": "Chauffe une cocotte ou sauteuse à feu moyen-vif. Fais colorer la protéine en plusieurs fois si nécessaire, puis réserve-la.",
-          "durationSec": 360
-        },
-        {
-          "title": "Construire la sauce",
-          "text": "Baisse à feu moyen, fais revenir les aromates et les épices, puis ajoute les légumes, tomates, lait de coco ou autre liquide prévus.",
-          "durationSec": 300
-        },
-        {
-          "title": "Mijoter",
-          "text": "Remets la protéine, porte à petit frémissement puis cuis à feu doux jusqu’à cuisson complète et sauce légèrement liée.",
-          "durationSec": 1500
-        },
-        {
-          "title": "Rectifier",
-          "text": "Goûte la sauce, ajuste l’assaisonnement et la texture, puis sers avec l’accompagnement prévu.",
-          "durationSec": 120
-        }
-      ],
-      "tm6": [
-        {
-          "title": "Préparer les aromates",
-          "text": "Mets les aromates dans le bol. Hache 5 sec / vitesse 5 puis racle les parois.",
-          "durationSec": 5
+          "text": "Décortique les crevettes si nécessaire. Émince l’oignon et coupe le poivron en lanières. Lance la cuisson du riz à part.",
+          "durationSec": 420
         },
         {
           "title": "Faire revenir",
-          "text": "Ajoute un peu de matière grasse et fais revenir 3 min / 120 °C / vitesse 1.",
+          "text": "Chauffe une sauteuse avec un peu d’huile. Fais revenir l’oignon et le poivron 4 à 5 minutes à feu moyen.",
+          "durationSec": 300
+        },
+        {
+          "title": "Ajouter les épices",
+          "text": "Ajoute le curry, mélange 30 secondes, puis verse le lait de coco. Porte à petit frémissement.",
           "durationSec": 180
         },
         {
-          "title": "Préparer la sauce ou l’accompagnement",
-          "text": "Ajoute les ingrédients de sauce ou d’accompagnement prévus et cuis au TM6 à température modérée jusqu’à la texture recherchée.",
-          "durationSec": 750
+          "title": "Cuire les crevettes",
+          "text": "Ajoute les crevettes et cuis 3 à 5 minutes selon leur taille, juste jusqu’à ce qu’elles soient opaques et fermes.",
+          "durationSec": 300
         },
         {
-          "title": "Cuire l’élément principal à part",
-          "text": "Pendant ce temps, cuis la viande, le poisson ou l’élément à saisir au four, à la poêle ou avec l’appareil approprié. Réunis les éléments juste avant de servir.",
-          "durationSec": 750
+          "title": "Servir",
+          "text": "Goûte, rectifie l’assaisonnement et sers immédiatement avec le riz.",
+          "durationSec": 60
         }
       ]
     },
@@ -31612,119 +31312,6 @@
     "visualLabel": "Légumes & gratins · Contemporaine / maison"
   },
   {
-    "id": "omelette-epinards-champignons",
-    "name": "Omelette épinards champignons",
-    "category": "Végétarien",
-    "color": "#24451c",
-    "emoji": "🌿",
-    "servings": 4,
-    "difficulty": "",
-    "tags": [],
-    "ingredients": [
-      {
-        "name": "œuf",
-        "qty": 1,
-        "unit": "pièce"
-      },
-      {
-        "name": "épinards",
-        "qty": 100,
-        "unit": "g"
-      },
-      {
-        "name": "champignons",
-        "qty": 100,
-        "unit": "g"
-      },
-      {
-        "name": "oignon",
-        "qty": 1,
-        "unit": "pièce"
-      },
-      {
-        "name": "fromage",
-        "qty": 100,
-        "unit": "g"
-      }
-    ],
-    "modes": {
-      "classic": [
-        {
-          "title": "Préparer",
-          "text": "Coupe épinards, champignons et fromage et bats les œufs avec l’assaisonnement prévu.",
-          "durationSec": 360
-        },
-        {
-          "title": "Cuire la garniture",
-          "text": "Fais revenir les légumes à feu moyen jusqu’à ce qu’ils soient tendres et que l’excès d’eau se soit évaporé.",
-          "durationSec": 750
-        },
-        {
-          "title": "Ajouter les œufs",
-          "text": "Verse les œufs battus. Baisse à feu moyen-doux et laisse prendre sans remuer constamment.",
-          "durationSec": 750
-        },
-        {
-          "title": "Finir",
-          "text": "Plie ou termine sous le gril selon la recette. Le centre doit être pris mais encore moelleux.",
-          "durationSec": 120
-        }
-      ]
-    },
-    "tips": [
-      "Lis la recette en entier avant de commencer.",
-      "Prépare et pèse les ingrédients avant la cuisson.",
-      "Goûte et ajuste l’assaisonnement avant de servir."
-    ],
-    "goalTags": [
-      "equilibre"
-    ],
-    "dietTags": [
-      "vegetarien"
-    ],
-    "allergens": [
-      "lactose",
-      "oeufs"
-    ],
-    "substitutions": [
-      "Laitage → alternative végétale non sucrée de texture équivalente"
-    ],
-    "macros": {
-      "kcal": 390,
-      "proteines": 18,
-      "glucides": 52,
-      "lipides": 13
-    },
-    "styles": [
-      "Cuisine végétale",
-      "Cuisine du quotidien"
-    ],
-    "equipment": [
-      "Cuisine classique",
-      "Poêle"
-    ],
-    "prepMin": 12,
-    "cookMin": 25,
-    "description": "Omelette épinards champignons met en valeur œuf, épinards et champignons. Classée dans « Œufs », cette recette contemporaine / maison est expliquée pas à pas pour être réalisable avec des ustensiles du quotidien, avec des repères simples pour réussir la cuisson et la texture.",
-    "featured": false,
-    "sourceType": "catalogue-etendu",
-    "nutritionBasis": "Estimation indicative par portion. Les valeurs peuvent varier selon les marques et quantités réellement utilisées.",
-    "image": null,
-    "subtype": "Œufs",
-    "nutritionStatus": "estimated",
-    "tm6Status": "none",
-    "nutritionSource": "Estimation indicative de la fiche recette; valeurs à considérer comme repères, non comme étiquetage nutritionnel.",
-    "cuisine": "Contemporaine / maison",
-    "techniques": [
-      "mise en place"
-    ],
-    "storage": "Conserve les restes rapidement au réfrigérateur dans une boîte fermée et réchauffe-les correctement avant consommation.",
-    "safetyTip": "",
-    "deviceModes": {},
-    "learningMode": true,
-    "visualLabel": "Œufs · Contemporaine / maison"
-  },
-  {
     "id": "shakshuka-facile",
     "name": "Shakshuka facile",
     "category": "Végétarien",
@@ -33377,145 +32964,6 @@
     "visualLabel": "Pâtes & gnocchi · Italienne"
   },
   {
-    "id": "pates-aubergine-tomate",
-    "name": "Pâtes aubergine tomate",
-    "category": "Pâtes, riz & céréales",
-    "color": "#24451c",
-    "emoji": "🍝",
-    "servings": 4,
-    "difficulty": "",
-    "tags": [],
-    "ingredients": [
-      {
-        "name": "pâtes",
-        "qty": 240,
-        "unit": "g"
-      },
-      {
-        "name": "aubergine",
-        "qty": 1,
-        "unit": "pièce"
-      },
-      {
-        "name": "tomate",
-        "qty": 100,
-        "unit": "g"
-      },
-      {
-        "name": "oignon",
-        "qty": 1,
-        "unit": "pièce"
-      },
-      {
-        "name": "basilic",
-        "qty": 100,
-        "unit": "g"
-      }
-    ],
-    "modes": {
-      "classic": [
-        {
-          "title": "Préparer la garniture",
-          "text": "Coupe et mesure aubergine et tomate. Mets une grande casserole d’eau à chauffer.",
-          "durationSec": 360
-        },
-        {
-          "title": "Cuire les pâtes",
-          "text": "Sale l’eau quand elle bout, ajoute les pâtes et cuis jusqu’à la texture souhaitée. Garde une petite louche d’eau de cuisson avant d’égoutter.",
-          "durationSec": 750
-        },
-        {
-          "title": "Préparer la sauce",
-          "text": "Pendant ce temps, fais revenir ou chauffe les ingrédients de sauce dans une grande poêle. Ajoute un peu d’eau de cuisson si nécessaire pour lier.",
-          "durationSec": 750
-        },
-        {
-          "title": "Mélanger",
-          "text": "Ajoute les pâtes égouttées dans la poêle et mélange 1 à 2 minutes pour bien enrober chaque portion.",
-          "durationSec": 120
-        },
-        {
-          "title": "Servir",
-          "text": "Ajoute les herbes, fromage ou finition prévus juste avant de servir.",
-          "durationSec": 60
-        }
-      ],
-      "tm6": [
-        {
-          "title": "Préparer les aromates",
-          "text": "Mets les aromates dans le bol. Hache 5 sec / vitesse 5 puis racle les parois.",
-          "durationSec": 5
-        },
-        {
-          "title": "Faire revenir",
-          "text": "Ajoute un peu de matière grasse et fais revenir 3 min / 120 °C / vitesse 1.",
-          "durationSec": 180
-        },
-        {
-          "title": "Préparer la sauce ou l’accompagnement",
-          "text": "Ajoute les ingrédients de sauce ou d’accompagnement prévus et cuis au TM6 à température modérée jusqu’à la texture recherchée.",
-          "durationSec": 750
-        },
-        {
-          "title": "Cuire l’élément principal à part",
-          "text": "Pendant ce temps, cuis la viande, le poisson ou l’élément à saisir au four, à la poêle ou avec l’appareil approprié. Réunis les éléments juste avant de servir.",
-          "durationSec": 750
-        }
-      ]
-    },
-    "tips": [
-      "Lis la recette en entier avant de commencer.",
-      "Prépare et pèse les ingrédients avant la cuisson.",
-      "Goûte et ajuste l’assaisonnement avant de servir."
-    ],
-    "goalTags": [
-      "equilibre"
-    ],
-    "dietTags": [
-      "omnivore"
-    ],
-    "allergens": [
-      "gluten"
-    ],
-    "substitutions": [
-      "Produit contenant du gluten → version certifiée sans gluten adaptée à la recette"
-    ],
-    "macros": {
-      "kcal": 480,
-      "proteines": 28,
-      "glucides": 62,
-      "lipides": 13
-    },
-    "styles": [
-      "Cuisine du quotidien",
-      "Cuisine maison"
-    ],
-    "equipment": [
-      "TM6",
-      "Cuisine classique"
-    ],
-    "prepMin": 12,
-    "cookMin": 25,
-    "description": "Pâtes aubergine tomate met en valeur pâtes, aubergine et tomate. Classée dans « Pâtes & gnocchi », cette recette italienne est expliquée pas à pas pour être réalisable avec des ustensiles du quotidien, avec le TM6 en aide si tu le souhaites, avec des repères simples pour réussir la cuisson et la texture.",
-    "featured": false,
-    "sourceType": "catalogue-etendu",
-    "nutritionBasis": "Estimation indicative par portion. Les valeurs peuvent varier selon les marques et quantités réellement utilisées.",
-    "image": null,
-    "subtype": "Pâtes & gnocchi",
-    "nutritionStatus": "estimated",
-    "tm6Status": "aid",
-    "nutritionSource": "Estimation indicative de la fiche recette; valeurs à considérer comme repères, non comme étiquetage nutritionnel.",
-    "cuisine": "Italienne",
-    "techniques": [
-      "mise en place"
-    ],
-    "storage": "Conserve les restes rapidement au réfrigérateur dans une boîte fermée et réchauffe-les correctement avant consommation.",
-    "safetyTip": "",
-    "deviceModes": {},
-    "learningMode": true,
-    "visualLabel": "Pâtes & gnocchi · Italienne"
-  },
-  {
     "id": "pates-champignons-parmesan",
     "name": "Pâtes champignons parmesan",
     "category": "Pâtes, riz & céréales",
@@ -34655,7 +34103,7 @@
   },
   {
     "id": "boulgour-dinde-tomate",
-    "name": "Boulgour dinde tomate",
+    "name": "Boulgour dinde, tomate & menthe",
     "category": "Pâtes, riz & céréales",
     "color": "#24451c",
     "emoji": "🍝",
@@ -34665,28 +34113,38 @@
     "ingredients": [
       {
         "name": "boulgour",
-        "qty": 240,
+        "qty": 280,
         "unit": "g"
       },
       {
         "name": "dinde",
-        "qty": 500,
+        "qty": 400,
         "unit": "g"
       },
       {
         "name": "tomate",
-        "qty": 100,
+        "qty": 250,
         "unit": "g"
       },
       {
-        "name": "courgette",
+        "name": "oignon",
         "qty": 1,
         "unit": "pièce"
+      },
+      {
+        "name": "huile d’olive",
+        "qty": 15,
+        "unit": "ml"
       },
       {
         "name": "menthe",
         "qty": 8,
         "unit": "g"
+      },
+      {
+        "name": "citron",
+        "qty": 1,
+        "unit": "pièce"
       }
     ],
     "modes": {
@@ -34769,7 +34227,7 @@
     ],
     "prepMin": 12,
     "cookMin": 25,
-    "description": "Boulgour dinde tomate met en valeur boulgour, dinde et tomate. Classée dans « Semoule, boulgour & couscous », cette recette maghrébine est expliquée pas à pas pour être réalisable avec des ustensiles du quotidien, avec le TM6 en aide si tu le souhaites, avec des repères simples pour réussir la cuisson et la texture.",
+    "description": "Un boulgour complet à la dinde, tomate, menthe fraîche et citron, dans un registre levantin frais et herbacé.",
     "featured": false,
     "sourceType": "catalogue-etendu",
     "nutritionBasis": "Estimation indicative par portion. Les valeurs peuvent varier selon les marques et quantités réellement utilisées.",
@@ -34778,7 +34236,7 @@
     "nutritionStatus": "estimated",
     "tm6Status": "aid",
     "nutritionSource": "Estimation indicative de la fiche recette; valeurs à considérer comme repères, non comme étiquetage nutritionnel.",
-    "cuisine": "Maghrébine",
+    "cuisine": "Levantine",
     "techniques": [
       "cuisson au four"
     ],
@@ -34790,7 +34248,7 @@
   },
   {
     "id": "semoule-poulet-legumes",
-    "name": "Semoule poulet légumes",
+    "name": "Semoule poulet, légumes & épices douces",
     "category": "Pâtes, riz & céréales",
     "color": "#24451c",
     "emoji": "🍝",
@@ -34800,28 +34258,48 @@
     "ingredients": [
       {
         "name": "semoule",
-        "qty": 240,
+        "qty": 280,
         "unit": "g"
       },
       {
         "name": "poulet",
-        "qty": 500,
+        "qty": 400,
         "unit": "g"
       },
       {
         "name": "carotte",
-        "qty": 100,
+        "qty": 180,
         "unit": "g"
       },
       {
         "name": "courgette",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
         "qty": 1,
         "unit": "pièce"
       },
       {
         "name": "pois chiches",
-        "qty": 100,
+        "qty": 120,
         "unit": "g"
+      },
+      {
+        "name": "huile d’olive",
+        "qty": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "cumin",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
+        "name": "paprika",
+        "qty": 1,
+        "unit": "c. à café"
       }
     ],
     "modes": {
@@ -34905,7 +34383,7 @@
     ],
     "prepMin": 12,
     "cookMin": 25,
-    "description": "Semoule poulet légumes met en valeur semoule, poulet et carotte. Classée dans « Semoule, boulgour & couscous », cette recette maghrébine est expliquée pas à pas pour être réalisable avec des ustensiles du quotidien, avec le TM6 en aide si tu le souhaites, avec des repères simples pour réussir la cuisson et la texture.",
+    "description": "Semoule, poulet et légumes mijotés avec des épices douces d’inspiration marocaine, servis avec une semoule bien égrenée.",
     "featured": false,
     "sourceType": "catalogue-etendu",
     "nutritionBasis": "Estimation indicative par portion. Les valeurs peuvent varier selon les marques et quantités réellement utilisées.",
@@ -34914,7 +34392,7 @@
     "nutritionStatus": "estimated",
     "tm6Status": "aid",
     "nutritionSource": "Estimation indicative de la fiche recette; valeurs à considérer comme repères, non comme étiquetage nutritionnel.",
-    "cuisine": "Maghrébine",
+    "cuisine": "Marocaine",
     "techniques": [
       "cuisson au four"
     ],
@@ -37541,185 +37019,6 @@
     },
     "learningMode": true,
     "visualLabel": "Soupes de légumes · Indienne / asiatique"
-  },
-  {
-    "id": "veloute-celeri-pomme",
-    "name": "Velouté céleri pomme",
-    "category": "Soupes & veloutés",
-    "color": "#24451c",
-    "emoji": "🍲",
-    "servings": 4,
-    "difficulty": "",
-    "tags": [],
-    "ingredients": [
-      {
-        "name": "céleri rave",
-        "qty": 100,
-        "unit": "g"
-      },
-      {
-        "name": "pomme",
-        "qty": 1,
-        "unit": "pièce"
-      },
-      {
-        "name": "pomme de terre",
-        "qty": 100,
-        "unit": "g"
-      },
-      {
-        "name": "oignon",
-        "qty": 1,
-        "unit": "pièce"
-      },
-      {
-        "name": "bouillon",
-        "qty": 250,
-        "unit": "ml"
-      }
-    ],
-    "modes": {
-      "classic": [
-        {
-          "title": "Mise en place",
-          "text": "Épluche si nécessaire puis coupe céleri rave, pomme, pomme de terre et bouillon en morceaux réguliers. Prépare aussi céleri rave et oignon.",
-          "durationSec": 300
-        },
-        {
-          "title": "Faire revenir",
-          "text": "Dans une grande casserole, chauffe un peu de matière grasse à feu moyen. Fais revenir les aromates de Velouté céleri pomme 3 à 5 minutes : ils doivent devenir parfumés et tendres, pas brunir fortement.",
-          "durationSec": 240
-        },
-        {
-          "title": "Cuire",
-          "text": "Ajoute céleri rave, pomme, pomme de terre et bouillon puis le liquide prévu. Porte à frémissement, couvre partiellement et cuis à feu doux jusqu’à ce que les morceaux les plus fermes s’écrasent facilement avec une fourchette.",
-          "durationSec": 1500
-        },
-        {
-          "title": "Finir la texture",
-          "text": "Pour Velouté céleri pomme, mixe si la recette doit être lisse ; sinon garde les morceaux. Ajoute seulement un peu de liquide à la fois si tu veux détendre la texture.",
-          "durationSec": 180
-        },
-        {
-          "title": "Goûter et servir",
-          "text": "Goûte, rectifie l’assaisonnement et sers chaud. Laisse tiédir avant de mettre les restes au réfrigérateur.",
-          "durationSec": 60
-        }
-      ],
-      "tm6": [
-        {
-          "title": "Hacher les aromates",
-          "text": "Mets les aromates dans le bol. Hache 5 sec / vitesse 5, puis racle les parois.",
-          "durationSec": 5
-        },
-        {
-          "title": "Faire revenir",
-          "text": "Ajoute la matière grasse prévue et fais revenir 4 min / 120 °C / vitesse 1.",
-          "durationSec": 240
-        },
-        {
-          "title": "Cuire",
-          "text": "Ajoute les légumes et le liquide prévu. Cuis environ 20 min / 100 °C / vitesse 1, avec le gobelet ou le panier selon les projections.",
-          "durationSec": 1200
-        },
-        {
-          "title": "Mixer si besoin",
-          "text": "Pour un velouté, laisse retomber la température quelques instants puis mixe progressivement 45 sec de vitesse 5 à 9. Pour une soupe avec morceaux, saute cette étape.",
-          "durationSec": 45
-        }
-      ]
-    },
-    "tips": [
-      "Lis la recette en entier avant de commencer.",
-      "Prépare et pèse les ingrédients avant la cuisson.",
-      "Goûte et ajuste l’assaisonnement avant de servir."
-    ],
-    "goalTags": [
-      "equilibre"
-    ],
-    "dietTags": [
-      "vegetarien"
-    ],
-    "allergens": [
-      "celeri"
-    ],
-    "substitutions": [],
-    "macros": {
-      "kcal": 260,
-      "proteines": 12,
-      "glucides": 38,
-      "lipides": 8
-    },
-    "styles": [
-      "Cuisine facile",
-      "Cuisine légère"
-    ],
-    "equipment": [
-      "TM6",
-      "Cuisine classique",
-      "Blender / mixeur",
-      "Multicuiseur / Cookeo"
-    ],
-    "prepMin": 10,
-    "cookMin": 25,
-    "description": "Velouté céleri pomme met en valeur céleri rave, pomme et pomme de terre. Classée dans « Veloutés », cette recette contemporaine / maison est expliquée pas à pas pour être réalisable avec des ustensiles du quotidien ou entièrement au TM6, avec des repères simples pour réussir la cuisson et la texture.",
-    "featured": false,
-    "sourceType": "catalogue-etendu",
-    "nutritionBasis": "Estimation indicative par portion. Les valeurs peuvent varier selon les marques et quantités réellement utilisées.",
-    "image": null,
-    "subtype": "Veloutés",
-    "nutritionStatus": "estimated",
-    "tm6Status": "full",
-    "nutritionSource": "Estimation indicative de la fiche recette; valeurs à considérer comme repères, non comme étiquetage nutritionnel.",
-    "cuisine": "Contemporaine / maison",
-    "techniques": [
-      "faire revenir"
-    ],
-    "storage": "Conserve les restes rapidement au réfrigérateur dans une boîte fermée et réchauffe-les correctement avant consommation.",
-    "safetyTip": "",
-    "deviceModes": {
-      "blender": [
-        {
-          "title": "Préparer",
-          "text": "Coupe les ingrédients en morceaux adaptés à ton appareil.",
-          "durationSec": 240
-        },
-        {
-          "title": "Mixer",
-          "text": "Ajoute d’abord les liquides, puis les solides. Mixe par impulsions puis à vitesse continue.",
-          "durationSec": 120
-        },
-        {
-          "title": "Ajuster",
-          "text": "Arrête l’appareil avant de racler. Ajuste la texture avec un peu de liquide.",
-          "durationSec": 60
-        }
-      ],
-      "multicuiseur": [
-        {
-          "title": "Mode dorer",
-          "text": "Fais revenir les aromates 4 à 5 minutes en mode dorer.",
-          "durationSec": 300
-        },
-        {
-          "title": "Ajouter",
-          "text": "Ajoute les autres ingrédients et le liquide, puis mélange en décollant le fond.",
-          "durationSec": 120
-        },
-        {
-          "title": "Sous pression",
-          "text": "Lance une cuisson sous pression adaptée. Commence avec un temps inférieur à la cuisson classique, puis vérifie.",
-          "durationSec": 720
-        },
-        {
-          "title": "Finir",
-          "text": "Utilise le mode dorer quelques minutes si la sauce doit réduire.",
-          "durationSec": 240
-        }
-      ]
-    },
-    "learningMode": true,
-    "visualLabel": "Veloutés · Contemporaine / maison"
   },
   {
     "id": "soupe-epinards-pois-casses",
@@ -42413,79 +41712,57 @@
     "category": "Desserts",
     "color": "#24451c",
     "emoji": "🍰",
-    "servings": 4,
+    "servings": 6,
     "difficulty": "",
     "tags": [],
     "ingredients": [
       {
         "name": "lait de coco",
-        "qty": 640.0,
+        "qty": 400,
         "unit": "ml"
       },
       {
         "name": "œuf",
-        "qty": 1,
-        "unit": "pièce"
+        "qty": 4,
+        "unit": "pièces"
       },
       {
-        "name": "maïzena",
-        "qty": 240.0,
+        "name": "sucre",
+        "qty": 60,
         "unit": "g"
       },
       {
         "name": "vanille",
-        "qty": 240.0,
-        "unit": "g"
+        "qty": 1,
+        "unit": "c. à café"
       },
       {
-        "name": "sucre",
-        "qty": 60.0,
+        "name": "maïzena",
+        "qty": 20,
         "unit": "g"
       }
     ],
     "modes": {
       "classic": [
         {
-          "title": "Préparer",
-          "text": "Pèse lait de coco, œuf, maïzena et vanille. Prépare la casserole ou le moule selon la recette.",
-          "durationSec": 450
+          "title": "Préchauffer",
+          "text": "Préchauffe le four à 170 °C. Prépare un moule ou 6 ramequins.",
+          "durationSec": 300
         },
         {
-          "title": "Chauffer doucement",
-          "text": "Fais chauffer le lait ou la base liquide sans laisser déborder. Ajoute progressivement les éléments épaississants en remuant.",
-          "durationSec": 900
-        },
-        {
-          "title": "Cuire jusqu’à la bonne texture",
-          "text": "Poursuis à feu doux ou au four selon la recette. Le mélange doit épaissir ou prendre sans brûler.",
-          "durationSec": 900
-        },
-        {
-          "title": "Refroidir",
-          "text": "Laisse tiédir puis place au frais si le dessert se mange froid.",
-          "durationSec": 600
-        }
-      ],
-      "tm6": [
-        {
-          "title": "Préparer dans le bol",
-          "text": "Mets les premiers ingrédients de lait de coco, œuf et maïzena dans le bol. Hache si nécessaire 5 sec / vitesse 5, puis racle.",
-          "durationSec": 60
-        },
-        {
-          "title": "Faire revenir si nécessaire",
-          "text": "Pour une base avec aromates, ajoute la matière grasse et fais revenir 3 à 4 min / 120 °C / vitesse 1. Sinon passe directement à l’étape suivante.",
+          "title": "Mélanger",
+          "text": "Fouette les œufs avec le sucre et la vanille. Ajoute la maïzena puis verse progressivement le lait de coco en mélangeant pour obtenir une préparation lisse.",
           "durationSec": 240
         },
         {
-          "title": "Cuire ou mélanger",
-          "text": "Ajoute le reste des ingrédients. Utilise 90 à 100 °C / sens inverse / vitesse 1 pour une cuisson douce, ou vitesse 3 à 5 sans chauffage pour un mélange. Adapte la durée au temps indiqué dans la fiche.",
-          "durationSec": 1800
+          "title": "Cuire",
+          "text": "Verse dans le moule et enfourne 30 à 35 minutes. Le centre doit être pris mais encore légèrement tremblotant.",
+          "durationSec": 2100
         },
         {
-          "title": "Finir",
-          "text": "Goûte la texture. Mixe brièvement si la recette doit être lisse, ou mélange 10 sec / sens inverse / vitesse 2 pour garder les morceaux.",
-          "durationSec": 60
+          "title": "Refroidir",
+          "text": "Laisse tiédir, puis place au réfrigérateur au moins 2 heures avant de servir.",
+          "durationSec": 0
         }
       ]
     },
@@ -42519,9 +41796,9 @@
       "Cuisine classique",
       "Four"
     ],
-    "prepMin": 15,
-    "cookMin": 30,
-    "description": "Flan coco vanille met en valeur lait de coco, œuf et maïzena. Classée dans « Crèmes & desserts doux », cette recette contemporaine / maison est expliquée pas à pas pour être réalisable avec des ustensiles du quotidien ou entièrement au TM6, avec des repères simples pour réussir la cuisson et la texture.",
+    "prepMin": 10,
+    "cookMin": 35,
+    "description": "Un flan coco-vanille doux et simple, cuit au four puis refroidi pour obtenir une texture prise et fondante.",
     "featured": false,
     "sourceType": "catalogue-etendu",
     "nutritionBasis": "Estimation indicative par portion. Les valeurs peuvent varier selon les marques et quantités réellement utilisées.",
@@ -50799,47 +50076,62 @@
         "unit": "g"
       },
       {
-        "name": "tomates concassées",
-        "qty": 300,
-        "unit": "g"
-      },
-      {
-        "name": "curry doux",
-        "qty": 1,
-        "unit": "c. à soupe"
-      },
-      {
-        "name": "oignon",
+        "name": "citron",
         "qty": 1,
         "unit": "pièce"
+      },
+      {
+        "name": "garam masala",
+        "qty": 2,
+        "unit": "c. à café"
+      },
+      {
+        "name": "paprika",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
+        "name": "cumin",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
+        "name": "ail",
+        "qty": 2,
+        "unit": "gousses"
+      },
+      {
+        "name": "gingembre frais",
+        "qty": 10,
+        "unit": "g"
       }
     ],
     "modes": {
       "classic": [
         {
-          "title": "Préparer",
-          "text": "Sèche et prépare blanc de poulet. Coupe yaourt nature, tomates concassées et curry doux avant de commencer la cuisson.",
-          "durationSec": 450
+          "title": "Préparer la marinade",
+          "text": "Coupe le poulet en morceaux de taille régulière. Mélange le yaourt, le jus de citron, le garam masala, le paprika, le cumin, l’ail et le gingembre râpé.",
+          "durationSec": 420
         },
         {
-          "title": "Chauffer",
-          "text": "Fais chauffer une poêle ou sauteuse à feu moyen-vif avec un peu de matière grasse. Attends que la surface soit bien chaude avant d’ajouter blanc de poulet.",
-          "durationSec": 120
+          "title": "Mariner",
+          "text": "Enrobe le poulet de marinade. Laisse reposer 30 minutes au réfrigérateur si tu as le temps ; sinon cuis-le immédiatement.",
+          "durationSec": 0
         },
         {
           "title": "Saisir",
-          "text": "Dépose blanc de poulet sans surcharger la poêle. Laisse colorer la première face avant de retourner, puis baisse légèrement le feu pour finir la cuisson sans dessécher l’aliment.",
-          "durationSec": 600
+          "text": "Chauffe une grande poêle ou un gril à feu vif. Égoutte légèrement les morceaux puis fais-les colorer sans surcharger la surface.",
+          "durationSec": 360
         },
         {
-          "title": "Ajouter la garniture",
-          "text": "Ajoute ensuite yaourt nature, tomates concassées et curry doux. Poursuis la cuisson en remuant ou en nappant selon la recette, jusqu’à ce que la garniture soit chaude et la sauce éventuellement liée.",
-          "durationSec": 600
+          "title": "Finir la cuisson",
+          "text": "Baisse à feu moyen et poursuis 5 à 7 minutes en retournant les morceaux. Le poulet doit être bien cuit à cœur tout en restant moelleux.",
+          "durationSec": 420
         },
         {
-          "title": "Contrôler et servir",
-          "text": "Vérifie la cuisson de blanc de poulet au centre avant de servir. Laisse reposer quelques minutes si c’est une viande ; pour un poisson, sers dès que la chair est opaque et se détache facilement.",
-          "durationSec": 120
+          "title": "Servir",
+          "text": "Sers chaud avec du riz, du pain plat ou une salade fraîche, avec un quartier de citron si tu le souhaites.",
+          "durationSec": 60
         }
       ]
     },
@@ -50869,7 +50161,7 @@
     },
     "nutritionBasis": "Estimation indicative par portion calculée à partir des ingrédients et de poids usuels, avec des valeurs moyennes de tables de composition alimentaire (Ciqual 2025 / USDA FoodData Central). Les marques, la cuisson et le poids réel des pièces peuvent faire varier le résultat.",
     "prepMin": 15,
-    "cookMin": 20,
+    "cookMin": 15,
     "styles": [
       "Cuisine du monde",
       "Cuisine maison"
@@ -50878,14 +50170,16 @@
       "Cuisine classique"
     ],
     "featured": false,
-    "description": "Poulet tikka au yaourt met en valeur blanc de poulet, yaourt nature et tomates concassées. Classée dans « En sauce & mijoté », cette recette indienne est expliquée pas à pas pour être réalisable avec des ustensiles du quotidien, avec des repères simples pour réussir la cuisson et la texture.",
+    "description": "Poulet mariné au yaourt, citron et épices indiennes, puis saisi à feu vif pour obtenir des morceaux parfumés et légèrement grillés.",
     "subtype": "En sauce & mijoté",
-    "nutritionStatus": "estimated-calculated",
+    "nutritionStatus": "estimated",
     "tm6Status": "none",
     "nutritionSource": "Anses Ciqual 2025 / USDA FoodData Central — estimation générique, non étiquetage nutritionnel.",
     "cuisine": "Indienne",
     "techniques": [
-      "saisir / dorer"
+      "mariner",
+      "saisir",
+      "cuisson à la poêle"
     ],
     "storage": "Conserve les restes rapidement au réfrigérateur dans une boîte fermée et réchauffe-les correctement avant consommation.",
     "safetyTip": "Repère sécurité : pour la volaille, vise 74 °C à cœur si tu utilises un thermomètre de cuisine.",
@@ -51409,7 +50703,7 @@
   },
   {
     "id": "poulet-coco-citron-vert",
-    "name": "Poulet coco citron vert",
+    "name": "Poulet coco citron vert façon thaïe",
     "category": "Poulet & volaille",
     "color": "#75d429",
     "emoji": "🍽️",
@@ -51426,13 +50720,8 @@
       },
       {
         "name": "lait de coco",
-        "qty": 250,
+        "qty": 300,
         "unit": "ml"
-      },
-      {
-        "name": "citron vert",
-        "qty": 1,
-        "unit": "pièce"
       },
       {
         "name": "poivron rouge",
@@ -51440,59 +50729,52 @@
         "unit": "pièce"
       },
       {
+        "name": "pâte de curry rouge",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
         "name": "gingembre frais",
-        "qty": 8,
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "citron vert",
+        "qty": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "coriandre fraîche",
+        "qty": 10,
         "unit": "g"
       }
     ],
     "modes": {
-      "tm6": [
-        {
-          "title": "Préparer les aromates",
-          "text": "Mets les aromates dans le bol. Hache 5 sec / vitesse 5 puis racle les parois.",
-          "durationSec": 5
-        },
-        {
-          "title": "Faire revenir",
-          "text": "Ajoute un peu de matière grasse et fais revenir 3 min / 120 °C / vitesse 1.",
-          "durationSec": 180
-        },
-        {
-          "title": "Préparer la sauce ou l’accompagnement",
-          "text": "Ajoute les ingrédients de sauce ou d’accompagnement prévus et cuis au TM6 à température modérée jusqu’à la texture recherchée.",
-          "durationSec": 600
-        },
-        {
-          "title": "Cuire l’élément principal à part",
-          "text": "Pendant ce temps, cuis la viande, le poisson ou l’élément à saisir au four, à la poêle ou avec l’appareil approprié. Réunis les éléments juste avant de servir.",
-          "durationSec": 600
-        }
-      ],
       "classic": [
         {
           "title": "Préparer",
-          "text": "Coupe blanc de poulet en morceaux réguliers et prépare les aromates ainsi que lait de coco, citron vert et poivron rouge.",
+          "text": "Coupe le poulet en bouchées et le poivron en fines lanières. Râpe le gingembre, prélève le zeste du citron vert puis presse son jus.",
+          "durationSec": 480
+        },
+        {
+          "title": "Réveiller le curry",
+          "text": "Chauffe une sauteuse à feu moyen avec un filet d’huile. Ajoute la pâte de curry et le gingembre, puis remue 30 secondes jusqu’à ce que les parfums se développent.",
+          "durationSec": 90
+        },
+        {
+          "title": "Cuire le poulet",
+          "text": "Ajoute le poulet et fais-le revenir 3 à 4 minutes. Incorpore le poivron, puis verse le lait de coco.",
           "durationSec": 300
         },
         {
-          "title": "Faire colorer",
-          "text": "Chauffe une cocotte ou sauteuse à feu moyen-vif. Fais colorer la protéine en plusieurs fois si nécessaire, puis réserve-la.",
-          "durationSec": 360
+          "title": "Mijoter doucement",
+          "text": "Laisse frémir 8 à 10 minutes à feu doux, jusqu’à ce que le poulet soit cuit et la sauce légèrement nappante.",
+          "durationSec": 600
         },
         {
-          "title": "Construire la sauce",
-          "text": "Baisse à feu moyen, fais revenir les aromates et les épices, puis ajoute les légumes, tomates, lait de coco ou autre liquide prévus.",
-          "durationSec": 300
-        },
-        {
-          "title": "Mijoter",
-          "text": "Remets la protéine, porte à petit frémissement puis cuis à feu doux jusqu’à cuisson complète et sauce légèrement liée.",
-          "durationSec": 1200
-        },
-        {
-          "title": "Rectifier",
-          "text": "Goûte la sauce, ajuste l’assaisonnement et la texture, puis sers avec l’accompagnement prévu.",
-          "durationSec": 120
+          "title": "Finir au citron vert",
+          "text": "Hors du feu, ajoute le jus et le zeste de citron vert puis la coriandre. Goûte avant de rectifier l’assaisonnement.",
+          "durationSec": 90
         }
       ]
     },
@@ -51518,7 +50800,7 @@
       "lipides": 15
     },
     "nutritionBasis": "Estimation indicative par portion calculée à partir des ingrédients et de poids usuels, avec des valeurs moyennes de tables de composition alimentaire (Ciqual 2025 / USDA FoodData Central). Les marques, la cuisson et le poids réel des pièces peuvent faire varier le résultat.",
-    "prepMin": 10,
+    "prepMin": 15,
     "cookMin": 20,
     "styles": [
       "Cuisine du monde",
@@ -51529,13 +50811,14 @@
       "Cuisine classique"
     ],
     "featured": false,
-    "description": "Poulet coco citron vert met en valeur blanc de poulet, lait de coco et citron vert. Classée dans « En sauce & mijoté », cette recette méditerranéenne est expliquée pas à pas pour être réalisable avec des ustensiles du quotidien, avec le TM6 en aide si tu le souhaites, avec des repères simples pour réussir la cuisson et la texture.",
+    "description": "Un curry de poulet coco au profil thaï, relevé par la pâte de curry rouge, le gingembre, le citron vert et la coriandre.",
     "subtype": "En sauce & mijoté",
-    "nutritionStatus": "estimated-calculated",
+    "nutritionStatus": "estimated",
     "tm6Status": "aid",
     "nutritionSource": "Anses Ciqual 2025 / USDA FoodData Central — estimation générique, non étiquetage nutritionnel.",
-    "cuisine": "Méditerranéenne",
+    "cuisine": "Thaïlandaise",
     "techniques": [
+      "sauter",
       "mijoter"
     ],
     "storage": "Conserve les restes rapidement au réfrigérateur dans une boîte fermée et réchauffe-les correctement avant consommation.",
@@ -52134,7 +51417,7 @@
   },
   {
     "id": "colin-coco-citron-vert",
-    "name": "Colin coco citron vert",
+    "name": "Colin coco citron vert façon créole",
     "category": "Poissons & fruits de mer",
     "color": "#75d429",
     "emoji": "🍽️",
@@ -52155,69 +51438,62 @@
         "unit": "ml"
       },
       {
+        "name": "tomate",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "oignon nouveau",
+        "qty": 2,
+        "unit": "pièces"
+      },
+      {
+        "name": "ail",
+        "qty": 2,
+        "unit": "gousses"
+      },
+      {
+        "name": "thym",
+        "qty": 1,
+        "unit": "c. à café"
+      },
+      {
         "name": "citron vert",
         "qty": 1,
         "unit": "pièce"
       },
       {
-        "name": "courgette",
+        "name": "piment doux",
         "qty": 1,
-        "unit": "pièce"
-      },
-      {
-        "name": "curry doux",
-        "qty": 1,
-        "unit": "c. à café"
+        "unit": "pincée"
       }
     ],
     "modes": {
-      "tm6": [
-        {
-          "title": "Préparer les aromates",
-          "text": "Mets les aromates dans le bol. Hache 5 sec / vitesse 5 puis racle les parois.",
-          "durationSec": 5
-        },
-        {
-          "title": "Faire revenir",
-          "text": "Ajoute un peu de matière grasse et fais revenir 3 min / 120 °C / vitesse 1.",
-          "durationSec": 180
-        },
-        {
-          "title": "Préparer la sauce ou l’accompagnement",
-          "text": "Ajoute les ingrédients de sauce ou d’accompagnement prévus et cuis au TM6 à température modérée jusqu’à la texture recherchée.",
-          "durationSec": 540
-        },
-        {
-          "title": "Cuire l’élément principal à part",
-          "text": "Pendant ce temps, cuis la viande, le poisson ou l’élément à saisir au four, à la poêle ou avec l’appareil approprié. Réunis les éléments juste avant de servir.",
-          "durationSec": 600
-        }
-      ],
       "classic": [
         {
           "title": "Préparer",
-          "text": "Coupe filets de colin en morceaux réguliers et prépare les aromates ainsi que lait de coco, citron vert et courgette.",
-          "durationSec": 300
+          "text": "Coupe le colin en gros morceaux. Émince les oignons nouveaux et l’ail, puis coupe la tomate en dés. Presse le citron vert.",
+          "durationSec": 420
         },
         {
-          "title": "Faire colorer",
-          "text": "Chauffe une cocotte ou sauteuse à feu moyen-vif. Fais colorer la protéine en plusieurs fois si nécessaire, puis réserve-la.",
-          "durationSec": 360
+          "title": "Faire la base créole",
+          "text": "Dans une sauteuse, fais revenir les oignons et l’ail 2 à 3 minutes à feu moyen. Ajoute la tomate, le thym et le piment doux puis cuis encore 4 minutes.",
+          "durationSec": 420
         },
         {
-          "title": "Construire la sauce",
-          "text": "Baisse à feu moyen, fais revenir les aromates et les épices, puis ajoute les légumes, tomates, lait de coco ou autre liquide prévus.",
-          "durationSec": 300
+          "title": "Ajouter le coco",
+          "text": "Verse le lait de coco et la moitié du jus de citron vert. Porte à petit frémissement sans faire bouillir fortement.",
+          "durationSec": 180
         },
         {
-          "title": "Mijoter",
-          "text": "Remets la protéine, porte à petit frémissement puis cuis à feu doux jusqu’à cuisson complète et sauce légèrement liée.",
-          "durationSec": 1080
+          "title": "Pocher le poisson",
+          "text": "Dépose les morceaux de colin dans la sauce. Couvre et cuis doucement 6 à 8 minutes, jusqu’à ce que la chair soit opaque et se détache facilement.",
+          "durationSec": 480
         },
         {
-          "title": "Rectifier",
-          "text": "Goûte la sauce, ajuste l’assaisonnement et la texture, puis sers avec l’accompagnement prévu.",
-          "durationSec": 120
+          "title": "Finir",
+          "text": "Ajoute le reste du jus de citron vert, goûte et ajuste l’assaisonnement. Sers aussitôt pour ne pas dessécher le poisson.",
+          "durationSec": 60
         }
       ]
     },
@@ -52245,7 +51521,7 @@
       "lipides": 11
     },
     "nutritionBasis": "Estimation indicative par portion calculée à partir des ingrédients et de poids usuels, avec des valeurs moyennes de tables de composition alimentaire (Ciqual 2025 / USDA FoodData Central). Les marques, la cuisson et le poids réel des pièces peuvent faire varier le résultat.",
-    "prepMin": 10,
+    "prepMin": 15,
     "cookMin": 18,
     "styles": [
       "Cuisine facile",
@@ -52256,14 +51532,16 @@
       "Cuisine classique"
     ],
     "featured": false,
-    "description": "Colin coco citron vert met en valeur filets de colin, lait de coco et citron vert. Classée dans « Poissons blancs & autres », cette recette méditerranéenne est expliquée pas à pas pour être réalisable avec des ustensiles du quotidien, avec le TM6 en aide si tu le souhaites, avec des repères simples pour réussir la cuisson et la texture.",
+    "description": "Colin poché doucement dans une sauce coco, tomate, thym et citron vert d’inspiration créole, très différente du curry de poulet thaï.",
     "subtype": "Poissons blancs & autres",
-    "nutritionStatus": "estimated-calculated",
+    "nutritionStatus": "estimated",
     "tm6Status": "aid",
     "nutritionSource": "Anses Ciqual 2025 / USDA FoodData Central — estimation générique, non étiquetage nutritionnel.",
-    "cuisine": "Méditerranéenne",
+    "cuisine": "Créole / Caraïbes",
     "techniques": [
-      "mijoter"
+      "faire revenir",
+      "pocher",
+      "cuisson douce"
     ],
     "storage": "Conserve les restes rapidement au réfrigérateur dans une boîte fermée et réchauffe-les correctement avant consommation.",
     "safetyTip": "Repère sécurité : le poisson cuit devient opaque et se détache facilement ; avec un thermomètre, 63 °C à cœur est un repère usuel.",
@@ -89435,147 +88713,6 @@
     "visualLabel": "Quinoa · Nordique"
   },
   {
-    "id": "boulgour-dinde-tomate-menthe",
-    "name": "Boulgour dinde tomate menthe",
-    "category": "Pâtes, riz & céréales",
-    "color": "#75d429",
-    "emoji": "🍚",
-    "servings": 4,
-    "difficulty": "",
-    "tags": [],
-    "ingredients": [
-      {
-        "name": "boulgour",
-        "qty": 280,
-        "unit": "g"
-      },
-      {
-        "name": "huile d’olive",
-        "qty": 15,
-        "unit": "ml"
-      },
-      {
-        "name": "oignon",
-        "qty": 1,
-        "unit": "pièce"
-      },
-      {
-        "name": "dinde",
-        "qty": 400,
-        "unit": "g"
-      },
-      {
-        "name": "tomate",
-        "qty": 180,
-        "unit": "g"
-      },
-      {
-        "name": "menthe",
-        "qty": 1,
-        "unit": "c. à café"
-      }
-    ],
-    "modes": {
-      "classic": [
-        {
-          "title": "Préparer",
-          "text": "Prépare boulgour, dinde et tomate et porte le volume de liquide prévu à frémissement.",
-          "durationSec": 450
-        },
-        {
-          "title": "Cuire ou réhydrater la céréale",
-          "text": "Verse le liquide chaud sur la semoule ou cuis le boulgour selon la recette. Couvre et laisse absorber sans remuer inutilement.",
-          "durationSec": 660
-        },
-        {
-          "title": "Préparer la garniture",
-          "text": "Pendant ce temps, cuis les légumes, protéines ou aromates prévus dans une poêle ou casserole.",
-          "durationSec": 660
-        },
-        {
-          "title": "Égrainer et assembler",
-          "text": "Égrène la céréale à la fourchette, ajoute la garniture et mélange délicatement.",
-          "durationSec": 120
-        }
-      ]
-    },
-    "tips": [
-      "Prépare et mesure tous les ingrédients avant d’allumer le feu : tu cuisineras plus sereinement.",
-      "Utilise les repères visuels et de texture indiqués dans les étapes plutôt que de suivre le minuteur à la seconde.",
-      "Goûte en fin de préparation et ajuste progressivement le sel, les épices et l’acidité."
-    ],
-    "goalTags": [
-      "equilibre"
-    ],
-    "dietTags": [
-      "omnivore"
-    ],
-    "allergens": [
-      "gluten"
-    ],
-    "substitutions": [
-      "Produit contenant du gluten → version certifiée sans gluten adaptée à la recette",
-      "Dinde → poulet de coupe similaire"
-    ],
-    "macros": {
-      "kcal": 400,
-      "proteines": 33.1,
-      "glucides": 57.3,
-      "lipides": 6.0
-    },
-    "styles": [
-      "Cuisine du quotidien",
-      "Cuisine maison"
-    ],
-    "equipment": [
-      "Cuisine classique",
-      "Multicuiseur / Cookeo"
-    ],
-    "prepMin": 15,
-    "cookMin": 22,
-    "description": "Boulgour dinde tomate menthe met en valeur boulgour, dinde et tomate. Classée dans « Semoule, boulgour & couscous », cette recette levantine est expliquée pas à pas pour être réalisable avec des ustensiles du quotidien, avec des repères simples pour réussir la cuisson et la texture.",
-    "featured": false,
-    "sourceType": "catalogue international FAFATRAINING",
-    "nutritionBasis": "Estimation indicative par portion / 1 personne à partir de valeurs moyennes d’ingrédients génériques. Les marques et quantités réelles peuvent modifier le résultat.",
-    "image": null,
-    "subtype": "Semoule, boulgour & couscous",
-    "nutritionStatus": "estimated",
-    "tm6Status": "none",
-    "nutritionSource": "Estimation interne fondée sur des valeurs moyennes de composition alimentaire ; à considérer comme repère, pas comme étiquetage nutritionnel.",
-    "cuisine": "Levantine",
-    "techniques": [
-      "cuisson au four"
-    ],
-    "storage": "À conserver au réfrigérateur dans une boîte hermétique et à consommer rapidement.",
-    "safetyTip": "",
-    "deviceModes": {
-      "multicuiseur": [
-        {
-          "title": "Mode dorer",
-          "text": "Fais revenir les aromates et boulgour en mode dorer avec un peu d’huile, environ 4 à 5 minutes.",
-          "durationSec": 300
-        },
-        {
-          "title": "Ajouter",
-          "text": "Ajoute le liquide et dinde, tomate, menthe. Mélange bien en décollant le fond.",
-          "durationSec": 120
-        },
-        {
-          "title": "Cuisson",
-          "text": "Lance une cuisson sous pression adaptée pendant environ 9 minutes. Laisse retomber la pression selon la notice de ton appareil.",
-          "durationSec": 540
-        },
-        {
-          "title": "Finir",
-          "text": "Ouvre, mélange et utilise le mode dorer quelques minutes si la sauce doit épaissir.",
-          "durationSec": 240
-        }
-      ]
-    },
-    "learningMode": true,
-    "visualLabel": "Semoule, boulgour & couscous · Levantine"
-  },
-  {
     "id": "boulgour-aubergine-pois-chiches",
     "name": "Boulgour aubergine pois chiches",
     "category": "Pâtes, riz & céréales",
@@ -89714,148 +88851,6 @@
     },
     "learningMode": true,
     "visualLabel": "Semoule, boulgour & couscous · Levantine"
-  },
-  {
-    "id": "semoule-poulet-legumes-epices-douces",
-    "name": "Semoule poulet légumes épices douces",
-    "category": "Pâtes, riz & céréales",
-    "color": "#75d429",
-    "emoji": "🍚",
-    "servings": 4,
-    "difficulty": "",
-    "tags": [],
-    "ingredients": [
-      {
-        "name": "semoule",
-        "qty": 280,
-        "unit": "g"
-      },
-      {
-        "name": "huile d’olive",
-        "qty": 15,
-        "unit": "ml"
-      },
-      {
-        "name": "oignon",
-        "qty": 1,
-        "unit": "pièce"
-      },
-      {
-        "name": "poulet",
-        "qty": 400,
-        "unit": "g"
-      },
-      {
-        "name": "carotte",
-        "qty": 180,
-        "unit": "g"
-      },
-      {
-        "name": "courgette",
-        "qty": 180,
-        "unit": "g"
-      }
-    ],
-    "modes": {
-      "classic": [
-        {
-          "title": "Préparer",
-          "text": "Prépare semoule, poulet, carotte et courgette et porte le volume de liquide prévu à frémissement.",
-          "durationSec": 450
-        },
-        {
-          "title": "Cuire ou réhydrater la céréale",
-          "text": "Verse le liquide chaud sur la semoule ou cuis le boulgour selon la recette. Couvre et laisse absorber sans remuer inutilement.",
-          "durationSec": 660
-        },
-        {
-          "title": "Préparer la garniture",
-          "text": "Pendant ce temps, cuis les légumes, protéines ou aromates prévus dans une poêle ou casserole.",
-          "durationSec": 660
-        },
-        {
-          "title": "Égrainer et assembler",
-          "text": "Égrène la céréale à la fourchette, ajoute la garniture et mélange délicatement.",
-          "durationSec": 120
-        }
-      ]
-    },
-    "tips": [
-      "Prépare et mesure tous les ingrédients avant d’allumer le feu : tu cuisineras plus sereinement.",
-      "Utilise les repères visuels et de texture indiqués dans les étapes plutôt que de suivre le minuteur à la seconde.",
-      "Goûte en fin de préparation et ajuste progressivement le sel, les épices et l’acidité."
-    ],
-    "goalTags": [
-      "equilibre"
-    ],
-    "dietTags": [
-      "omnivore"
-    ],
-    "allergens": [
-      "gluten",
-      "mollusques"
-    ],
-    "substitutions": [
-      "Produit contenant du gluten → version certifiée sans gluten adaptée à la recette",
-      "Poulet → dinde de coupe similaire"
-    ],
-    "macros": {
-      "kcal": 440,
-      "proteines": 32.6,
-      "glucides": 59.3,
-      "lipides": 7.3
-    },
-    "styles": [
-      "Cuisine du quotidien",
-      "Cuisine maison"
-    ],
-    "equipment": [
-      "Cuisine classique",
-      "Multicuiseur / Cookeo"
-    ],
-    "prepMin": 15,
-    "cookMin": 22,
-    "description": "Semoule poulet légumes épices douces met en valeur semoule, poulet et carotte. Classée dans « Semoule, boulgour & couscous », cette recette marocaine est expliquée pas à pas pour être réalisable avec des ustensiles du quotidien, avec des repères simples pour réussir la cuisson et la texture.",
-    "featured": false,
-    "sourceType": "catalogue international FAFATRAINING",
-    "nutritionBasis": "Estimation indicative par portion / 1 personne à partir de valeurs moyennes d’ingrédients génériques. Les marques et quantités réelles peuvent modifier le résultat.",
-    "image": null,
-    "subtype": "Semoule, boulgour & couscous",
-    "nutritionStatus": "estimated",
-    "tm6Status": "none",
-    "nutritionSource": "Estimation interne fondée sur des valeurs moyennes de composition alimentaire ; à considérer comme repère, pas comme étiquetage nutritionnel.",
-    "cuisine": "Marocaine",
-    "techniques": [
-      "cuisson au four"
-    ],
-    "storage": "À conserver au réfrigérateur dans une boîte hermétique et à consommer rapidement.",
-    "safetyTip": "",
-    "deviceModes": {
-      "multicuiseur": [
-        {
-          "title": "Mode dorer",
-          "text": "Fais revenir les aromates et semoule en mode dorer avec un peu d’huile, environ 4 à 5 minutes.",
-          "durationSec": 300
-        },
-        {
-          "title": "Ajouter",
-          "text": "Ajoute le liquide et poulet, carotte, courgette. Mélange bien en décollant le fond.",
-          "durationSec": 120
-        },
-        {
-          "title": "Cuisson",
-          "text": "Lance une cuisson sous pression adaptée pendant environ 9 minutes. Laisse retomber la pression selon la notice de ton appareil.",
-          "durationSec": 540
-        },
-        {
-          "title": "Finir",
-          "text": "Ouvre, mélange et utilise le mode dorer quelques minutes si la sauce doit épaissir.",
-          "durationSec": 240
-        }
-      ]
-    },
-    "learningMode": true,
-    "visualLabel": "Semoule, boulgour & couscous · Marocaine"
   },
   {
     "id": "semoule-pois-chiches-courge",
@@ -101969,134 +100964,6 @@
     "visualLabel": "Gâteaux & pâtisserie · Contemporaine / maison"
   },
   {
-    "id": "flan-vanille-coco",
-    "name": "Flan vanille coco",
-    "category": "Desserts",
-    "color": "#75d429",
-    "emoji": "🍰",
-    "servings": 4,
-    "difficulty": "",
-    "tags": [],
-    "ingredients": [
-      {
-        "name": "lait de coco",
-        "qty": 180,
-        "unit": "g"
-      },
-      {
-        "name": "œuf",
-        "qty": 3,
-        "unit": "pièces"
-      },
-      {
-        "name": "vanille",
-        "qty": 1,
-        "unit": "c. à café"
-      },
-      {
-        "name": "sucre",
-        "qty": 50,
-        "unit": "g"
-      }
-    ],
-    "modes": {
-      "classic": [
-        {
-          "title": "Préparer",
-          "text": "Pèse lait de coco, œuf, vanille et sucre. Prépare la casserole ou le moule selon la recette.",
-          "durationSec": 450
-        },
-        {
-          "title": "Chauffer doucement",
-          "text": "Fais chauffer le lait ou la base liquide sans laisser déborder. Ajoute progressivement les éléments épaississants en remuant.",
-          "durationSec": 1050
-        },
-        {
-          "title": "Cuire jusqu’à la bonne texture",
-          "text": "Poursuis à feu doux ou au four selon la recette. Le mélange doit épaissir ou prendre sans brûler.",
-          "durationSec": 1050
-        },
-        {
-          "title": "Refroidir",
-          "text": "Laisse tiédir puis place au frais si le dessert se mange froid.",
-          "durationSec": 600
-        }
-      ],
-      "tm6": [
-        {
-          "title": "Préparer les aromates",
-          "text": "Mets les aromates dans le bol. Hache 5 sec / vitesse 5 puis racle les parois.",
-          "durationSec": 5
-        },
-        {
-          "title": "Faire revenir",
-          "text": "Ajoute un peu de matière grasse et fais revenir 3 min / 120 °C / vitesse 1.",
-          "durationSec": 180
-        },
-        {
-          "title": "Préparer la sauce ou l’accompagnement",
-          "text": "Ajoute les ingrédients de sauce ou d’accompagnement prévus et cuis au TM6 à température modérée jusqu’à la texture recherchée.",
-          "durationSec": 900
-        },
-        {
-          "title": "Cuire l’élément principal à part",
-          "text": "Pendant ce temps, cuis la viande, le poisson ou l’élément à saisir au four, à la poêle ou avec l’appareil approprié. Réunis les éléments juste avant de servir.",
-          "durationSec": 1050
-        }
-      ]
-    },
-    "tips": [
-      "Prépare et mesure tous les ingrédients avant d’allumer le feu : tu cuisineras plus sereinement.",
-      "Utilise les repères visuels et de texture indiqués dans les étapes plutôt que de suivre le minuteur à la seconde.",
-      "Goûte en fin de préparation et ajuste progressivement le sel, les épices et l’acidité."
-    ],
-    "goalTags": [
-      "equilibre"
-    ],
-    "dietTags": [
-      "vegetarien"
-    ],
-    "allergens": [
-      "oeufs"
-    ],
-    "substitutions": [],
-    "macros": {
-      "kcal": 200,
-      "proteines": 6.8,
-      "glucides": 14.3,
-      "lipides": 13.1
-    },
-    "styles": [
-      "Cuisine plaisir",
-      "Cuisine maison"
-    ],
-    "equipment": [
-      "TM6",
-      "Cuisine classique",
-      "Four"
-    ],
-    "prepMin": 15,
-    "cookMin": 35,
-    "description": "Flan vanille coco met en valeur lait de coco, œuf et vanille. Classée dans « Crèmes & desserts doux », cette recette française est expliquée pas à pas pour être réalisable avec des ustensiles du quotidien, avec le TM6 en aide si tu le souhaites, avec des repères simples pour réussir la cuisson et la texture.",
-    "featured": false,
-    "sourceType": "catalogue international FAFATRAINING",
-    "nutritionBasis": "Estimation indicative par portion / 1 personne à partir de valeurs moyennes d’ingrédients génériques. Les marques et quantités réelles peuvent modifier le résultat.",
-    "image": null,
-    "subtype": "Crèmes & desserts doux",
-    "nutritionStatus": "estimated",
-    "tm6Status": "aid",
-    "nutritionSource": "Estimation interne fondée sur des valeurs moyennes de composition alimentaire ; à considérer comme repère, pas comme étiquetage nutritionnel.",
-    "cuisine": "Française",
-    "techniques": [
-      "cuisson au four"
-    ],
-    "storage": "Conserve couvert à température ambiante 1 à 2 jours si la recette ne contient pas de crème fragile, sinon au réfrigérateur.",
-    "safetyTip": "",
-    "deviceModes": {},
-    "learningMode": true,
-    "visualLabel": "Crèmes & desserts doux · Française"
-  },
-  {
     "id": "flan-poire-amande",
     "name": "Flan poire amande",
     "category": "Desserts",
@@ -104895,7 +103762,7 @@
   },
   {
     "id": "smoothie-cafe-banane-cacao",
-    "name": "Smoothie café banane cacao",
+    "name": "Smoothie banane, café & cacao",
     "category": "Boissons & smoothies",
     "color": "#75d429",
     "emoji": "🥤",
@@ -104905,23 +103772,23 @@
     "ingredients": [
       {
         "name": "banane",
-        "qty": 250,
-        "unit": "g"
-      },
-      {
-        "name": "café",
         "qty": 1,
-        "unit": "c. à café"
-      },
-      {
-        "name": "cacao",
-        "qty": 1,
-        "unit": "c. à café"
+        "unit": "pièce"
       },
       {
         "name": "lait",
-        "qty": 500,
+        "qty": 180,
         "unit": "ml"
+      },
+      {
+        "name": "café froid",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "cacao non sucré",
+        "qty": 5,
+        "unit": "g"
       }
     ],
     "modes": {
@@ -104996,8 +103863,8 @@
       "TM6",
       "Cuisine classique"
     ],
-    "prepMin": 8,
-    "cookMin": 2,
+    "prepMin": 5,
+    "cookMin": 0,
     "description": "Smoothie café banane cacao met en valeur banane, café et cacao. Classée dans « Café & énergie », cette recette contemporaine / maison est expliquée pas à pas pour être réalisable avec des ustensiles du quotidien ou entièrement au TM6, avec des repères simples pour réussir la cuisson et la texture.",
     "featured": false,
     "sourceType": "catalogue international FAFATRAINING",

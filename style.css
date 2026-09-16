@@ -340,3 +340,30 @@ body{background:linear-gradient(180deg,#f7faf5 0,#eef4eb 38%,#f5f8f3 100%);color
 .compact-modes .mode-tm6.active,.compact-modes .mode-classic.active,.compact-modes .mode-robot.active{border-color:#77be52!important;background:#e7f7dc!important}
 .recipe-search-zone{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:10px}.recipe-search-zone .filter-search{width:100%}.recipe-utility-links{display:flex;align-items:center;gap:4px}.recipe-utility-links .text-btn{white-space:nowrap;color:#4a9128}
 @media(max-width:700px){.recipe-search-zone{grid-template-columns:1fr}.recipe-utility-links{justify-content:flex-end}.recipe-utility-links .text-btn{font-size:12px}}
+
+/* === Accueil verrouillé — simplification finale === */
+.home-ideas-heading .section-subtitle{max-width:520px}
+.home-ideas-heading h2{margin-bottom:4px}
+@media(max-width:700px){
+  .home-hero{padding:16px 14px}
+  .hero-copy>p{margin-bottom:12px;line-height:1.45}
+  .main-choice-grid{gap:9px;margin-top:14px}
+  .main-choice{min-height:70px;padding:11px 12px}
+  .main-choice span{font-size:26px}
+  .main-choice strong{font-size:14px}
+  .main-choice small{font-size:11px}
+  .preferred-mode-line{margin-top:12px}
+  .preferred-mode-line>span{margin-bottom:6px;font-size:10px}
+  .compact-modes .mode-card{min-height:40px!important;padding:7px 5px!important}
+  #forYouSection{margin-top:22px}
+  .home-ideas-heading{gap:9px;margin-bottom:12px}
+  .home-ideas-heading h2{font-size:28px}
+  .home-ideas-heading .section-subtitle{font-size:13px;margin:0}
+  .home-inline-actions{grid-template-columns:1fr 1fr!important;gap:8px}
+  .home-inline-actions>*{width:100%;min-height:44px}
+  .featured-grid.home-three{grid-template-columns:1fr!important}
+}
+@media(max-width:390px){
+  .home-inline-actions{grid-template-columns:1fr!important}
+  .hero-copy h1{font-size:34px}
+}

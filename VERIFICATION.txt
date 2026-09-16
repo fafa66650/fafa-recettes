@@ -7,7 +7,7 @@ Elle ne contient pas d'anciens dossiers de livraison ni d'archives imbriquées.
 CONTROLES TECHNIQUES
 - index.html directement à la racine.
 - app.js : syntaxe JavaScript validée.
-- recipes.json : JSON valide, 840 recettes, 840 identifiants uniques, 840 noms uniques.
+- recipes.json : JSON valide, 832 recettes, 832 identifiants uniques, 832 noms uniques.
 - menus.json : JSON valide, 100 menus, 100 identifiants uniques.
 - aucune référence de menu vers une recette inexistante.
 - aucun identifiant HTML dupliqué.
@@ -35,4 +35,11 @@ CONSOLIDATION UX APPLIQUEE
 - cibles tactiles et focus clavier renforcés.
 
 REGLE DE CONTENU ACTUELLE
-Le catalogue reste volontairement à 840 recettes. Aucune augmentation de volume n'est faite pendant la phase d'ergonomie et de physionomie.
+Le catalogue contient désormais 832 recettes après suppression de 8 doublons ou quasi-doublons sémantiques à forte confiance. Aucune augmentation de volume n'est faite pendant la phase d'ergonomie et de physionomie.
+
+AUDIT DOUBLONS / RECETTES TROP PROCHES
+- 8 doublons ou quasi-doublons à forte confiance supprimés et redirigés vers une recette canonique pour préserver favoris/planning locaux.
+- Cuisine du monde : le trio existant a été différencié réellement (poulet tikka indien, poulet coco-citron vert thaï, colin coco-citron vert créole).
+- Aucun doublon exact de contenu ne reste après ce nettoyage.
+- L'audit de similarité signale encore des familles à retravailler manuellement avant tout enrichissement du catalogue. Les plus importantes sont : gratins de légumes au parmesan, famille dahl coco-épinards, salades « herbes et citron », variantes légumineuses tomate-cumin/paprika, et plusieurs paires tofu/tempeh construites sur le même canevas.
+- Ces recettes proches ne sont pas supprimées automatiquement : certaines peuvent devenir de vraies recettes distinctes si ingrédients, technique et identité culinaire sont retravaillés. Elles constituent le prochain chantier contenu.
