@@ -1,40 +1,36 @@
-FAFATRAINING RECETTES — VERIFICATION DE LIVRAISON
-===================================================
-Date : 2026-09-17
+FAFATRAINING RECETTES — VÉRIFICATION DE LIVRAISON
+=================================================
 
-PASSAGE 1 — DONNEES / CODE
-- 797 recettes.
-- 797 IDs recette uniques.
-- 797 noms normalisés uniques.
-- Aucun doublon exact ingrédients + étapes classiques détecté.
-- 100 menus.
-- 100 combinaisons de menus différentes.
-- Aucune référence menu -> recette cassée.
-- Audit ciblé : aucune occurrence restante des formulations problématiques contrôlées (couper le riz/yaourt/crème/coulis, « ingrédients les plus fermes », « matière grasse prévue », « assaisonnements prévus », « texture attendue », faux bloc TM6 générique « viande, poisson ou élément à saisir », etc.).
-- Audit quantités ciblées : aucune quantité extrême restante dans les herbes/épices/citron/tahini/chia selon les seuils de contrôle de cette livraison.
-- Allergènes complétés automatiquement depuis les ingrédients pour gluten, lait, œufs, fruits à coque, soja, poisson, crustacés, mollusques, arachides, sésame, moutarde et céleri, sans supprimer les déclarations existantes.
-- Les valeurs nutritionnelles incohérentes avec leurs macros ont été masquées et marquées à recalculer plutôt que conservées comme chiffres faux.
-- JavaScript app.js : syntaxe validée avec Node.
-- service-worker.js : syntaxe validée avec Node.
-- recipes.json / menus.json / manifest.json : JSON valides.
-- Aucun ID HTML dupliqué dans index.html.
-- Icônes du manifest présentes.
-- index.html, app.js, style.css, recipes.json, menus.json, manifest.json, service-worker.js et .nojekyll servis avec HTTP 200 lors du smoke test local.
+PASSAGE 1 — DONNÉES / CODE
+- Recettes : 810
+- IDs recettes uniques : OUI
+- Noms recettes uniques : OUI
+- Menus : 100
+- Menus à 3 composantes : OUI
+- Références de menus cassées : 0
+- Combinaisons de menus dupliquées : 0
+- Images référencées manquantes : 0
+- Anciennes formulations ciblées présentes : 0
+- Valeurs nutritionnelles anciennes masquées car incohérentes : 0
+- Recettes dont les étapes classiques ont été réécrites : 613
+- Cuisine des îles : Martinique, Guadeloupe, Réunion, Haïti, Jamaïque, Maurice, Trinité-et-Tobago représentées.
+- Blocs d'étapes encore répétés >=12 fois : 31 (audit de répétition exacte).
 
-PASSAGE 2 — NETTOYAGE / UX STRUCTUREL
-- Anciennes archives ZIP incluses : NON.
-- Scripts de migration/transformation inclus : NON.
-- Sauvegardes, fichiers .bak/.tmp ou anciens dossiers de version inclus : NON.
-- Traces de noms V10 à V18 dans les fichiers du package : NON.
-- index.html directement à la racine du ZIP : OUI.
-- Service worker conservé en logique network-first / cache de secours et cache nommé de façon neutre.
-- Les cartes sans photo n'affichent plus la grosse mention « Visuel à venir ».
-- Les modes TM6/appareils génériques détectés ont été supprimés au lieu d'afficher de fausses adaptations.
-- Les sauces, bases, marinades, pestos, purées, salsas, houmous et vinaigrettes ciblés ont été réécrits avec quantités et étapes spécifiques.
-- Les grandes séries artificiellement clonées de légumineuses/légumes ont été réduites ; les variantes conservées ont été rendues réellement différentes.
-- Les classiques familiaux/enfants manquants ont été ajoutés : gâteau au yaourt classique, gâteau au chocolat, tarte aux pommes, madeleines, sablés, cookies pépites chocolat, muffins vanille-pépites, pain perdu, rochers coco et cupcakes vanille, en plus des crêpes/gaufres/pancakes/brownies/cheesecakes/quatre-quarts/marbrés déjà présents.
-- Les 100 menus sont regroupés en familles culinaires claires : Pâtes, Riz & céréales, Viandes & volailles, Poissons, Végétal, Famille & enfants, Brunch, Cuisines du monde et Léger.
+PASSAGE 2 — UX / STRUCTURE
+- Accueil limité à 3 actions principales : OUI
+- Besoin d'une idée : 3 familles différentes : OUI
+- Cartes : ratio stable : OUI
+- Visuels FAFATRAINING existants : affichage intégral (contain), sans recadrage destructif : OUI
+- Recettes sans image : placeholder de catégorie explicite, sans fausse photo : OUI
+- Fiche : "Aperçu" supprimé, "Préparation pas à pas" : OUI
+- Cuisine & inspirations regroupée par régions : OUI
+- Îles & Caraïbes visibles : OUI
+- Desktop : espace réservé sous navigation haute : OUI
+- Mobile : grille et fiche responsive : OUI par règles CSS ; test physique recommandé après déploiement sur l'appareil cible.
 
-IMPORTANT
-Cette archive doit remplacer les anciennes versions au lieu d'être fusionnée avec elles.
-Les recettes dont la nutrition est marquée « missing » nécessitent encore un recalcul depuis une table nutritionnelle de référence avant d'afficher des chiffres ; elles sont volontairement laissées sans valeur plutôt que d'inventer une estimation.
+NETTOYAGE
+- Aucun ancien ZIP dans le package : OUI
+- Aucun script de migration/build dans le package : OUI
+- Aucun dossier V10/V11/etc. : OUI
+- Cache service worker neutre + stratégie network-first : OUI
+- index.html à la racine : OUI
