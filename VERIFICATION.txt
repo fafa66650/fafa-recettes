@@ -1,48 +1,40 @@
-FAFATRAINING RECETTES — VERIFICATION DU PACKAGE ACTUEL
-======================================================
+FAFATRAINING RECETTES — VERIFICATION DE LIVRAISON
+===================================================
+Date : 2026-09-17
 
 PASSAGE 1 — DONNEES / CODE
-- index.html directement à la racine du package.
-- app.js : syntaxe JavaScript validée avec Node.js.
-- recipes.json : JSON valide, 836 recettes, identifiants uniques et noms uniques après normalisation.
-- menus.json : JSON valide, 100 menus, identifiants uniques.
-- manifest.json : JSON valide.
-- aucune référence de menu vers une recette inexistante.
-- aucun identifiant HTML dupliqué.
-- aucune signature d'ingrédients strictement identique détectée dans le catalogue.
-- aucun fichier strictement dupliqué dans le package.
-- aucun ZIP, fichier de sauvegarde ou script de travail inclus dans le package final.
-- service worker conservé en stratégie réseau d'abord, cache en secours.
-- chemins relatifs compatibles avec GitHub Pages sous /fa-recettes/.
+- 797 recettes.
+- 797 IDs recette uniques.
+- 797 noms normalisés uniques.
+- Aucun doublon exact ingrédients + étapes classiques détecté.
+- 100 menus.
+- 100 combinaisons de menus différentes.
+- Aucune référence menu -> recette cassée.
+- Audit ciblé : aucune occurrence restante des formulations problématiques contrôlées (couper le riz/yaourt/crème/coulis, « ingrédients les plus fermes », « matière grasse prévue », « assaisonnements prévus », « texture attendue », faux bloc TM6 générique « viande, poisson ou élément à saisir », etc.).
+- Audit quantités ciblées : aucune quantité extrême restante dans les herbes/épices/citron/tahini/chia selon les seuils de contrôle de cette livraison.
+- Allergènes complétés automatiquement depuis les ingrédients pour gluten, lait, œufs, fruits à coque, soja, poisson, crustacés, mollusques, arachides, sésame, moutarde et céleri, sans supprimer les déclarations existantes.
+- Les valeurs nutritionnelles incohérentes avec leurs macros ont été masquées et marquées à recalculer plutôt que conservées comme chiffres faux.
+- JavaScript app.js : syntaxe validée avec Node.
+- service-worker.js : syntaxe validée avec Node.
+- recipes.json / menus.json / manifest.json : JSON valides.
+- Aucun ID HTML dupliqué dans index.html.
+- Icônes du manifest présentes.
+- index.html, app.js, style.css, recipes.json, menus.json, manifest.json, service-worker.js et .nojekyll servis avec HTTP 200 lors du smoke test local.
 
-AUDIT PETIT-DEJEUNER
-- 49 recettes après suppression de deux variantes réellement redondantes.
-- 7 sous-catégories : Bowls & frais ; Céréales, granola & semoule ; Œufs & chaud ; Overnight oats ; Pancakes, crêpes & gaufres ; Petit-déjeuner salé ; Porridges chauds.
-- aucune paire de petit-déjeuner avec similarité d'ingrédients supérieure ou égale à 0,80 après nettoyage.
-- quantités aberrantes ciblées corrigées : chia, tahini, cacao, herbes, portions de céréales et liquides.
-- anciennes étapes génériques du type « disposer la base dans un bol ou sur les tartines » supprimées des fiches auditées.
-- TM6 annoncé uniquement avec des étapes TM6 présentes ; recettes non pertinentes laissées en mode classique.
-- plusieurs recettes transformées pour créer une vraie diversité culinaire : Menemen turc, frittata courgette-basilic, Bircher muesli suisse, porridge cacao-orange-noisettes, porridge ananas-coco-gingembre, chia framboise-vanille.
+PASSAGE 2 — NETTOYAGE / UX STRUCTUREL
+- Anciennes archives ZIP incluses : NON.
+- Scripts de migration/transformation inclus : NON.
+- Sauvegardes, fichiers .bak/.tmp ou anciens dossiers de version inclus : NON.
+- Traces de noms V10 à V18 dans les fichiers du package : NON.
+- index.html directement à la racine du ZIP : OUI.
+- Service worker conservé en logique network-first / cache de secours et cache nommé de façon neutre.
+- Les cartes sans photo n'affichent plus la grosse mention « Visuel à venir ».
+- Les modes TM6/appareils génériques détectés ont été supprimés au lieu d'afficher de fausses adaptations.
+- Les sauces, bases, marinades, pestos, purées, salsas, houmous et vinaigrettes ciblés ont été réécrits avec quantités et étapes spécifiques.
+- Les grandes séries artificiellement clonées de légumineuses/légumes ont été réduites ; les variantes conservées ont été rendues réellement différentes.
+- Les classiques familiaux/enfants manquants ont été ajoutés : gâteau au yaourt classique, gâteau au chocolat, tarte aux pommes, madeleines, sablés, cookies pépites chocolat, muffins vanille-pépites, pain perdu, rochers coco et cupcakes vanille, en plus des crêpes/gaufres/pancakes/brownies/cheesecakes/quatre-quarts/marbrés déjà présents.
+- Les 100 menus sont regroupés en familles culinaires claires : Pâtes, Riz & céréales, Viandes & volailles, Poissons, Végétal, Famille & enfants, Brunch, Cuisines du monde et Léger.
 
-PASSAGE 2 — UX / PARCOURS
-Tests automatisés effectués sur 1440×1000, 1024×1366, 390×844, 412×915 et 320×700.
-- aucun débordement horizontal sur les écrans testés.
-- Accueil : ouverture correcte.
-- Recettes : navigation vers Petit-déjeuner, sous-catégories et cartes correcte.
-- Fiche recette : ouverture correcte.
-- Mode cuisson : démarrage et passage à l'étape suivante corrects.
-- Mon frigo : navigation correcte.
-- Organiser : navigation correcte.
-- Courses : navigation correcte.
-- aucune erreur JavaScript détectée pendant ces parcours.
-
-REFONTE BIBLIOTHEQUE
-- cartes plus compactes avec ratio visuel mieux adapté à une application culinaire ;
-- suppression de la répétition visuelle de la grande catégorie sur les cartes au profit de la sous-catégorie utile ;
-- placeholder clair « Visuel à venir » quand aucune vraie photo n'existe ;
-- filtres et sous-catégories plus compacts ;
-- navigation ordinateur déplacée en dock supérieur, navigation mobile conservée en bas ;
-- retour en haut après sélection d'une famille de recettes afin de ne pas perdre les sous-catégories sur téléphone.
-
-REGLE DE CONTENU
-La priorité reste la qualité, la diversité réelle et la faisabilité. Les photos approximatives ne sont pas utilisées pour remplir artificiellement le catalogue. Les origines géographiques ne doivent pas être inventées.
+IMPORTANT
+Cette archive doit remplacer les anciennes versions au lieu d'être fusionnée avec elles.
+Les recettes dont la nutrition est marquée « missing » nécessitent encore un recalcul depuis une table nutritionnelle de référence avant d'afficher des chiffres ; elles sont volontairement laissées sans valeur plutôt que d'inventer une estimation.
