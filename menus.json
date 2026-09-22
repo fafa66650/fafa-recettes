@@ -1,0 +1,979 @@
+[
+  {
+    "id": "menu-pates-01",
+    "title": "Pâtes · poulet, épinards & crème citronnée",
+    "subtitle": "Carpaccio de betterave & orange · Pâtes poulet, épinards & crème citronnée · Ananas rôti citron vert coco",
+    "recipes": [
+      "carpaccio-de-betterave-orange",
+      "pates-poulet-creme",
+      "ananas-roti-citron-vert-coco"
+    ],
+    "tags": [
+      "Menu complet",
+      "Pâtes"
+    ],
+    "slotLabels": [
+      "Entrée / salade",
+      "Plat de pâtes",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Pâtes"
+    ],
+    "description": "Un menu construit autour de Pâtes poulet, épinards & crème citronnée. Carpaccio de betterave & orange ouvre le repas avec une préparation différente du plat principal, puis Ananas rôti citron vert coco apporte une fin de repas sucrée sans répéter les mêmes saveurs."
+  },
+  {
+    "id": "menu-pates-02",
+    "title": "Pâtes · bolognaise",
+    "subtitle": "Galettes bretonnes de sarrasin · Pâtes bolognaise · Baked oats banane myrtilles",
+    "recipes": [
+      "galettes-bretonnes-sarrasin",
+      "pates-bolognaise",
+      "baked-oats-banane-myrtilles"
+    ],
+    "tags": [
+      "Menu complet",
+      "Pâtes"
+    ],
+    "slotLabels": [
+      "Entrée / salade",
+      "Plat de pâtes",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Pâtes"
+    ],
+    "description": "Un menu construit autour de Pâtes bolognaise. Galettes bretonnes de sarrasin ouvre le repas avec une préparation différente du plat principal, puis Baked oats banane myrtilles apporte une fin de repas sucrée sans répéter les mêmes saveurs."
+  },
+  {
+    "id": "menu-pates-03",
+    "title": "Pâtes · Mac and cheese maison",
+    "subtitle": "Salade artichaut tomate haricots blancs · Mac and cheese maison · Cake au citron",
+    "recipes": [
+      "salade-artichaut-tomate-haricots-blancs",
+      "mac-and-cheese-maison",
+      "cake-au-citron"
+    ],
+    "tags": [
+      "Menu complet",
+      "Pâtes"
+    ],
+    "slotLabels": [
+      "Entrée / salade",
+      "Plat de pâtes",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Pâtes"
+    ],
+    "description": "Un menu construit autour de Mac and cheese maison. Salade artichaut tomate haricots blancs ouvre le repas avec une préparation différente du plat principal, puis Cake au citron apporte une fin de repas sucrée sans répéter les mêmes saveurs."
+  },
+  {
+    "id": "menu-pates-06",
+    "title": "Pâtes · sauce poivrons",
+    "subtitle": "Salade boulgour herbes grenade · Pâtes sauce poivrons · Cake citron pavot yaourt",
+    "recipes": [
+      "salade-boulgour-herbes-grenade",
+      "pates-sauce-poivrons",
+      "cake-citron-pavot-yaourt"
+    ],
+    "tags": [
+      "Menu complet",
+      "Pâtes"
+    ],
+    "slotLabels": [
+      "Entrée / salade",
+      "Plat de pâtes",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Pâtes"
+    ],
+    "description": "Un menu construit autour de Pâtes sauce poivrons. Salade boulgour herbes grenade ouvre le repas avec une préparation différente du plat principal, puis Cake citron pavot yaourt apporte une fin de repas sucrée sans répéter les mêmes saveurs."
+  },
+  {
+    "id": "menu-pates-08",
+    "title": "Pâtes · pesto, poulet & tomates cerises",
+    "subtitle": "Salade carotte orange cumin · Pâtes pesto, poulet & tomates cerises · Cheesecake léger fruits rouges",
+    "recipes": [
+      "salade-carotte-orange-cumin",
+      "pates-pesto-poulet-tomates-cerises",
+      "cheesecake-leger-fruits-rouges"
+    ],
+    "tags": [
+      "Menu complet",
+      "Pâtes"
+    ],
+    "slotLabels": [
+      "Entrée / salade",
+      "Plat de pâtes",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Pâtes"
+    ],
+    "description": "Un menu construit autour de Pâtes pesto, poulet & tomates cerises. Salade carotte orange cumin ouvre le repas avec une préparation différente du plat principal, puis Cheesecake léger fruits rouges apporte une fin de repas sucrée sans répéter les mêmes saveurs."
+  },
+  {
+    "id": "menu-pates-09",
+    "title": "Pâtes · ricotta épinards",
+    "subtitle": "Salade chou blanc pomme moutarde · Pâtes ricotta épinards · Cheesecake new-yorkais",
+    "recipes": [
+      "salade-chou-blanc-pomme-moutarde",
+      "pates-ricotta-epinards",
+      "cheesecake-new-yorkais"
+    ],
+    "tags": [
+      "Menu complet",
+      "Pâtes"
+    ],
+    "slotLabels": [
+      "Entrée / salade",
+      "Plat de pâtes",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Pâtes"
+    ],
+    "description": "Un menu construit autour de Pâtes ricotta épinards. Salade chou blanc pomme moutarde ouvre le repas avec une préparation différente du plat principal, puis Cheesecake new-yorkais apporte une fin de repas sucrée sans répéter les mêmes saveurs."
+  },
+  {
+    "id": "menu-pates-14",
+    "title": "Pâtes · thon câpres citron",
+    "subtitle": "Salade grecque complète · Pâtes thon câpres citron · Compote mangue pomme citron vert",
+    "recipes": [
+      "salade-grecque-complete",
+      "pates-thon-capres-citron",
+      "compote-mangue-pomme-citron-vert"
+    ],
+    "tags": [
+      "Menu complet",
+      "Pâtes"
+    ],
+    "slotLabels": [
+      "Entrée / salade",
+      "Plat de pâtes",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Pâtes"
+    ],
+    "description": "Un menu construit autour de Pâtes thon câpres citron. Salade grecque complète ouvre le repas avec une préparation différente du plat principal, puis Compote mangue pomme citron vert apporte une fin de repas sucrée sans répéter les mêmes saveurs."
+  },
+  {
+    "id": "menu-pates-15",
+    "title": "Pâtes · citron ricotta petits pois",
+    "subtitle": "Salade lentilles carottes feta · Pâtes citron ricotta petits pois · Compote pomme fenouil orange",
+    "recipes": [
+      "salade-lentilles-carottes-feta",
+      "pates-citron-ricotta-petits-pois",
+      "compote-pomme-fenouil-orange"
+    ],
+    "tags": [
+      "Menu complet",
+      "Pâtes"
+    ],
+    "slotLabels": [
+      "Entrée / salade",
+      "Plat de pâtes",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Pâtes"
+    ],
+    "description": "Un menu construit autour de Pâtes citron ricotta petits pois. Salade lentilles carottes feta ouvre le repas avec une préparation différente du plat principal, puis Compote pomme fenouil orange apporte une fin de repas sucrée sans répéter les mêmes saveurs."
+  },
+  {
+    "id": "menu-riz-cereales-01",
+    "title": "Céréales · Riz cantonais simplifié",
+    "subtitle": "Salade lentilles feta betterave · Riz cantonais simplifié · Cookies aux pépites de chocolat",
+    "recipes": [
+      "salade-lentilles-feta-betterave",
+      "riz-cantonais-simplifie",
+      "cookies-pepites-chocolat"
+    ],
+    "tags": [
+      "Menu complet",
+      "Riz & céréales"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat riz / céréales",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Riz & céréales"
+    ],
+    "description": "Riz cantonais simplifié sert de cœur à ce menu. Il est entouré de Salade lentilles feta betterave et de Cookies aux pépites de chocolat pour proposer trois préparations distinctes, faciles à planifier ensemble dans la semaine."
+  },
+  {
+    "id": "menu-riz-cereales-02",
+    "title": "Céréales · Riz aux légumes",
+    "subtitle": "Salade pois chiches avocat · Riz aux légumes · Crumble fruits rouges amande",
+    "recipes": [
+      "salade-pois-chiches-avocat",
+      "riz-aux-legumes",
+      "crumble-fruits-rouges-amande"
+    ],
+    "tags": [
+      "Menu complet",
+      "Riz & céréales"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat riz / céréales",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Riz & céréales"
+    ],
+    "description": "Riz aux légumes sert de cœur à ce menu. Il est entouré de Salade pois chiches avocat et de Crumble fruits rouges amande pour proposer trois préparations distinctes, faciles à planifier ensemble dans la semaine."
+  },
+  {
+    "id": "menu-riz-cereales-03",
+    "title": "Céréales · Riz créole aux saucisses",
+    "subtitle": "Salade pois chiches concombre tahini · Riz créole aux saucisses · Crumble poire chocolat",
+    "recipes": [
+      "salade-pois-chiches-concombre-tahini",
+      "riz-creole-aux-saucisses",
+      "crumble-poire-chocolat"
+    ],
+    "tags": [
+      "Menu complet",
+      "Riz & céréales"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat riz / céréales",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Riz & céréales"
+    ],
+    "description": "Riz créole aux saucisses sert de cœur à ce menu. Il est entouré de Salade pois chiches concombre tahini et de Crumble poire chocolat pour proposer trois préparations distinctes, faciles à planifier ensemble dans la semaine."
+  },
+  {
+    "id": "menu-riz-cereales-04",
+    "title": "Céréales · Riz coco légumes",
+    "subtitle": "Salade pommes de terre haricots verts œuf · Riz coco légumes · Crumble poire noix",
+    "recipes": [
+      "salade-pommes-de-terre-haricots-verts-uf",
+      "riz-coco-legumes",
+      "crumble-poire-noix"
+    ],
+    "tags": [
+      "Menu complet",
+      "Riz & céréales"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat riz / céréales",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Riz & céréales"
+    ],
+    "description": "Riz coco légumes sert de cœur à ce menu. Il est entouré de Salade pommes de terre haricots verts œuf et de Crumble poire noix pour proposer trois préparations distinctes, faciles à planifier ensemble dans la semaine."
+  },
+  {
+    "id": "menu-riz-cereales-06",
+    "title": "Céréales · Bol minceur quinoa légumes",
+    "subtitle": "Salade pâtes poulet pesto · Bol minceur quinoa légumes · Crème vanille maïzena",
+    "recipes": [
+      "salade-pates-poulet-pesto",
+      "bol-minceur-quinoa-legumes",
+      "creme-vanille-maizena"
+    ],
+    "tags": [
+      "Menu complet",
+      "Riz & céréales"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat riz / céréales",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Riz & céréales"
+    ],
+    "description": "Bol minceur quinoa légumes sert de cœur à ce menu. Il est entouré de Salade pâtes poulet pesto et de Crème vanille maïzena pour proposer trois préparations distinctes, faciles à planifier ensemble dans la semaine."
+  },
+  {
+    "id": "menu-riz-cereales-12",
+    "title": "Céréales · Quinoa saumon avocat",
+    "subtitle": "Salade thon haricots blancs tomate · Quinoa saumon avocat · Fromage blanc de brebis, mangue, kiwi & chia",
+    "recipes": [
+      "salade-thon-haricots-blancs-tomate",
+      "quinoa-saumon-avocat",
+      "fromage-blanc-de-brebis-mangue-kiwi-chia"
+    ],
+    "tags": [
+      "Menu complet",
+      "Riz & céréales"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat riz / céréales",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Riz & céréales"
+    ],
+    "description": "Quinoa saumon avocat sert de cœur à ce menu. Il est entouré de Salade thon haricots blancs tomate et de Fromage blanc de brebis, mangue, kiwi & chia pour proposer trois préparations distinctes, faciles à planifier ensemble dans la semaine."
+  },
+  {
+    "id": "menu-poulet-volaille-08",
+    "title": "Volaille · Poulet poivrons façon fajitas",
+    "subtitle": "Salade avocat, concombre, radis & grenade · Poulet poivrons façon fajitas · Mousse yaourt citron",
+    "recipes": [
+      "salade-avocat-concombre-radis-grenade",
+      "poulet-poivrons-facon-fajitas",
+      "mousse-yaourt-citron"
+    ],
+    "tags": [
+      "Menu complet",
+      "Poulet & volaille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat principal",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Poulet & volaille"
+    ],
+    "description": "Ce menu met Poulet poivrons façon fajitas au centre du repas. Salade avocat, concombre, radis & grenade apporte une entrée séparée du plat, tandis que Mousse yaourt citron termine le repas sur une préparation sucrée prévue comme troisième étape."
+  },
+  {
+    "id": "menu-poulet-volaille-09",
+    "title": "Volaille · Gratin de poulet et pâtes",
+    "subtitle": "Salade betterave pomme noix · Gratin de poulet et pâtes · Muffins vanille & pépites de chocolat",
+    "recipes": [
+      "salade-betterave-pomme-noix",
+      "gratin-de-poulet-et-pates",
+      "muffins-vanille-pepites"
+    ],
+    "tags": [
+      "Menu complet",
+      "Poulet & volaille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat principal",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Poulet & volaille"
+    ],
+    "description": "Ce menu met Gratin de poulet et pâtes au centre du repas. Salade betterave pomme noix apporte une entrée séparée du plat, tandis que Muffins vanille & pépites de chocolat termine le repas sur une préparation sucrée prévue comme troisième étape."
+  },
+  {
+    "id": "menu-viandes-01",
+    "title": "Viande · Hachis Parmentier gratiné",
+    "subtitle": "Salade chou blanc pomme moutarde · Hachis Parmentier gratiné · Pommes au four cannelle",
+    "recipes": [
+      "salade-chou-blanc-pomme-moutarde",
+      "hachis-parmentier-gratine",
+      "pommes-au-four-cannelle"
+    ],
+    "tags": [
+      "Menu complet",
+      "Viandes"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat principal",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Viandes"
+    ],
+    "description": "Ce menu met Hachis Parmentier gratiné au centre du repas. Salade chou blanc pomme moutarde apporte une entrée séparée du plat, tandis que Pommes au four cannelle termine le repas sur une préparation sucrée prévue comme troisième étape."
+  },
+  {
+    "id": "menu-poissons-fruits-de-mer-01",
+    "title": "Mer · Saumon à la crème citron",
+    "subtitle": "Salade pois chiches concombre tahini · Saumon à la crème citron · Sorbet mangue express",
+    "recipes": [
+      "salade-pois-chiches-concombre-tahini",
+      "saumon-a-la-creme-citron",
+      "sorbet-mangue-express"
+    ],
+    "tags": [
+      "Menu complet",
+      "Poissons & fruits de mer"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat principal",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Poissons & fruits de mer"
+    ],
+    "description": "Saumon à la crème citron est le plat principal de ce menu autour des produits de la mer. Salade pois chiches concombre tahini et Sorbet mangue express complètent le repas sans transformer l’ensemble en simple répétition du même registre."
+  },
+  {
+    "id": "menu-poissons-fruits-de-mer-02",
+    "title": "Mer · Poisson blanc sauce tomate",
+    "subtitle": "Salade pommes de terre haricots verts œuf · Poisson blanc sauce tomate · Tarte au citron",
+    "recipes": [
+      "salade-pommes-de-terre-haricots-verts-uf",
+      "poisson-blanc-sauce-tomate",
+      "tarte-au-citron"
+    ],
+    "tags": [
+      "Menu complet",
+      "Poissons & fruits de mer"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat principal",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Poissons & fruits de mer"
+    ],
+    "description": "Poisson blanc sauce tomate est le plat principal de ce menu autour des produits de la mer. Salade pommes de terre haricots verts œuf et Tarte au citron complètent le repas sans transformer l’ensemble en simple répétition du même registre."
+  },
+  {
+    "id": "menu-poissons-fruits-de-mer-03",
+    "title": "Mer · Brandade de poisson simplifiée",
+    "subtitle": "Salade poulet avocat quinoa · Brandade de poisson simplifiée · Tarte fine aux pommes",
+    "recipes": [
+      "salade-poulet-avocat-quinoa",
+      "brandade-de-poisson-simplifiee",
+      "tarte-fine-aux-pommes"
+    ],
+    "tags": [
+      "Menu complet",
+      "Poissons & fruits de mer"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat principal",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Poissons & fruits de mer"
+    ],
+    "description": "Brandade de poisson simplifiée est le plat principal de ce menu autour des produits de la mer. Salade poulet avocat quinoa et Tarte fine aux pommes complètent le repas sans transformer l’ensemble en simple répétition du même registre."
+  },
+  {
+    "id": "menu-poissons-fruits-de-mer-08",
+    "title": "Mer · Cabillaud citron légumes vapeur",
+    "subtitle": "Salade sardines pommes de terre citron · Cabillaud citron légumes vapeur · Ananas rôti citron vert coco",
+    "recipes": [
+      "salade-sardines-pommes-de-terre-citron",
+      "cabillaud-citron-legumes-vapeur",
+      "ananas-roti-citron-vert-coco"
+    ],
+    "tags": [
+      "Menu complet",
+      "Poissons & fruits de mer"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat principal",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Poissons & fruits de mer"
+    ],
+    "description": "Cabillaud citron légumes vapeur est le plat principal de ce menu autour des produits de la mer. Salade sardines pommes de terre citron et Ananas rôti citron vert coco complètent le repas sans transformer l’ensemble en simple répétition du même registre."
+  },
+  {
+    "id": "menu-vegetal-01",
+    "title": "Végétal · Gratin de légumes",
+    "subtitle": "Salade thon haricots blancs tomate · Gratin de légumes · Cake au citron",
+    "recipes": [
+      "salade-thon-haricots-blancs-tomate",
+      "gratin-de-legumes",
+      "cake-au-citron"
+    ],
+    "tags": [
+      "Menu complet",
+      "Végétal"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat végétal",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétal"
+    ],
+    "description": "Un menu sans viande construit autour de Gratin de légumes. Salade thon haricots blancs tomate et Cake au citron complètent le repas avec des textures et des usages différents, tout en restant dans un ensemble simple à organiser."
+  },
+  {
+    "id": "menu-vegetal-02",
+    "title": "Végétal · Ratatouille simplifiée",
+    "subtitle": "Salade tofu concombre sésame · Ratatouille simplifiée · Cake banane chocolat",
+    "recipes": [
+      "salade-tofu-concombre-sesame",
+      "ratatouille-simplifiee",
+      "cake-banane-chocolat"
+    ],
+    "tags": [
+      "Menu complet",
+      "Végétal"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat végétal",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétal"
+    ],
+    "description": "Un menu sans viande construit autour de Ratatouille simplifiée. Salade tofu concombre sésame et Cake banane chocolat complètent le repas avec des textures et des usages différents, tout en restant dans un ensemble simple à organiser."
+  },
+  {
+    "id": "menu-vegetal-03",
+    "title": "Végétal · Poêlée de légumes épicée",
+    "subtitle": "Tartine ricotta, figues, miel & noix · Poêlée de légumes épicée · Cake banane tahini chocolat",
+    "recipes": [
+      "tartine-ricotta-figues-miel-noix",
+      "poelee-de-legumes-epicee",
+      "cake-banane-tahini-chocolat"
+    ],
+    "tags": [
+      "Menu complet",
+      "Végétal"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat végétal",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétal"
+    ],
+    "description": "Un menu sans viande construit autour de Poêlée de légumes épicée. Tartine ricotta, figues, miel & noix et Cake banane tahini chocolat complètent le repas avec des textures et des usages différents, tout en restant dans un ensemble simple à organiser."
+  },
+  {
+    "id": "menu-vegetal-04",
+    "title": "Végétal · Purée de pommes de terre maison",
+    "subtitle": "Verrine yaourt grec, concombre & tomate · Purée de pommes de terre maison · Cake citron pavot yaourt",
+    "recipes": [
+      "verrine-yaourt-grec-concombre-tomate",
+      "puree-de-pommes-de-terre-maison",
+      "cake-citron-pavot-yaourt"
+    ],
+    "tags": [
+      "Menu complet",
+      "Végétal"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat végétal",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétal"
+    ],
+    "description": "Un menu sans viande construit autour de Purée de pommes de terre maison. Verrine yaourt grec, concombre & tomate et Cake citron pavot yaourt complètent le repas avec des textures et des usages différents, tout en restant dans un ensemble simple à organiser."
+  },
+  {
+    "id": "menu-vegetal-05",
+    "title": "Végétal · Purée carottes pommes de terre",
+    "subtitle": "Achards de légumes réunionnais · Purée carottes pommes de terre · Cake marbré vanille chocolat",
+    "recipes": [
+      "achards-legumes-reunionnais",
+      "puree-carottes-pommes-de-terre",
+      "cake-marbre-vanille-chocolat"
+    ],
+    "tags": [
+      "Menu complet",
+      "Végétal"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat végétal",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétal"
+    ],
+    "description": "Un menu sans viande construit autour de Purée carottes pommes de terre. Achards de légumes réunionnais et Cake marbré vanille chocolat complètent le repas avec des textures et des usages différents, tout en restant dans un ensemble simple à organiser."
+  },
+  {
+    "id": "menu-vegetal-06",
+    "title": "Végétal · Galettes de courgette",
+    "subtitle": "Carpaccio de betterave & orange · Galettes de courgette · Cheesecake léger fruits rouges",
+    "recipes": [
+      "carpaccio-de-betterave-orange",
+      "galettes-de-courgette",
+      "cheesecake-leger-fruits-rouges"
+    ],
+    "tags": [
+      "Menu complet",
+      "Végétal"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat végétal",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétal"
+    ],
+    "description": "Un menu sans viande construit autour de Galettes de courgette. Carpaccio de betterave & orange et Cheesecake léger fruits rouges complètent le repas avec des textures et des usages différents, tout en restant dans un ensemble simple à organiser."
+  },
+  {
+    "id": "menu-vegetal-07",
+    "title": "Végétal · Omelette légumes fromage",
+    "subtitle": "Galettes bretonnes de sarrasin · Omelette légumes fromage · Cheesecake new-yorkais",
+    "recipes": [
+      "galettes-bretonnes-sarrasin",
+      "omelette-legumes-fromage",
+      "cheesecake-new-yorkais"
+    ],
+    "tags": [
+      "Menu complet",
+      "Végétal"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat végétal",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétal"
+    ],
+    "description": "Un menu sans viande construit autour de Omelette légumes fromage. Galettes bretonnes de sarrasin et Cheesecake new-yorkais complètent le repas avec des textures et des usages différents, tout en restant dans un ensemble simple à organiser."
+  },
+  {
+    "id": "menu-famille-enfants-03",
+    "title": "Famille · Mac and cheese maison",
+    "subtitle": "Mac and cheese maison · Banane plantain poêlée citron vert · Compote fruits rouges pomme",
+    "recipes": [
+      "mac-and-cheese-maison",
+      "banane-plantain-poelee-citron-vert",
+      "compote-fruits-rouges-pomme"
+    ],
+    "tags": [
+      "Menu complet",
+      "Famille & enfants"
+    ],
+    "slotLabels": [
+      "Plat familial",
+      "Accompagnement",
+      "Dessert à partager"
+    ],
+    "filterTags": [
+      "Famille & enfants",
+      "Familial"
+    ],
+    "description": "Pensé pour un repas familial, ce menu associe Mac and cheese maison, Banane plantain poêlée citron vert et Compote fruits rouges pomme. Les trois recettes peuvent être préparées séparément et adaptées au nombre de personnes prévu au planning."
+  },
+  {
+    "id": "menu-famille-enfants-04",
+    "title": "Famille · Pâtes aux légumes rôtis",
+    "subtitle": "Pâtes aux légumes rôtis · Banane plantain rôtie paprika doux · Compote mangue pomme citron vert",
+    "recipes": [
+      "pates-aux-legumes-rotis",
+      "banane-plantain-rotie-paprika-doux",
+      "compote-mangue-pomme-citron-vert"
+    ],
+    "tags": [
+      "Menu complet",
+      "Famille & enfants"
+    ],
+    "slotLabels": [
+      "Plat familial",
+      "Accompagnement",
+      "Dessert à partager"
+    ],
+    "filterTags": [
+      "Famille & enfants",
+      "Familial"
+    ],
+    "description": "Pensé pour un repas familial, ce menu associe Pâtes aux légumes rôtis, Banane plantain rôtie paprika doux et Compote mangue pomme citron vert. Les trois recettes peuvent être préparées séparément et adaptées au nombre de personnes prévu au planning."
+  },
+  {
+    "id": "menu-famille-enfants-09",
+    "title": "Famille · Riz cantonais simplifié",
+    "subtitle": "Riz cantonais simplifié · Butternut au four, sauge & ail · Cookies aux pépites de chocolat",
+    "recipes": [
+      "riz-cantonais-simplifie",
+      "butternut-rotis-sauge-ail",
+      "cookies-pepites-chocolat"
+    ],
+    "tags": [
+      "Menu complet",
+      "Famille & enfants"
+    ],
+    "slotLabels": [
+      "Plat familial",
+      "Accompagnement",
+      "Dessert à partager"
+    ],
+    "filterTags": [
+      "Famille & enfants",
+      "Familial"
+    ],
+    "description": "Pensé pour un repas familial, ce menu associe Riz cantonais simplifié, Butternut au four, sauge & ail et Cookies aux pépites de chocolat. Les trois recettes peuvent être préparées séparément et adaptées au nombre de personnes prévu au planning."
+  },
+  {
+    "id": "menu-famille-enfants-10",
+    "title": "Famille · Riz aux légumes",
+    "subtitle": "Riz aux légumes · Carottes au four, cumin & orange · Crumble fruits rouges amande",
+    "recipes": [
+      "riz-aux-legumes",
+      "carottes-rotis-cumin-orange",
+      "crumble-fruits-rouges-amande"
+    ],
+    "tags": [
+      "Menu complet",
+      "Famille & enfants"
+    ],
+    "slotLabels": [
+      "Plat familial",
+      "Accompagnement",
+      "Dessert à partager"
+    ],
+    "filterTags": [
+      "Famille & enfants",
+      "Familial"
+    ],
+    "description": "Pensé pour un repas familial, ce menu associe Riz aux légumes, Carottes au four, cumin & orange et Crumble fruits rouges amande. Les trois recettes peuvent être préparées séparément et adaptées au nombre de personnes prévu au planning."
+  },
+  {
+    "id": "menu-brunch-06",
+    "title": "Brunch · Tartines ricotta banane & cannelle",
+    "subtitle": "Chocolat chaud avoine cannelle · Tartines ricotta banane & cannelle · Bowl yaourt kiwi granola",
+    "recipes": [
+      "chocolat-chaud-avoine-cannelle",
+      "tartines-ricotta-banane",
+      "bowl-yaourt-kiwi-granola"
+    ],
+    "tags": [
+      "Menu complet",
+      "Brunch"
+    ],
+    "slotLabels": [
+      "Boisson",
+      "Salé / principal",
+      "Sucré"
+    ],
+    "filterTags": [
+      "Brunch"
+    ],
+    "description": "Ce brunch réunit Chocolat chaud avoine cannelle, Tartines ricotta banane & cannelle et Bowl yaourt kiwi granola dans un même moment de repas. L’ensemble mélange salé et sucré sans imposer un ordre strict : chaque recette reste indépendante."
+  },
+  {
+    "id": "menu-brunch-08",
+    "title": "Brunch · Œufs brouillés épinards & tomate",
+    "subtitle": "Eau citron, concombre & menthe · Œufs brouillés épinards & tomate · Chia pudding cacao banane",
+    "recipes": [
+      "eau-citron-concombre-menthe",
+      "ufs-brouilles-epinards-tomate",
+      "chia-pudding-cacao-banane"
+    ],
+    "tags": [
+      "Menu complet",
+      "Brunch"
+    ],
+    "slotLabels": [
+      "Boisson",
+      "Salé / principal",
+      "Sucré"
+    ],
+    "filterTags": [
+      "Brunch"
+    ],
+    "description": "Ce brunch réunit Eau citron, concombre & menthe, Œufs brouillés épinards & tomate et Chia pudding cacao banane dans un même moment de repas. L’ensemble mélange salé et sucré sans imposer un ordre strict : chaque recette reste indépendante."
+  },
+  {
+    "id": "menu-cuisines-du-monde-02",
+    "title": "Menu îles · Réunion",
+    "subtitle": "Achards de légumes réunionnais · Cari poulet réunionnais · Salade de fruits vanillée",
+    "recipes": [
+      "achards-legumes-reunionnais",
+      "cari-poulet-reunionnais",
+      "salade-de-fruits-vanillee"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisines du monde",
+      "Îles & Caraïbes"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Cuisines du monde",
+      "Îles & Caraïbes"
+    ],
+    "description": "Ce menu regroupe trois recettes rattachées à Réunion dans la base : Achards de légumes réunionnais, Cari poulet réunionnais et Salade de fruits vanillée. Les appellations géographiques restent limitées aux recettes déjà renseignées comme telles, sans élargir artificiellement leur origine."
+  },
+  {
+    "id": "menu-cuisines-du-monde-03",
+    "title": "Menu îles · Haïti",
+    "subtitle": "Pikliz haïtien · Griot haïtien · Pain patate haïtien",
+    "recipes": [
+      "pikliz-haitien",
+      "griot-haitien",
+      "pain-patate-haitien"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisines du monde",
+      "Îles & Caraïbes"
+    ],
+    "slotLabels": [
+      "Condiment / entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Cuisines du monde",
+      "Îles & Caraïbes"
+    ],
+    "description": "Ce menu regroupe trois recettes rattachées à Haïti dans la base : Pikliz haïtien, Griot haïtien et Pain patate haïtien. Les appellations géographiques restent limitées aux recettes déjà renseignées comme telles, sans élargir artificiellement leur origine."
+  },
+  {
+    "id": "menu-cuisines-du-monde-04",
+    "title": "Menu îles · Jamaïque",
+    "subtitle": "Poulet jerk jamaïcain · Rice and peas jamaïcain · Salade de fruits vanillée",
+    "recipes": [
+      "poulet-jerk-jamaicain",
+      "rice-and-peas-jamaicain",
+      "salade-de-fruits-vanillee"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisines du monde",
+      "Îles & Caraïbes"
+    ],
+    "slotLabels": [
+      "Plat principal",
+      "Accompagnement",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Cuisines du monde",
+      "Îles & Caraïbes"
+    ],
+    "description": "Ce menu regroupe trois recettes rattachées à Jamaïque dans la base : Poulet jerk jamaïcain, Rice and peas jamaïcain et Salade de fruits vanillée. Les appellations géographiques restent limitées aux recettes déjà renseignées comme telles, sans élargir artificiellement leur origine."
+  },
+  {
+    "id": "menu-cuisines-du-monde-08",
+    "title": "Évasion · Crevettes ail et persil",
+    "subtitle": "Salade chou rouge carotte sésame · Crevettes ail et persil · Gâteau au yaourt citron",
+    "recipes": [
+      "salade-chou-rouge-carotte-sesame",
+      "crevettes-ail-et-persil",
+      "gateau-au-yaourt-citron"
+    ],
+    "tags": [
+      "Menu complet",
+      "Cuisines du monde"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat du monde",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Cuisines du monde",
+      "Cuisine du monde"
+    ],
+    "description": "Ce menu rassemble Salade chou rouge carotte sésame, Crevettes ail et persil et Gâteau au yaourt citron pour un repas d’inspiration internationale. Chaque recette conserve sa propre origine ou son statut d’inspiration indiqué dans sa fiche."
+  },
+  {
+    "id": "menu-leger-01",
+    "title": "Léger · Saumon à la crème citron",
+    "subtitle": "Salade avocat, concombre, radis & grenade · Saumon à la crème citron · Crumble poire chocolat",
+    "recipes": [
+      "salade-avocat-concombre-radis-grenade",
+      "saumon-a-la-creme-citron",
+      "crumble-poire-chocolat"
+    ],
+    "tags": [
+      "Menu complet",
+      "Léger"
+    ],
+    "slotLabels": [
+      "Entrée fraîche",
+      "Plat léger",
+      "Fruit / douceur"
+    ],
+    "filterTags": [
+      "Léger"
+    ],
+    "description": "Un menu à composition plus légère autour de Saumon à la crème citron, complété par Salade avocat, concombre, radis & grenade et Crumble poire chocolat. L’objectif est de garder un repas structuré sans multiplier les préparations lourdes."
+  },
+  {
+    "id": "menu-leger-02",
+    "title": "Léger · Poisson blanc sauce tomate",
+    "subtitle": "Salade betterave pomme noix · Poisson blanc sauce tomate · Crumble poire noix",
+    "recipes": [
+      "salade-betterave-pomme-noix",
+      "poisson-blanc-sauce-tomate",
+      "crumble-poire-noix"
+    ],
+    "tags": [
+      "Menu complet",
+      "Léger"
+    ],
+    "slotLabels": [
+      "Entrée fraîche",
+      "Plat léger",
+      "Fruit / douceur"
+    ],
+    "filterTags": [
+      "Léger"
+    ],
+    "description": "Un menu à composition plus légère autour de Poisson blanc sauce tomate, complété par Salade betterave pomme noix et Crumble poire noix. L’objectif est de garder un repas structuré sans multiplier les préparations lourdes."
+  },
+  {
+    "id": "menu-leger-03",
+    "title": "Léger · Brandade de poisson simplifiée",
+    "subtitle": "Salade boulgour herbes grenade · Brandade de poisson simplifiée · Crumble pomme poire",
+    "recipes": [
+      "salade-boulgour-herbes-grenade",
+      "brandade-de-poisson-simplifiee",
+      "crumble-pomme-poire"
+    ],
+    "tags": [
+      "Menu complet",
+      "Léger"
+    ],
+    "slotLabels": [
+      "Entrée fraîche",
+      "Plat léger",
+      "Fruit / douceur"
+    ],
+    "filterTags": [
+      "Léger"
+    ],
+    "description": "Un menu à composition plus légère autour de Brandade de poisson simplifiée, complété par Salade boulgour herbes grenade et Crumble pomme poire. L’objectif est de garder un repas structuré sans multiplier les préparations lourdes."
+  },
+  {
+    "id": "menu-leger-05",
+    "title": "Léger · Ratatouille simplifiée",
+    "subtitle": "Salade carotte orange cumin · Ratatouille simplifiée · Cupcakes vanille faciles",
+    "recipes": [
+      "salade-carotte-orange-cumin",
+      "ratatouille-simplifiee",
+      "cupcakes-vanille-faciles"
+    ],
+    "tags": [
+      "Menu complet",
+      "Léger"
+    ],
+    "slotLabels": [
+      "Entrée fraîche",
+      "Plat léger",
+      "Fruit / douceur"
+    ],
+    "filterTags": [
+      "Léger"
+    ],
+    "description": "Un menu à composition plus légère autour de Ratatouille simplifiée, complété par Salade carotte orange cumin et Cupcakes vanille faciles. L’objectif est de garder un repas structuré sans multiplier les préparations lourdes."
+  }
+]
