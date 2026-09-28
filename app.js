@@ -15,7 +15,7 @@ const state={
   currentDrawerMode:'classic',
   currentDeviceMode:'',
   homeFeaturedKey:'all',
-  menuFilter:'',menuUniverse:'',menuSearch:'',pantryGroup:'',
+  menuFilter:'',menuUniverse:'',menuSearch:'',pantryGroup:'',fridgeSuggestionIndex:-1,
   surpriseTime:'20',
   planAssign:{type:null,id:null,slot:'lunch'},
   pageHistory:[],
@@ -233,7 +233,11 @@ function bindEvents(){
   if($('#surpriseTopBtn'))$('#surpriseTopBtn').onclick=()=>openSurprise(true);$('#homeSurpriseBtn').onclick=()=>openSurprise(true);$$('[data-home-idea]').forEach(b=>b.onclick=()=>{const a=b.dataset.homeIdea;if(a==='fridge'){navigate('fridge');return;}if(a==='quick'){state.filters.time='20';state.filters.mealOnly=true;navigate('recipes');renderRecipes(true);return;}if(a==='veg'){state.filters.category='Végétarien';state.filters.subtype='';navigate('recipes');renderRecipes(true);return;}openSurprise(true);});
   $('#settingsBtn').onclick=()=>openSettings(true);if($('#guideTopBtn'))$('#guideTopBtn').onclick=()=>openKitchenGuide(true);if($('#openKitchenGuideBtn'))$('#openKitchenGuideBtn').onclick=()=>openKitchenGuide(true);$$('[data-close-guide]').forEach(x=>x.onclick=()=>openKitchenGuide(false));$$('[data-close-settings]').forEach(x=>x.onclick=()=>openSettings(false));$$('[data-close-drawer]').forEach(x=>x.onclick=closeRecipe);$$('[data-close-menu]').forEach(x=>x.onclick=closeMenuDrawer);$$('[data-close-surprise]').forEach(x=>x.onclick=()=>openSurprise(false));$$('[data-close-plan]').forEach(x=>x.onclick=()=>openPlanAssign(false));
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&closeTopOverlay()){e.preventDefault();e.stopPropagation();}});
-  $('#clearFridgeBtn').onclick=()=>{state.prefs.pantry=[];savePrefs();renderPantry();renderFridgeResults();toast('Sélection vidée');};$('#fridgeSearch').addEventListener('input',()=>{state.pantryGroup=$('#fridgeSearch').value.trim()?'__search__':'';renderPantry();syncFridgeSearchAction();});$('#fridgeSearch').addEventListener('keydown',e=>{if(e.key==='Enter'&&!$('#fridgeAddSearchBtn').classList.contains('hidden'))addFridgeSearchIngredient();});
+  $('#clearFridgeBtn').onclick=()=>{state.prefs.pantry=[];savePrefs();renderPantry();renderFridgeResults();toast('Sélection vidée');};
+  $('#fridgeSearch').addEventListener('input',()=>{state.pantryGroup=$('#fridgeSearch').value.trim()?'__search__':'';state.fridgeSuggestionIndex=-1;renderPantry();renderFridgeSuggestions();syncFridgeSearchAction();});
+  $('#fridgeSearch').addEventListener('keydown',handleFridgeSearchKeydown);
+  $('#fridgeSearch').addEventListener('focus',renderFridgeSuggestions);
+  $('#fridgeSearch').addEventListener('blur',()=>setTimeout(()=>hideFridgeSuggestions(),140));
   if($('#fridgeAddSearchBtn'))$('#fridgeAddSearchBtn').onclick=addFridgeSearchIngredient;if($('#fridgeSeeResultsBtn'))$('#fridgeSeeResultsBtn').onclick=()=>{renderFridgeResults();$('#fridgeResults').scrollIntoView({behavior:'smooth',block:'start'});};$('#showAllPantryBtn').onclick=()=>{state.pantryGroup='__all__';$('#fridgeSearch').value='';syncFridgeSearchAction();renderPantry();};$('#closePantryGroupBtn').onclick=()=>{state.pantryGroup='';$('#fridgeSearch').value='';syncFridgeSearchAction();renderPantry();};
   $('#menuSearch').addEventListener('input',e=>{state.menuSearch=e.target.value.trim();renderMenus();});$('#menuFavoritesBtn').onclick=()=>{state.menuFilter=state.menuFilter==='__favorites__'?'':'__favorites__';renderMenus();};$('#resetMenuFiltersBtn').onclick=()=>{state.menuUniverse='__all__';state.menuFilter='';state.menuSearch='';$('#menuSearch').value='';renderMenuUniverses();renderMenus();};$('#backToMenuUniverses').onclick=()=>{state.menuUniverse='';state.menuFilter='';renderMenuUniverses();renderMenus();};
   $('#copyShoppingBtn').onclick=copyShopping;if($('#shareShoppingBtn'))$('#shareShoppingBtn').onclick=shareShopping;if($('#printShoppingBtn'))$('#printShoppingBtn').onclick=printShopping;$('#clearShoppingBtn').onclick=()=>{if(!state.prefs.shopping.length&&!state.prefs.manualShopping.length)return;state.prefs.shopping=[];state.prefs.manualShopping=[];state.prefs.shoppingDone=[];savePrefs();renderShopping();toast('Liste vidée');};
@@ -396,7 +400,7 @@ function filteredRecipes(){
   if(f.style)arr=arr.filter(r=>(r.styles||[]).includes(f.style));
   if(f.mealOnly)arr=arr.filter(r=>isMainCourseCategory(r.category));
   if(f.favoritesOnly)arr=arr.filter(r=>state.prefs.favorites.includes(r.id));
-  if(f.fridgeOnly&&state.prefs.pantry.length){const selected=new Set(state.prefs.pantry.map(x=>pantryKey(canonicalPantryName(x))));arr=arr.filter(r=>{const names=pantryRelevantIngredients(r).map(i=>pantryKey(canonicalPantryName(i.name)));const hits=names.filter(n=>selected.has(n)).length;const missing=names.length-hits;return hits>0&&missing<=2;});}
+  if(f.fridgeOnly&&state.prefs.pantry.length){const selected=new Set(state.prefs.pantry.map(pantryMatchKey));arr=arr.filter(r=>{const names=pantryRelevantIngredients(r).map(i=>pantryMatchKey(i.name));const hits=names.filter(n=>selected.has(n)).length;const missing=names.length-hits;return hits>0&&missing<=2;});}
   return arr.sort((a,b)=>(Number(b.featured)-Number(a.featured))||a.name.localeCompare(b.name,'fr'));
 }
 function resetFilters(render=true){
@@ -449,8 +453,8 @@ function pantryRelevantIngredients(r){
 }
 function recipeMissingFromPantry(r){
   if(!state.prefs.pantry.length)return null;
-  const selected=new Set(state.prefs.pantry.map(x=>pantryKey(canonicalPantryName(x))));
-  const essentials=pantryRelevantIngredients(r).map(i=>pantryKey(canonicalPantryName(i.name)));
+  const selected=new Set(state.prefs.pantry.map(pantryMatchKey));
+  const essentials=pantryRelevantIngredients(r).map(i=>pantryMatchKey(i.name));
   const missing=essentials.filter(n=>!selected.has(n));
   return {missing:missing.length,have:essentials.length-missing.length,total:essentials.length};
 }
@@ -734,10 +738,20 @@ const PANTRY_ALIASES={
   'celeri-rave':'céleri-rave','celeri rave':'céleri-rave','dattes':'datte','escalopes de dinde':'escalope de dinde','moules':'moule',
   'myrtilles':'myrtille','noisettes':'noisette','oignons':'oignon','olives':'olive','olives noires':'olive noire',
   'patates douces':'patate douce','poires':'poire','poivrons rouges':'poivron rouge','pommes':'pomme','pommes de terre':'pomme de terre',
-  'tomates':'tomate','oeufs':'œuf','œufs':'œuf'
+  'tomates':'tomate','champignons':'champignon','oeufs':'œuf','œufs':'œuf','creme fraiche':'crème fraîche','crèmes fraîches':'crème fraîche'
+};
+const PANTRY_MATCH_ALIASES={
+  'tomate cerise':'tomate','tomates cerises':'tomate','tomate concassee':'tomate','tomates concassees':'tomate','pulpe de tomate':'tomate',
+  'champignon de paris':'champignon','champignons de paris':'champignon','champignon brun':'champignon','champignons bruns':'champignon',
+  'creme fraiche epaisse':'creme fraiche','creme fraiche liquide':'creme fraiche','creme epaisse':'creme fraiche','creme liquide':'creme fraiche',
+  'oignon jaune':'oignon','oignon blanc':'oignon','oignon rouge':'oignon','oignons rouges':'oignon','oignons jaunes':'oignon',
+  'riz basmati':'riz','riz complet':'riz','riz long':'riz','riz long grain':'riz','riz thai':'riz','riz jasmin':'riz',
+  'poivron rouge':'poivron','poivron jaune':'poivron','poivron vert':'poivron','poivrons':'poivron',
+  'poulet cuit':'poulet','blanc de poulet':'poulet','blancs de poulet':'poulet','filet de poulet':'poulet','filets de poulet':'poulet'
 };
 function pantryKey(name){return norm(String(name||'').replace(/[’']/g,"'").replace(/\s*-\s*/g,'-')).replace(/^oeuf$/,'oeuf');}
 function canonicalPantryName(name){const raw=String(name||'').trim();const key=pantryKey(raw);return PANTRY_ALIASES[key]||raw;}
+function pantryMatchKey(name){const k=pantryKey(canonicalPantryName(name));return PANTRY_MATCH_ALIASES[k]||k;}
 function pantryIngredients(){const count=new Map();state.recipes.forEach(r=>r.ingredients.forEach(i=>{const n=canonicalPantryName(i.name);count.set(n,(count.get(n)||0)+1);}));return [...count.entries()].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0],'fr')).map(x=>x[0]);}
 function renderPantry(){
   const all=pantryIngredients(),q=norm($('#fridgeSearch')?.value||'');const selected=state.prefs.pantry||[];if($('#clearFridgeBtn'))$('#clearFridgeBtn').classList.toggle('hidden',!selected.length);if($('#pantryLibraryCount'))$('#pantryLibraryCount').textContent=`${all.length} ingrédients disponibles`;
@@ -772,13 +786,19 @@ function pantryGroups(all){const groups={};all.forEach(x=>(groups[pantryGroupFor
 function pantryGroupIcon(g){return {'Légumes & aromates':'🥕','Fruits':'🍎','Viandes & volaille':'🥩','Poissons & fruits de mer':'🐟','Protéines végétales':'🌱','Œufs & laitages':'🥚','Pâtes, riz & céréales':'🌾','Légumineuses':'🫘','Fruits à coque & graines':'🥜','Boissons, café & infusions':'☕','Épicerie, sauces & condiments':'🧂','Herbes & épices':'🌿','Autres & placard':'🫙'}[g]||'🍽️';}
 function pantryButtons(list,showFav=false){const favs=state.prefs.pantryFavorites||[];return list.map(n=>`<span class="pantry-item-wrap"><button class="pantry-btn ${(state.prefs.pantry||[]).includes(n)?'selected':''}" data-pantry="${escapeHtml(n)}">${escapeHtml(n)}</button>${showFav?`<button class="pantry-star ${favs.includes(n)?'active':''}" data-pantry-fav="${escapeHtml(n)}" aria-label="Favori">${favs.includes(n)?'★':'☆'}</button>`:''}</span>`).join('');}
 function togglePantryFavorite(name){const n=canonicalPantryName(name),a=state.prefs.pantryFavorites||[],key=pantryKey(n),exists=a.some(x=>pantryKey(x)===key);state.prefs.pantryFavorites=exists?a.filter(x=>pantryKey(x)!==key):[...a,n];savePrefs();renderPantry();}
-function addPantryIngredient(raw){const n=canonicalPantryName(raw);if(!n)return;const exists=state.prefs.pantry.some(x=>pantryKey(x)===pantryKey(n));if(!exists)state.prefs.pantry.push(n);state.prefs.pantryRecent=[n,...(state.prefs.pantryRecent||[]).filter(x=>pantryKey(x)!==pantryKey(n))].slice(0,20);savePrefs();renderPantry();renderFridgeResults();toast(exists?`${n} est déjà sélectionné`:`${n} ajouté`);}
-function syncFridgeSearchAction(){const input=$('#fridgeSearch'),btn=$('#fridgeAddSearchBtn');if(!input||!btn)return;const raw=input.value.trim();if(!raw){btn.classList.add('hidden');btn.dataset.ingredient='';return;}const exact=pantryIngredients().find(x=>pantryKey(x)===pantryKey(raw));const chosen=exact||raw;btn.dataset.ingredient=chosen;btn.textContent=exact?`+ Ajouter ${exact}`:`+ Ajouter « ${raw} »`;btn.classList.remove('hidden');}
-function addFridgeSearchIngredient(){const btn=$('#fridgeAddSearchBtn'),input=$('#fridgeSearch');const raw=btn?.dataset.ingredient||input?.value.trim();if(!raw)return;addPantryIngredient(raw);if(input)input.value='';state.pantryGroup='';syncFridgeSearchAction();renderPantry();}
+function addPantryIngredient(raw,{quiet=false}={}){const n=canonicalPantryName(raw);if(!n)return false;const exists=state.prefs.pantry.some(x=>pantryKey(x)===pantryKey(n));if(!exists)state.prefs.pantry.push(n);state.prefs.pantryRecent=[n,...(state.prefs.pantryRecent||[]).filter(x=>pantryKey(x)!==pantryKey(n))].slice(0,20);savePrefs();renderPantry();renderFridgeResults();if(!quiet)toast(exists?`${n} est déjà sélectionné`:`${n} ajouté`);return !exists;}
+function fridgeSearchParts(raw){return String(raw||'').split(/[,;\n]+/).map(x=>x.trim()).filter(Boolean);}
+function pantrySuggestions(raw,limit=8){const q=pantryKey(raw);if(!q)return[];const selected=new Set((state.prefs.pantry||[]).map(pantryKey));return pantryIngredients().filter(x=>!selected.has(pantryKey(x))).map(x=>{const k=pantryKey(x);let score=9;if(k===q)score=0;else if(k.startsWith(q))score=1;else if(k.split(/[-\s]+/).some(w=>w.startsWith(q)))score=2;else if(k.includes(q))score=3;else if(q.length>=3&&q.split(/[-\s]+/).every(t=>k.includes(t)))score=4;return{x,score};}).filter(o=>o.score<9).sort((a,b)=>a.score-b.score||a.x.localeCompare(b.x,'fr')).slice(0,limit).map(o=>o.x);}
+function hideFridgeSuggestions(){const box=$('#fridgeSuggestions'),input=$('#fridgeSearch');if(box)box.classList.add('hidden');if(input)input.setAttribute('aria-expanded','false');state.fridgeSuggestionIndex=-1;}
+function renderFridgeSuggestions(){const input=$('#fridgeSearch'),box=$('#fridgeSuggestions');if(!input||!box)return;const parts=fridgeSearchParts(input.value),raw=parts.length?parts[parts.length-1]:'';if(!raw){hideFridgeSuggestions();return;}const suggestions=pantrySuggestions(raw);box.innerHTML=suggestions.length?suggestions.map((n,i)=>`<button type="button" class="fridge-suggestion ${i===state.fridgeSuggestionIndex?'active':''}" role="option" aria-selected="${i===state.fridgeSuggestionIndex}" data-fridge-suggestion="${escapeHtml(n)}"><strong>${escapeHtml(n)}</strong><small>Ajouter</small></button>`).join(''):`<div class="fridge-suggestion-empty">Aucun ingrédient du catalogue ne correspond exactement. Tu peux quand même l’ajouter : il sera signalé s’il n’est utilisé dans aucune recette.</div>`;box.classList.remove('hidden');input.setAttribute('aria-expanded','true');box.querySelectorAll('[data-fridge-suggestion]').forEach(b=>b.onmousedown=e=>{e.preventDefault();selectFridgeSuggestion(b.dataset.fridgeSuggestion);});}
+function selectFridgeSuggestion(name){addPantryIngredient(name);const input=$('#fridgeSearch');if(input){const parts=fridgeSearchParts(input.value);if(parts.length>1){parts.pop();input.value=parts.length?parts.join(', ')+', ':'';}else input.value='';input.focus();}state.pantryGroup='';hideFridgeSuggestions();syncFridgeSearchAction();renderPantry();}
+function handleFridgeSearchKeydown(e){const box=$('#fridgeSuggestions'),items=box?[...box.querySelectorAll('[data-fridge-suggestion]')]:[];if((e.key==='ArrowDown'||e.key==='ArrowUp')&&items.length){e.preventDefault();const d=e.key==='ArrowDown'?1:-1;state.fridgeSuggestionIndex=(state.fridgeSuggestionIndex+d+items.length)%items.length;renderFridgeSuggestions();return;}if(e.key==='Escape'){hideFridgeSuggestions();return;}if(e.key==='Enter'){e.preventDefault();if(items.length&&state.fridgeSuggestionIndex>=0){selectFridgeSuggestion(items[state.fridgeSuggestionIndex].dataset.fridgeSuggestion);return;}if(items.length){selectFridgeSuggestion(items[0].dataset.fridgeSuggestion);return;}addFridgeSearchIngredient();}}
+function syncFridgeSearchAction(){const input=$('#fridgeSearch'),btn=$('#fridgeAddSearchBtn');if(!input||!btn)return;const parts=fridgeSearchParts(input.value),raw=parts.length?parts[parts.length-1]:'';if(!raw){btn.classList.add('hidden');btn.dataset.ingredient='';return;}const exact=pantryIngredients().find(x=>pantryKey(x)===pantryKey(raw));const chosen=exact||raw;btn.dataset.ingredient=chosen;btn.textContent=parts.length>1?`+ Ajouter ${parts.length} ingrédients`:(exact?`+ Ajouter ${exact}`:`+ Ajouter « ${raw} »`);btn.classList.remove('hidden');}
+function addFridgeSearchIngredient(){const input=$('#fridgeSearch');if(!input)return;const parts=fridgeSearchParts(input.value);if(!parts.length)return;let added=0;for(const raw of parts){const exact=pantryIngredients().find(x=>pantryKey(x)===pantryKey(raw));if(addPantryIngredient(exact||raw,{quiet:true}))added++;}input.value='';state.pantryGroup='';hideFridgeSuggestions();syncFridgeSearchAction();renderPantry();toast(added?`${added} ingrédient${added>1?'s':''} ajouté${added>1?'s':''}`:'Ces ingrédients sont déjà sélectionnés');}
 function togglePantry(name){const n=canonicalPantryName(name),a=state.prefs.pantry||[],key=pantryKey(n),exists=a.some(x=>pantryKey(x)===key);state.prefs.pantry=exists?a.filter(x=>pantryKey(x)!==key):[...a,n];if(!exists)state.prefs.pantryRecent=[n,...(state.prefs.pantryRecent||[]).filter(x=>pantryKey(x)!==key)].slice(0,20);savePrefs();renderPantry();renderFridgeResults();}
 function missingIngredientsFor(r){
   const have=new Set((state.prefs.pantry||[]).map(x=>pantryKey(canonicalPantryName(x))));
-  return pantryRelevantIngredients(r).filter(i=>!have.has(pantryKey(canonicalPantryName(i.name))));
+  return pantryRelevantIngredients(r).filter(i=>!have.has(pantryMatchKey(i.name)));
 }
 function addMissingToShopping(id){
   const r=state.recipes.find(x=>x.id===id);if(!r)return;const missing=missingIngredientsFor(r);if(!missing.length)return toast('Tu as déjà tous les ingrédients');
@@ -789,9 +809,9 @@ function renderFridgeTier(title,subtitle,items,kind){
 }
 function renderFridgeResults(){
   const sel=state.prefs.pantry;if(!sel.length){$('#fridgeResults').innerHTML='<div class="shopping-empty">Choisis ce que tu as déjà chez toi. Je te montrerai ce que tu peux faire maintenant, puis ce à quoi il manque seulement 1 ou 2 ingrédients.</div>';return;}
-  const catalogKeys=new Set(state.recipes.flatMap(r=>r.ingredients.map(i=>pantryKey(canonicalPantryName(i.name)))));const unused=sel.filter(x=>!catalogKeys.has(pantryKey(canonicalPantryName(x))));const unusedHtml=unused.length?`<div class="pantry-unused-note"><strong>Pas encore utilisé dans le catalogue :</strong> ${unused.map(escapeHtml).join(', ')}. Tu peux le conserver dans ton frigo, mais aucune recette actuelle ne l’utilise encore.</div>`:'';
-  const selected=new Set(sel.map(x=>pantryKey(canonicalPantryName(x))));
-  const scored=state.recipes.filter(passesRestrictions).map(r=>{const names=pantryRelevantIngredients(r).map(i=>pantryKey(canonicalPantryName(i.name)));const hits=names.filter(n=>selected.has(n)).length;return{r,hits,missing:names.length-hits,ratio:names.length?hits/names.length:0};}).filter(x=>x.hits>0).sort((a,b)=>a.missing-b.missing||b.ratio-a.ratio||b.hits-a.hits||totalTime(a.r)-totalTime(b.r));
+  const catalogKeys=new Set(state.recipes.flatMap(r=>r.ingredients.map(i=>pantryMatchKey(i.name))));const unused=sel.filter(x=>!catalogKeys.has(pantryMatchKey(x)));const unusedHtml=unused.length?`<div class="pantry-unused-note"><strong>Pas encore utilisé dans le catalogue :</strong> ${unused.map(escapeHtml).join(', ')}. Tu peux le conserver dans ton frigo, mais aucune recette actuelle ne l’utilise encore.</div>`:'';
+  const selected=new Set(sel.map(pantryMatchKey));
+  const scored=state.recipes.filter(passesRestrictions).map(r=>{const names=pantryRelevantIngredients(r).map(i=>pantryMatchKey(i.name));const hits=names.filter(n=>selected.has(n)).length;return{r,hits,missing:names.length-hits,ratio:names.length?hits/names.length:0};}).filter(x=>x.hits>0).sort((a,b)=>a.missing-b.missing||b.ratio-a.ratio||b.hits-a.hits||totalTime(a.r)-totalTime(b.r));
   const exact=scored.filter(x=>x.missing===0).slice(0,12),one=scored.filter(x=>x.missing===1).slice(0,12),two=scored.filter(x=>x.missing===2).slice(0,12),near=scored.filter(x=>x.missing>2).slice(0,8);
   $('#fridgeResults').innerHTML=unusedHtml+renderFridgeTier('Tu peux cuisiner maintenant','Tous les ingrédients principaux sont déjà chez toi.',exact,'100 % PRÊT')+renderFridgeTier('Il te manque 1 ingrédient','Un petit passage par les courses suffit.',one,'PRESQUE PRÊT')+renderFridgeTier('Il te manque 2 ingrédients','Encore très proche de ce que tu as.',two,'FACILE À COMPLÉTER')+renderFridgeTier('Autres idées proches','Plusieurs ingrédients correspondent déjà à ton frigo.',near,'À GARDER EN TÊTE');
   bindRecipeCards($('#fridgeResults'));$$('[data-missing-shop]').forEach(b=>b.onclick=()=>addMissingToShopping(b.dataset.missingShop));
