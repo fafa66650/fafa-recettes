@@ -396,7 +396,7 @@ function filteredRecipes(){
   if(f.style)arr=arr.filter(r=>(r.styles||[]).includes(f.style));
   if(f.mealOnly)arr=arr.filter(r=>isMainCourseCategory(r.category));
   if(f.favoritesOnly)arr=arr.filter(r=>state.prefs.favorites.includes(r.id));
-  if(f.fridgeOnly&&state.prefs.pantry.length){const selected=new Set(state.prefs.pantry.map(x=>pantryKey(canonicalPantryName(x))));arr=arr.filter(r=>{const names=r.ingredients.map(i=>pantryKey(canonicalPantryName(i.name)));const hits=names.filter(n=>selected.has(n)).length;const missing=names.length-hits;return hits>0&&missing<=2;});}
+  if(f.fridgeOnly&&state.prefs.pantry.length){const selected=new Set(state.prefs.pantry.map(x=>pantryKey(canonicalPantryName(x))));arr=arr.filter(r=>{const names=pantryRelevantIngredients(r).map(i=>pantryKey(canonicalPantryName(i.name)));const hits=names.filter(n=>selected.has(n)).length;const missing=names.length-hits;return hits>0&&missing<=2;});}
   return arr.sort((a,b)=>(Number(b.featured)-Number(a.featured))||a.name.localeCompare(b.name,'fr'));
 }
 function resetFilters(render=true){
@@ -438,10 +438,19 @@ function openSurprise(open){
   $('#surpriseDrawer').classList.toggle('open',open);$('#surpriseDrawer').setAttribute('aria-hidden',String(!open));
   if(open){document.body.style.overflow='hidden';$('#surpriseDrawerGrid').innerHTML='';}else if(!$('#recipeDrawer').classList.contains('open')&&!$('#menuDrawer').classList.contains('open'))document.body.style.overflow='';
 }
+function isMinorPantryIngredient(i){
+  const n=pantryKey(canonicalPantryName(i?.name||''));
+  return /^(eau|sel|poivre|huile(?:-.+)?|huile-d-olive|huile-neutre|vinaigre|vinaigre-de-cidre|vinaigre-balsamique|cannelle|cumin|paprika|curcuma|curry|herbes-de-provence|thym|romarin|origan|basilic-seche|gingembre-moulu|muscade|piment|epices|epices-antillaises)$/.test(n);
+}
+function pantryRelevantIngredients(r){
+  const all=(r.ingredients||[]).filter(Boolean);
+  const main=all.filter(i=>!isMinorPantryIngredient(i));
+  return main.length>=2?main:all;
+}
 function recipeMissingFromPantry(r){
   if(!state.prefs.pantry.length)return null;
   const selected=new Set(state.prefs.pantry.map(x=>pantryKey(canonicalPantryName(x))));
-  const essentials=r.ingredients.map(i=>pantryKey(canonicalPantryName(i.name)));
+  const essentials=pantryRelevantIngredients(r).map(i=>pantryKey(canonicalPantryName(i.name)));
   const missing=essentials.filter(n=>!selected.has(n));
   return {missing:missing.length,have:essentials.length-missing.length,total:essentials.length};
 }
@@ -768,7 +777,8 @@ function syncFridgeSearchAction(){const input=$('#fridgeSearch'),btn=$('#fridgeA
 function addFridgeSearchIngredient(){const btn=$('#fridgeAddSearchBtn'),input=$('#fridgeSearch');const raw=btn?.dataset.ingredient||input?.value.trim();if(!raw)return;addPantryIngredient(raw);if(input)input.value='';state.pantryGroup='';syncFridgeSearchAction();renderPantry();}
 function togglePantry(name){const n=canonicalPantryName(name),a=state.prefs.pantry||[],key=pantryKey(n),exists=a.some(x=>pantryKey(x)===key);state.prefs.pantry=exists?a.filter(x=>pantryKey(x)!==key):[...a,n];if(!exists)state.prefs.pantryRecent=[n,...(state.prefs.pantryRecent||[]).filter(x=>pantryKey(x)!==key)].slice(0,20);savePrefs();renderPantry();renderFridgeResults();}
 function missingIngredientsFor(r){
-  const have=new Set((state.prefs.pantry||[]).map(pantryKey));return r.ingredients.filter(i=>!have.has(pantryKey(canonicalPantryName(i.name))));
+  const have=new Set((state.prefs.pantry||[]).map(x=>pantryKey(canonicalPantryName(x))));
+  return pantryRelevantIngredients(r).filter(i=>!have.has(pantryKey(canonicalPantryName(i.name))));
 }
 function addMissingToShopping(id){
   const r=state.recipes.find(x=>x.id===id);if(!r)return;const missing=missingIngredientsFor(r);if(!missing.length)return toast('Tu as déjà tous les ingrédients');
@@ -780,8 +790,8 @@ function renderFridgeTier(title,subtitle,items,kind){
 function renderFridgeResults(){
   const sel=state.prefs.pantry;if(!sel.length){$('#fridgeResults').innerHTML='<div class="shopping-empty">Choisis ce que tu as déjà chez toi. Je te montrerai ce que tu peux faire maintenant, puis ce à quoi il manque seulement 1 ou 2 ingrédients.</div>';return;}
   const catalogKeys=new Set(state.recipes.flatMap(r=>r.ingredients.map(i=>pantryKey(canonicalPantryName(i.name)))));const unused=sel.filter(x=>!catalogKeys.has(pantryKey(canonicalPantryName(x))));const unusedHtml=unused.length?`<div class="pantry-unused-note"><strong>Pas encore utilisé dans le catalogue :</strong> ${unused.map(escapeHtml).join(', ')}. Tu peux le conserver dans ton frigo, mais aucune recette actuelle ne l’utilise encore.</div>`:'';
-  const selected=new Set(sel.map(pantryKey));
-  const scored=state.recipes.filter(passesRestrictions).map(r=>{const names=r.ingredients.map(i=>pantryKey(canonicalPantryName(i.name)));const hits=names.filter(n=>selected.has(n)).length;return{r,hits,missing:names.length-hits,ratio:names.length?hits/names.length:0};}).filter(x=>x.hits>0).sort((a,b)=>a.missing-b.missing||b.ratio-a.ratio||b.hits-a.hits);
+  const selected=new Set(sel.map(x=>pantryKey(canonicalPantryName(x))));
+  const scored=state.recipes.filter(passesRestrictions).map(r=>{const names=pantryRelevantIngredients(r).map(i=>pantryKey(canonicalPantryName(i.name)));const hits=names.filter(n=>selected.has(n)).length;return{r,hits,missing:names.length-hits,ratio:names.length?hits/names.length:0};}).filter(x=>x.hits>0).sort((a,b)=>a.missing-b.missing||b.ratio-a.ratio||b.hits-a.hits||totalTime(a.r)-totalTime(b.r));
   const exact=scored.filter(x=>x.missing===0).slice(0,12),one=scored.filter(x=>x.missing===1).slice(0,12),two=scored.filter(x=>x.missing===2).slice(0,12),near=scored.filter(x=>x.missing>2).slice(0,8);
   $('#fridgeResults').innerHTML=unusedHtml+renderFridgeTier('Tu peux cuisiner maintenant','Tous les ingrédients principaux sont déjà chez toi.',exact,'100 % PRÊT')+renderFridgeTier('Il te manque 1 ingrédient','Un petit passage par les courses suffit.',one,'PRESQUE PRÊT')+renderFridgeTier('Il te manque 2 ingrédients','Encore très proche de ce que tu as.',two,'FACILE À COMPLÉTER')+renderFridgeTier('Autres idées proches','Plusieurs ingrédients correspondent déjà à ton frigo.',near,'À GARDER EN TÊTE');
   bindRecipeCards($('#fridgeResults'));$$('[data-missing-shop]').forEach(b=>b.onclick=()=>addMissingToShopping(b.dataset.missingShop));
@@ -790,26 +800,41 @@ function renderFridgeResults(){
 function addToShopping(id,servings=null){const r=state.recipes.find(x=>x.id===id);if(!r)return;const target=servings||r.servings||4;const existing=state.prefs.shopping.find(x=>x.id===id);if(existing)existing.servings=(Number(existing.servings)||0)+target;else state.prefs.shopping.push({id,servings:target});savePrefs();renderShopping();toast('Ajouté aux courses');}
 function removeFromShopping(id){state.prefs.shopping=state.prefs.shopping.filter(x=>x.id!==id);savePrefs();renderShopping();}
 function changeShoppingServings(id,delta){const e=state.prefs.shopping.find(x=>x.id===id);if(!e)return;e.servings=Math.max(1,Math.min(12,(e.servings||4)+delta));savePrefs();renderShopping();}
+function normalizeShoppingUnit(unit,qty){
+  const u=norm(unit);let q=Number(qty||0);
+  if(u==='kg')return{unit:'g',qty:q*1000};
+  if(u==='l'||u==='litre'||u==='litres')return{unit:'ml',qty:q*1000};
+  if(/^(g|gramme|grammes)$/.test(u))return{unit:'g',qty:q};
+  if(/^(ml|millilitre|millilitres)$/.test(u))return{unit:'ml',qty:q};
+  if(/^(piece|pieces|unite|unites)$/.test(u))return{unit:'pièce',qty:q};
+  return{unit:String(unit||''),qty:q};
+}
+function canonicalShoppingName(name){return canonicalPantryName(String(name||'').trim());}
+function addShoppingItemToMap(map,name,unit,qty){
+  const cleanName=canonicalShoppingName(name),scaled=normalizeShoppingUnit(unit,qty),key=pantryKey(cleanName)+'|'+norm(scaled.unit);
+  if(!map.has(key))map.set(key,{name:cleanName,unit:scaled.unit,qty:0});
+  map.get(key).qty+=scaled.qty;
+}
 function shoppingItems(){
   const map=new Map();
-  state.prefs.shopping.forEach(e=>{const r=state.recipes.find(x=>x.id===e.id);if(!r)return;const factor=(e.servings||r.servings||4)/(r.servings||1);r.ingredients.forEach(i=>{const key=norm(i.name)+'|'+norm(i.unit);if(!map.has(key))map.set(key,{name:i.name,unit:i.unit,qty:0});map.get(key).qty+=Number(i.qty||0)*factor;});});
-  (state.prefs.manualShopping||[]).forEach(i=>{const key=i.key||norm(i.name)+'|'+norm(i.unit);if(!map.has(key))map.set(key,{name:i.name,unit:i.unit,qty:0});map.get(key).qty+=Number(i.qty||0);});
+  state.prefs.shopping.forEach(e=>{const r=state.recipes.find(x=>x.id===e.id);if(!r)return;const factor=(e.servings||r.servings||4)/(r.servings||1);r.ingredients.forEach(i=>addShoppingItemToMap(map,i.name,i.unit,Number(i.qty||0)*factor));});
+  (state.prefs.manualShopping||[]).forEach(i=>addShoppingItemToMap(map,i.name,i.unit,Number(i.qty||0)));
   return [...map.values()].sort((a,b)=>a.name.localeCompare(b.name,'fr'));
 }
 function groceryGroup(name){const n=norm(name);if(/poulet|dinde|boeuf|veau|porc|agneau/.test(n))return'Viandes & volaille';if(/saumon|cabillaud|colin|thon|crevette|poisson/.test(n))return'Poissons';if(/lait|yaourt|fromage|ricotta|feta|mozzarella|beurre|creme/.test(n))return'Frais & laitages';if(/pomme|poire|banane|citron|orange|mangue|kiwi|fraise|myrtille|tomate|courgette|carotte|oignon|poivron|aubergine|concombre|brocoli|epinard|poireaux|champignon|avocat|menthe|persil/.test(n))return'Fruits & légumes';if(/riz|pate|quinoa|boulgour|semoule|farine|avoine|lentille|pois chiche|haricot|millet|sarrasin|polenta/.test(n))return'Épicerie';return'Autres';}
 function renderShopping(){
   const entries=state.prefs.shopping.map(e=>({e,r:state.recipes.find(r=>r.id===e.id)})).filter(x=>x.r);const manual=state.prefs.manualShopping||[];const total=entries.length+manual.length;$('#shoppingBadge').textContent=total;$('#shoppingBadge').classList.toggle('hidden',!total);
   const items=shoppingItems(),hasItems=items.length>0;$('#shoppingOutputActions')?.classList.toggle('hidden',!hasItems);$('#shoppingEmptyActions')?.classList.toggle('compact',hasItems);
-  $('#shoppingRecipeChips').innerHTML=entries.map(({e,r})=>`<span class="shopping-recipe-chip">${escapeHtml(r.name)} · ${e.servings||r.servings} pers.<button data-shop-minus="${r.id}">−</button><button data-shop-plus="${r.id}">+</button><button data-remove-shop="${r.id}">×</button></span>`).join('');
-  $('#shoppingManualChips').innerHTML=manual.length?manual.map((i,idx)=>`<span class="shopping-recipe-chip manual-chip">Manquant : ${escapeHtml(i.name)}<button data-remove-manual="${idx}">×</button></span>`).join(''):'';
+  $('#shoppingRecipeChips').innerHTML=entries.map(({e,r})=>`<span class="shopping-recipe-chip">${escapeHtml(r.name)} · ${e.servings||r.servings} pers.<button data-shop-minus="${r.id}" aria-label="Réduire les portions de ${escapeHtml(r.name)}">−</button><button data-shop-plus="${r.id}" aria-label="Augmenter les portions de ${escapeHtml(r.name)}">+</button><button data-remove-shop="${r.id}" aria-label="Retirer ${escapeHtml(r.name)} de la liste">×</button></span>`).join('');
+  $('#shoppingManualChips').innerHTML=manual.length?manual.map((i,idx)=>`<span class="shopping-recipe-chip manual-chip">Manquant : ${escapeHtml(i.name)}<button data-remove-manual="${idx}" aria-label="Retirer ${escapeHtml(i.name)} de la liste">×</button></span>`).join(''):'';
   $$('[data-remove-shop]').forEach(b=>b.onclick=()=>removeFromShopping(b.dataset.removeShop));$$('[data-shop-minus]').forEach(b=>b.onclick=()=>changeShoppingServings(b.dataset.shopMinus,-1));$$('[data-shop-plus]').forEach(b=>b.onclick=()=>changeShoppingServings(b.dataset.shopPlus,1));$$('[data-remove-manual]').forEach(b=>b.onclick=()=>{state.prefs.manualShopping.splice(Number(b.dataset.removeManual),1);savePrefs();renderShopping();});
   if(!items.length){$('#shoppingList').innerHTML='<div class="shopping-empty"><strong>Ta liste est vide.</strong><span>Ajoute un produit à la main ou récupère les ingrédients depuis une recette, un menu ou ton planning.</span></div>';return;}
   const groups={};items.forEach(i=>(groups[groceryGroup(i.name)]??=[]).push(i));$('#shoppingList').innerHTML=Object.entries(groups).map(([g,it])=>`<section class="shopping-group"><h3>${escapeHtml(g)}</h3>${it.map(x=>{const key=slug(x.name+'-'+x.unit);const done=state.prefs.shoppingDone.includes(key);return`<label class="shopping-item ${done?'done':''}"><input type="checkbox" data-shop-done="${key}" ${done?'checked':''}><span><strong>${formatQty(x.qty)} ${escapeHtml(x.unit||'')}</strong> ${escapeHtml(x.name)}</span></label>`;}).join('')}</section>`).join('');$$('[data-shop-done]').forEach(c=>c.onchange=()=>{const k=c.dataset.shopDone;const a=state.prefs.shoppingDone;state.prefs.shoppingDone=c.checked?[...new Set([...a,k])]:a.filter(x=>x!==k);savePrefs();renderShopping();});
 }
 function addManualShoppingItem(){
   const input=$('#manualShoppingInput');if(!input)return;const name=input.value.trim();if(!name)return toast('Écris le produit à ajouter');
-  const key=norm(name)+'|';const existing=(state.prefs.manualShopping||[]).find(x=>(x.key||norm(x.name)+'|'+norm(x.unit||''))===key);
-  if(existing)existing.qty=(Number(existing.qty)||1)+1;else state.prefs.manualShopping.push({key,name,unit:'',qty:1});
+  const canonical=canonicalShoppingName(name),key=pantryKey(canonical)+'|';const existing=(state.prefs.manualShopping||[]).find(x=>(x.key||pantryKey(canonicalShoppingName(x.name))+'|'+norm(x.unit||''))===key);
+  if(existing)existing.qty=(Number(existing.qty)||1)+1;else state.prefs.manualShopping.push({key,name:canonical,unit:'',qty:1});
   input.value='';savePrefs();renderShopping();toast(`${name} ajouté à la liste`);
 }
 async function copyShopping(){const items=shoppingItems();if(!items.length)return toast('La liste est vide');const txt=['FAFATRAINING · LISTE DE COURSES','',...items.map(i=>`☐ ${formatQty(i.qty)} ${i.unit||''} ${i.name}`)].join('\n');try{await navigator.clipboard.writeText(txt);toast('Liste copiée');}catch{toast('Copie impossible sur cet appareil');}}
