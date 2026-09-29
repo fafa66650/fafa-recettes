@@ -1,0 +1,3155 @@
+[
+  {
+    "id": "menu-complet-001",
+    "title": "Table méditerranéenne · Bar citron herbes",
+    "subtitle": "Salade lentilles carottes feta · Bar citron herbes · Compote poire gingembre",
+    "recipes": [
+      "salade-lentilles-carottes-feta",
+      "bar-citron-herbes",
+      "compote-poire-gingembre"
+    ],
+    "tags": [
+      "Menu complet",
+      "Méditerranée",
+      "Rapide"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Méditerranée",
+      "Rapide"
+    ],
+    "description": "Salade lentilles carottes feta apporte une entrée nette avant Bar citron herbes; Compote poire gingembre termine le repas sans reprendre les mêmes saveurs.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-002",
+    "title": "Dîner du quotidien · Brandade de poisson simplifiée",
+    "subtitle": "Salade saumon pomme de terre · Brandade de poisson simplifiée · Pudding chia café cacao",
+    "recipes": [
+      "salade-saumon-pomme-de-terre",
+      "brandade-de-poisson-simplifiee",
+      "pudding-chia-cafe-cacao"
+    ],
+    "tags": [
+      "Menu complet",
+      "Quotidien",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Quotidien",
+      "Découverte"
+    ],
+    "description": "Le fil conducteur est simple : Salade saumon pomme de terre pour ouvrir l’appétit, Brandade de poisson simplifiée comme plat central, puis Pudding chia café cacao pour une vraie fin de repas.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-003",
+    "title": "Escapade asiatique · Cabillaud curry coco",
+    "subtitle": "Salade chou rouge carotte sésame · Cabillaud curry coco · Riz au lait coco mangue",
+    "recipes": [
+      "salade-chou-rouge-carotte-sesame",
+      "cabillaud-curry-coco",
+      "riz-au-lait-coco-mangue"
+    ],
+    "tags": [
+      "Menu complet",
+      "Asie",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Asie",
+      "Découverte"
+    ],
+    "description": "Ce trio garde une progression cohérente entre fraîcheur, plat principal et douceur : Salade chou rouge carotte sésame, Cabillaud curry coco, puis Riz au lait coco mangue.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-004",
+    "title": "Cuisine du monde · Cabillaud au four, légumes rôtis & couscous complet",
+    "subtitle": "Taboulé de boulgour maison · Cabillaud au four, légumes rôtis & couscous complet · Cake banane tahini chocolat",
+    "recipes": [
+      "taboule-de-boulgour-maison",
+      "cabillaud-au-four-legumes-rotis-couscous-complet",
+      "cake-banane-tahini-chocolat"
+    ],
+    "tags": [
+      "Menu complet",
+      "Monde",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Monde",
+      "Découverte"
+    ],
+    "description": "Un menu construit autour de Cabillaud au four, légumes rôtis & couscous complet, avec Taboulé de boulgour maison en contraste et Cake banane tahini chocolat pour finir sur une note distincte.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-005",
+    "title": "Saveurs des îles · Blaff de poisson antillais",
+    "subtitle": "Féroce d’avocat martiniquais · Blaff de poisson antillais · Pain patate haïtien",
+    "recipes": [
+      "feroce-avocat-martiniquais",
+      "blaff-poisson-antillais",
+      "pain-patate-haitien"
+    ],
+    "tags": [
+      "Menu complet",
+      "Îles & Caraïbes",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Îles & Caraïbes",
+      "Découverte"
+    ],
+    "description": "Féroce d’avocat martiniquais prépare bien le palais pour Blaff de poisson antillais. Pain patate haïtien apporte ensuite une conclusion plus douce sans alourdir l’ensemble.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-006",
+    "title": "Saveurs des îles · Rougaille mauricienne de poisson",
+    "subtitle": "Achards de légumes réunionnais · Rougaille mauricienne de poisson · Pudding chia orange vanille",
+    "recipes": [
+      "achards-legumes-reunionnais",
+      "rougaille-mauricienne",
+      "pudding-chia-orange-vanille"
+    ],
+    "tags": [
+      "Menu complet",
+      "Îles & Caraïbes",
+      "Rapide"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Îles & Caraïbes",
+      "Rapide"
+    ],
+    "description": "Achards de légumes réunionnais apporte une entrée nette avant Rougaille mauricienne de poisson; Pudding chia orange vanille termine le repas sans reprendre les mêmes saveurs.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-007",
+    "title": "Cuisine du monde · Poisson blanc façon moqueca douce",
+    "subtitle": "Salade haricots noirs maïs tomate · Poisson blanc façon moqueca douce · Cookies aux pépites de chocolat",
+    "recipes": [
+      "salade-haricots-noirs-mais-tomate",
+      "poisson-blanc-facon-moqueca-douce",
+      "cookies-pepites-chocolat"
+    ],
+    "tags": [
+      "Menu complet",
+      "Monde",
+      "Rapide"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Monde",
+      "Rapide"
+    ],
+    "description": "Le fil conducteur est simple : Salade haricots noirs maïs tomate pour ouvrir l’appétit, Poisson blanc façon moqueca douce comme plat central, puis Cookies aux pépites de chocolat pour une vraie fin de repas.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-008",
+    "title": "Cuisine du monde · Crevettes cajun maïs",
+    "subtitle": "Salade dinde pomme céleri · Crevettes cajun maïs · Cupcakes vanille faciles",
+    "recipes": [
+      "salade-dinde-pomme-celeri",
+      "crevettes-cajun-mais",
+      "cupcakes-vanille-faciles"
+    ],
+    "tags": [
+      "Menu complet",
+      "Monde",
+      "Rapide"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Monde",
+      "Rapide"
+    ],
+    "description": "Ce trio garde une progression cohérente entre fraîcheur, plat principal et douceur : Salade dinde pomme céleri, Crevettes cajun maïs, puis Cupcakes vanille faciles.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-009",
+    "title": "Table méditerranéenne · Cabillaud citron légumes vapeur",
+    "subtitle": "Salade croquante aux noix · Cabillaud citron légumes vapeur · Cake citron pavot yaourt",
+    "recipes": [
+      "salade-croquante-aux-noix",
+      "cabillaud-citron-legumes-vapeur",
+      "cake-citron-pavot-yaourt"
+    ],
+    "tags": [
+      "Menu complet",
+      "Méditerranée",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Méditerranée",
+      "Découverte"
+    ],
+    "description": "Un menu construit autour de Cabillaud citron légumes vapeur, avec Salade croquante aux noix en contraste et Cake citron pavot yaourt pour finir sur une note distincte.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-010",
+    "title": "Dîner du quotidien · Colin paprika & légumes",
+    "subtitle": "Tartine ricotta, figues, miel & noix · Colin paprika & légumes · Gâteau carotte noix cannelle",
+    "recipes": [
+      "tartine-ricotta-figues-miel-noix",
+      "colin-paprika-legumes",
+      "gateau-carotte-noix-cannelle"
+    ],
+    "tags": [
+      "Menu complet",
+      "Quotidien",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Quotidien",
+      "Découverte"
+    ],
+    "description": "Tartine ricotta, figues, miel & noix prépare bien le palais pour Colin paprika & légumes. Gâteau carotte noix cannelle apporte ensuite une conclusion plus douce sans alourdir l’ensemble.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-011",
+    "title": "Escapade asiatique · Cabillaud curry tomate",
+    "subtitle": "Salade tofu concombre sésame · Cabillaud curry tomate · Salade de fruits vanillée",
+    "recipes": [
+      "salade-tofu-concombre-sesame",
+      "cabillaud-curry-tomate",
+      "salade-de-fruits-vanillee"
+    ],
+    "tags": [
+      "Menu complet",
+      "Asie",
+      "Rapide"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Asie",
+      "Rapide"
+    ],
+    "description": "Salade tofu concombre sésame apporte une entrée nette avant Cabillaud curry tomate; Salade de fruits vanillée termine le repas sans reprendre les mêmes saveurs.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-012",
+    "title": "Cuisine du monde · Poulet Olives-citron confit",
+    "subtitle": "Salade carotte orange cumin · Poulet Olives-citron confit · Cake banane tahini chocolat",
+    "recipes": [
+      "salade-carotte-orange-cumin",
+      "poulet-olives-citron-confit",
+      "cake-banane-tahini-chocolat"
+    ],
+    "tags": [
+      "Menu complet",
+      "Monde",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Monde",
+      "Famille"
+    ],
+    "description": "Le fil conducteur est simple : Salade carotte orange cumin pour ouvrir l’appétit, Poulet Olives-citron confit comme plat central, puis Cake banane tahini chocolat pour une vraie fin de repas.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-013",
+    "title": "Saveurs des îles · Cabillaud coco citron vert",
+    "subtitle": "Pikliz haïtien · Cabillaud coco citron vert · Pain patate haïtien",
+    "recipes": [
+      "pikliz-haitien",
+      "cabillaud-coco-citron-vert",
+      "pain-patate-haitien"
+    ],
+    "tags": [
+      "Menu complet",
+      "Îles & Caraïbes",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Îles & Caraïbes",
+      "Découverte"
+    ],
+    "description": "Ce trio garde une progression cohérente entre fraîcheur, plat principal et douceur : Pikliz haïtien, Cabillaud coco citron vert, puis Pain patate haïtien.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-014",
+    "title": "Saveurs des îles · Cari poulet réunionnais",
+    "subtitle": "Achards de légumes réunionnais · Cari poulet réunionnais · Gâteau au yaourt citron",
+    "recipes": [
+      "achards-legumes-reunionnais",
+      "cari-poulet-reunionnais",
+      "gateau-au-yaourt-citron"
+    ],
+    "tags": [
+      "Menu complet",
+      "Îles & Caraïbes",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Îles & Caraïbes",
+      "Famille"
+    ],
+    "description": "Un menu construit autour de Cari poulet réunionnais, avec Achards de légumes réunionnais en contraste et Gâteau au yaourt citron pour finir sur une note distincte.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-015",
+    "title": "Cuisine du monde · Poulet Fajitas poivrons",
+    "subtitle": "Salade haricots noirs maïs tomate · Poulet Fajitas poivrons · Muffins vanille & pépites de chocolat",
+    "recipes": [
+      "salade-haricots-noirs-mais-tomate",
+      "poulet-fajitas-poivrons",
+      "muffins-vanille-pepites"
+    ],
+    "tags": [
+      "Menu complet",
+      "Monde",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Monde",
+      "Famille"
+    ],
+    "description": "Salade haricots noirs maïs tomate prépare bien le palais pour Poulet Fajitas poivrons. Muffins vanille & pépites de chocolat apporte ensuite une conclusion plus douce sans alourdir l’ensemble.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-016",
+    "title": "Cuisine du monde · Riz jambalaya poulet crevettes doux",
+    "subtitle": "Salade dinde pomme céleri · Riz jambalaya poulet crevettes doux · Cheesecake new-yorkais",
+    "recipes": [
+      "salade-dinde-pomme-celeri",
+      "riz-jambalaya-poulet-crevettes-doux",
+      "cheesecake-new-yorkais"
+    ],
+    "tags": [
+      "Menu complet",
+      "Monde",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Monde",
+      "Famille"
+    ],
+    "description": "Salade dinde pomme céleri apporte une entrée nette avant Riz jambalaya poulet crevettes doux; Cheesecake new-yorkais termine le repas sans reprendre les mêmes saveurs.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-017",
+    "title": "Table méditerranéenne · Cabillaud citron poireaux",
+    "subtitle": "Salade sardines pommes de terre citron · Cabillaud citron poireaux · Pain perdu à la vanille",
+    "recipes": [
+      "salade-sardines-pommes-de-terre-citron",
+      "cabillaud-citron-poireaux",
+      "pain-perdu-vanille"
+    ],
+    "tags": [
+      "Menu complet",
+      "Méditerranée",
+      "Rapide"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Méditerranée",
+      "Rapide"
+    ],
+    "description": "Le fil conducteur est simple : Salade sardines pommes de terre citron pour ouvrir l’appétit, Cabillaud citron poireaux comme plat central, puis Pain perdu à la vanille pour une vraie fin de repas.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-018",
+    "title": "Dîner du quotidien · Poisson blanc moutarde",
+    "subtitle": "Salade lentilles feta betterave · Poisson blanc moutarde · Mousse yaourt citron",
+    "recipes": [
+      "salade-lentilles-feta-betterave",
+      "poisson-blanc-moutarde",
+      "mousse-yaourt-citron"
+    ],
+    "tags": [
+      "Menu complet",
+      "Quotidien",
+      "Rapide"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Quotidien",
+      "Rapide"
+    ],
+    "description": "Ce trio garde une progression cohérente entre fraîcheur, plat principal et douceur : Salade lentilles feta betterave, Poisson blanc moutarde, puis Mousse yaourt citron.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-019",
+    "title": "Escapade asiatique · Crevettes curry coco",
+    "subtitle": "Salade chou rouge carotte sésame · Crevettes curry coco · Semoule au lait cannelle",
+    "recipes": [
+      "salade-chou-rouge-carotte-sesame",
+      "crevettes-curry-coco",
+      "semoule-au-lait-cannelle"
+    ],
+    "tags": [
+      "Menu complet",
+      "Asie",
+      "Rapide"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Asie",
+      "Rapide"
+    ],
+    "description": "Un menu construit autour de Crevettes curry coco, avec Salade chou rouge carotte sésame en contraste et Semoule au lait cannelle pour finir sur une note distincte.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-020",
+    "title": "Cuisine du monde · Poulet zaatar citron",
+    "subtitle": "Salade pois chiches concombre tahini · Poulet zaatar citron · Gâteau orange yaourt",
+    "recipes": [
+      "salade-pois-chiches-concombre-tahini",
+      "poulet-zaatar-citron",
+      "gateau-orange-yaourt"
+    ],
+    "tags": [
+      "Menu complet",
+      "Monde",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Monde",
+      "Famille"
+    ],
+    "description": "Salade pois chiches concombre tahini prépare bien le palais pour Poulet zaatar citron. Gâteau orange yaourt apporte ensuite une conclusion plus douce sans alourdir l’ensemble.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-021",
+    "title": "Saveurs des îles · Colin coco citron vert façon créole",
+    "subtitle": "Doubles trinidadiens · Colin coco citron vert façon créole · Pain patate haïtien",
+    "recipes": [
+      "doubles-trinidadiens",
+      "colin-coco-citron-vert",
+      "pain-patate-haitien"
+    ],
+    "tags": [
+      "Menu complet",
+      "Îles & Caraïbes",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Îles & Caraïbes",
+      "Découverte"
+    ],
+    "description": "Doubles trinidadiens apporte une entrée nette avant Colin coco citron vert façon créole; Pain patate haïtien termine le repas sans reprendre les mêmes saveurs.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-022",
+    "title": "Cuisine du monde · Poulet poivrons façon fajitas",
+    "subtitle": "Salade haricots noirs maïs tomate · Poulet poivrons façon fajitas · Cookies aux pépites de chocolat",
+    "recipes": [
+      "salade-haricots-noirs-mais-tomate",
+      "poulet-poivrons-facon-fajitas",
+      "cookies-pepites-chocolat"
+    ],
+    "tags": [
+      "Menu complet",
+      "Monde",
+      "Rapide"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Monde",
+      "Rapide"
+    ],
+    "description": "Le fil conducteur est simple : Salade haricots noirs maïs tomate pour ouvrir l’appétit, Poulet poivrons façon fajitas comme plat central, puis Cookies aux pépites de chocolat pour une vraie fin de repas.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-023",
+    "title": "Table méditerranéenne · Cabillaud paprika pois chiches",
+    "subtitle": "Salade aubergine pois chiches · Cabillaud paprika pois chiches · Semoule au lait orange fleur d’oranger",
+    "recipes": [
+      "salade-aubergine-pois-chiches",
+      "cabillaud-paprika-pois-chiches",
+      "semoule-au-lait-orange-fleur-doranger"
+    ],
+    "tags": [
+      "Menu complet",
+      "Méditerranée",
+      "Rapide"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Méditerranée",
+      "Rapide"
+    ],
+    "description": "Ce trio garde une progression cohérente entre fraîcheur, plat principal et douceur : Salade aubergine pois chiches, Cabillaud paprika pois chiches, puis Semoule au lait orange fleur d’oranger.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-024",
+    "title": "Dîner du quotidien · Pommes de terre farcies thon",
+    "subtitle": "Carpaccio de betterave & orange · Pommes de terre farcies thon · Mousse chocolat légère",
+    "recipes": [
+      "carpaccio-de-betterave-orange",
+      "pommes-de-terre-farcies-thon",
+      "mousse-chocolat-legere"
+    ],
+    "tags": [
+      "Menu complet",
+      "Quotidien",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Quotidien",
+      "Découverte"
+    ],
+    "description": "Un menu construit autour de Pommes de terre farcies thon, avec Carpaccio de betterave & orange en contraste et Mousse chocolat légère pour finir sur une note distincte.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-025",
+    "title": "Escapade asiatique · Crevettes curry coco mangue",
+    "subtitle": "Salade tofu concombre sésame · Crevettes curry coco mangue · Fromage blanc de brebis, mangue, kiwi & chia",
+    "recipes": [
+      "salade-tofu-concombre-sesame",
+      "crevettes-curry-coco-mangue",
+      "fromage-blanc-de-brebis-mangue-kiwi-chia"
+    ],
+    "tags": [
+      "Menu complet",
+      "Asie",
+      "Rapide"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Asie",
+      "Rapide"
+    ],
+    "description": "Salade tofu concombre sésame prépare bien le palais pour Crevettes curry coco mangue. Fromage blanc de brebis, mangue, kiwi & chia apporte ensuite une conclusion plus douce sans alourdir l’ensemble.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-026",
+    "title": "Cuisine du monde · Boulgour aubergine pois chiches",
+    "subtitle": "Salade boulgour herbes grenade · Boulgour aubergine pois chiches · Rochers coco",
+    "recipes": [
+      "salade-boulgour-herbes-grenade",
+      "boulgour-aubergine-pois-chiches",
+      "rochers-coco"
+    ],
+    "tags": [
+      "Menu complet",
+      "Monde",
+      "Rapide"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Monde",
+      "Rapide"
+    ],
+    "description": "Salade boulgour herbes grenade apporte une entrée nette avant Boulgour aubergine pois chiches; Rochers coco termine le repas sans reprendre les mêmes saveurs.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-027",
+    "title": "Saveurs des îles · Poisson blanc colombo légumes",
+    "subtitle": "Pikliz haïtien · Poisson blanc colombo légumes · Pain patate haïtien",
+    "recipes": [
+      "pikliz-haitien",
+      "poisson-blanc-colombo-legumes",
+      "pain-patate-haitien"
+    ],
+    "tags": [
+      "Menu complet",
+      "Îles & Caraïbes",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Îles & Caraïbes",
+      "Découverte"
+    ],
+    "description": "Le fil conducteur est simple : Pikliz haïtien pour ouvrir l’appétit, Poisson blanc colombo légumes comme plat central, puis Pain patate haïtien pour une vraie fin de repas.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-028",
+    "title": "Cuisine du monde · Riz tomate haricots noirs",
+    "subtitle": "Salade haricots noirs maïs tomate · Riz tomate haricots noirs · Cupcakes vanille faciles",
+    "recipes": [
+      "salade-haricots-noirs-mais-tomate",
+      "riz-tomate-haricots-noirs",
+      "cupcakes-vanille-faciles"
+    ],
+    "tags": [
+      "Menu complet",
+      "Monde",
+      "Rapide"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Monde",
+      "Rapide"
+    ],
+    "description": "Ce trio garde une progression cohérente entre fraîcheur, plat principal et douceur : Salade haricots noirs maïs tomate, Riz tomate haricots noirs, puis Cupcakes vanille faciles.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-029",
+    "title": "Table méditerranéenne · Cabillaud pois chiches tomate",
+    "subtitle": "Salade thon haricots blancs · Cabillaud pois chiches tomate · Tiramisu au Nutella",
+    "recipes": [
+      "salade-thon-haricots-blancs",
+      "cabillaud-pois-chiches-tomate",
+      "tiramisu-au-nutella"
+    ],
+    "tags": [
+      "Menu complet",
+      "Méditerranée",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Méditerranée",
+      "Découverte"
+    ],
+    "description": "Un menu construit autour de Cabillaud pois chiches tomate, avec Salade thon haricots blancs en contraste et Tiramisu au Nutella pour finir sur une note distincte.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-030",
+    "title": "Dîner du quotidien · Saumon grillé, lentilles & asperges",
+    "subtitle": "Salade saumon pomme de terre · Saumon grillé, lentilles & asperges · Pudding de chia au lait d’amande & fruits rouges",
+    "recipes": [
+      "salade-saumon-pomme-de-terre",
+      "saumon-grille-lentilles-asperges",
+      "pudding-de-chia-au-lait-damande-fruits-rouges"
+    ],
+    "tags": [
+      "Menu complet",
+      "Quotidien",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Quotidien",
+      "Découverte"
+    ],
+    "description": "Salade saumon pomme de terre prépare bien le palais pour Saumon grillé, lentilles & asperges. Pudding de chia au lait d’amande & fruits rouges apporte ensuite une conclusion plus douce sans alourdir l’ensemble.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-031",
+    "title": "Escapade asiatique · Crevettes gingembre brocoli",
+    "subtitle": "Salade tofu concombre sésame · Crevettes gingembre brocoli · Fromage blanc, banane, fruits rouges & miel",
+    "recipes": [
+      "salade-tofu-concombre-sesame",
+      "crevettes-gingembre-brocoli",
+      "fromage-blanc-banane-fruits-rouges-miel"
+    ],
+    "tags": [
+      "Menu complet",
+      "Asie",
+      "Rapide"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Asie",
+      "Rapide"
+    ],
+    "description": "Salade tofu concombre sésame apporte une entrée nette avant Crevettes gingembre brocoli; Fromage blanc, banane, fruits rouges & miel termine le repas sans reprendre les mêmes saveurs.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-032",
+    "title": "Cuisine du monde · Boulgour dinde, tomate & menthe",
+    "subtitle": "Houmous maison & crudités · Boulgour dinde, tomate & menthe · Tiramisu café",
+    "recipes": [
+      "houmous-maison-crudites",
+      "boulgour-dinde-tomate",
+      "tiramisu-cafe"
+    ],
+    "tags": [
+      "Menu complet",
+      "Monde",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Monde",
+      "Famille"
+    ],
+    "description": "Le fil conducteur est simple : Houmous maison & crudités pour ouvrir l’appétit, Boulgour dinde, tomate & menthe comme plat central, puis Tiramisu café pour une vraie fin de repas.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-033",
+    "title": "Saveurs des îles · Poulet ananas gingembre",
+    "subtitle": "Féroce d’avocat martiniquais · Poulet ananas gingembre · Ananas rôti citron vert coco",
+    "recipes": [
+      "feroce-avocat-martiniquais",
+      "poulet-ananas-gingembre",
+      "ananas-roti-citron-vert-coco"
+    ],
+    "tags": [
+      "Menu complet",
+      "Îles & Caraïbes",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Îles & Caraïbes",
+      "Famille"
+    ],
+    "description": "Ce trio garde une progression cohérente entre fraîcheur, plat principal et douceur : Féroce d’avocat martiniquais, Poulet ananas gingembre, puis Ananas rôti citron vert coco.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-034",
+    "title": "Cuisine du monde · Bœuf poivrons façon fajita",
+    "subtitle": "Salade dinde pomme céleri · Bœuf poivrons façon fajita · Muffins vanille & pépites de chocolat",
+    "recipes": [
+      "salade-dinde-pomme-celeri",
+      "buf-poivrons-facon-fajita",
+      "muffins-vanille-pepites"
+    ],
+    "tags": [
+      "Menu complet",
+      "Monde",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Monde",
+      "Famille"
+    ],
+    "description": "Un menu construit autour de Bœuf poivrons façon fajita, avec Salade dinde pomme céleri en contraste et Muffins vanille & pépites de chocolat pour finir sur une note distincte.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-035",
+    "title": "Table méditerranéenne · Cabillaud puttanesca douce",
+    "subtitle": "Salade thon haricots blancs tomate · Cabillaud puttanesca douce · Compote pomme fenouil orange",
+    "recipes": [
+      "salade-thon-haricots-blancs-tomate",
+      "cabillaud-puttanesca-douce",
+      "compote-pomme-fenouil-orange"
+    ],
+    "tags": [
+      "Menu complet",
+      "Méditerranée",
+      "Rapide"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Méditerranée",
+      "Rapide"
+    ],
+    "description": "Salade thon haricots blancs tomate prépare bien le palais pour Cabillaud puttanesca douce. Compote pomme fenouil orange apporte ensuite une conclusion plus douce sans alourdir l’ensemble.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-036",
+    "title": "Dîner du quotidien · Saumon miel moutarde",
+    "subtitle": "Tartine ricotta, figues, miel & noix · Saumon miel moutarde · Sorbet mangue express",
+    "recipes": [
+      "tartine-ricotta-figues-miel-noix",
+      "saumon-miel-moutarde",
+      "sorbet-mangue-express"
+    ],
+    "tags": [
+      "Menu complet",
+      "Quotidien",
+      "Rapide"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Quotidien",
+      "Rapide"
+    ],
+    "description": "Tartine ricotta, figues, miel & noix apporte une entrée nette avant Saumon miel moutarde; Sorbet mangue express termine le repas sans reprendre les mêmes saveurs.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-037",
+    "title": "Escapade asiatique · Moules curry doux coco",
+    "subtitle": "Salade chou rouge carotte sésame · Moules curry doux coco · Fromage blanc, fruits frais & graines",
+    "recipes": [
+      "salade-chou-rouge-carotte-sesame",
+      "moules-curry-doux-coco",
+      "fromage-blanc-fruits-frais-graines"
+    ],
+    "tags": [
+      "Menu complet",
+      "Asie",
+      "Rapide"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Asie",
+      "Rapide"
+    ],
+    "description": "Le fil conducteur est simple : Salade chou rouge carotte sésame pour ouvrir l’appétit, Moules curry doux coco comme plat central, puis Fromage blanc, fruits frais & graines pour une vraie fin de repas.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-038",
+    "title": "Cuisine du monde · Couscous complet poisson & légumes",
+    "subtitle": "Salade carotte orange cumin · Couscous complet poisson & légumes · Crumble fruits rouges amande",
+    "recipes": [
+      "salade-carotte-orange-cumin",
+      "couscous-complet-poisson-legumes",
+      "crumble-fruits-rouges-amande"
+    ],
+    "tags": [
+      "Menu complet",
+      "Monde",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Monde",
+      "Famille"
+    ],
+    "description": "Ce trio garde une progression cohérente entre fraîcheur, plat principal et douceur : Salade carotte orange cumin, Couscous complet poisson & légumes, puis Crumble fruits rouges amande.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-039",
+    "title": "Saveurs des îles · Poulet jerk jamaïcain",
+    "subtitle": "Doubles trinidadiens · Poulet jerk jamaïcain · Crème vanille maïzena",
+    "recipes": [
+      "doubles-trinidadiens",
+      "poulet-jerk-jamaicain",
+      "creme-vanille-maizena"
+    ],
+    "tags": [
+      "Menu complet",
+      "Îles & Caraïbes",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Îles & Caraïbes",
+      "Famille"
+    ],
+    "description": "Un menu construit autour de Poulet jerk jamaïcain, avec Doubles trinidadiens en contraste et Crème vanille maïzena pour finir sur une note distincte.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-040",
+    "title": "Cuisine du monde · Bowl mexicain végétarien",
+    "subtitle": "Salade lentilles feta betterave · Bowl mexicain végétarien · Cheesecake new-yorkais",
+    "recipes": [
+      "salade-lentilles-feta-betterave",
+      "bowl-mexicain-vegetarien",
+      "cheesecake-new-yorkais"
+    ],
+    "tags": [
+      "Menu complet",
+      "Monde",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Monde",
+      "Découverte"
+    ],
+    "description": "Salade lentilles feta betterave prépare bien le palais pour Bowl mexicain végétarien. Cheesecake new-yorkais apporte ensuite une conclusion plus douce sans alourdir l’ensemble.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-041",
+    "title": "Table méditerranéenne · Cabillaud tomate basilic",
+    "subtitle": "Salade artichaut tomate haricots blancs · Cabillaud tomate basilic · Crumble poire noix",
+    "recipes": [
+      "salade-artichaut-tomate-haricots-blancs",
+      "cabillaud-tomate-basilic",
+      "crumble-poire-noix"
+    ],
+    "tags": [
+      "Menu complet",
+      "Méditerranée",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Méditerranée",
+      "Découverte"
+    ],
+    "description": "Salade artichaut tomate haricots blancs apporte une entrée nette avant Cabillaud tomate basilic; Crumble poire noix termine le repas sans reprendre les mêmes saveurs.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-042",
+    "title": "Dîner du quotidien · Thon poêlé sésame",
+    "subtitle": "Carpaccio de betterave & orange · Thon poêlé sésame · Muffins double chocolat",
+    "recipes": [
+      "carpaccio-de-betterave-orange",
+      "thon-poele-sesame",
+      "muffins-double-chocolat"
+    ],
+    "tags": [
+      "Menu complet",
+      "Quotidien",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Quotidien",
+      "Découverte"
+    ],
+    "description": "Le fil conducteur est simple : Carpaccio de betterave & orange pour ouvrir l’appétit, Thon poêlé sésame comme plat central, puis Muffins double chocolat pour une vraie fin de repas.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-043",
+    "title": "Escapade asiatique · Poisson blanc papillote gingembre",
+    "subtitle": "Salade chou rouge carotte sésame · Poisson blanc papillote gingembre · Compote mangue pomme citron vert",
+    "recipes": [
+      "salade-chou-rouge-carotte-sesame",
+      "poisson-blanc-papillote-gingembre",
+      "compote-mangue-pomme-citron-vert"
+    ],
+    "tags": [
+      "Menu complet",
+      "Asie",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Asie",
+      "Découverte"
+    ],
+    "description": "Ce trio garde une progression cohérente entre fraîcheur, plat principal et douceur : Salade chou rouge carotte sésame, Poisson blanc papillote gingembre, puis Compote mangue pomme citron vert.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-044",
+    "title": "Cuisine du monde · Couscous de cabillaud, carotte & courgette",
+    "subtitle": "Houmous maison & crudités · Couscous de cabillaud, carotte & courgette · Tarte aux pommes facile",
+    "recipes": [
+      "houmous-maison-crudites",
+      "couscous-complet-poisson-legumes-2",
+      "tarte-aux-pommes-facile"
+    ],
+    "tags": [
+      "Menu complet",
+      "Monde",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Monde",
+      "Famille"
+    ],
+    "description": "Un menu construit autour de Couscous de cabillaud, carotte & courgette, avec Houmous maison & crudités en contraste et Tarte aux pommes facile pour finir sur une note distincte.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-045",
+    "title": "Saveurs des îles · Pelau trinidadien au poulet",
+    "subtitle": "Féroce d’avocat martiniquais · Pelau trinidadien au poulet · Pain patate haïtien",
+    "recipes": [
+      "feroce-avocat-martiniquais",
+      "pelau-trinidadien",
+      "pain-patate-haitien"
+    ],
+    "tags": [
+      "Menu complet",
+      "Îles & Caraïbes",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Îles & Caraïbes",
+      "Famille"
+    ],
+    "description": "Féroce d’avocat martiniquais prépare bien le palais pour Pelau trinidadien au poulet. Pain patate haïtien apporte ensuite une conclusion plus douce sans alourdir l’ensemble.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-046",
+    "title": "Cuisine du monde · Chili sin carne",
+    "subtitle": "Salade haricots noirs maïs tomate · Chili sin carne · Muffins myrtilles",
+    "recipes": [
+      "salade-haricots-noirs-mais-tomate",
+      "chili-sin-carne",
+      "muffins-myrtilles"
+    ],
+    "tags": [
+      "Menu complet",
+      "Monde",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Monde",
+      "Découverte"
+    ],
+    "description": "Salade haricots noirs maïs tomate apporte une entrée nette avant Chili sin carne; Muffins myrtilles termine le repas sans reprendre les mêmes saveurs.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-047",
+    "title": "Table méditerranéenne · Cabillaud tomate olives",
+    "subtitle": "Salade grecque complète · Cabillaud tomate olives · Gâteau au chocolat simple",
+    "recipes": [
+      "salade-grecque-complete",
+      "cabillaud-tomate-olives",
+      "gateau-chocolat-simple"
+    ],
+    "tags": [
+      "Menu complet",
+      "Méditerranée",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Méditerranée",
+      "Découverte"
+    ],
+    "description": "Le fil conducteur est simple : Salade grecque complète pour ouvrir l’appétit, Cabillaud tomate olives comme plat central, puis Gâteau au chocolat simple pour une vraie fin de repas.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-048",
+    "title": "Dîner du quotidien · Wok crevettes légumes croquants",
+    "subtitle": "Salade betterave pomme noix · Wok crevettes légumes croquants · Muffins myrtilles yaourt",
+    "recipes": [
+      "salade-betterave-pomme-noix",
+      "wok-crevettes-legumes-croquants",
+      "muffins-myrtilles-yaourt"
+    ],
+    "tags": [
+      "Menu complet",
+      "Quotidien",
+      "Rapide"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Quotidien",
+      "Rapide"
+    ],
+    "description": "Ce trio garde une progression cohérente entre fraîcheur, plat principal et douceur : Salade betterave pomme noix, Wok crevettes légumes croquants, puis Muffins myrtilles yaourt.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-049",
+    "title": "Escapade asiatique · Poisson coco curry",
+    "subtitle": "Salade tofu concombre sésame · Poisson coco curry · Muffins poire chocolat",
+    "recipes": [
+      "salade-tofu-concombre-sesame",
+      "poisson-coco-curry",
+      "muffins-poire-chocolat"
+    ],
+    "tags": [
+      "Menu complet",
+      "Asie",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Asie",
+      "Découverte"
+    ],
+    "description": "Un menu construit autour de Poisson coco curry, avec Salade tofu concombre sésame en contraste et Muffins poire chocolat pour finir sur une note distincte.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-050",
+    "title": "Cuisine du monde · Millet carottes pois chiches cumin",
+    "subtitle": "Salade pois chiches concombre tahini · Millet carottes pois chiches cumin · Gâteau au yaourt classique",
+    "recipes": [
+      "salade-pois-chiches-concombre-tahini",
+      "millet-carottes-pois-chiches-cumin",
+      "gateau-au-yaourt-classique"
+    ],
+    "tags": [
+      "Menu complet",
+      "Monde",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Monde",
+      "Famille"
+    ],
+    "description": "Salade pois chiches concombre tahini prépare bien le palais pour Millet carottes pois chiches cumin. Gâteau au yaourt classique apporte ensuite une conclusion plus douce sans alourdir l’ensemble.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-051",
+    "title": "Saveurs des îles · Rice and peas jamaïcain",
+    "subtitle": "Pikliz haïtien · Rice and peas jamaïcain · Compote fruits rouges pomme",
+    "recipes": [
+      "pikliz-haitien",
+      "rice-and-peas-jamaicain",
+      "compote-fruits-rouges-pomme"
+    ],
+    "tags": [
+      "Menu complet",
+      "Îles & Caraïbes",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Îles & Caraïbes",
+      "Famille"
+    ],
+    "description": "Pikliz haïtien apporte une entrée nette avant Rice and peas jamaïcain; Compote fruits rouges pomme termine le repas sans reprendre les mêmes saveurs.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-052",
+    "title": "Cuisine du monde · Quinoa mexicain haricots noirs",
+    "subtitle": "Salade dinde pomme céleri · Quinoa mexicain haricots noirs · Brownie haricots noirs chocolat",
+    "recipes": [
+      "salade-dinde-pomme-celeri",
+      "quinoa-mexicain-haricots-noirs",
+      "brownie-haricots-noirs-chocolat"
+    ],
+    "tags": [
+      "Menu complet",
+      "Monde",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Monde",
+      "Découverte"
+    ],
+    "description": "Le fil conducteur est simple : Salade dinde pomme céleri pour ouvrir l’appétit, Quinoa mexicain haricots noirs comme plat central, puis Brownie haricots noirs chocolat pour une vraie fin de repas.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-053",
+    "title": "Table méditerranéenne · Cabillaud à l’aneth, fondue de poireaux & citron",
+    "subtitle": "Salade chou blanc pomme moutarde · Cabillaud à l’aneth, fondue de poireaux & citron · Quatre-quarts breton",
+    "recipes": [
+      "salade-chou-blanc-pomme-moutarde",
+      "cabillaud-citron-poireaux-2",
+      "quatre-quarts-breton"
+    ],
+    "tags": [
+      "Menu complet",
+      "Méditerranée",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Méditerranée",
+      "Découverte"
+    ],
+    "description": "Ce trio garde une progression cohérente entre fraîcheur, plat principal et douceur : Salade chou blanc pomme moutarde, Cabillaud à l’aneth, fondue de poireaux & citron, puis Quatre-quarts breton.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-054",
+    "title": "Dîner du quotidien · Gratin de poulet et pâtes",
+    "subtitle": "Salade pâtes poulet pesto · Gratin de poulet et pâtes · Muffins pomme avoine",
+    "recipes": [
+      "salade-pates-poulet-pesto",
+      "gratin-de-poulet-et-pates",
+      "muffins-pomme-avoine"
+    ],
+    "tags": [
+      "Menu complet",
+      "Quotidien",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Quotidien",
+      "Famille"
+    ],
+    "description": "Un menu construit autour de Gratin de poulet et pâtes, avec Salade pâtes poulet pesto en contraste et Muffins pomme avoine pour finir sur une note distincte.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-complet-055",
+    "title": "Escapade asiatique · Saumon soja brocoli",
+    "subtitle": "Salade saumon pomme de terre · Saumon soja brocoli · Compote pomme cannelle",
+    "recipes": [
+      "salade-saumon-pomme-de-terre",
+      "saumon-soja-brocoli",
+      "compote-pomme-cannelle"
+    ],
+    "tags": [
+      "Menu complet",
+      "Asie",
+      "Découverte"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Asie",
+      "Découverte"
+    ],
+    "description": "Salade saumon pomme de terre prépare bien le palais pour Saumon soja brocoli. Compote pomme cannelle apporte ensuite une conclusion plus douce sans alourdir l’ensemble.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-soupe-01",
+    "title": "Dîner soupe · Gaspacho pastèque tomate",
+    "subtitle": "Gaspacho pastèque tomate · Salade avocat, concombre, radis & grenade · Salade de fruits vanillée",
+    "recipes": [
+      "gaspacho-pasteque-tomate",
+      "salade-avocat-concombre-radis-grenade",
+      "salade-de-fruits-vanillee"
+    ],
+    "tags": [
+      "Dîner léger",
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Accompagnement",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "description": "Un dîner léger et complet : Gaspacho pastèque tomate en plat principal, Salade avocat, concombre, radis & grenade pour l’accompagner, puis Salade de fruits vanillée en touche sucrée.",
+    "menuKind": "Dîner léger"
+  },
+  {
+    "id": "menu-soupe-02",
+    "title": "Dîner soupe · Gaspacho tomate concombre poivron",
+    "subtitle": "Gaspacho tomate concombre poivron · Tartinade haricots blancs basilic · Compote pomme poire vanille",
+    "recipes": [
+      "gaspacho-tomate-concombre-poivron",
+      "tartinade-haricots-blancs-basilic",
+      "compote-pomme-poire-vanille"
+    ],
+    "tags": [
+      "Dîner léger",
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Accompagnement",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "description": "Un dîner léger et complet : Gaspacho tomate concombre poivron en plat principal, Tartinade haricots blancs basilic pour l’accompagner, puis Compote pomme poire vanille en touche sucrée.",
+    "menuKind": "Dîner léger"
+  },
+  {
+    "id": "menu-soupe-03",
+    "title": "Soirée soupe · Harira inspirée aux lentilles et pois chiches",
+    "subtitle": "Soupe + accompagnement + douceur",
+    "recipes": [
+      "harira-inspiree-lentilles-pois-chiches",
+      "muffins-sales-carotte-cumin",
+      "cake-banane-tahini-chocolat"
+    ],
+    "tags": [
+      "Dîner léger",
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "À côté",
+      "Douceur"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "description": "Harira inspirée aux lentilles et pois chiches est le cœur du dîner. Muffins salés carotte cumin ajoute de la mâche ou du contraste, tandis que Cake banane tahini chocolat garde une fin de repas simple.",
+    "menuKind": "Dîner léger"
+  },
+  {
+    "id": "menu-soupe-04",
+    "title": "Soirée soupe · Minestrone de légumes et haricots",
+    "subtitle": "Soupe + accompagnement + douceur",
+    "recipes": [
+      "minestrone-legumes-haricots",
+      "verrine-yaourt-grec-concombre-tomate",
+      "semoule-au-lait-orange-fleur-doranger"
+    ],
+    "tags": [
+      "Dîner léger",
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "À côté",
+      "Douceur"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "description": "Minestrone de légumes et haricots est le cœur du dîner. Verrine yaourt grec, concombre & tomate ajoute de la mâche ou du contraste, tandis que Semoule au lait orange fleur d’oranger garde une fin de repas simple.",
+    "menuKind": "Dîner léger"
+  },
+  {
+    "id": "menu-soupe-05",
+    "title": "Dîner soupe · Soupe butternut douce",
+    "subtitle": "Soupe butternut douce · Muffins salés épinards feta · Pommes au four cannelle",
+    "recipes": [
+      "soupe-butternut-douce",
+      "muffins-sales-epinards-feta",
+      "pommes-au-four-cannelle"
+    ],
+    "tags": [
+      "Dîner léger",
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Accompagnement",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "description": "Un dîner léger et complet : Soupe butternut douce en plat principal, Muffins salés épinards feta pour l’accompagner, puis Pommes au four cannelle en touche sucrée.",
+    "menuKind": "Dîner léger"
+  },
+  {
+    "id": "menu-soupe-06",
+    "title": "Dîner soupe · Soupe carotte cumin",
+    "subtitle": "Soupe carotte cumin · Houmous maison & crudités · Compote pomme cannelle",
+    "recipes": [
+      "soupe-carotte-cumin",
+      "houmous-maison-crudites",
+      "compote-pomme-cannelle"
+    ],
+    "tags": [
+      "Dîner léger",
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Accompagnement",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "description": "Un dîner léger et complet : Soupe carotte cumin en plat principal, Houmous maison & crudités pour l’accompagner, puis Compote pomme cannelle en touche sucrée.",
+    "menuKind": "Dîner léger"
+  },
+  {
+    "id": "menu-soupe-07",
+    "title": "Dîner soupe · Soupe carotte orange cumin",
+    "subtitle": "Soupe carotte orange cumin · Muffins salés carotte cumin · Rochers coco",
+    "recipes": [
+      "soupe-carotte-orange-cumin",
+      "muffins-sales-carotte-cumin",
+      "rochers-coco"
+    ],
+    "tags": [
+      "Dîner léger",
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Accompagnement",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "description": "Un dîner léger et complet : Soupe carotte orange cumin en plat principal, Muffins salés carotte cumin pour l’accompagner, puis Rochers coco en touche sucrée.",
+    "menuKind": "Dîner léger"
+  },
+  {
+    "id": "menu-soupe-08",
+    "title": "Dîner soupe · Soupe carotte pois chiches coriandre",
+    "subtitle": "Soupe carotte pois chiches coriandre · Taboulé de boulgour maison · Salade de fruits vanillée",
+    "recipes": [
+      "soupe-carotte-pois-chiches-coriandre",
+      "taboule-de-boulgour-maison",
+      "salade-de-fruits-vanillee"
+    ],
+    "tags": [
+      "Dîner léger",
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Accompagnement",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "description": "Un dîner léger et complet : Soupe carotte pois chiches coriandre en plat principal, Taboulé de boulgour maison pour l’accompagner, puis Salade de fruits vanillée en touche sucrée.",
+    "menuKind": "Dîner léger"
+  },
+  {
+    "id": "menu-soupe-09",
+    "title": "Dîner soupe · Soupe chou-fleur curry",
+    "subtitle": "Soupe chou-fleur curry · Crackers avoine sésame · Mousse yaourt citron",
+    "recipes": [
+      "soupe-chou-fleur-curry",
+      "crackers-avoine-sesame",
+      "mousse-yaourt-citron"
+    ],
+    "tags": [
+      "Dîner léger",
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Accompagnement",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "description": "Un dîner léger et complet : Soupe chou-fleur curry en plat principal, Crackers avoine sésame pour l’accompagner, puis Mousse yaourt citron en touche sucrée.",
+    "menuKind": "Dîner léger"
+  },
+  {
+    "id": "menu-soupe-10",
+    "title": "Dîner soupe · Soupe courge coco curry",
+    "subtitle": "Soupe courge coco curry · Salade chou rouge carotte sésame · Ananas rôti citron vert coco",
+    "recipes": [
+      "soupe-courge-coco-curry",
+      "salade-chou-rouge-carotte-sesame",
+      "ananas-roti-citron-vert-coco"
+    ],
+    "tags": [
+      "Dîner léger",
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Accompagnement",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "description": "Un dîner léger et complet : Soupe courge coco curry en plat principal, Salade chou rouge carotte sésame pour l’accompagner, puis Ananas rôti citron vert coco en touche sucrée.",
+    "menuKind": "Dîner léger"
+  },
+  {
+    "id": "menu-soupe-11",
+    "title": "Dîner soupe · Soupe courgette pois chiches citron",
+    "subtitle": "Soupe courgette pois chiches citron · Salade de lentilles vertes, concombre & poivron · Cake citron pavot yaourt",
+    "recipes": [
+      "soupe-courgette-pois-chiches-citron",
+      "salade-de-lentilles-vertes-concombre-poivron",
+      "cake-citron-pavot-yaourt"
+    ],
+    "tags": [
+      "Dîner léger",
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Accompagnement",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "description": "Un dîner léger et complet : Soupe courgette pois chiches citron en plat principal, Salade de lentilles vertes, concombre & poivron pour l’accompagner, puis Cake citron pavot yaourt en touche sucrée.",
+    "menuKind": "Dîner léger"
+  },
+  {
+    "id": "menu-soupe-12",
+    "title": "Dîner soupe · Soupe crevettes coco citron vert",
+    "subtitle": "Soupe crevettes coco citron vert · Salade avocat, concombre, radis & grenade · Sorbet mangue express",
+    "recipes": [
+      "soupe-crevettes-coco-citron-vert",
+      "salade-avocat-concombre-radis-grenade",
+      "sorbet-mangue-express"
+    ],
+    "tags": [
+      "Dîner léger",
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Accompagnement",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "description": "Un dîner léger et complet : Soupe crevettes coco citron vert en plat principal, Salade avocat, concombre, radis & grenade pour l’accompagner, puis Sorbet mangue express en touche sucrée.",
+    "menuKind": "Dîner léger"
+  },
+  {
+    "id": "menu-soupe-13",
+    "title": "Soirée soupe · Soupe de poisson tomate fenouil",
+    "subtitle": "Soupe + accompagnement + douceur",
+    "recipes": [
+      "soupe-poisson-tomate-fenouil",
+      "salade-quinoa-pois-chiches",
+      "compote-pomme-fenouil-orange"
+    ],
+    "tags": [
+      "Dîner léger",
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "À côté",
+      "Douceur"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "description": "Soupe de poisson tomate fenouil est le cœur du dîner. Salade quinoa pois chiches ajoute de la mâche ou du contraste, tandis que Compote pomme fenouil orange garde une fin de repas simple.",
+    "menuKind": "Dîner léger"
+  },
+  {
+    "id": "menu-soupe-14",
+    "title": "Soirée soupe · Soupe d’orge aux légumes",
+    "subtitle": "Soupe + accompagnement + douceur",
+    "recipes": [
+      "soupe-orge-legumes",
+      "salade-pois-chiches-avocat",
+      "tiramisu-cafe"
+    ],
+    "tags": [
+      "Dîner léger",
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "À côté",
+      "Douceur"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "description": "Soupe d’orge aux légumes est le cœur du dîner. Salade pois chiches avocat ajoute de la mâche ou du contraste, tandis que Tiramisu café garde une fin de repas simple.",
+    "menuKind": "Dîner léger"
+  },
+  {
+    "id": "menu-soupe-15",
+    "title": "Dîner soupe · Soupe froide concombre yaourt menthe",
+    "subtitle": "Soupe froide concombre yaourt menthe · Salade quinoa saumon concombre · Compote poire gingembre",
+    "recipes": [
+      "soupe-froide-concombre-yaourt-menthe",
+      "salade-quinoa-saumon-concombre",
+      "compote-poire-gingembre"
+    ],
+    "tags": [
+      "Dîner léger",
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Accompagnement",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "description": "Un dîner léger et complet : Soupe froide concombre yaourt menthe en plat principal, Salade quinoa saumon concombre pour l’accompagner, puis Compote poire gingembre en touche sucrée.",
+    "menuKind": "Dîner léger"
+  },
+  {
+    "id": "menu-brunch-01",
+    "title": "Brunch · Bircher muesli pomme & raisins",
+    "subtitle": "Salé/sucré + boisson",
+    "recipes": [
+      "bircher-muesli-pomme-raisins",
+      "barres-fruits-rouges-avoine",
+      "latte-chicoree-vanille"
+    ],
+    "tags": [
+      "Brunch",
+      "Brunch",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Base du brunch",
+      "À partager",
+      "Boisson"
+    ],
+    "filterTags": [
+      "Brunch",
+      "Famille"
+    ],
+    "description": "Un brunch facile à servir : Bircher muesli pomme & raisins pour la partie principale, Barres fruits rouges avoine à partager et Latte chicorée vanille en boisson.",
+    "menuKind": "Brunch"
+  },
+  {
+    "id": "menu-brunch-02",
+    "title": "Brunch · Bowl fromage blanc poire noix",
+    "subtitle": "Salé/sucré + boisson",
+    "recipes": [
+      "bowl-fromage-blanc-poire-noix",
+      "crumble-pomme-avoine",
+      "eau-pomme-cannelle-citron"
+    ],
+    "tags": [
+      "Brunch",
+      "Brunch",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Base du brunch",
+      "À partager",
+      "Boisson"
+    ],
+    "filterTags": [
+      "Brunch",
+      "Famille"
+    ],
+    "description": "Un brunch facile à servir : Bowl fromage blanc poire noix pour la partie principale, Crumble pomme avoine à partager et Eau pomme cannelle citron en boisson.",
+    "menuKind": "Brunch"
+  },
+  {
+    "id": "menu-brunch-03",
+    "title": "Brunch · Bowl fromage blanc pomme cannelle",
+    "subtitle": "Salé/sucré + boisson",
+    "recipes": [
+      "bowl-fromage-blanc-pomme-cannelle",
+      "barres-avoine-pomme-cannelle",
+      "infusion-pomme-cannelle"
+    ],
+    "tags": [
+      "Brunch",
+      "Brunch",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Base du brunch",
+      "À partager",
+      "Boisson"
+    ],
+    "filterTags": [
+      "Brunch",
+      "Famille"
+    ],
+    "description": "Un brunch facile à servir : Bowl fromage blanc pomme cannelle pour la partie principale, Barres avoine pomme cannelle à partager et Infusion pomme cannelle en boisson.",
+    "menuKind": "Brunch"
+  },
+  {
+    "id": "menu-brunch-04",
+    "title": "Brunch · Bowl yaourt kiwi granola",
+    "subtitle": "Salé/sucré + boisson",
+    "recipes": [
+      "bowl-yaourt-kiwi-granola",
+      "barres-avoine-chocolat-maison",
+      "matcha-coco-doux"
+    ],
+    "tags": [
+      "Brunch",
+      "Brunch",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Base du brunch",
+      "À partager",
+      "Boisson"
+    ],
+    "filterTags": [
+      "Brunch",
+      "Famille"
+    ],
+    "description": "Un brunch facile à servir : Bowl yaourt kiwi granola pour la partie principale, Barres avoine chocolat maison à partager et Matcha coco doux en boisson.",
+    "menuKind": "Brunch"
+  },
+  {
+    "id": "menu-brunch-05",
+    "title": "Brunch · Bowl yaourt mangue avoine",
+    "subtitle": "Salé/sucré + boisson",
+    "recipes": [
+      "bowl-yaourt-mangue-avoine",
+      "barres-avoine-mangue-coco",
+      "eau-pasteque-menthe"
+    ],
+    "tags": [
+      "Brunch",
+      "Brunch",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Base du brunch",
+      "À partager",
+      "Boisson"
+    ],
+    "filterTags": [
+      "Brunch",
+      "Famille"
+    ],
+    "description": "Un brunch facile à servir : Bowl yaourt mangue avoine pour la partie principale, Barres avoine mangue coco à partager et Eau pastèque menthe en boisson.",
+    "menuKind": "Brunch"
+  },
+  {
+    "id": "menu-brunch-06",
+    "title": "Brunch · Chia pudding cacao banane",
+    "subtitle": "Salé/sucré + boisson",
+    "recipes": [
+      "chia-pudding-cacao-banane",
+      "cake-marbre-vanille-chocolat",
+      "chocolat-chaud-cacao-cannelle"
+    ],
+    "tags": [
+      "Brunch",
+      "Brunch",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Base du brunch",
+      "À partager",
+      "Boisson"
+    ],
+    "filterTags": [
+      "Brunch",
+      "Famille"
+    ],
+    "description": "Un brunch facile à servir : Chia pudding cacao banane pour la partie principale, Cake marbré vanille chocolat à partager et Chocolat chaud cacao cannelle en boisson.",
+    "menuKind": "Brunch"
+  },
+  {
+    "id": "menu-brunch-07",
+    "title": "Brunch · Chia pudding framboise vanille",
+    "subtitle": "Salé/sucré + boisson",
+    "recipes": [
+      "chia-pudding-framboise-vanille",
+      "muffins-proteines-chocolat",
+      "lait-de-cajou-vanille"
+    ],
+    "tags": [
+      "Brunch",
+      "Brunch",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Base du brunch",
+      "À partager",
+      "Boisson"
+    ],
+    "filterTags": [
+      "Brunch",
+      "Famille"
+    ],
+    "description": "Un brunch facile à servir : Chia pudding framboise vanille pour la partie principale, Muffins protéinés chocolat à partager et Lait de cajou vanille en boisson.",
+    "menuKind": "Brunch"
+  },
+  {
+    "id": "menu-brunch-08",
+    "title": "Brunch · Croque petit-déjeuner dinde & fromage",
+    "subtitle": "Salé/sucré + boisson",
+    "recipes": [
+      "croque-petit-dejeuner-dinde-fromage",
+      "haricots-blancs-croustillants-paprika",
+      "eau-orange-romarin"
+    ],
+    "tags": [
+      "Brunch",
+      "Brunch",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Base du brunch",
+      "À partager",
+      "Boisson"
+    ],
+    "filterTags": [
+      "Brunch",
+      "Famille"
+    ],
+    "description": "Un brunch facile à servir : Croque petit-déjeuner dinde & fromage pour la partie principale, Haricots blancs croustillants paprika à partager et Eau orange romarin en boisson.",
+    "menuKind": "Brunch"
+  },
+  {
+    "id": "menu-brunch-09",
+    "title": "Brunch · Crêpes faciles",
+    "subtitle": "Salé/sucré + boisson",
+    "recipes": [
+      "crepes-faciles",
+      "cake-au-citron",
+      "eau-de-coco-citron-vert"
+    ],
+    "tags": [
+      "Brunch",
+      "Brunch",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Base du brunch",
+      "À partager",
+      "Boisson"
+    ],
+    "filterTags": [
+      "Brunch",
+      "Famille"
+    ],
+    "description": "Un brunch facile à servir : Crêpes faciles pour la partie principale, Cake au citron à partager et Eau de coco & citron vert en boisson.",
+    "menuKind": "Brunch"
+  },
+  {
+    "id": "menu-brunch-10",
+    "title": "Brunch · Frittata courgette, basilic & parmesan",
+    "subtitle": "Salé/sucré + boisson",
+    "recipes": [
+      "frittata-courgette-basilic",
+      "muffins-sales-brocoli-feta",
+      "infusion-gingembre-citron-menthe"
+    ],
+    "tags": [
+      "Brunch",
+      "Brunch",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Base du brunch",
+      "À partager",
+      "Boisson"
+    ],
+    "filterTags": [
+      "Brunch",
+      "Famille"
+    ],
+    "description": "Un brunch facile à servir : Frittata courgette, basilic & parmesan pour la partie principale, Muffins salés brocoli feta à partager et Infusion gingembre citron menthe en boisson.",
+    "menuKind": "Brunch"
+  },
+  {
+    "id": "menu-antigaspi-01",
+    "title": "3 repas anti-gaspi · tomate",
+    "subtitle": "Trois recettes qui réutilisent tomate",
+    "recipes": [
+      "aubergine-parmigiana-legere",
+      "boulettes-de-buf-cumin-tomate",
+      "boulettes-de-dinde-polenta-ratatouille"
+    ],
+    "tags": [
+      "Pack 3 repas",
+      "Anti-gaspi",
+      "Semaine"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Semaine"
+    ],
+    "description": "Ces trois repas réutilisent tomate dans des préparations différentes. L’objectif est de finir plus facilement un même achat frais au cours de la semaine, sans répéter exactement le même plat.",
+    "menuKind": "Pack 3 repas",
+    "sharedIngredients": [
+      "tomate"
+    ]
+  },
+  {
+    "id": "menu-antigaspi-02",
+    "title": "3 repas anti-gaspi · courgette",
+    "subtitle": "Trois recettes qui réutilisent courgette",
+    "recipes": [
+      "bol-minceur-quinoa-legumes",
+      "boulgour-pois-chiches-legumes-rotis",
+      "buf-courgette-facon-wok"
+    ],
+    "tags": [
+      "Pack 3 repas",
+      "Anti-gaspi",
+      "Semaine"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Semaine"
+    ],
+    "description": "Ces trois repas réutilisent courgette dans des préparations différentes. L’objectif est de finir plus facilement un même achat frais au cours de la semaine, sans répéter exactement le même plat.",
+    "menuKind": "Pack 3 repas",
+    "sharedIngredients": [
+      "courgette"
+    ]
+  },
+  {
+    "id": "menu-antigaspi-03",
+    "title": "3 repas anti-gaspi · carotte",
+    "subtitle": "Trois recettes qui réutilisent carotte",
+    "recipes": [
+      "buf-bourguignon-sans-alcool",
+      "couscous-vegetarien-express",
+      "dinde-grillee-millet-legumes-rotis"
+    ],
+    "tags": [
+      "Pack 3 repas",
+      "Anti-gaspi",
+      "Semaine"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Semaine"
+    ],
+    "description": "Ces trois repas réutilisent carotte dans des préparations différentes. L’objectif est de finir plus facilement un même achat frais au cours de la semaine, sans répéter exactement le même plat.",
+    "menuKind": "Pack 3 repas",
+    "sharedIngredients": [
+      "carotte"
+    ]
+  },
+  {
+    "id": "menu-antigaspi-04",
+    "title": "3 repas anti-gaspi · poivron",
+    "subtitle": "Trois recettes qui réutilisent poivron",
+    "recipes": [
+      "buf-saute-aux-oignons",
+      "calamars-tomate-paprika",
+      "haricots-rouges-paprika-poivrons"
+    ],
+    "tags": [
+      "Pack 3 repas",
+      "Anti-gaspi",
+      "Semaine"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Semaine"
+    ],
+    "description": "Ces trois repas réutilisent poivron dans des préparations différentes. L’objectif est de finir plus facilement un même achat frais au cours de la semaine, sans répéter exactement le même plat.",
+    "menuKind": "Pack 3 repas",
+    "sharedIngredients": [
+      "poivron"
+    ]
+  },
+  {
+    "id": "menu-antigaspi-05",
+    "title": "3 repas anti-gaspi · champignon",
+    "subtitle": "Trois recettes qui réutilisent champignon",
+    "recipes": [
+      "millet-champignons-epinards",
+      "orge-perle-champignons",
+      "polenta-cremeuse-aux-champignons"
+    ],
+    "tags": [
+      "Pack 3 repas",
+      "Anti-gaspi",
+      "Semaine"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Semaine"
+    ],
+    "description": "Ces trois repas réutilisent champignon dans des préparations différentes. L’objectif est de finir plus facilement un même achat frais au cours de la semaine, sans répéter exactement le même plat.",
+    "menuKind": "Pack 3 repas",
+    "sharedIngredients": [
+      "champignon"
+    ]
+  },
+  {
+    "id": "menu-antigaspi-06",
+    "title": "3 repas anti-gaspi · epinard",
+    "subtitle": "Trois recettes qui réutilisent epinard",
+    "recipes": [
+      "courge-farcie-quinoa-feta",
+      "gnocchi-tomate-epinards-mozzarella",
+      "gratin-patate-douce-poulet"
+    ],
+    "tags": [
+      "Pack 3 repas",
+      "Anti-gaspi",
+      "Semaine"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Semaine"
+    ],
+    "description": "Ces trois repas réutilisent epinard dans des préparations différentes. L’objectif est de finir plus facilement un même achat frais au cours de la semaine, sans répéter exactement le même plat.",
+    "menuKind": "Pack 3 repas",
+    "sharedIngredients": [
+      "epinard"
+    ]
+  },
+  {
+    "id": "menu-antigaspi-07",
+    "title": "3 repas anti-gaspi · pois chiche",
+    "subtitle": "Trois recettes qui réutilisent pois chiche",
+    "recipes": [
+      "pois-chiches-citron-herbes-boulgour",
+      "riz-coco-pois-chiches-epinards",
+      "shakshuka-poivrons-pois-chiches"
+    ],
+    "tags": [
+      "Pack 3 repas",
+      "Anti-gaspi",
+      "Semaine"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Semaine"
+    ],
+    "description": "Ces trois repas réutilisent pois chiche dans des préparations différentes. L’objectif est de finir plus facilement un même achat frais au cours de la semaine, sans répéter exactement le même plat.",
+    "menuKind": "Pack 3 repas",
+    "sharedIngredients": [
+      "pois chiche"
+    ]
+  },
+  {
+    "id": "menu-antigaspi-09",
+    "title": "3 repas anti-gaspi · brocoli",
+    "subtitle": "Trois recettes qui réutilisent brocoli",
+    "recipes": [
+      "dinde-gingembre-brocoli",
+      "gratin-quinoa-brocoli",
+      "porc-gingembre-soja"
+    ],
+    "tags": [
+      "Pack 3 repas",
+      "Anti-gaspi",
+      "Semaine"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Semaine"
+    ],
+    "description": "Ces trois repas réutilisent brocoli dans des préparations différentes. L’objectif est de finir plus facilement un même achat frais au cours de la semaine, sans répéter exactement le même plat.",
+    "menuKind": "Pack 3 repas",
+    "sharedIngredients": [
+      "brocoli"
+    ]
+  },
+  {
+    "id": "menu-antigaspi-10",
+    "title": "3 repas anti-gaspi · oignon",
+    "subtitle": "Trois recettes qui réutilisent oignon",
+    "recipes": [
+      "aubergines-farcies-au-quinoa",
+      "boulettes-de-buf-sauce-tomate-basilic",
+      "boulettes-de-lentilles-tomate"
+    ],
+    "tags": [
+      "Pack 3 repas",
+      "Anti-gaspi",
+      "Semaine"
+    ],
+    "slotLabels": [
+      "Repas 1",
+      "Repas 2",
+      "Repas 3"
+    ],
+    "filterTags": [
+      "Anti-gaspi",
+      "Semaine"
+    ],
+    "description": "Ces trois repas réutilisent oignon dans des préparations différentes. L’objectif est de finir plus facilement un même achat frais au cours de la semaine, sans répéter exactement le même plat.",
+    "menuKind": "Pack 3 repas",
+    "sharedIngredients": [
+      "oignon"
+    ]
+  },
+  {
+    "id": "menu-tm6-01",
+    "title": "Menu TM6 · Galettes bretonnes de sarrasin",
+    "subtitle": "Trois recettes avec protocole TM6 disponible",
+    "recipes": [
+      "galettes-bretonnes-sarrasin",
+      "cheesecake-leger-fruits-rouges",
+      "tarte-au-citron"
+    ],
+    "tags": [
+      "Menu TM6",
+      "TM6",
+      "Pratique"
+    ],
+    "slotLabels": [
+      "Début",
+      "Plat",
+      "Finale"
+    ],
+    "filterTags": [
+      "TM6",
+      "Pratique"
+    ],
+    "description": "Les trois recettes de ce menu disposent réellement d’un protocole TM6 dans l’application ; le menu évite donc de présenter comme Thermomix une simple recette classique renommée.",
+    "menuKind": "Menu TM6"
+  },
+  {
+    "id": "menu-tm6-02",
+    "title": "Menu TM6 · Soupe lentilles corail protéinée",
+    "subtitle": "Trois recettes avec protocole TM6 disponible",
+    "recipes": [
+      "soupe-lentilles-corail-proteinee",
+      "cake-au-citron",
+      "cheesecake-leger-fruits-rouges"
+    ],
+    "tags": [
+      "Menu TM6",
+      "TM6",
+      "Pratique"
+    ],
+    "slotLabels": [
+      "Début",
+      "Plat",
+      "Finale"
+    ],
+    "filterTags": [
+      "TM6",
+      "Pratique"
+    ],
+    "description": "Les trois recettes de ce menu disposent réellement d’un protocole TM6 dans l’application ; le menu évite donc de présenter comme Thermomix une simple recette classique renommée.",
+    "menuKind": "Menu TM6"
+  },
+  {
+    "id": "menu-tm6-03",
+    "title": "Menu TM6 · Soupe patate douce lentilles corail",
+    "subtitle": "Trois recettes avec protocole TM6 disponible",
+    "recipes": [
+      "soupe-patate-douce-lentilles-corail",
+      "cake-marbre-vanille-chocolat",
+      "cheesecake-leger-fruits-rouges"
+    ],
+    "tags": [
+      "Menu TM6",
+      "TM6",
+      "Pratique"
+    ],
+    "slotLabels": [
+      "Début",
+      "Plat",
+      "Finale"
+    ],
+    "filterTags": [
+      "TM6",
+      "Pratique"
+    ],
+    "description": "Les trois recettes de ce menu disposent réellement d’un protocole TM6 dans l’application ; le menu évite donc de présenter comme Thermomix une simple recette classique renommée.",
+    "menuKind": "Menu TM6"
+  },
+  {
+    "id": "menu-tm6-04",
+    "title": "Menu TM6 · Soupe pois cassés carottes cumin",
+    "subtitle": "Trois recettes avec protocole TM6 disponible",
+    "recipes": [
+      "soupe-pois-casses-carottes-cumin",
+      "compote-fruits-rouges-pomme",
+      "cheesecake-leger-fruits-rouges"
+    ],
+    "tags": [
+      "Menu TM6",
+      "TM6",
+      "Pratique"
+    ],
+    "slotLabels": [
+      "Début",
+      "Plat",
+      "Finale"
+    ],
+    "filterTags": [
+      "TM6",
+      "Pratique"
+    ],
+    "description": "Les trois recettes de ce menu disposent réellement d’un protocole TM6 dans l’application ; le menu évite donc de présenter comme Thermomix une simple recette classique renommée.",
+    "menuKind": "Menu TM6"
+  },
+  {
+    "id": "menu-tm6-05",
+    "title": "Menu TM6 · Soupe tomate poivron rôti",
+    "subtitle": "Trois recettes avec protocole TM6 disponible",
+    "recipes": [
+      "soupe-tomate-poivron-roti",
+      "compote-mangue-pomme-citron-vert",
+      "cheesecake-leger-fruits-rouges"
+    ],
+    "tags": [
+      "Menu TM6",
+      "TM6",
+      "Pratique"
+    ],
+    "slotLabels": [
+      "Début",
+      "Plat",
+      "Finale"
+    ],
+    "filterTags": [
+      "TM6",
+      "Pratique"
+    ],
+    "description": "Les trois recettes de ce menu disposent réellement d’un protocole TM6 dans l’application ; le menu évite donc de présenter comme Thermomix une simple recette classique renommée.",
+    "menuKind": "Menu TM6"
+  },
+  {
+    "id": "menu-signature-martinique",
+    "title": "Menu Martinique · créole & citron vert",
+    "subtitle": "Féroce d’avocat · Blaff de poisson · Ananas rôti citron vert coco",
+    "recipes": [
+      "feroce-avocat-martiniquais",
+      "blaff-poisson-antillais",
+      "ananas-roti-citron-vert-coco"
+    ],
+    "tags": [
+      "Menu complet",
+      "Îles & Caraïbes",
+      "Monde"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Îles & Caraïbes",
+      "Monde"
+    ],
+    "description": "Le féroce d’avocat ouvre sur une texture fraîche et relevée, le blaff apporte un bouillon de poisson citronné, puis l’ananas rôti prolonge la note tropicale sans répéter le plat.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-signature-haiti",
+    "title": "Menu Haïti · griot, pikliz & pain patate",
+    "subtitle": "Pikliz · Griot haïtien · Pain patate haïtien",
+    "recipes": [
+      "pikliz-haitien",
+      "griot-haitien",
+      "pain-patate-haitien"
+    ],
+    "tags": [
+      "Menu complet",
+      "Îles & Caraïbes",
+      "Monde",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Condiment / entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Îles & Caraïbes",
+      "Monde",
+      "Famille"
+    ],
+    "description": "Un trio cohérent autour de recettes haïtiennes présentes dans le catalogue : l’acidité du pikliz accompagne le griot, puis le pain patate apporte une fin douce et épicée.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-signature-reunion",
+    "title": "Menu Réunion · achards & cari",
+    "subtitle": "Achards de légumes · Cari poulet réunionnais · Compote mangue pomme citron vert",
+    "recipes": [
+      "achards-legumes-reunionnais",
+      "cari-poulet-reunionnais",
+      "compote-mangue-pomme-citron-vert"
+    ],
+    "tags": [
+      "Menu complet",
+      "Îles & Caraïbes",
+      "Monde",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Entrée / condiment",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Îles & Caraïbes",
+      "Monde",
+      "Famille"
+    ],
+    "description": "Les achards apportent le croquant et l’acidité avant le cari de poulet. La compote mangue-pomme-citron vert termine avec une note fruitée simple plutôt qu’un dessert lourd.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-signature-japon",
+    "title": "Menu Japon inspiré · miso & teriyaki",
+    "subtitle": "Soupe miso tofu champignons · Saumon teriyaki légumes · Matcha coco doux",
+    "recipes": [
+      "soupe-miso-tofu-champignons",
+      "saumon-teriyaki-legumes",
+      "matcha-coco-doux"
+    ],
+    "tags": [
+      "Menu complet",
+      "Asie",
+      "Monde"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Plat",
+      "Boisson"
+    ],
+    "filterTags": [
+      "Asie",
+      "Monde"
+    ],
+    "description": "La soupe miso reste légère avant le saumon teriyaki. Le matcha coco se sert ensuite comme boisson douce, ce qui garde un fil aromatique japonais sans prétendre reproduire un repas cérémoniel.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-signature-maghreb",
+    "title": "Menu Maghreb inspiré · harira & kefta",
+    "subtitle": "Harira inspirée · Bœuf kefta tomate cumin · Semoule au lait orange fleur d’oranger",
+    "recipes": [
+      "harira-inspiree-lentilles-pois-chiches",
+      "buf-kefta-tomate-cumin",
+      "semoule-au-lait-orange-fleur-doranger"
+    ],
+    "tags": [
+      "Menu complet",
+      "Monde",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Monde",
+      "Famille"
+    ],
+    "description": "La harira inspirée ouvre avec lentilles et pois chiches, la kefta poursuit sur tomate et cumin, puis la semoule au lait apporte une finale douce à la fleur d’oranger.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-signature-vegetal",
+    "title": "Menu végétal complet · vert & légumineuses",
+    "subtitle": "Soupe courgette pois chiches citron · Dahl lentilles corail coco épinards · Compote pomme poire vanille",
+    "recipes": [
+      "soupe-courgette-pois-chiches-citron",
+      "lentilles-corail-dahl-coco-epinards",
+      "compote-pomme-poire-vanille"
+    ],
+    "tags": [
+      "Menu complet",
+      "Végétarien",
+      "Quotidien",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétarien",
+      "Quotidien",
+      "Famille"
+    ],
+    "description": "Un repas végétal rassasiant sans empiler les mêmes textures : soupe citronnée en ouverture, dahl crémeux au centre et compote fruitée en fin de repas.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-express-01",
+    "title": "Soir express tomate & basilic",
+    "subtitle": "Salade artichaut tomate haricots blancs · Cabillaud tomate basilic · Compote pomme poire vanille",
+    "recipes": [
+      "salade-artichaut-tomate-haricots-blancs",
+      "cabillaud-tomate-basilic",
+      "compote-pomme-poire-vanille"
+    ],
+    "tags": [
+      "Menu complet",
+      "Rapide",
+      "Semaine"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Rapide",
+      "Semaine"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Salade artichaut tomate haricots blancs, puis Cabillaud tomate basilic, et Compote pomme poire vanille pour terminer.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-express-02",
+    "title": "Soir express sésame & gingembre",
+    "subtitle": "Salade chou rouge carotte sésame · Wok crevettes légumes croquants · Salade de fruits vanillée",
+    "recipes": [
+      "salade-chou-rouge-carotte-sesame",
+      "wok-crevettes-legumes-croquants",
+      "salade-de-fruits-vanillee"
+    ],
+    "tags": [
+      "Menu complet",
+      "Rapide",
+      "Asie"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Rapide",
+      "Asie"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Salade chou rouge carotte sésame, puis Wok crevettes légumes croquants, et Salade de fruits vanillée pour terminer.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-express-03",
+    "title": "Soir express citron & herbes",
+    "subtitle": "Salade radis concombre & yaourt · Bar citron herbes · Mousse yaourt citron",
+    "recipes": [
+      "salade-radis-concombre-yaourt",
+      "bar-citron-herbes",
+      "mousse-yaourt-citron"
+    ],
+    "tags": [
+      "Menu complet",
+      "Rapide",
+      "Méditerranée"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Rapide",
+      "Méditerranée"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Salade radis concombre & yaourt, puis Bar citron herbes, et Mousse yaourt citron pour terminer.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-express-04",
+    "title": "Soir express coco & citron vert",
+    "subtitle": "Salade pois chiches avocat · Crevettes curry coco · Sorbet mangue express",
+    "recipes": [
+      "salade-pois-chiches-avocat",
+      "crevettes-curry-coco",
+      "sorbet-mangue-express"
+    ],
+    "tags": [
+      "Menu complet",
+      "Rapide",
+      "Îles & Caraïbes"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Rapide",
+      "Îles & Caraïbes"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Salade pois chiches avocat, puis Crevettes curry coco, et Sorbet mangue express pour terminer.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-express-05",
+    "title": "Soir express légumes & feta",
+    "subtitle": "Salade grecque complète · Boulgour aubergine pois chiches · Yaourt glacé fruits rouges",
+    "recipes": [
+      "salade-grecque-complete",
+      "boulgour-aubergine-pois-chiches",
+      "yaourt-glace-fruits-rouges"
+    ],
+    "tags": [
+      "Menu complet",
+      "Rapide",
+      "Végétarien"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Rapide",
+      "Végétarien"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Salade grecque complète, puis Boulgour aubergine pois chiches, et Yaourt glacé fruits rouges pour terminer.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-vegetarien-01",
+    "title": "Menu végétarien méditerranéen",
+    "subtitle": "Carpaccio de betterave & orange · Boulgour aubergine pois chiches · Crumble poire noix",
+    "recipes": [
+      "carpaccio-de-betterave-orange",
+      "boulgour-aubergine-pois-chiches",
+      "crumble-poire-noix"
+    ],
+    "tags": [
+      "Menu complet",
+      "Végétarien",
+      "Méditerranée"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétarien",
+      "Méditerranée"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Carpaccio de betterave & orange, puis Boulgour aubergine pois chiches, et Crumble poire noix pour terminer.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-vegetarien-02",
+    "title": "Menu végétarien curry doux",
+    "subtitle": "Salade chou rouge carotte sésame · Chili sin carne · Riz au lait coco mangue",
+    "recipes": [
+      "salade-chou-rouge-carotte-sesame",
+      "chili-sin-carne",
+      "riz-au-lait-coco-mangue"
+    ],
+    "tags": [
+      "Menu complet",
+      "Végétarien",
+      "Monde"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétarien",
+      "Monde"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Salade chou rouge carotte sésame, puis Chili sin carne, et Riz au lait coco mangue pour terminer.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-vegetarien-03",
+    "title": "Menu végétarien pois chiches",
+    "subtitle": "Houmous maison & crudités · Quinoa mexicain haricots noirs · Ananas rôti citron vert coco",
+    "recipes": [
+      "houmous-maison-crudites",
+      "quinoa-mexicain-haricots-noirs",
+      "ananas-roti-citron-vert-coco"
+    ],
+    "tags": [
+      "Menu complet",
+      "Végétarien",
+      "Monde"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétarien",
+      "Monde"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Houmous maison & crudités, puis Quinoa mexicain haricots noirs, et Ananas rôti citron vert coco pour terminer.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-vegetarien-04",
+    "title": "Menu végétarien tarte & salade",
+    "subtitle": "Salade betterave pomme noix · Tarte chèvre-épinards · Compote poire gingembre",
+    "recipes": [
+      "salade-betterave-pomme-noix",
+      "tarte-chevre-epinards",
+      "compote-poire-gingembre"
+    ],
+    "tags": [
+      "Menu complet",
+      "Végétarien",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétarien",
+      "Famille"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Salade betterave pomme noix, puis Tarte chèvre-épinards, et Compote poire gingembre pour terminer.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-vegetarien-05",
+    "title": "Menu végétarien soupe & tartine",
+    "subtitle": "Velouté poireaux pommes de terre · Tartine ricotta, figues, miel & noix · Pommes au four cannelle",
+    "recipes": [
+      "veloute-poireaux-pommes-de-terre",
+      "tartine-ricotta-figues-miel-noix",
+      "pommes-au-four-cannelle"
+    ],
+    "tags": [
+      "Menu complet",
+      "Végétarien",
+      "Soupes & léger"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Tartine",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Végétarien",
+      "Soupes & léger"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Velouté poireaux pommes de terre, puis Tartine ricotta, figues, miel & noix, et Pommes au four cannelle pour terminer.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-famille-01",
+    "title": "Dimanche quiche lorraine",
+    "subtitle": "Salade haricots verts tomate feta · Quiche lorraine · Tarte aux pommes facile",
+    "recipes": [
+      "salade-haricots-verts-tomate-feta",
+      "quiche-lorraine-traditionnelle",
+      "tarte-aux-pommes-facile"
+    ],
+    "tags": [
+      "Menu complet",
+      "Famille",
+      "Quotidien"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Famille",
+      "Quotidien"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Salade haricots verts tomate feta, puis Quiche lorraine, et Tarte aux pommes facile pour terminer.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-famille-02",
+    "title": "Table familiale poulet rôti & légumes",
+    "subtitle": "Salade carotte orange cumin · Gratin de poulet et pâtes · Gâteau au yaourt classique",
+    "recipes": [
+      "salade-carotte-orange-cumin",
+      "gratin-de-poulet-et-pates",
+      "gateau-au-yaourt-classique"
+    ],
+    "tags": [
+      "Menu complet",
+      "Famille",
+      "Quotidien"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Famille",
+      "Quotidien"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Salade carotte orange cumin, puis Gratin de poulet et pâtes, et Gâteau au yaourt classique pour terminer.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-famille-03",
+    "title": "Vendredi fajitas",
+    "subtitle": "Salade haricots noirs maïs tomate · Poulet poivrons façon fajitas · Mousse chocolat légère",
+    "recipes": [
+      "salade-haricots-noirs-mais-tomate",
+      "poulet-poivrons-facon-fajitas",
+      "mousse-chocolat-legere"
+    ],
+    "tags": [
+      "Menu complet",
+      "Famille",
+      "Monde"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Famille",
+      "Monde"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Salade haricots noirs maïs tomate, puis Poulet poivrons façon fajitas, et Mousse chocolat légère pour terminer.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-famille-04",
+    "title": "Repas créole du week-end",
+    "subtitle": "Achards de légumes réunionnais · Cari poulet réunionnais · Ananas rôti citron vert coco",
+    "recipes": [
+      "achards-legumes-reunionnais",
+      "cari-poulet-reunionnais",
+      "ananas-roti-citron-vert-coco"
+    ],
+    "tags": [
+      "Menu complet",
+      "Famille",
+      "Îles & Caraïbes"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Famille",
+      "Îles & Caraïbes"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Achards de légumes réunionnais, puis Cari poulet réunionnais, et Ananas rôti citron vert coco pour terminer.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-famille-05",
+    "title": "Dîner poisson & légumes rôtis",
+    "subtitle": "Salade betterave pomme noix · Cabillaud au four, légumes rôtis & couscous complet · Crumble pomme poire",
+    "recipes": [
+      "salade-betterave-pomme-noix",
+      "cabillaud-au-four-legumes-rotis-couscous-complet",
+      "crumble-pomme-poire"
+    ],
+    "tags": [
+      "Menu complet",
+      "Famille",
+      "Méditerranée"
+    ],
+    "slotLabels": [
+      "Entrée",
+      "Plat",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Famille",
+      "Méditerranée"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Salade betterave pomme noix, puis Cabillaud au four, légumes rôtis & couscous complet, et Crumble pomme poire pour terminer.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-soupe-16",
+    "title": "Dîner soupe provençale",
+    "subtitle": "Soupe au pistou · Tartine ricotta, figues, miel & noix · Salade de fruits vanillée",
+    "recipes": [
+      "soupe-au-pistou-provence",
+      "tartine-ricotta-figues-miel-noix",
+      "salade-de-fruits-vanillee"
+    ],
+    "tags": [
+      "Menu complet",
+      "Soupes & léger",
+      "Méditerranée"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Accompagnement",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Méditerranée"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Soupe au pistou, puis Tartine ricotta, figues, miel & noix, et Salade de fruits vanillée pour terminer.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-soupe-17",
+    "title": "Dîner velouté patate douce & gingembre",
+    "subtitle": "Velouté patate douce, carotte & gingembre · Crackers avoine sésame · Mousse yaourt citron",
+    "recipes": [
+      "veloute-patate-douce-carotte-gingembre",
+      "crackers-avoine-sesame",
+      "mousse-yaourt-citron"
+    ],
+    "tags": [
+      "Menu complet",
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Accompagnement",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Quotidien"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Velouté patate douce, carotte & gingembre, puis Crackers avoine sésame, et Mousse yaourt citron pour terminer.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-soupe-18",
+    "title": "Dîner thaï coco & citronnelle",
+    "subtitle": "Soupe thaï poulet, coco & citronnelle · Salade tofu concombre sésame · Sorbet mangue express",
+    "recipes": [
+      "soupe-thai-poulet-coco-citronnelle",
+      "salade-tofu-concombre-sesame",
+      "sorbet-mangue-express"
+    ],
+    "tags": [
+      "Menu complet",
+      "Soupes & léger",
+      "Asie"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Accompagnement",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Asie"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Soupe thaï poulet, coco & citronnelle, puis Salade tofu concombre sésame, et Sorbet mangue express pour terminer.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-soupe-19",
+    "title": "Dîner miso & nouilles",
+    "subtitle": "Bouillon miso, nouilles & champignons · Salade chou rouge carotte sésame · Pudding chia orange vanille",
+    "recipes": [
+      "bouillon-miso-nouilles-champignons",
+      "salade-chou-rouge-carotte-sesame",
+      "pudding-chia-orange-vanille"
+    ],
+    "tags": [
+      "Menu complet",
+      "Soupes & léger",
+      "Asie"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Accompagnement",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Asie"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Bouillon miso, nouilles & champignons, puis Salade chou rouge carotte sésame, et Pudding chia orange vanille pour terminer.",
+    "menuKind": "Menu complet"
+  },
+  {
+    "id": "menu-soupe-20",
+    "title": "Dîner chowder & crudités",
+    "subtitle": "Chowder maïs & pomme de terre · Salade avocat, concombre, radis & grenade · Compote pomme cannelle",
+    "recipes": [
+      "chowder-mais-pomme-de-terre",
+      "salade-avocat-concombre-radis-grenade",
+      "compote-pomme-cannelle"
+    ],
+    "tags": [
+      "Menu complet",
+      "Soupes & léger",
+      "Famille"
+    ],
+    "slotLabels": [
+      "Soupe",
+      "Accompagnement",
+      "Dessert"
+    ],
+    "filterTags": [
+      "Soupes & léger",
+      "Famille"
+    ],
+    "description": "Un menu pensé comme un vrai repas : Chowder maïs & pomme de terre, puis Salade avocat, concombre, radis & grenade, et Compote pomme cannelle pour terminer.",
+    "menuKind": "Menu complet"
+  }
+]
